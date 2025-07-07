@@ -187,8 +187,9 @@ class SyncService {
                 box-shadow: var(--card-shadow);
                 border: 1px solid var(--border-color);
                 font-size: 0.875rem;
-                z-index: 1001;
+                z-index: 500;
                 transition: opacity 0.3s ease;
+                pointer-events: none;
             `;
             document.body.appendChild(statusElement);
         }
@@ -199,6 +200,12 @@ class SyncService {
         // Hide after 3 seconds
         setTimeout(() => {
             statusElement.style.opacity = '0';
+            // Remove from DOM after transition completes
+            setTimeout(() => {
+                if (statusElement && statusElement.parentNode) {
+                    statusElement.parentNode.removeChild(statusElement);
+                }
+            }, 300);
         }, 3000);
     }
 
