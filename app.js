@@ -1,6 +1,3 @@
-// Import FSRS for proper spaced repetition
-import { FSRS, Card, createEmptyCard, generatorParameters, Rating } from 'ts-fsrs';
-
 class GermanLearningApp {
     constructor() {
         this.vocabulary = [];
@@ -57,29 +54,32 @@ class GermanLearningApp {
         this.initializeSyncService();
         // App initialization moved to after login
     }
-    // Initialize FSRS algorithm
+    // Initialize FSRS algorithm  
     initializeFSRS() {
-        // Configure FSRS parameters for optimal learning
-        const fsrsParams = generatorParameters({
-            w: [
-                0.2172, 1.1771, 3.2602, 16.1507, 7.0114, 0.57, 2.0966, 0.0069,
-                1.5261, 0.112, 1.0178, 1.849, 0.1133, 0.3127, 2.2934, 0.2191,
-                3.0004, 0.7536, 0.3332, 0.1437, 0.2
-            ],
-            desired_retention: 0.9,      // 90% retention rate
-            maximum_interval: 36500,     // ~100 years max
-            enable_fuzz: true,           // Add randomness to prevent ease hell
-            enable_short_term: false     // Disable short-term memory model
-        });
+        // Temporarily disable FSRS to fix login issues
+        console.log('FSRS temporarily disabled - using simple spaced repetition algorithm');
+        this.fsrsEnabled = false;
+        this.fsrs = null;
+        this.FSRSClass = null;
+        this.createEmptyCardFn = null;
+        this.generatorParametersFn = null;
+        this.RatingEnum = null;
+    }
+    
+    // Initialize FSRS cards for existing vocabulary
+    initializeFSRSCards() {
+        if (!this.fsrsEnabled || !this.createEmptyCardFn) return;
         
-        this.fsrs = new FSRS(fsrsParams);
-        console.log('FSRS algorithm initialized with optimal parameters');
-        console.log('FSRS Configuration:');
-        console.log('- Algorithm: Free Spaced Repetition Scheduler (FSRS)');
-        console.log('- Desired Retention: 90%');
-        console.log('- Maximum Interval: 36500 days (~100 years)');
-        console.log('- Fuzzing: Enabled (prevents ease hell)');
-        console.log('- Parameters: Optimized for general learning patterns');
+        this.vocabulary.forEach(level => {
+            level.parts.forEach(part => {
+                part.cards.forEach(card => {
+                    if (!card.fsrsCard) {
+                        card.fsrsCard = this.createEmptyCardFn();
+                    }
+                });
+            });
+        });
+        console.log('FSRS cards initialized for existing vocabulary');
     }
 
     async init() {
@@ -87,6 +87,11 @@ class GermanLearningApp {
             this.initialized = true;
             await this.loadAllVocabularyParts();
             this.loadUserData();
+            
+            // Initialize FSRS after vocabulary is loaded
+            this.initializeFSRS();
+            this.initializeFSRSCards();
+            
             this.updateLevelLocks(); // Move this before initializeTheme
             this.initializeTheme();
             this.setupEventListeners();
@@ -155,7 +160,7 @@ class GermanLearningApp {
                                     partId: partId,
                                     learned: false,
                                     // FSRS specific fields
-                                    fsrsCard: createEmptyCard(),
+                                    fsrsCard: null, // Will be initialized when FSRS loads
                                     fsrsState: {
                                         difficulty: 5.0,    // Initial difficulty (D)
                                         stability: 2.0,     // Initial stability (S)
@@ -822,6 +827,11 @@ class GermanLearningApp {
     }
     // FSRS-based interval calculation
     calculateNextInterval(card, userRating) {
+        // If FSRS is not available, use simple algorithm
+        if (!this.fsrsEnabled || !this.fsrs || !card.fsrsCard) {
+            return this.calculateSimpleInterval(userRating, card.reviewCount);
+        }
+        
         // Map user rating (1-5) to FSRS Rating enum
         const fsrsRating = this.mapUserRatingToFSRS(userRating);
         
@@ -835,20 +845,20 @@ class GermanLearningApp {
             // Get the scheduled card based on user rating
             let scheduledCard;
             switch (fsrsRating) {
-                case Rating.Again:
-                    scheduledCard = schedulingInfo[Rating.Again];
+                case this.RatingEnum.Again:
+                    scheduledCard = schedulingInfo[this.RatingEnum.Again];
                     break;
-                case Rating.Hard:
-                    scheduledCard = schedulingInfo[Rating.Hard];
+                case this.RatingEnum.Hard:
+                    scheduledCard = schedulingInfo[this.RatingEnum.Hard];
                     break;
-                case Rating.Good:
-                    scheduledCard = schedulingInfo[Rating.Good];
+                case this.RatingEnum.Good:
+                    scheduledCard = schedulingInfo[this.RatingEnum.Good];
                     break;
-                case Rating.Easy:
-                    scheduledCard = schedulingInfo[Rating.Easy];
+                case this.RatingEnum.Easy:
+                    scheduledCard = schedulingInfo[this.RatingEnum.Easy];
                     break;
                 default:
-                    scheduledCard = schedulingInfo[Rating.Good];
+                    scheduledCard = schedulingInfo[this.RatingEnum.Good];
             }
             
             // Update card's FSRS state
@@ -876,13 +886,25 @@ class GermanLearningApp {
     
     // Map user rating (1-5) to FSRS Rating enum
     mapUserRatingToFSRS(userRating) {
+        if (!this.RatingEnum) {
+            // Fallback values if FSRS is not available
+            switch (userRating) {
+                case 1: return 1;  // Very Hard -> Again
+                case 2: return 2;  // Hard -> Hard
+                case 3: return 3;  // Medium -> Good
+                case 4: return 3;  // Easy -> Good
+                case 5: return 4;  // Very Easy -> Easy
+                default: return 3; // Default to Good
+            }
+        }
+        
         switch (userRating) {
-            case 1: return Rating.Again;  // Very Hard
-            case 2: return Rating.Hard;   // Hard
-            case 3: return Rating.Good;   // Medium
-            case 4: return Rating.Good;   // Easy
-            case 5: return Rating.Easy;   // Very Easy
-            default: return Rating.Good;
+            case 1: return this.RatingEnum.Again;  // Very Hard
+            case 2: return this.RatingEnum.Hard;   // Hard
+            case 3: return this.RatingEnum.Good;   // Medium
+            case 4: return this.RatingEnum.Good;   // Easy
+            case 5: return this.RatingEnum.Easy;   // Very Easy
+            default: return this.RatingEnum.Good;
         }
     }
     
@@ -1348,19 +1370,19 @@ class GermanLearningApp {
         // Algorithm name
         const algorithmEl = document.getElementById('fsrsAlgorithm');
         if (algorithmEl) {
-            algorithmEl.textContent = 'FSRS';
+            algorithmEl.textContent = this.fsrsEnabled ? 'FSRS' : 'Simple';
         }
         
         // Average difficulty
         const avgDifficultyEl = document.getElementById('fsrsAvgDifficulty');
         if (avgDifficultyEl) {
-            avgDifficultyEl.textContent = fsrsStats.averageDifficulty.toFixed(1);
+            avgDifficultyEl.textContent = this.fsrsEnabled ? fsrsStats.averageDifficulty.toFixed(1) : 'N/A';
         }
         
         // Average stability
         const avgStabilityEl = document.getElementById('fsrsAvgStability');
         if (avgStabilityEl) {
-            avgStabilityEl.textContent = fsrsStats.averageStability.toFixed(1);
+            avgStabilityEl.textContent = this.fsrsEnabled ? fsrsStats.averageStability.toFixed(1) : 'N/A';
         }
         
         // Cards needing review
@@ -1369,16 +1391,16 @@ class GermanLearningApp {
             reviewDueEl.textContent = fsrsStats.cardsNeedingReview.toString();
         }
         
-        // Target retention (always 90%)
+        // Target retention
         const retentionEl = document.getElementById('fsrsRetention');
         if (retentionEl) {
-            retentionEl.textContent = '90%';
+            retentionEl.textContent = this.fsrsEnabled ? '90%' : 'Basic';
         }
         
-        // Efficiency gain (estimate)
+        // Efficiency gain
         const efficiencyEl = document.getElementById('fsrsEfficiency');
         if (efficiencyEl) {
-            efficiencyEl.textContent = '~25%';
+            efficiencyEl.textContent = this.fsrsEnabled ? '~25%' : '0%';
         }
     }
     
