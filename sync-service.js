@@ -403,11 +403,9 @@ class SyncService {
                     const cloudTimestamp = cloudData.lastModified;
                     const localTimestamp = this.app.userProgress.lastModified || 0;
                     
-                    // Only sync if cloud data is newer
-                    if (cloudTimestamp > localTimestamp) {
-                        console.log('Newer data found in cloud, syncing...');
-                        this.syncFromCloud(cloudData);
-                    }
+                    // Always merge data to prevent progress loss (remove timestamp check)
+                    console.log('Real-time update detected, merging data...');
+                    this.syncFromCloud(cloudData);
                 }
             }, (error) => {
                 console.warn('Real-time sync listener error:', error);
@@ -477,19 +475,67 @@ class SyncService {
                 data = docSnapshot.data();
             }
 
-            // Merge cloud data with local data
+            // Merge cloud data with local data (PRESERVE LOCAL PROGRESS)
             const cloudProgress = data.userProgress;
             if (cloudProgress) {
-                // Convert arrays back to Sets/Maps
+                // Get current local data
+                const localLearnedWords = this.app.userProgress.learnedWords || new Set();
+                const localCompletedParts = this.app.userProgress.completedParts || new Set();
+                const localUnlockedLevels = this.app.userProgress.unlockedLevels || new Set(['A1.1']);
+                const localDailyActivity = this.app.userProgress.dailyActivity || new Map();
+                
+                // Get cloud data
+                const cloudLearnedWords = new Set(cloudProgress.learnedWords || []);
+                const cloudCompletedParts = new Set(cloudProgress.completedParts || []);
+                const cloudUnlockedLevels = new Set(cloudProgress.unlockedLevels || ['A1.1']);
+                const cloudDailyActivity = new Map(Object.entries(cloudProgress.dailyActivity || {}));
+                
+                // Merge Sets by UNION (combine all unique values)
+                const mergedLearnedWords = new Set([...localLearnedWords, ...cloudLearnedWords]);
+                const mergedCompletedParts = new Set([...localCompletedParts, ...cloudCompletedParts]);
+                const mergedUnlockedLevels = new Set([...localUnlockedLevels, ...cloudUnlockedLevels]);
+                
+                // Merge daily activity Maps (combine entries, sum values for same dates)
+                const mergedDailyActivity = new Map(localDailyActivity);
+                for (const [date, count] of cloudDailyActivity) {
+                    const existingCount = mergedDailyActivity.get(date) || 0;
+                    mergedDailyActivity.set(date, Math.max(existingCount, count)); // Use higher count
+                }
+                
+                // Calculate merged stats
+                const mergedTotalReviews = Math.max(
+                    this.app.userProgress.totalReviews || 0,
+                    cloudProgress.totalReviews || 0
+                );
+                const mergedCorrectAnswers = Math.max(
+                    this.app.userProgress.correctAnswers || 0,
+                    cloudProgress.correctAnswers || 0
+                );
+                const mergedLearningStreak = Math.max(
+                    this.app.userProgress.learningStreak || 0,
+                    cloudProgress.learningStreak || 0
+                );
+                
+                // Apply merged data (PRESERVE ALL PROGRESS)
                 this.app.userProgress = {
                     ...this.app.userProgress,
                     ...cloudProgress,
-                    learnedWords: new Set(cloudProgress.learnedWords || []),
-                    completedParts: new Set(cloudProgress.completedParts || []),
-                    unlockedLevels: new Set(cloudProgress.unlockedLevels || ['A1.1']),
-                    dailyActivity: new Map(Object.entries(cloudProgress.dailyActivity || {})),
-                    lastModified: data.lastModified
+                    learnedWords: mergedLearnedWords,
+                    completedParts: mergedCompletedParts,
+                    unlockedLevels: mergedUnlockedLevels,
+                    dailyActivity: mergedDailyActivity,
+                    totalReviews: mergedTotalReviews,
+                    correctAnswers: mergedCorrectAnswers,
+                    learningStreak: mergedLearningStreak,
+                    lastModified: Math.max(this.app.userProgress.lastModified || 0, data.lastModified)
                 };
+                
+                console.log('Data merged successfully:', {
+                    localWords: localLearnedWords.size,
+                    cloudWords: cloudLearnedWords.size,
+                    mergedWords: mergedLearnedWords.size,
+                    preservedProgress: true
+                });
             }
 
             if (data.settings) {
@@ -556,11 +602,17 @@ class SyncService {
         }, 3000);
     }
 
-    // Manual sync trigger
+    // Manual sync trigger (merge then upload)
     async manualSync() {
         this.showSyncStatus('🔄 Syncing...');
+        
+        // First merge cloud data with local data
         await this.syncFromCloud();
+        
+        // Then upload the merged data back to cloud
         await this.syncToCloud();
+        
+        this.showSyncStatus('✅ Sync complete');
     }
 
     // Get user ID for sharing
