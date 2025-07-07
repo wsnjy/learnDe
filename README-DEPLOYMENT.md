@@ -1,12 +1,12 @@
 # German Learning App - Deployment Guide
 
-## 🚀 Deploying to Cloudflare Pages via GitLab
+## 🚀 Deploying to Cloudflare Pages via GitHub Actions
 
-This guide will help you deploy the German Learning Application to Cloudflare Pages using GitLab CI/CD.
+This guide will help you deploy the German Learning Application to Cloudflare Pages using GitHub Actions.
 
 ### Prerequisites
 
-1. **GitLab Account**: You'll need a GitLab account to host your repository
+1. **GitHub Account**: You'll need a GitHub account to host your repository
 2. **Cloudflare Account**: Sign up at [Cloudflare](https://cloudflare.com)
 3. **Cloudflare API Token**: Required for automated deployment
 
@@ -26,23 +26,23 @@ This guide will help you deploy the German Learning Application to Cloudflare Pa
 2. Select any domain (or the right sidebar if you don't have domains)
 3. Copy your Account ID from the right sidebar
 
-### Step 3: Configure GitLab Repository
+### Step 3: Configure GitHub Repository
 
-1. **Create a new GitLab repository**
-2. **Add the project files** to your GitLab repository
-3. **Set up GitLab CI/CD Variables**:
-   - Go to Settings → CI/CD → Variables
-   - Add these variables:
+1. **Create a new GitHub repository**
+2. **Add the project files** to your GitHub repository
+3. **Set up GitHub Secrets**:
+   - Go to Settings → Secrets and variables → Actions
+   - Add these repository secrets:
      - `CLOUDFLARE_API_TOKEN`: Your API token from Step 1
      - `CLOUDFLARE_ACCOUNT_ID`: Your Account ID from Step 2
 
 ### Step 4: Deploy
 
-1. **Push your code** to the main/master branch
-2. **Go to CI/CD → Pipelines** in your GitLab repository
-3. **Run the deployment manually**:
-   - The pipeline will build and prepare your files
-   - Click the "play" button on the deploy stage when ready
+1. **Push your code** to the main branch
+2. **Go to Actions tab** in your GitHub repository
+3. **GitHub Actions will automatically deploy**:
+   - The workflow will trigger on every push to main
+   - Or you can manually trigger it from Actions tab
 4. **Your app will be deployed** to: `https://deutschlern-app.pages.dev`
 
 ### Files Included for Deployment
@@ -51,7 +51,7 @@ This guide will help you deploy the German Learning Application to Cloudflare Pa
 - ✅ `styles.css` - Complete styling with dark/light themes
 - ✅ `app.js` - Compiled TypeScript application
 - ✅ `dataJson/` - All German vocabulary files (A1-B1)
-- ✅ `.gitlab-ci.yml` - GitLab CI/CD configuration
+- ✅ `.github/workflows/deploy.yml` - GitHub Actions workflow
 - ✅ `wrangler.toml` - Cloudflare Pages configuration
 - ✅ `_redirects` - Client-side routing configuration
 - ✅ `.gitignore` - Git ignore patterns
