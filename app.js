@@ -8,6 +8,7 @@ class GermanLearningApp {
         this.currentSessionIndex = 0;
         this.currentPartId = null;
         this.speechSynthesis = null;
+        this.syncService = null;
         this.userProgress = {
             currentLevel: 'A1',
             learnedWords: new Set(),
@@ -17,7 +18,8 @@ class GermanLearningApp {
             correctAnswers: 0,
             learningStreak: 0,
             dailyActivity: new Map(),
-            lastStudyDate: null
+            lastStudyDate: null,
+            lastModified: Date.now()
         };
         this.settings = {
             learningDirection: 'de-id',
@@ -29,6 +31,7 @@ class GermanLearningApp {
         };
         this.speechSynthesis = window.speechSynthesis;
         this.initializeVoices();
+        this.initializeSyncService();
         this.init();
     }
     async init() {
@@ -42,6 +45,10 @@ class GermanLearningApp {
             this.generateHeatmap();
             this.renderDashboard();
             this.switchView(this.settings.currentView); // Initialize correct view
+            // Initialize sync after everything is loaded
+            if (this.syncService) {
+                await this.syncService.syncFromCloud();
+            }
         }
         catch (error) {
             console.error('Initialization error:', error);
@@ -158,16 +165,35 @@ class GermanLearningApp {
         const savedSettings = localStorage.getItem('deutschlern_settings');
         if (savedProgress) {
             const progress = JSON.parse(savedProgress);
-            this.userProgress = Object.assign(Object.assign(Object.assign({}, this.userProgress), progress), { learnedWords: new Set(progress.learnedWords || []), completedParts: new Set(progress.completedParts || []), unlockedLevels: new Set(progress.unlockedLevels || ['A1.1']), dailyActivity: new Map(progress.dailyActivity || []) });
+            this.userProgress = {
+                ...this.userProgress,
+                ...progress,
+                learnedWords: new Set(progress.learnedWords || []),
+                completedParts: new Set(progress.completedParts || []),
+                unlockedLevels: new Set(progress.unlockedLevels || ['A1.1']),
+                dailyActivity: new Map(progress.dailyActivity || [])
+            };
         }
         if (savedSettings) {
-            this.settings = Object.assign(Object.assign({}, this.settings), JSON.parse(savedSettings));
+            this.settings = { ...this.settings, ...JSON.parse(savedSettings) };
         }
     }
     saveUserData() {
-        const progressToSave = Object.assign(Object.assign({}, this.userProgress), { learnedWords: Array.from(this.userProgress.learnedWords), completedParts: Array.from(this.userProgress.completedParts), unlockedLevels: Array.from(this.userProgress.unlockedLevels), dailyActivity: Array.from(this.userProgress.dailyActivity) });
+        // Update last modified timestamp
+        this.userProgress.lastModified = Date.now();
+        const progressToSave = {
+            ...this.userProgress,
+            learnedWords: Array.from(this.userProgress.learnedWords),
+            completedParts: Array.from(this.userProgress.completedParts),
+            unlockedLevels: Array.from(this.userProgress.unlockedLevels),
+            dailyActivity: Array.from(this.userProgress.dailyActivity)
+        };
         localStorage.setItem('deutschlern_progress', JSON.stringify(progressToSave));
         localStorage.setItem('deutschlern_settings', JSON.stringify(this.settings));
+        // Trigger sync to cloud if available
+        if (this.syncService) {
+            this.syncService.syncToCloud();
+        }
     }
     initializeTheme() {
         const theme = this.settings.theme;
@@ -201,13 +227,13 @@ class GermanLearningApp {
     setupEventListeners() {
         // Start button
         const startBtn = document.getElementById('startBtn');
-        startBtn === null || startBtn === void 0 ? void 0 : startBtn.addEventListener('click', () => this.startLearning());
+        startBtn?.addEventListener('click', () => this.startLearning());
         // Card click to flip
         const flashcard = document.getElementById('flashcard');
-        flashcard === null || flashcard === void 0 ? void 0 : flashcard.addEventListener('click', () => this.flipCard());
+        flashcard?.addEventListener('click', () => this.flipCard());
         // Theme toggle
         const themeToggle = document.getElementById('themeToggle');
-        themeToggle === null || themeToggle === void 0 ? void 0 : themeToggle.addEventListener('click', () => this.toggleTheme());
+        themeToggle?.addEventListener('click', () => this.toggleTheme());
         // Difficulty buttons
         const difficultyBtns = document.querySelectorAll('.diff-btn');
         difficultyBtns.forEach(btn => {
@@ -220,23 +246,23 @@ class GermanLearningApp {
         // Voice buttons
         const voiceBtnFront = document.getElementById('voiceBtnFront');
         const voiceBtnBack = document.getElementById('voiceBtnBack');
-        voiceBtnFront === null || voiceBtnFront === void 0 ? void 0 : voiceBtnFront.addEventListener('click', (e) => {
+        voiceBtnFront?.addEventListener('click', (e) => {
             e.stopPropagation(); // Prevent card flip
             this.playPronunciation();
         });
-        voiceBtnBack === null || voiceBtnBack === void 0 ? void 0 : voiceBtnBack.addEventListener('click', (e) => {
+        voiceBtnBack?.addEventListener('click', (e) => {
             e.stopPropagation(); // Prevent card flip
             this.playPronunciation();
         });
         // Settings button
         const settingsBtn = document.getElementById('settingsBtn');
-        settingsBtn === null || settingsBtn === void 0 ? void 0 : settingsBtn.addEventListener('click', () => this.toggleSettings());
+        settingsBtn?.addEventListener('click', () => this.toggleSettings());
         // Panel backdrop click to close
         const panelBackdrop = document.getElementById('panelBackdrop');
-        panelBackdrop === null || panelBackdrop === void 0 ? void 0 : panelBackdrop.addEventListener('click', () => this.hideAllPanels());
+        panelBackdrop?.addEventListener('click', () => this.hideAllPanels());
         // Settings controls
         const learningDirection = document.getElementById('learningDirection');
-        learningDirection === null || learningDirection === void 0 ? void 0 : learningDirection.addEventListener('change', (e) => {
+        learningDirection?.addEventListener('change', (e) => {
             this.settings.learningDirection = e.target.value;
             this.saveUserData();
             // Update display to show voice button on correct side
@@ -245,13 +271,13 @@ class GermanLearningApp {
             }
         });
         const levelSelect = document.getElementById('levelSelect');
-        levelSelect === null || levelSelect === void 0 ? void 0 : levelSelect.addEventListener('change', (e) => {
+        levelSelect?.addEventListener('change', (e) => {
             this.settings.currentLevel = e.target.value;
             this.saveUserData();
             this.updateUI();
         });
         const voiceEnabled = document.getElementById('voiceEnabled');
-        voiceEnabled === null || voiceEnabled === void 0 ? void 0 : voiceEnabled.addEventListener('change', (e) => {
+        voiceEnabled?.addEventListener('change', (e) => {
             this.settings.voiceEnabled = e.target.checked;
             this.saveUserData();
             // Update voice button visibility
@@ -260,10 +286,24 @@ class GermanLearningApp {
             }
         });
         const cardsPerSession = document.getElementById('cardsPerSession');
-        cardsPerSession === null || cardsPerSession === void 0 ? void 0 : cardsPerSession.addEventListener('change', (e) => {
+        cardsPerSession?.addEventListener('change', (e) => {
             this.settings.cardsPerSession = parseInt(e.target.value);
             this.saveUserData();
         });
+        // Sync controls
+        const manualSyncBtn = document.getElementById('manualSyncBtn');
+        manualSyncBtn?.addEventListener('click', () => {
+            if (this.syncService) {
+                this.syncService.manualSync();
+            }
+        });
+        // Update user ID display when sync service is ready
+        if (this.syncService) {
+            const userIdElement = document.getElementById('userId');
+            if (userIdElement) {
+                userIdElement.textContent = `User ID: ${this.syncService.getUserId()}`;
+            }
+        }
         // Keyboard shortcuts
         // Navigation tabs
         const navTabs = document.querySelectorAll('.nav-tab');
@@ -719,6 +759,18 @@ class GermanLearningApp {
         }
         else {
             this.speechSynthesis.addEventListener('voiceschanged', loadVoices);
+        }
+    }
+    async initializeSyncService() {
+        try {
+            // Dynamically import SyncService
+            const SyncServiceModule = await import('./sync-service.js');
+            const SyncService = SyncServiceModule.default;
+            this.syncService = new SyncService(this);
+        }
+        catch (error) {
+            console.warn('Failed to initialize sync service:', error);
+            console.log('App will work in offline mode only');
         }
     }
     updateUI() {

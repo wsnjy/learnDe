@@ -1000,6 +1000,38 @@ body {
     transform: scale(1.2);
 }
 
+/* Sync Controls */
+.sync-btn {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 2px solid var(--accent-primary);
+    background: var(--accent-primary);
+    color: white;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin: 0.5rem 0;
+}
+
+.sync-btn:hover {
+    background: var(--accent-secondary);
+    border-color: var(--accent-secondary);
+    transform: translateY(-1px);
+}
+
+.sync-btn:active {
+    transform: translateY(0);
+}
+
+.sync-info {
+    padding: 0.75rem;
+    background: var(--bg-tertiary);
+    border-radius: 8px;
+    margin-top: 0.5rem;
+}
+
 /* Loading Indicator */
 .loading {
     position: fixed;

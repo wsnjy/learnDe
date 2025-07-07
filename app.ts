@@ -47,6 +47,7 @@ interface UserProgress {
     learningStreak: number;
     dailyActivity: Map<string, number>;
     lastStudyDate: string | null;
+    lastModified?: number;
 }
 
 interface Settings {
@@ -69,6 +70,7 @@ class GermanLearningApp {
     private currentSessionIndex: number = 0;
     private currentPartId: string | null = null;
     private speechSynthesis: SpeechSynthesis | null = null;
+    private syncService: any = null;
 
     constructor() {
         this.userProgress = {
@@ -80,7 +82,8 @@ class GermanLearningApp {
             correctAnswers: 0,
             learningStreak: 0,
             dailyActivity: new Map(),
-            lastStudyDate: null
+            lastStudyDate: null,
+            lastModified: Date.now()
         };
 
         this.settings = {
@@ -94,6 +97,7 @@ class GermanLearningApp {
 
         this.speechSynthesis = window.speechSynthesis;
         this.initializeVoices();
+        this.initializeSyncService();
         this.init();
     }
 
@@ -108,6 +112,11 @@ class GermanLearningApp {
             this.generateHeatmap();
             this.renderDashboard();
             this.switchView(this.settings.currentView); // Initialize correct view
+            
+            // Initialize sync after everything is loaded
+            if (this.syncService) {
+                await this.syncService.syncFromCloud();
+            }
         } catch (error) {
             console.error('Initialization error:', error);
             this.showError('Failed to initialize the application. Please refresh the page.');
@@ -248,6 +257,9 @@ class GermanLearningApp {
     }
 
     private saveUserData(): void {
+        // Update last modified timestamp
+        this.userProgress.lastModified = Date.now();
+        
         const progressToSave = {
             ...this.userProgress,
             learnedWords: Array.from(this.userProgress.learnedWords),
@@ -258,6 +270,11 @@ class GermanLearningApp {
 
         localStorage.setItem('deutschlern_progress', JSON.stringify(progressToSave));
         localStorage.setItem('deutschlern_settings', JSON.stringify(this.settings));
+        
+        // Trigger sync to cloud if available
+        if (this.syncService) {
+            this.syncService.syncToCloud();
+        }
     }
 
     private initializeTheme(): void {
@@ -372,6 +389,22 @@ class GermanLearningApp {
             this.settings.cardsPerSession = parseInt((e.target as HTMLInputElement).value);
             this.saveUserData();
         });
+
+        // Sync controls
+        const manualSyncBtn = document.getElementById('manualSyncBtn');
+        manualSyncBtn?.addEventListener('click', () => {
+            if (this.syncService) {
+                this.syncService.manualSync();
+            }
+        });
+
+        // Update user ID display when sync service is ready
+        if (this.syncService) {
+            const userIdElement = document.getElementById('userId');
+            if (userIdElement) {
+                userIdElement.textContent = `User ID: ${this.syncService.getUserId()}`;
+            }
+        }
 
         // Keyboard shortcuts
         // Navigation tabs
@@ -894,6 +927,18 @@ class GermanLearningApp {
             loadVoices();
         } else {
             this.speechSynthesis.addEventListener('voiceschanged', loadVoices);
+        }
+    }
+
+    private async initializeSyncService(): Promise<void> {
+        try {
+            // Dynamically import SyncService
+            const SyncServiceModule = await import('./sync-service.js');
+            const SyncService = SyncServiceModule.default;
+            this.syncService = new SyncService(this);
+        } catch (error) {
+            console.warn('Failed to initialize sync service:', error);
+            console.log('App will work in offline mode only');
         }
     }
 
