@@ -226,6 +226,11 @@ class GermanLearningApp {
         const savedSettings = localStorage.getItem('deutschlern_settings');
         if (savedProgress) {
             const progress = JSON.parse(savedProgress);
+            console.log('Loading saved progress:', progress);
+            console.log('Saved dailyActivity:', progress.dailyActivity);
+            console.log('Saved learningStreak:', progress.learningStreak);
+            console.log('Saved lastStudyDate:', progress.lastStudyDate);
+            
             this.userProgress = {
                 ...this.userProgress,
                 ...progress,
@@ -234,6 +239,10 @@ class GermanLearningApp {
                 unlockedLevels: new Set(progress.unlockedLevels || ['A1.1']),
                 dailyActivity: new Map(progress.dailyActivity || [])
             };
+            
+            console.log('Loaded userProgress:', this.userProgress);
+        } else {
+            console.log('No saved progress found');
         }
         if (savedSettings) {
             this.settings = { ...this.settings, ...JSON.parse(savedSettings) };
@@ -249,8 +258,17 @@ class GermanLearningApp {
             unlockedLevels: Array.from(this.userProgress.unlockedLevels),
             dailyActivity: Array.from(this.userProgress.dailyActivity)
         };
+        
+        console.log('Saving user data...');
+        console.log('dailyActivity to save:', progressToSave.dailyActivity);
+        console.log('learningStreak to save:', progressToSave.learningStreak);
+        console.log('lastStudyDate to save:', progressToSave.lastStudyDate);
+        
         localStorage.setItem('deutschlern_progress', JSON.stringify(progressToSave));
         localStorage.setItem('deutschlern_settings', JSON.stringify(this.settings));
+        
+        console.log('Data saved to localStorage');
+        
         // Trigger sync to cloud if available
         if (this.syncService) {
             this.syncService.syncToCloud();
@@ -909,6 +927,63 @@ class GermanLearningApp {
         
         this.reviewWordsByDifficulty('hard', hardWords);
     }
+    
+    // Debug method to check progress data (can be called from console)
+    debugProgress() {
+        console.log('=== DEBUG PROGRESS DATA ===');
+        console.log('userProgress:', this.userProgress);
+        console.log('learningStreak:', this.userProgress.learningStreak);
+        console.log('lastStudyDate:', this.userProgress.lastStudyDate);
+        console.log('dailyActivity Map size:', this.userProgress.dailyActivity.size);
+        console.log('dailyActivity entries:', Array.from(this.userProgress.dailyActivity.entries()));
+        console.log('totalReviews:', this.userProgress.totalReviews);
+        
+        // Check localStorage
+        const savedProgress = localStorage.getItem('deutschlern_progress');
+        if (savedProgress) {
+            const parsed = JSON.parse(savedProgress);
+            console.log('localStorage progress:', parsed);
+        } else {
+            console.log('No data in localStorage');
+        }
+        
+        console.log('=== END DEBUG ===');
+        return this.userProgress;
+    }
+    
+    // Test method to simulate daily activity (for debugging)
+    addTestActivity(dateStr = null, count = 5) {
+        const today = dateStr || new Date().toISOString().split('T')[0];
+        const currentActivity = this.userProgress.dailyActivity.get(today) || 0;
+        this.userProgress.dailyActivity.set(today, currentActivity + count);
+        
+        console.log(`Added ${count} activities for ${today}. Total: ${currentActivity + count}`);
+        
+        this.saveUserData();
+        this.generateHeatmap();
+        this.updateStudyPatterns();
+    }
+    
+    // Test method to reset progress (for debugging)
+    resetProgress() {
+        if (confirm('Reset all progress? This cannot be undone!')) {
+            this.userProgress = {
+                currentLevel: 'A1',
+                learnedWords: new Set(),
+                completedParts: new Set(),
+                unlockedLevels: new Set(['A1.1']),
+                totalReviews: 0,
+                correctAnswers: 0,
+                learningStreak: 0,
+                dailyActivity: new Map(),
+                lastStudyDate: null,
+                lastModified: Date.now()
+            };
+            this.saveUserData();
+            console.log('Progress reset');
+            location.reload();
+        }
+    }
     updateLevelLocks() {
         console.log('Updating level locks, levels count:', this.levels.length);
         // Update part completion and progress first
@@ -1129,25 +1204,43 @@ class GermanLearningApp {
         const currentActivity = this.userProgress.dailyActivity.get(today) || 0;
         this.userProgress.dailyActivity.set(today, currentActivity + 1);
         
-        // Update streak
+        console.log(`Daily activity updated: ${today} = ${currentActivity + 1}`);
+        console.log('Current dailyActivity map:', Array.from(this.userProgress.dailyActivity.entries()));
+        
+        // Update streak (fixed logic)
         if (this.userProgress.lastStudyDate !== today) {
             const yesterday = new Date();
             yesterday.setDate(yesterday.getDate() - 1);
             const yesterdayStr = yesterday.toISOString().split('T')[0];
+            
+            console.log(`Streak check: lastStudyDate=${this.userProgress.lastStudyDate}, today=${today}, yesterday=${yesterdayStr}`);
+            
             if (this.userProgress.lastStudyDate === yesterdayStr) {
+                // Consecutive day - extend streak
                 this.userProgress.learningStreak++;
+                console.log('Streak extended:', this.userProgress.learningStreak);
             }
-            else if (this.userProgress.lastStudyDate === null) {
+            else if (this.userProgress.lastStudyDate === null || this.userProgress.lastStudyDate === '') {
+                // First time or reset - start streak
                 this.userProgress.learningStreak = 1;
+                console.log('Streak started:', this.userProgress.learningStreak);
             }
             else {
+                // Gap in learning - reset streak
                 this.userProgress.learningStreak = 1;
+                console.log('Streak reset:', this.userProgress.learningStreak);
             }
             this.userProgress.lastStudyDate = today;
+        } else {
+            console.log('Same day - streak unchanged:', this.userProgress.learningStreak);
         }
         
         this.updateLevelLocks();
         this.saveUserData();
+        
+        // Force refresh statistics and heatmap
+        this.updateStudyPatterns();
+        this.generateHeatmap();
         
         // Check if session target reached
         if (this.currentSession.totalAnswers >= this.currentSession.targetWords) {
@@ -1515,21 +1608,46 @@ class GermanLearningApp {
     }
     generateHeatmap() {
         const heatmap = document.getElementById('heatmap');
-        if (!heatmap)
+        if (!heatmap) {
+            console.warn('Heatmap element not found');
             return;
+        }
+        
         heatmap.innerHTML = '';
+        console.log('Generating heatmap...');
+        console.log('dailyActivity map size:', this.userProgress.dailyActivity.size);
+        console.log('dailyActivity entries:', Array.from(this.userProgress.dailyActivity.entries()));
+        
         const today = new Date();
         const oneYearAgo = new Date(today.getTime() - 365 * 24 * 60 * 60 * 1000);
+        let activeDaysCount = 0;
+        
         for (let i = 0; i < 365; i++) {
             const date = new Date(oneYearAgo.getTime() + i * 24 * 60 * 60 * 1000);
             const dateStr = date.toISOString().split('T')[0];
             const activity = this.userProgress.dailyActivity.get(dateStr) || 0;
+            
+            if (activity > 0) {
+                activeDaysCount++;
+                console.log(`Active day found: ${dateStr} = ${activity} reviews`);
+            }
+            
             const cell = document.createElement('div');
             cell.className = 'heatmap-cell';
-            cell.dataset.level = Math.min(4, Math.floor(activity / 5)).toString();
+            
+            // Set activity level (0-4) based on number of reviews
+            let level = 0;
+            if (activity > 0) level = 1;
+            if (activity >= 5) level = 2;
+            if (activity >= 10) level = 3;
+            if (activity >= 20) level = 4;
+            
+            cell.dataset.level = level.toString();
             cell.title = `${dateStr}: ${activity} reviews`;
             heatmap.appendChild(cell);
         }
+        
+        console.log(`Heatmap generated: ${activeDaysCount} active days found`);
     }
     toggleSettings() {
         const settingsPanel = document.getElementById('settingsPanel');
@@ -1692,7 +1810,10 @@ class GermanLearningApp {
         // Current streak
         const currentStreakEl = document.getElementById('currentStreak');
         if (currentStreakEl) {
+            console.log('Updating current streak display:', this.userProgress.learningStreak);
             currentStreakEl.textContent = this.userProgress.learningStreak.toString();
+        } else {
+            console.warn('currentStreak element not found');
         }
         // Total sessions (approximate based on reviews)
         const totalSessionsEl = document.getElementById('totalSessions');
@@ -1802,5 +1923,17 @@ class GermanLearningApp {
 }
 // Initialize the app when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
-    new GermanLearningApp();
+    const app = new GermanLearningApp();
+    
+    // Expose app to global scope for debugging
+    window.deutschApp = app;
+    window.debugProgress = () => app.debugProgress();
+    window.addTestActivity = (date, count) => app.addTestActivity(date, count);
+    window.resetProgress = () => app.resetProgress();
+    
+    console.log('German Learning App initialized.');
+    console.log('Debug commands available:');
+    console.log('- debugProgress() - Show current progress data');
+    console.log('- addTestActivity(date, count) - Add test activity (default: today, 5 reviews)');
+    console.log('- resetProgress() - Reset all progress data');
 });
