@@ -478,29 +478,52 @@ class GermanLearningApp {
             });
         });
         document.addEventListener('keydown', (e) => {
-            if (e.code === 'Space') {
+            // Only handle shortcuts when in practice view and learning session is active
+            const practiceView = document.getElementById('practiceView');
+            const isInPracticeMode = practiceView && practiceView.style.display !== 'none';
+            const isLearningActive = this.currentCard && this.sessionWords.length > 0;
+            
+            if (e.code === 'Space' || e.code === 'ArrowLeft' || e.code === 'ArrowRight') {
                 e.preventDefault();
-                this.flipCard();
+                if (isInPracticeMode && isLearningActive) {
+                    this.flipCard();
+                }
+            }
+            else if (e.code === 'Enter') {
+                e.preventDefault();
+                if (isInPracticeMode && isLearningActive) {
+                    this.playPronunciation();
+                }
             }
             else if (e.code === 'Digit1') {
                 e.preventDefault();
-                this.handleDifficultyResponse(1);
+                if (isInPracticeMode && isLearningActive) {
+                    this.handleDifficultyResponse(1);
+                }
             }
             else if (e.code === 'Digit2') {
                 e.preventDefault();
-                this.handleDifficultyResponse(2);
+                if (isInPracticeMode && isLearningActive) {
+                    this.handleDifficultyResponse(2);
+                }
             }
             else if (e.code === 'Digit3') {
                 e.preventDefault();
-                this.handleDifficultyResponse(3);
+                if (isInPracticeMode && isLearningActive) {
+                    this.handleDifficultyResponse(3);
+                }
             }
             else if (e.code === 'Digit4') {
                 e.preventDefault();
-                this.handleDifficultyResponse(4);
+                if (isInPracticeMode && isLearningActive) {
+                    this.handleDifficultyResponse(4);
+                }
             }
             else if (e.code === 'Digit5') {
                 e.preventDefault();
-                this.handleDifficultyResponse(5);
+                if (isInPracticeMode && isLearningActive) {
+                    this.handleDifficultyResponse(5);
+                }
             }
             else if (e.code === 'Escape') {
                 e.preventDefault();
@@ -1898,18 +1921,24 @@ class GermanLearningApp {
     showLearningControls() {
         const startBtn = document.getElementById('startBtn');
         const learningControls = document.getElementById('learningControls');
+        const keyboardHints = document.getElementById('keyboardHints');
         if (startBtn)
             startBtn.style.display = 'none';
         if (learningControls)
             learningControls.style.display = 'flex';
+        if (keyboardHints)
+            keyboardHints.style.display = 'block';
     }
     hideLearningControls() {
         const startBtn = document.getElementById('startBtn');
         const learningControls = document.getElementById('learningControls');
+        const keyboardHints = document.getElementById('keyboardHints');
         if (startBtn)
             startBtn.style.display = 'block';
         if (learningControls)
             learningControls.style.display = 'none';
+        if (keyboardHints)
+            keyboardHints.style.display = 'none';
     }
     showLoading(show) {
         const loading = document.getElementById('loading');
