@@ -1,0 +1,631 @@
+{
+  "name": "German B1.2 Part 4",
+  "description": "German vocabulary level B1.2 part 4 from the book \"Einfach gut! Deutsch für die Integration B1.2\"",
+  "date_created": "2025-03-28T12:00:00Z",
+  "source": "telc gGmbH - Einfach gut! Deutsch für die Integration B1.2",
+  "cards": [
+    {
+      "german": "industriell",
+      "english": "industrial",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Institution",
+      "english": "institution",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Institutionen"
+    },
+    {
+      "german": "irgendwelche",
+      "english": "any",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "irgendwer",
+      "english": "anyone",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Kochbuch",
+      "english": "cookery book",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Kochbücher"
+    },
+    {
+      "german": "kulinarisch",
+      "english": "culinary",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "laktosefrei",
+      "english": "lactose-free",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Laune",
+      "english": "mood",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "leiden",
+      "english": "to suffer",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Massentierhaltung",
+      "english": "livestock farming",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Milchzucker",
+      "english": "milk sugar",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "moralisch",
+      "english": "morally",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Nährstoff",
+      "english": "nutrient",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Nährstoffe"
+    },
+    {
+      "german": "das Nahrungsmittel",
+      "english": "foodstuff",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Nahrungsmittel"
+    },
+    {
+      "german": "nebenbei",
+      "english": "incidentally",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Nuss",
+      "english": "nut",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Nüsse"
+    },
+    {
+      "german": "präsentieren",
+      "english": "to present",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "problemlos",
+      "english": "unproblematic",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Quark",
+      "english": "quark",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "reduzieren",
+      "english": "to reduce",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Studie",
+      "english": "study",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Tiefkühlpizza",
+      "english": "frozen pizza",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Tiefkühlpizzen"
+    },
+    {
+      "german": "tierisch",
+      "english": "animalistic",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Trend",
+      "english": "trend",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "überzeugen",
+      "english": "to convince",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "vegan",
+      "english": "vegan",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Veganer/in",
+      "english": "vegan",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Veganer/innen"
+    },
+    {
+      "german": "vereinbar",
+      "english": "compatible",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "versorgen",
+      "english": "to provide for",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "vertragen",
+      "english": "to tolerate",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Verzehr",
+      "english": "consumption",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "verzichten",
+      "english": "to avoid",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "vorbeigehen",
+      "english": "to walk past",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Wert",
+      "english": "value",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Werte"
+    },
+    {
+      "german": "die Wurst",
+      "english": "sausage",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Würste"
+    },
+    {
+      "german": "der Zeitmangel",
+      "english": "lack of time",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Zeitungsbericht",
+      "english": "report in the newspaper",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "zufällig",
+      "english": "incidentally",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "zunehmen",
+      "english": "to gain weight",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Zusatzstoff",
+      "english": "additives",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Zusatzstoffe"
+    },
+    {
+      "german": "abdecken",
+      "english": "to cover",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "absichtlich",
+      "english": "intentional",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "anfahren",
+      "english": "to bump into",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "ärztlich",
+      "english": "medical",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "aufkommen",
+      "english": "to pay",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "ausparken",
+      "english": "to reverse out",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Außenspiegel",
+      "english": "wing mirror",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Außenspiegel"
+    },
+    {
+      "german": "der/die Autofahrer/in",
+      "english": "car driver",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Autofahrer/innen"
+    },
+    {
+      "german": "die Automarke",
+      "english": "car make",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Autoteil",
+      "english": "car part",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Autoteile"
+    },
+    {
+      "german": "die Autoversicherung",
+      "english": "car insurance",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Benzin",
+      "english": "petrol",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "beschädigen",
+      "english": "to damage",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "betrunken",
+      "english": "drunk",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Blinker",
+      "english": "indicator",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Blinker"
+    },
+    {
+      "german": "bremsen",
+      "english": "to brake",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Dach",
+      "english": "roof",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Diebstahl",
+      "english": "theft",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Dorf",
+      "english": "village",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "einbrechen",
+      "english": "to break in",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Einbrecher/in",
+      "english": "burglar",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Einbrecher/innen"
+    },
+    {
+      "german": "der Einbruch",
+      "english": "burglary",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "einparken",
+      "english": "to pull in",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Fahrerseite",
+      "english": "driver's side",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Freiwillige",
+      "english": "volunteer",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Freiwilligen"
+    },
+    {
+      "german": "frustriert",
+      "english": "frustrated",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Gebrauchtwagen",
+      "english": "used vehicle",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Gebrauchtwagen"
+    },
+    {
+      "german": "die Haftpflicht",
+      "english": "liability",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Haftpflichtversicherung",
+      "english": "liability insurance",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Hagel",
+      "english": "hail",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Hügel",
+      "english": "hill",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Kaskoversicherung",
+      "english": "hull insurance",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Kilometer",
+      "english": "kilometre",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Kofferraum",
+      "english": "car boot",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "korrekt",
+      "english": "correct",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "krachen",
+      "english": "to crash",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Kratzer",
+      "english": "scratch",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Kratzer"
+    },
+    {
+      "german": "lenken",
+      "english": "to steer",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "lohnen",
+      "english": "to pay",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Motor",
+      "english": "motor",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Motoren"
+    },
+    {
+      "german": "die Motorhaube",
+      "english": "bonnet",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Motorradfahrer/in",
+      "english": "motocyclist",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Motorradfahrer/innen"
+    },
+    {
+      "german": "nachdenken",
+      "english": "to think about",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Neuwagen",
+      "english": "new vehicle",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Neuwagen"
+    },
+    {
+      "german": "das Nummernschild",
+      "english": "number plate",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Nummernschilder"
+    },
+    {
+      "german": "der Oldtimer",
+      "english": "vintage car",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "optimistisch",
+      "english": "optimistic",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "parken",
+      "english": "to park",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Parklücke",
+      "english": "parking space",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    }
+  ]
+}

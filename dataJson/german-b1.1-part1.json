@@ -1,0 +1,673 @@
+{
+  "name": "German B1.1 Part 1",
+  "description": "German vocabulary level B1.1 part 1 from the book \"Einfach gut! Deutsch für die Integration B1.1\"",
+  "date_created": "2025-03-28T12:00:00Z",
+  "source": "telc gGmbH - Einfach gut! Deutsch für die Integration B1.1",
+  "cards": [
+    {
+      "german": "der Abfall",
+      "english": "rubbish",
+      "indonesian": "sampah",
+      "difficulty": 5,
+      "notes": "Plural: Abfälle"
+    },
+    {
+      "german": "der Abflug",
+      "english": "departure",
+      "indonesian": "keberangkatan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Absage",
+      "english": "cancellation",
+      "indonesian": "pembatalan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "aktiv",
+      "english": "active",
+      "indonesian": "aktif",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Alkohol",
+      "english": "alcohol",
+      "indonesian": "alkohol",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "angenehm",
+      "english": "pleasant",
+      "indonesian": "menyenangkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "annulliert",
+      "english": "cancelled",
+      "indonesian": "dibatalkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Anzeigetafel",
+      "english": "bulletin board",
+      "indonesian": "papan pengumuman",
+      "difficulty": 5,
+      "notes": "Plural: Anzeigetafeln"
+    },
+    {
+      "german": "der Aufruf",
+      "english": "call",
+      "indonesian": "panggilan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Ausgang",
+      "english": "exit",
+      "indonesian": "pintu keluar",
+      "difficulty": 5,
+      "notes": "Plural: Ausgänge"
+    },
+    {
+      "german": "die Ausstattung",
+      "english": "equipment",
+      "indonesian": "perlengkapan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Behälter",
+      "english": "container",
+      "indonesian": "wadah",
+      "difficulty": 5,
+      "notes": "Plural: Behälter"
+    },
+    {
+      "german": "betreten",
+      "english": "to enter",
+      "indonesian": "memasuki",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Bewohner/in",
+      "english": "resident",
+      "indonesian": "penduduk",
+      "difficulty": 5,
+      "notes": "Plural: Bewohner/innen"
+    },
+    {
+      "german": "die Bordkarte",
+      "english": "boarding pass",
+      "indonesian": "kartu boarding",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Camper/in",
+      "english": "camper",
+      "indonesian": "pendaki",
+      "difficulty": 5,
+      "notes": "Plural: Camper/innen"
+    },
+    {
+      "german": "der Campingplatz",
+      "english": "campsite",
+      "indonesian": "tempat berkemah",
+      "difficulty": 5,
+      "notes": "Plural: Campingplätze"
+    },
+    {
+      "german": "der Check-in-Schalter",
+      "english": "check-in desk",
+      "indonesian": "meja check-in",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Container",
+      "english": "container",
+      "indonesian": "kontainer",
+      "difficulty": 5,
+      "notes": "Plural: Container"
+    },
+    {
+      "german": "die Dienstreise",
+      "english": "business trip",
+      "indonesian": "perjalanan bisnis",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Doppelbett",
+      "english": "double bed",
+      "indonesian": "tempat tidur double",
+      "difficulty": 5,
+      "notes": "Plural: Doppelbetten"
+    },
+    {
+      "german": "das Doppelzimmer (DZ)",
+      "english": "double room",
+      "indonesian": "kamar double",
+      "difficulty": 5,
+      "notes": "Plural: Doppelzimmer"
+    },
+    {
+      "german": "einchecken",
+      "english": "to check-in",
+      "indonesian": "check-in",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Einsteigezeit",
+      "english": "boarding time",
+      "indonesian": "waktu boarding",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Einzelzimmer (EZ)",
+      "english": "single room",
+      "indonesian": "kamar single",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "erleben",
+      "english": "to experience",
+      "indonesian": "mengalami",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Flug",
+      "english": "flight",
+      "indonesian": "penerbangan",
+      "difficulty": 5,
+      "notes": "Plural: Flüge"
+    },
+    {
+      "german": "der/die Flugbegleiter/in",
+      "english": "flight attendant",
+      "indonesian": "pramugari/pramugara",
+      "difficulty": 5,
+      "notes": "Plural: Flugbegleiter/innen"
+    },
+    {
+      "german": "der Fluggast",
+      "english": "passenger",
+      "indonesian": "penumpang",
+      "difficulty": 5,
+      "notes": "Plural: Fluggäste"
+    },
+    {
+      "german": "die Fluggesellschaft",
+      "english": "airline",
+      "indonesian": "maskapai penerbangan",
+      "difficulty": 5,
+      "notes": "Plural: Fluggesellschaften"
+    },
+    {
+      "german": "führen",
+      "english": "to lead",
+      "indonesian": "memimpin",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "füttern",
+      "english": "to feed",
+      "indonesian": "memberi makan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Gate",
+      "english": "gate",
+      "indonesian": "gerbang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Gepäck",
+      "english": "luggage",
+      "indonesian": "bagasi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Gepäckausgabe",
+      "english": "baggage reclaim",
+      "indonesian": "pengambilan bagasi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Gepäckband",
+      "english": "luggage belt",
+      "indonesian": "sabuk bagasi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "gestattet sein",
+      "english": "to be permitted",
+      "indonesian": "diizinkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Halbpension (HP)",
+      "english": "half-board",
+      "indonesian": "setengah penginapan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Handgepäck",
+      "english": "hand luggage",
+      "indonesian": "tas tangan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "historisch",
+      "english": "historical",
+      "indonesian": "bersejarah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Hostel",
+      "english": "hostel",
+      "indonesian": "hostel",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "hygienisch",
+      "english": "hygienic",
+      "indonesian": "higienis",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Inlineskaten",
+      "english": "inline skating",
+      "indonesian": "bermain sepatu roda",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Jugendherberge",
+      "english": "youth hostel",
+      "indonesian": "hostel pemuda",
+      "difficulty": 5,
+      "notes": "Plural: Jugendherbergen"
+    },
+    {
+      "german": "der Katalog",
+      "english": "catalogue",
+      "indonesian": "katalog",
+      "difficulty": 5,
+      "notes": "Plural: Kataloge"
+    },
+    {
+      "german": "klettern",
+      "english": "to climb",
+      "indonesian": "memanjat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "komfortabel",
+      "english": "comfortable",
+      "indonesian": "nyaman",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Lage",
+      "english": "site",
+      "indonesian": "lokasi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Lagerfeuer",
+      "english": "campfire",
+      "indonesian": "api unggun",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "landen",
+      "english": "to land",
+      "indonesian": "mendarat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Lärm",
+      "english": "noise",
+      "indonesian": "kebisingan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Lautsprecherdurchsage",
+      "english": "tannoy announcement",
+      "indonesian": "pengumuman speaker",
+      "difficulty": 5,
+      "notes": "Plural: Lautsprecherdurchsagen"
+    },
+    {
+      "german": "lebhaft",
+      "english": "lively",
+      "indonesian": "bersemangat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Leine",
+      "english": "rope",
+      "indonesian": "tali",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Leuchtturm",
+      "english": "lighthouse",
+      "indonesian": "mercusuar",
+      "difficulty": 5,
+      "notes": "Plural: Leuchttürme"
+    },
+    {
+      "german": "der Meerblick",
+      "english": "seaview",
+      "indonesian": "pemandangan laut",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "mitten",
+      "english": "middle",
+      "indonesian": "di tengah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Nebel",
+      "english": "fog",
+      "indonesian": "kabut",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "neblig",
+      "english": "foggy",
+      "indonesian": "berkabut",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Paradies",
+      "english": "paradise",
+      "indonesian": "surga",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Passagier/in",
+      "english": "passenger",
+      "indonesian": "penumpang",
+      "difficulty": 5,
+      "notes": "Plural: Passagiere"
+    },
+    {
+      "german": "die Passkontrolle",
+      "english": "passport control",
+      "indonesian": "pemeriksaan paspor",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Pilotenstreik",
+      "english": "pilot strike",
+      "indonesian": "pemogokan pilot",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Pool",
+      "english": "pool",
+      "indonesian": "kolam renang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "rechtzeitig",
+      "english": "on time",
+      "indonesian": "tepat waktu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Reisebüro",
+      "english": "travel agency",
+      "indonesian": "biro perjalanan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Reiseplan",
+      "english": "itinerary",
+      "indonesian": "rencana perjalanan",
+      "difficulty": 5,
+      "notes": "Plural: Reisepläne"
+    },
+    {
+      "german": "die Reiseplanung",
+      "english": "travel planning",
+      "indonesian": "perencanaan perjalanan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "reiten",
+      "english": "to ride",
+      "indonesian": "menunggang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Ruhezeit",
+      "english": "rest period",
+      "indonesian": "waktu istirahat",
+      "difficulty": 5,
+      "notes": "Plural: Ruhezeiten"
+    },
+    {
+      "german": "sauber",
+      "english": "clean",
+      "indonesian": "bersih",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Sauberkeit",
+      "english": "cleanliness",
+      "indonesian": "kebersihan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Schalter",
+      "english": "desk",
+      "indonesian": "meja",
+      "difficulty": 5,
+      "notes": "Plural: Schalter"
+    },
+    {
+      "german": "die Schlange",
+      "english": "snake",
+      "indonesian": "ular",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Sonnenschirm",
+      "english": "parasol",
+      "indonesian": "payung pantai",
+      "difficulty": 5,
+      "notes": "Plural: Sonnenschirme"
+    },
+    {
+      "german": "die Sonnenterrasse",
+      "english": "sun terrace",
+      "indonesian": "teras berjemur",
+      "difficulty": 5,
+      "notes": "Plural: Sonnenterrassen"
+    },
+    {
+      "german": "der Sonnenuntergang",
+      "english": "sunset",
+      "indonesian": "matahari terbenam",
+      "difficulty": 5,
+      "notes": "Plural: Sonnenuntergänge"
+    },
+    {
+      "german": "der Stern",
+      "english": "star",
+      "indonesian": "bintang",
+      "difficulty": 5,
+      "notes": "Plural: Sterne"
+    },
+    {
+      "german": "stören",
+      "english": "to disturb",
+      "indonesian": "mengganggu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Streichholz",
+      "english": "match",
+      "indonesian": "korek api",
+      "difficulty": 5,
+      "notes": "Plural: Streichhölzer"
+    },
+    {
+      "german": "streiken",
+      "english": "to strike",
+      "indonesian": "mogok",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Taschenlampe",
+      "english": "torch",
+      "indonesian": "senter",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Taschenmesser",
+      "english": "pocket knife",
+      "indonesian": "pisau lipat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "traumhaft",
+      "english": "wonderful",
+      "indonesian": "luar biasa",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "übernachten",
+      "english": "to stay overnight",
+      "indonesian": "menginap",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Übernachtung",
+      "english": "overnight stay",
+      "indonesian": "menginap",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Übernachtung mit Frühstück (ÜF)",
+      "english": "overnight stay with breakfast",
+      "indonesian": "menginap dengan sarapan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Umgebung",
+      "english": "surroundings",
+      "indonesian": "lingkungan sekitar",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "umgehend",
+      "english": "immediately",
+      "indonesian": "segera",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "verärgert",
+      "english": "annoyed",
+      "indonesian": "kesal",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "verreisen",
+      "english": "to travel",
+      "indonesian": "bepergian",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "verschieben",
+      "english": "to postpone",
+      "indonesian": "menunda",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Wanderer",
+      "english": "hiker",
+      "indonesian": "pendaki",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Wandertour",
+      "english": "walking tour",
+      "indonesian": "tur jalan kaki",
+      "difficulty": 5,
+      "notes": "Plural: Wandertouren"
+    },
+    {
+      "german": "der Waschraum",
+      "english": "laundry room",
+      "indonesian": "ruang cuci",
+      "difficulty": 5,
+      "notes": "Plural: Waschräume"
+    }
+  ]
+}

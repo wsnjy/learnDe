@@ -1,0 +1,715 @@
+{
+  "name": "German A2 Part 5",
+  "description": "German vocabulary level A2 part 5 from the book \"Einfach gut! Deutsch für die Integration A2.2\"",
+  "date_created": "2025-03-28T12:00:00Z",
+  "source": "telc gGmbH - Einfach gut! Deutsch für die Integration A2.2",
+  "cards": [
+    {
+      "german": "die Bestellnummer",
+      "english": "order number",
+      "indonesian": "nomor pesanan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Bestellung",
+      "english": "order",
+      "indonesian": "pesanan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der BIC",
+      "english": "BIC",
+      "indonesian": "BIC",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Blick",
+      "english": "view",
+      "indonesian": "pandangan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Broschüre",
+      "english": "brochure",
+      "indonesian": "brosur",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "drücken",
+      "english": "to press",
+      "indonesian": "menekan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "eigen",
+      "english": "own",
+      "indonesian": "sendiri",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Eingabe",
+      "english": "input",
+      "indonesian": "masukan",
+      "difficulty": 5,
+      "notes": "Plural: Eingaben"
+    },
+    {
+      "german": "eingeben",
+      "english": "to input",
+      "indonesian": "memasukkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "einzahlen",
+      "english": "to pay in",
+      "indonesian": "menyetor",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "erledigen",
+      "english": "to manage to",
+      "indonesian": "menyelesaikan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "eröffnen",
+      "english": "to open",
+      "indonesian": "membuka",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Filiale",
+      "english": "branch",
+      "indonesian": "cabang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "folgend",
+      "english": "following",
+      "indonesian": "berikut",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "formulieren",
+      "english": "to formulate",
+      "indonesian": "merumuskan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Gebühr",
+      "english": "fee",
+      "indonesian": "biaya",
+      "difficulty": 5,
+      "notes": "Plural: Gebühren"
+    },
+    {
+      "german": "der Geldautomat",
+      "english": "cash machine",
+      "indonesian": "ATM",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Geldbörse",
+      "english": "purse",
+      "indonesian": "dompet",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Geldstück",
+      "english": "coin",
+      "indonesian": "koin",
+      "difficulty": 5,
+      "notes": "Plural: Geldstücke"
+    },
+    {
+      "german": "genießen",
+      "english": "to enjoy",
+      "indonesian": "menikmati",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "gewinnen",
+      "english": "to win",
+      "indonesian": "menang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Girocard",
+      "english": "girocard",
+      "indonesian": "kartu giro",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Girokonto",
+      "english": "current account",
+      "indonesian": "rekening giro",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Hufeisen",
+      "english": "horseshoe",
+      "indonesian": "sepatu kuda",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die IBAN",
+      "english": "IBAN",
+      "indonesian": "IBAN",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "indirekt",
+      "english": "indirect",
+      "indonesian": "tidak langsung",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Innenstadt",
+      "english": "city centre",
+      "indonesian": "pusat kota",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "jederzeit",
+      "english": "anytime",
+      "indonesian": "kapan saja",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Kleeblatt",
+      "english": "cloverleaf",
+      "indonesian": "daun semanggi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Kleingeld",
+      "english": "small change",
+      "indonesian": "uang receh",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Kontoauszug",
+      "english": "account statement",
+      "indonesian": "rekening koran",
+      "difficulty": 5,
+      "notes": "Plural: Kontoauszüge"
+    },
+    {
+      "german": "der/die Kontoinhaber/in",
+      "english": "account holder",
+      "indonesian": "pemegang rekening",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Kontonummer",
+      "english": "account number",
+      "indonesian": "nomor rekening",
+      "difficulty": 5,
+      "notes": "Plural: Kontonummern"
+    },
+    {
+      "german": "der Kontostand",
+      "english": "balance",
+      "indonesian": "saldo",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "kontrollieren",
+      "english": "to monitor",
+      "indonesian": "mengontrol",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Kreditinstitut",
+      "english": "credit institute",
+      "indonesian": "lembaga kredit",
+      "difficulty": 5,
+      "notes": "Plural: Kreditinstitute"
+    },
+    {
+      "german": "die Kreditkarte",
+      "english": "credit card",
+      "indonesian": "kartu kredit",
+      "difficulty": 5,
+      "notes": "Plural: Kreditkarten"
+    },
+    {
+      "german": "die Kundennummer",
+      "english": "customer number",
+      "indonesian": "nomor pelanggan",
+      "difficulty": 5,
+      "notes": "Plural: Kundennummern"
+    },
+    {
+      "german": "die Kundenreferenz",
+      "english": "customer reference",
+      "indonesian": "referensi pelanggan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Laden",
+      "english": "premises",
+      "indonesian": "toko",
+      "difficulty": 5,
+      "notes": "Plural: Läden"
+    },
+    {
+      "german": "die Leistung",
+      "english": "service",
+      "indonesian": "layanan",
+      "difficulty": 5,
+      "notes": "Plural: Leistungen"
+    },
+    {
+      "german": "die Menge",
+      "english": "amount",
+      "indonesian": "jumlah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "mobil",
+      "english": "portable",
+      "indonesian": "mobile",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "monatlich",
+      "english": "monthly",
+      "indonesian": "bulanan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Münze",
+      "english": "coin",
+      "indonesian": "koin",
+      "difficulty": 5,
+      "notes": "Plural: Münzen"
+    },
+    {
+      "german": "niemand",
+      "english": "nobody",
+      "indonesian": "tak seorangpun",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Nulltarif",
+      "english": "zero tariff rate",
+      "indonesian": "tarif nol",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "nutzen",
+      "english": "useage",
+      "indonesian": "penggunaan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Online-Banking",
+      "english": "online banking",
+      "indonesian": "perbankan online",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Pfennig",
+      "english": "penny",
+      "indonesian": "pfennig",
+      "difficulty": 5,
+      "notes": "Plural: Pfennige"
+    },
+    {
+      "german": "der PIN",
+      "english": "PIN",
+      "indonesian": "PIN",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Quatsch",
+      "english": "rubbish",
+      "indonesian": "omong kosong",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Rechnung",
+      "english": "bill",
+      "indonesian": "tagihan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Rechnungsbetrag",
+      "english": "invoice amount",
+      "indonesian": "jumlah faktur",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Rechnungsnummer",
+      "english": "invoice number",
+      "indonesian": "nomor faktur",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "reich",
+      "english": "rich",
+      "indonesian": "kaya",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Reichtum",
+      "english": "wealth",
+      "indonesian": "kekayaan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Respekt",
+      "english": "respect",
+      "indonesian": "hormat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Schein",
+      "english": "bank note",
+      "indonesian": "uang kertas",
+      "difficulty": 5,
+      "notes": "Plural: Scheine"
+    },
+    {
+      "german": "schieben",
+      "english": "to shut",
+      "indonesian": "mendorong",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "schlachten",
+      "english": "to rob",
+      "indonesian": "menyembelih",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Schornsteinfeger/in",
+      "english": "chimney sweep",
+      "indonesian": "tukang cerobong asap",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Sparkonto",
+      "english": "savings account",
+      "indonesian": "rekening tabungan",
+      "difficulty": 5,
+      "notes": "Plural: Sparkonten"
+    },
+    {
+      "german": "das Sparschwein",
+      "english": "piggy bank",
+      "indonesian": "celengan",
+      "difficulty": 5,
+      "notes": "Plural: Sparschweine"
+    },
+    {
+      "german": "spätestens",
+      "english": "at the latest",
+      "indonesian": "paling lambat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "stecken",
+      "english": "to put",
+      "indonesian": "memasukkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "stoßen",
+      "english": "to encounter",
+      "indonesian": "menabrak",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die TAN",
+      "english": "TAN",
+      "indonesian": "TAN",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Taste",
+      "english": "button",
+      "indonesian": "tombol",
+      "difficulty": 5,
+      "notes": "Plural: Tasten"
+    },
+    {
+      "german": "der/die Täter/in",
+      "english": "culprit",
+      "indonesian": "pelaku",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Überfall",
+      "english": "robbery",
+      "indonesian": "perampokan",
+      "difficulty": 5,
+      "notes": "Plural: Überfälle"
+    },
+    {
+      "german": "überfallen",
+      "english": "to rob",
+      "indonesian": "merampok",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Überwachungskamera",
+      "english": "CCTV",
+      "indonesian": "kamera pengawas",
+      "difficulty": 5,
+      "notes": "Plural: Überwachungskameras"
+    },
+    {
+      "german": "die Überweisung",
+      "english": "transfer",
+      "indonesian": "transfer",
+      "difficulty": 5,
+      "notes": "Plural: Überweisungen"
+    },
+    {
+      "german": "das Überweisungsformular",
+      "english": "bank transfer form",
+      "indonesian": "formulir transfer bank",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Versuch",
+      "english": "attempt",
+      "indonesian": "percobaan",
+      "difficulty": 5,
+      "notes": "Plural: Versuche"
+    },
+    {
+      "german": "der Verwendungszweck",
+      "english": "purpose",
+      "indonesian": "tujuan penggunaan",
+      "difficulty": 5,
+      "notes": "Plural: Verwendungszwecke"
+    },
+    {
+      "german": "der Vorteil",
+      "english": "advantage",
+      "indonesian": "keuntungan",
+      "difficulty": 5,
+      "notes": "Plural: Vorteile"
+    },
+    {
+      "german": "weglaufen",
+      "english": "to run away",
+      "indonesian": "kabur",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Zahlungsempfänger/in",
+      "english": "payee",
+      "indonesian": "penerima pembayaran",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Zeitungsartikel",
+      "english": "newspaper article",
+      "indonesian": "artikel koran",
+      "difficulty": 5,
+      "notes": "Plural: Zeitungsartikel"
+    },
+    {
+      "german": "der/die Zeuge/Zeugin",
+      "english": "thing",
+      "indonesian": "saksi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "zurückgeben",
+      "english": "to return",
+      "indonesian": "mengembalikan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "abschalten",
+      "english": "to switch off",
+      "indonesian": "mematikan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Appetit",
+      "english": "appetite",
+      "indonesian": "selera makan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "ärgern",
+      "english": "to annoy",
+      "indonesian": "menjengkelkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "asiatisch",
+      "english": "asian",
+      "indonesian": "Asia",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Ausflug",
+      "english": "excursion",
+      "indonesian": "wisata",
+      "difficulty": 5,
+      "notes": "Plural: Ausflüge"
+    },
+    {
+      "german": "ausgezeichnet",
+      "english": "excellent",
+      "indonesian": "sangat baik",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Ausgleich",
+      "english": "balance",
+      "indonesian": "keseimbangan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "außer",
+      "english": "apart from",
+      "indonesian": "selain",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Aussicht",
+      "english": "prospect",
+      "indonesian": "pemandangan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Babysitter/in",
+      "english": "babysitter",
+      "indonesian": "pengasuh bayi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Band",
+      "english": "band",
+      "indonesian": "band",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Basketball",
+      "english": "basketball",
+      "indonesian": "bola basket",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "basteln",
+      "english": "to do crafts",
+      "indonesian": "membuat kerajinan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Besteck",
+      "english": "cutlery",
+      "indonesian": "alat makan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Chor",
+      "english": "choir",
+      "indonesian": "paduan suara",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "daheim",
+      "english": "at home",
+      "indonesian": "di rumah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Daumen",
+      "english": "thumb",
+      "indonesian": "jempol",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Einlass",
+      "english": "admission",
+      "indonesian": "masuk",
+      "difficulty": 5,
+      "notes": ""
+    }
+  ]
+}

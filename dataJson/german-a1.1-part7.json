@@ -1,0 +1,554 @@
+{
+  "name": "German A1 Part 7",
+  "description": "German vocabulary level A1 part 7 from the book \"Einfach gut! Deutsch für die Integration\"",
+  "date_created": "2025-03-28T12:00:00Z",
+  "source": "telc gGmbH - Einfach gut! Deutsch für die Integration A1.1",
+  "cards": [
+    {
+      "german": "neben",
+      "english": "next to",
+      "indonesian": "di sebelah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Nebenkosten",
+      "english": "additional costs",
+      "indonesian": "biaya tambahan",
+      "difficulty": 5,
+      "notes": "Plural only"
+    },
+    {
+      "german": "ohne",
+      "english": "without",
+      "indonesian": "tanpa",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Obergeschoss",
+      "english": "upper floor",
+      "indonesian": "lantai atas",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Ort",
+      "english": "place",
+      "indonesian": "tempat",
+      "difficulty": 5,
+      "notes": "Plural: Orte"
+    },
+    {
+      "german": "die Pflanze",
+      "english": "plant",
+      "indonesian": "tanaman",
+      "difficulty": 5,
+      "notes": "Plural: Pflanzen"
+    },
+    {
+      "german": "der Plan",
+      "english": "plan",
+      "indonesian": "rencana",
+      "difficulty": 5,
+      "notes": "Plural: Pläne"
+    },
+    {
+      "german": "der Platz",
+      "english": "place, space",
+      "indonesian": "tempat, ruang",
+      "difficulty": 5,
+      "notes": "Plural: Plätze; Wir brauchen mehr Platz."
+    },
+    {
+      "german": "der Quadratmeter",
+      "english": "square metre",
+      "indonesian": "meter persegi",
+      "difficulty": 5,
+      "notes": "Plural: Quadratmeter"
+    },
+    {
+      "german": "das Regal",
+      "english": "shelves",
+      "indonesian": "rak",
+      "difficulty": 5,
+      "notes": "Plural: Regale"
+    },
+    {
+      "german": "das Reihenhaus",
+      "english": "terraced house",
+      "indonesian": "rumah deret",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "ruhig",
+      "english": "peaceful",
+      "indonesian": "tenang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "schauen",
+      "english": "to look",
+      "indonesian": "melihat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Schlafzimmer",
+      "english": "bedroom",
+      "indonesian": "kamar tidur",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "schmal",
+      "english": "narrow",
+      "indonesian": "sempit",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Schrank",
+      "english": "cupboard",
+      "indonesian": "lemari",
+      "difficulty": 5,
+      "notes": "Plural: Schränke"
+    },
+    {
+      "german": "der Sessel",
+      "english": "chair",
+      "indonesian": "kursi berlengan",
+      "difficulty": 5,
+      "notes": "Plural: Sessel"
+    },
+    {
+      "german": "singen",
+      "english": "to sing",
+      "indonesian": "bernyanyi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "sitzen",
+      "english": "to sit",
+      "indonesian": "duduk",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Sofa",
+      "english": "sofa",
+      "indonesian": "sofa",
+      "difficulty": 5,
+      "notes": "Plural: Sofas"
+    },
+    {
+      "german": "sofort",
+      "english": "straight away",
+      "indonesian": "segera",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "sollen",
+      "english": "to be supposed to",
+      "indonesian": "seharusnya",
+      "difficulty": 5,
+      "notes": "Sollen wir ins Kino gehen?"
+    },
+    {
+      "german": "das Sonderangebot",
+      "english": "special offer",
+      "indonesian": "penawaran khusus",
+      "difficulty": 5,
+      "notes": "Plural: Sonderangebote"
+    },
+    {
+      "german": "die Sonne",
+      "english": "sun",
+      "indonesian": "matahari",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "sonstiges",
+      "english": "other",
+      "indonesian": "lainnya",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Sprachschule",
+      "english": "language school",
+      "indonesian": "sekolah bahasa",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "spülen",
+      "english": "to rinse",
+      "indonesian": "membilas",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Spülmaschine",
+      "english": "dishwasher",
+      "indonesian": "mesin pencuci piring",
+      "difficulty": 5,
+      "notes": "Plural: Spülmaschinen"
+    },
+    {
+      "german": "die Stadt",
+      "english": "city",
+      "indonesian": "kota",
+      "difficulty": 5,
+      "notes": "Plural: Städte"
+    },
+    {
+      "german": "suchen",
+      "english": "to look for",
+      "indonesian": "mencari",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "super",
+      "english": "super",
+      "indonesian": "hebat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Teppich",
+      "english": "carpet",
+      "indonesian": "karpet",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Terrasse",
+      "english": "terrace",
+      "indonesian": "teras",
+      "difficulty": 5,
+      "notes": "Plural: Terrassen"
+    },
+    {
+      "german": "die Toilette",
+      "english": "toilet",
+      "indonesian": "toilet",
+      "difficulty": 5,
+      "notes": "Plural: Toiletten"
+    },
+    {
+      "german": "toll",
+      "english": "great",
+      "indonesian": "hebat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Traumwohnung",
+      "english": "dream flat",
+      "indonesian": "apartemen impian",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "unbedingt",
+      "english": "definitely",
+      "indonesian": "pasti",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "ungemütlich",
+      "english": "uncomfortable",
+      "indonesian": "tidak nyaman",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "unser, unsere",
+      "english": "our/ours",
+      "indonesian": "milik kami",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "warum",
+      "english": "why",
+      "indonesian": "mengapa",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "waschen",
+      "english": "to wash",
+      "indonesian": "mencuci",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Waschmaschine",
+      "english": "washing machine",
+      "indonesian": "mesin cuci",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das WC",
+      "english": "WC/toilet",
+      "indonesian": "WC/toilet",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "wegziehen",
+      "english": "to move away",
+      "indonesian": "pindah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "weiter",
+      "english": "further",
+      "indonesian": "lebih jauh",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "wenn",
+      "english": "if/when",
+      "indonesian": "jika/ketika",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "werden",
+      "english": "to become",
+      "indonesian": "menjadi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "wichtig",
+      "english": "important",
+      "indonesian": "penting",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "wohnen",
+      "english": "to live",
+      "indonesian": "tinggal",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Wohnungsanzeige",
+      "english": "flat advertisement",
+      "indonesian": "iklan apartemen",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Wohnungssuche",
+      "english": "search for housing",
+      "indonesian": "pencarian tempat tinggal",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Wohnzimmer",
+      "english": "living room",
+      "indonesian": "ruang tamu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "wunderschön",
+      "english": "very beautiful",
+      "indonesian": "sangat indah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "wünschen",
+      "english": "to wish",
+      "indonesian": "berharap",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "zahlen",
+      "english": "to count",
+      "indonesian": "menghitung",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Zeitung",
+      "english": "newspaper",
+      "indonesian": "koran",
+      "difficulty": 5,
+      "notes": "Plural: Zeitungen"
+    },
+    {
+      "german": "das Zentrum",
+      "english": "centre",
+      "indonesian": "pusat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Zimmer",
+      "english": "room",
+      "indonesian": "kamar",
+      "difficulty": 5,
+      "notes": "Plural: Zimmer"
+    },
+    {
+      "german": "zu Fuß",
+      "english": "on foot",
+      "indonesian": "dengan berjalan kaki",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "regelmäßig",
+      "english": "regularly",
+      "indonesian": "secara teratur",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Rezept",
+      "english": "recipe/prescription",
+      "indonesian": "resep",
+      "difficulty": 5,
+      "notes": "Plural: Rezepte"
+    },
+    {
+      "german": "rot",
+      "english": "red",
+      "indonesian": "merah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Rücken",
+      "english": "back",
+      "indonesian": "punggung",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "rund",
+      "english": "round",
+      "indonesian": "bulat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Salbe",
+      "english": "ointment",
+      "indonesian": "salep",
+      "difficulty": 5,
+      "notes": "Plural: Salben"
+    },
+    {
+      "german": "schicken",
+      "english": "to send",
+      "indonesian": "mengirim",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Schmerz",
+      "english": "pain",
+      "indonesian": "rasa sakit",
+      "difficulty": 5,
+      "notes": "Plural: Schmerzen"
+    },
+    {
+      "german": "der Schnupfen",
+      "english": "to sniff",
+      "indonesian": "pilek",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Schulter",
+      "english": "shoulder",
+      "indonesian": "bahu",
+      "difficulty": 5,
+      "notes": "Plural: Schultern"
+    },
+    {
+      "german": "schwanger",
+      "english": "pregnant",
+      "indonesian": "hamil",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "sein, seine",
+      "english": "his",
+      "indonesian": "miliknya (laki-laki)",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Sprechstunde",
+      "english": "consultation hours",
+      "indonesian": "jam konsultasi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Sprechstundenhilfe",
+      "english": "receptionist",
+      "indonesian": "resepsionis",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Sprechzimmer",
+      "english": "consultation room",
+      "indonesian": "ruang konsultasi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "stark",
+      "english": "strong",
+      "indonesian": "kuat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Stirn",
+      "english": "forehead",
+      "indonesian": "dahi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Tablette",
+      "english": "tablet",
+      "indonesian": "tablet",
+      "difficulty": 5,
+      "notes": "Plural: Tabletten"
+    },
+    {
+      "german": "der Termin",
+      "english": "appointment",
+      "indonesian": "janji temu",
+      "difficulty": 5,
+      "notes": "Plural: Termine"
+    }
+  ]
+}

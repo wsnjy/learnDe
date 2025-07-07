@@ -1,0 +1,687 @@
+{
+  "name": "German A2 Part 5",
+  "description": "German vocabulary level A2 part 5 from the book \"Einfach gut! Deutsch für die Integration\"",
+  "date_created": "2025-03-28T12:00:00Z",
+  "source": "telc gGmbH - Einfach gut! Deutsch für die Integration A2.1",
+  "cards": [
+    {
+      "german": "männlich",
+      "english": "male",
+      "indonesian": "laki-laki",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Nichte",
+      "english": "niece",
+      "indonesian": "keponakan perempuan",
+      "difficulty": 3,
+      "notes": "Plural: Nichten"
+    },
+    {
+      "german": "notieren",
+      "english": "to note",
+      "indonesian": "mencatat",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Personalausweis",
+      "english": "personal ID",
+      "indonesian": "kartu tanda penduduk",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Reisepass",
+      "english": "passport",
+      "indonesian": "paspor",
+      "difficulty": 3,
+      "notes": "Plural: Reisepässe"
+    },
+    {
+      "german": "die Schwiegereltern",
+      "english": "parents-in-law",
+      "indonesian": "mertua",
+      "difficulty": 3,
+      "notes": "Always plural"
+    },
+    {
+      "german": "die Staatsangehörigkeit",
+      "english": "nationality",
+      "indonesian": "kewarganegaraan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Team",
+      "english": "team",
+      "indonesian": "tim",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Teil",
+      "english": "part",
+      "indonesian": "bagian",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Unterlagen",
+      "english": "documents",
+      "indonesian": "dokumen",
+      "difficulty": 3,
+      "notes": "Always plural"
+    },
+    {
+      "german": "unterschreiben",
+      "english": "to sign",
+      "indonesian": "menandatangani",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Urkunde",
+      "english": "certificate",
+      "indonesian": "sertifikat",
+      "difficulty": 3,
+      "notes": "Plural: Urkunden"
+    },
+    {
+      "german": "vollständig",
+      "english": "complete",
+      "indonesian": "lengkap",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Webseite",
+      "english": "website",
+      "indonesian": "situs web",
+      "difficulty": 3,
+      "notes": "Plural: Webseiten"
+    },
+    {
+      "german": "weiblich",
+      "english": "female",
+      "indonesian": "perempuan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "wiederholen",
+      "english": "to repeat",
+      "indonesian": "mengulangi",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Zulassungsstelle",
+      "english": "admission office",
+      "indonesian": "kantor perizinan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "zuständig",
+      "english": "responsible",
+      "indonesian": "bertanggung jawab",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Abitur",
+      "english": "A-level",
+      "indonesian": "ujian akhir SMA",
+      "difficulty": 3,
+      "notes": "Often abbreviated as 'Abi'"
+    },
+    {
+      "german": "ablegen",
+      "english": "to take (an exam)",
+      "indonesian": "mengambil (ujian)",
+      "difficulty": 3,
+      "notes": "Example: eine Prüfung ablegen"
+    },
+    {
+      "german": "abschließen",
+      "english": "to complete",
+      "indonesian": "menyelesaikan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Abschluss",
+      "english": "degree",
+      "indonesian": "gelar",
+      "difficulty": 3,
+      "notes": "Plural: Abschlüsse"
+    },
+    {
+      "german": "anbieten",
+      "english": "to offer",
+      "indonesian": "menawarkan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der/die Anfänger/in",
+      "english": "beginner",
+      "indonesian": "pemula",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Architektur",
+      "english": "architecture",
+      "indonesian": "arsitektur",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Ausland",
+      "english": "abroad",
+      "indonesian": "luar negeri",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Autounfall",
+      "english": "car accident",
+      "indonesian": "kecelakaan mobil",
+      "difficulty": 3,
+      "notes": "Plural: Autounfälle"
+    },
+    {
+      "german": "beenden",
+      "english": "to end",
+      "indonesian": "mengakhiri",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Beratung",
+      "english": "counselling",
+      "indonesian": "konseling",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Bereich",
+      "english": "area",
+      "indonesian": "bidang",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Berufsausbildung",
+      "english": "professional training",
+      "indonesian": "pelatihan profesional",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Berufsschule",
+      "english": "vocational college",
+      "indonesian": "sekolah kejuruan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "besonders",
+      "english": "especially",
+      "indonesian": "khususnya",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Bildungsweg",
+      "english": "course of education",
+      "indonesian": "jalur pendidikan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Büroorganisation",
+      "english": "office administration",
+      "indonesian": "administrasi kantor",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Chaos",
+      "english": "chaos",
+      "indonesian": "kekacauan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Decke",
+      "english": "ceiling",
+      "indonesian": "langit-langit",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Ende",
+      "english": "end",
+      "indonesian": "akhir",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Energie",
+      "english": "energy",
+      "indonesian": "energi",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "enthalten",
+      "english": "to contain",
+      "indonesian": "mengandung",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "entscheiden",
+      "english": "to decide",
+      "indonesian": "memutuskan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "erforderlich",
+      "english": "required",
+      "indonesian": "diperlukan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Fitness",
+      "english": "fitness",
+      "indonesian": "kebugaran",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "fliehen",
+      "english": "to flee",
+      "indonesian": "melarikan diri",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "fortgeschritten",
+      "english": "advanced",
+      "indonesian": "tingkat lanjut",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der/die Frisör/in",
+      "english": "hairdresser",
+      "indonesian": "penata rambut",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "genial",
+      "english": "great",
+      "indonesian": "hebat",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "hoffentlich",
+      "english": "hopefully",
+      "indonesian": "mudah-mudahan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "jobben",
+      "english": "to do casual/part-time work",
+      "indonesian": "bekerja paruh waktu",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Kategorie",
+      "english": "category",
+      "indonesian": "kategori",
+      "difficulty": 3,
+      "notes": "Plural: Kategorien"
+    },
+    {
+      "german": "kaufmännisch",
+      "english": "business",
+      "indonesian": "komersial",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Kenntnisse",
+      "english": "knowledge",
+      "indonesian": "pengetahuan",
+      "difficulty": 3,
+      "notes": "Always plural"
+    },
+    {
+      "german": "die Kommunikation",
+      "english": "communication",
+      "indonesian": "komunikasi",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "kompakt",
+      "english": "compact",
+      "indonesian": "ringkas",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "kürzen",
+      "english": "to shorten",
+      "indonesian": "mempersingkat",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Kursgebühr",
+      "english": "course fee",
+      "indonesian": "biaya kursus",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Kurzprogramm",
+      "english": "short program",
+      "indonesian": "program singkat",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Lebensweg",
+      "english": "journey through life",
+      "indonesian": "perjalanan hidup",
+      "difficulty": 3,
+      "notes": "Plural: Lebenswege"
+    },
+    {
+      "german": "die Lehre",
+      "english": "apprenticeship",
+      "indonesian": "magang",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Lehrmaterial",
+      "english": "teaching material",
+      "indonesian": "materi pengajaran",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Material",
+      "english": "material",
+      "indonesian": "bahan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "miserabel",
+      "english": "miserable",
+      "indonesian": "menyedihkan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "mittlere",
+      "english": "middle",
+      "indonesian": "tengah",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Prost",
+      "english": "Cheers!",
+      "indonesian": "Bersulang!",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Prüfung",
+      "english": "exam",
+      "indonesian": "ujian",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Prüfungstraining",
+      "english": "exam training",
+      "indonesian": "pelatihan ujian",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Realschulabschluss",
+      "english": "secondary school certificate",
+      "indonesian": "ijazah sekolah menengah",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "reisen",
+      "english": "to travel",
+      "indonesian": "bepergian",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "rhythmisch",
+      "english": "rhythmical",
+      "indonesian": "berirama",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "schaffen",
+      "english": "to succeed",
+      "indonesian": "berhasil",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Schulzeit",
+      "english": "school days",
+      "indonesian": "masa sekolah",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "seit",
+      "english": "since",
+      "indonesian": "sejak",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Semester",
+      "english": "term",
+      "indonesian": "semester",
+      "difficulty": 3,
+      "notes": "Plural: Semester"
+    },
+    {
+      "german": "separat",
+      "english": "separate",
+      "indonesian": "terpisah",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Situation",
+      "english": "situation",
+      "indonesian": "situasi",
+      "difficulty": 3,
+      "notes": "Plural: Situationen"
+    },
+    {
+      "german": "städtisch",
+      "english": "urban",
+      "indonesian": "perkotaan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Terminplanung",
+      "english": "scheduling",
+      "indonesian": "penjadwalan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Test",
+      "english": "test",
+      "indonesian": "tes",
+      "difficulty": 3,
+      "notes": "Plural: Tests"
+    },
+    {
+      "german": "das Thema",
+      "english": "topic",
+      "indonesian": "topik",
+      "difficulty": 3,
+      "notes": "Plural: Themen"
+    },
+    {
+      "german": "die Theorie",
+      "english": "theory",
+      "indonesian": "teori",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "trainieren",
+      "english": "to train",
+      "indonesian": "berlatih",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Training",
+      "english": "training",
+      "indonesian": "pelatihan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Trick",
+      "english": "trick",
+      "indonesian": "trik",
+      "difficulty": 3,
+      "notes": "Plural: Tricks"
+    },
+    {
+      "german": "die Überraschung",
+      "english": "surprise",
+      "indonesian": "kejutan",
+      "difficulty": 3,
+      "notes": "Plural: Überraschungen"
+    },
+    {
+      "german": "die Überschrift",
+      "english": "heading",
+      "indonesian": "judul",
+      "difficulty": 3,
+      "notes": "Plural: Überschriften"
+    },
+    {
+      "german": "umschreiben",
+      "english": "to re-write",
+      "indonesian": "menulis ulang",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "verlieben",
+      "english": "to fall in love",
+      "indonesian": "jatuh cinta",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "verlieren",
+      "english": "to lose",
+      "indonesian": "kehilangan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "Vorbereitung",
+      "english": "preparation",
+      "indonesian": "persiapan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Vorkenntnisse",
+      "english": "prior knowledge",
+      "indonesian": "pengetahuan awal",
+      "difficulty": 3,
+      "notes": "Always plural"
+    },
+    {
+      "german": "das Vorstellungsgespräch",
+      "english": "interview",
+      "indonesian": "wawancara",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Weiterbildung",
+      "english": "further training",
+      "indonesian": "pelatihan lanjutan",
+      "difficulty": 3,
+      "notes": "Plural: Weiterbildungen"
+    },
+    {
+      "german": "das Yoga",
+      "english": "yoga",
+      "indonesian": "yoga",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Zeitmanagement",
+      "english": "time management",
+      "indonesian": "manajemen waktu",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Zertifikat",
+      "english": "certificate",
+      "indonesian": "sertifikat",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Zeugnis",
+      "english": "certificate",
+      "indonesian": "ijazah",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "zufrieden",
+      "english": "satisfied",
+      "indonesian": "puas",
+      "difficulty": 3,
+      "notes": ""
+    }
+  ]
+}

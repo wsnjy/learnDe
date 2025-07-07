@@ -1,0 +1,617 @@
+{
+  "name": "German A1 Part 3",
+  "description": "German vocabulary level A1 part 3 from the book \"Einfach gut! Deutsch für die Integration\"",
+  "date_created": "2025-03-28T12:00:00Z",
+  "source": "telc gGmbH - Einfach gut! Deutsch für die Integration A1.1",
+  "cards": [
+    {
+      "german": "die Karte",
+      "english": "card/map",
+      "indonesian": "kartu/peta",
+      "difficulty": 5,
+      "notes": "Plural: Karten"
+    },
+    {
+      "german": "klein",
+      "english": "small",
+      "indonesian": "kecil",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "knifflig",
+      "english": "tricky",
+      "indonesian": "rumit",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Kugelschreiber (Kuli)",
+      "english": "ball-point pen (biro)",
+      "indonesian": "pulpen",
+      "difficulty": 5,
+      "notes": "Plural: Kugelschreiber"
+    },
+    {
+      "german": "das Kursbuch",
+      "english": "course book",
+      "indonesian": "buku kursus",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Kursraum",
+      "english": "classroom",
+      "indonesian": "ruang kursus",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Lampe",
+      "english": "lamp",
+      "indonesian": "lampu",
+      "difficulty": 5,
+      "notes": "Plural: Lampen"
+    },
+    {
+      "german": "die Landkarte",
+      "english": "map",
+      "indonesian": "peta",
+      "difficulty": 5,
+      "notes": "Plural: Landkarten"
+    },
+    {
+      "german": "langsam",
+      "english": "slowly",
+      "indonesian": "pelan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Lehrer",
+      "english": "teacher (male)",
+      "indonesian": "guru (laki-laki)",
+      "difficulty": 5,
+      "notes": "Plural: Lehrer"
+    },
+    {
+      "german": "die Lehrerin",
+      "english": "teacher (female)",
+      "indonesian": "guru (perempuan)",
+      "difficulty": 5,
+      "notes": "Plural: Lehrerinnen"
+    },
+    {
+      "german": "lernen",
+      "english": "to learn",
+      "indonesian": "belajar",
+      "difficulty": 5,
+      "notes": "ich lerne – du lernst – er lernt"
+    },
+    {
+      "german": "lesen",
+      "english": "to read",
+      "indonesian": "membaca",
+      "difficulty": 5,
+      "notes": "ich lese – du liest – er liest – ihr lest"
+    },
+    {
+      "german": "liebe, lieber",
+      "english": "dear",
+      "indonesian": "yang tersayang",
+      "difficulty": 5,
+      "notes": "Liebe Laura, ..."
+    },
+    {
+      "german": "die Liste",
+      "english": "list",
+      "indonesian": "daftar",
+      "difficulty": 5,
+      "notes": "Plural: Listen"
+    },
+    {
+      "german": "machen",
+      "english": "to make",
+      "indonesian": "membuat",
+      "difficulty": 5,
+      "notes": "ich mache – du machst – er macht"
+    },
+    {
+      "german": "mir",
+      "english": "(to) me",
+      "indonesian": "kepada saya",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Mittwoch",
+      "english": "Wednesday",
+      "indonesian": "Rabu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Montag",
+      "english": "Monday",
+      "indonesian": "Senin",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "natürlich",
+      "english": "of course",
+      "indonesian": "tentu saja",
+      "difficulty": 5,
+      "notes": "Noch einmal langsam bitte! – Natürlich."
+    },
+    {
+      "german": "nett",
+      "english": "nice",
+      "indonesian": "baik",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Papier",
+      "english": "paper",
+      "indonesian": "kertas",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Papierkorb",
+      "english": "waste paper bin",
+      "indonesian": "tempat sampah kertas",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Pause",
+      "english": "break",
+      "indonesian": "istirahat",
+      "difficulty": 5,
+      "notes": "Plural: Pausen"
+    },
+    {
+      "german": "das Problem",
+      "english": "problem",
+      "indonesian": "masalah",
+      "difficulty": 5,
+      "notes": "Plural: Probleme"
+    },
+    {
+      "german": "der Projektor",
+      "english": "projector",
+      "indonesian": "proyektor",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Radiergummi",
+      "english": "eraser",
+      "indonesian": "penghapus",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Raum",
+      "english": "room",
+      "indonesian": "ruangan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Rucksack",
+      "english": "backpack",
+      "indonesian": "ransel",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Sache",
+      "english": "thing",
+      "indonesian": "benda",
+      "difficulty": 5,
+      "notes": "Plural: Sachen"
+    },
+    {
+      "german": "sagen",
+      "english": "to say",
+      "indonesian": "mengatakan",
+      "difficulty": 5,
+      "notes": "ich sage – du sagst – er sagt"
+    },
+    {
+      "german": "der Samstag",
+      "english": "Saturday",
+      "indonesian": "Sabtu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "sehen",
+      "english": "to see",
+      "indonesian": "melihat",
+      "difficulty": 5,
+      "notes": "Was sehen Sie?"
+    },
+    {
+      "german": "die Seite",
+      "english": "page",
+      "indonesian": "halaman",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Schlüssel",
+      "english": "key",
+      "indonesian": "kunci",
+      "difficulty": 5,
+      "notes": "Plural: Schlüssel"
+    },
+    {
+      "german": "schnell",
+      "english": "fast",
+      "indonesian": "cepat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Sonntag",
+      "english": "Sunday",
+      "indonesian": "Minggu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Spaß",
+      "english": "fun",
+      "indonesian": "kesenangan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "spielen",
+      "english": "to play",
+      "indonesian": "bermain",
+      "difficulty": 5,
+      "notes": "Spielen Sie die Dialoge."
+    },
+    {
+      "german": "der Spitzer",
+      "english": "pencil sharpener",
+      "indonesian": "rautan pensil",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Stuhl",
+      "english": "chair",
+      "indonesian": "kursi",
+      "difficulty": 5,
+      "notes": "Plural: Stühle"
+    },
+    {
+      "german": "die Tabelle",
+      "english": "table",
+      "indonesian": "tabel",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Tafel",
+      "english": "black/white board",
+      "indonesian": "papan tulis",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Tasche",
+      "english": "bag",
+      "indonesian": "tas",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Text",
+      "english": "text",
+      "indonesian": "teks",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Tisch",
+      "english": "table",
+      "indonesian": "meja",
+      "difficulty": 5,
+      "notes": "Plural: Tische"
+    },
+    {
+      "german": "die Tür",
+      "english": "door",
+      "indonesian": "pintu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "übermorgen",
+      "english": "the day after tomorrow",
+      "indonesian": "lusa",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Übung",
+      "english": "exercise",
+      "indonesian": "latihan",
+      "difficulty": 5,
+      "notes": "Plural: Übungen"
+    },
+    {
+      "german": "das Übungsbuch",
+      "english": "exercise book",
+      "indonesian": "buku latihan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "verstehen",
+      "english": "to understand",
+      "indonesian": "mengerti",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "vorgestern",
+      "english": "the day before yesterday",
+      "indonesian": "kemarin lusa",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Wand",
+      "english": "wall",
+      "indonesian": "dinding",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Woche",
+      "english": "week",
+      "indonesian": "minggu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Wochenende",
+      "english": "weekend",
+      "indonesian": "akhir pekan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Wörterbuch",
+      "english": "dictionary",
+      "indonesian": "kamus",
+      "difficulty": 5,
+      "notes": "Plural: Wörterbücher"
+    },
+    {
+      "german": "zeigen",
+      "english": "to show",
+      "indonesian": "menunjukkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Zettel",
+      "english": "note",
+      "indonesian": "catatan",
+      "difficulty": 5,
+      "notes": "Plural: Zettel"
+    },
+    {
+      "german": "zusammen",
+      "english": "together",
+      "indonesian": "bersama",
+      "difficulty": 5,
+      "notes": "Wir gehen zusammen ins Kino."
+    },
+    {
+      "german": "das Angebot",
+      "english": "offer",
+      "indonesian": "penawaran",
+      "difficulty": 5,
+      "notes": "Plural: Angebote"
+    },
+    {
+      "german": "die Antwort",
+      "english": "answer",
+      "indonesian": "jawaban",
+      "difficulty": 5,
+      "notes": "Plural: Antworten"
+    },
+    {
+      "german": "der Apfel",
+      "english": "apple",
+      "indonesian": "apel",
+      "difficulty": 5,
+      "notes": "Plural: Äpfel"
+    },
+    {
+      "german": "der Apfelsaft",
+      "english": "apple juice",
+      "indonesian": "jus apel",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Aufgabe",
+      "english": "task",
+      "indonesian": "tugas",
+      "difficulty": 5,
+      "notes": "Plural: Aufgaben"
+    },
+    {
+      "german": "die Babynahrung",
+      "english": "baby food",
+      "indonesian": "makanan bayi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Banane",
+      "english": "banana",
+      "indonesian": "pisang",
+      "difficulty": 5,
+      "notes": "Plural: Bananen"
+    },
+    {
+      "german": "der Becher",
+      "english": "container",
+      "indonesian": "gelas/wadah",
+      "difficulty": 5,
+      "notes": "Plural: Becher; ein Becher Joghurt"
+    },
+    {
+      "german": "das Beispiel",
+      "english": "example",
+      "indonesian": "contoh",
+      "difficulty": 5,
+      "notes": "Plural: Beispiele"
+    },
+    {
+      "german": "das Bier",
+      "english": "beer",
+      "indonesian": "bir",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Birne",
+      "english": "pear",
+      "indonesian": "buah pir",
+      "difficulty": 5,
+      "notes": "Plural: Birnen"
+    },
+    {
+      "german": "das Bistro",
+      "english": "bistro/café",
+      "indonesian": "bistro/kafe",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Blaubeere",
+      "english": "blueberry",
+      "indonesian": "blueberry",
+      "difficulty": 5,
+      "notes": "Plural: Blaubeeren"
+    },
+    {
+      "german": "die Bohne",
+      "english": "bean",
+      "indonesian": "kacang",
+      "difficulty": 5,
+      "notes": "Plural: Bohnen"
+    },
+    {
+      "german": "brauchen",
+      "english": "to need",
+      "indonesian": "membutuhkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Brot",
+      "english": "bread",
+      "indonesian": "roti",
+      "difficulty": 5,
+      "notes": "Plural: Brote"
+    },
+    {
+      "german": "das Brötchen",
+      "english": "bread roll",
+      "indonesian": "roti kecil",
+      "difficulty": 5,
+      "notes": "Plural: Brötchen"
+    },
+    {
+      "german": "der Cent",
+      "english": "cent",
+      "indonesian": "sen",
+      "difficulty": 5,
+      "notes": "Plural: Cent"
+    },
+    {
+      "german": "die Cola",
+      "english": "cola",
+      "indonesian": "cola",
+      "difficulty": 5,
+      "notes": "Plural: Cola, Colas"
+    },
+    {
+      "german": "der Couscous",
+      "english": "couscous",
+      "indonesian": "couscous",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "denn",
+      "english": "because",
+      "indonesian": "karena",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "diese, dieser, dieses",
+      "english": "this",
+      "indonesian": "ini",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Dose",
+      "english": "jar",
+      "indonesian": "kaleng",
+      "difficulty": 5,
+      "notes": "Plural: Dosen"
+    },
+    {
+      "german": "durch",
+      "english": "through",
+      "indonesian": "melalui",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Ei",
+      "english": "egg",
+      "indonesian": "telur",
+      "difficulty": 5,
+      "notes": "Plural: Eier"
+    },
+    {
+      "german": "der Einkaufszettel",
+      "english": "shopping list",
+      "indonesian": "daftar belanja",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "einige",
+      "english": "a few",
+      "indonesian": "beberapa",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Erbse",
+      "english": "pea",
+      "indonesian": "kacang polong",
+      "difficulty": 5,
+      "notes": "Plural: Erbsen"
+    }
+  ]
+}

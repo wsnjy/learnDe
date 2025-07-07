@@ -1,0 +1,477 @@
+{
+  "name": "German A2 Part 6",
+  "description": "German vocabulary level A2 part 6 from the book \"Einfach gut! Deutsch für die Integration A2.2\"",
+  "date_created": "2025-03-28T12:00:00Z",
+  "source": "telc gGmbH - Einfach gut! Deutsch für die Integration A2.2",
+  "cards": [
+    {
+      "german": "entlang",
+      "english": "along",
+      "indonesian": "sepanjang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Event",
+      "english": "event",
+      "indonesian": "acara",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Feuerzeug",
+      "english": "lighter",
+      "indonesian": "korek api",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Freizeit",
+      "english": "free time",
+      "indonesian": "waktu luang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Freizeitaktivität",
+      "english": "free time activities",
+      "indonesian": "aktivitas waktu luang",
+      "difficulty": 5,
+      "notes": "Plural: Freizeitaktivitäten"
+    },
+    {
+      "german": "das Freizeitangebot",
+      "english": "leisure opportunities",
+      "indonesian": "penawaran rekreasi",
+      "difficulty": 5,
+      "notes": "Plural: Freizeitangebote"
+    },
+    {
+      "german": "das Freizeitvergnügen",
+      "english": "pastime",
+      "indonesian": "kesenangan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Gabel",
+      "english": "fork",
+      "indonesian": "garpu",
+      "difficulty": 5,
+      "notes": "Plural: Gabeln"
+    },
+    {
+      "german": "die Gastronomie",
+      "english": "gastronomy",
+      "indonesian": "gastronomi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Gedicht",
+      "english": "poem",
+      "indonesian": "puisi",
+      "difficulty": 5,
+      "notes": "Plural: Gedichte"
+    },
+    {
+      "german": "der Gegensatz",
+      "english": "contrast",
+      "indonesian": "kontras",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Geiger/in",
+      "english": "violinist",
+      "indonesian": "pemain biola",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "gemischt",
+      "english": "mixed",
+      "indonesian": "campuran",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Geschirr",
+      "english": "crockery",
+      "indonesian": "peralatan makan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Grill",
+      "english": "barbecue",
+      "indonesian": "pemanggang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Grillkohle",
+      "english": "barbecue coal",
+      "indonesian": "arang pemanggang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Grillplatz",
+      "english": "barbecue area",
+      "indonesian": "area pemanggang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Grillsoße",
+      "english": "barbecue sauce",
+      "indonesian": "saus barbekyu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Grillzange",
+      "english": "barbecue tong",
+      "indonesian": "penjepit barbekyu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "herrlich",
+      "english": "delightful",
+      "indonesian": "menyenangkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "herum",
+      "english": "around",
+      "indonesian": "sekitar",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "interessieren",
+      "english": "to interest",
+      "indonesian": "menarik minat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Interviewpartner/in",
+      "english": "interview partner",
+      "indonesian": "mitra wawancara",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "irgendwo",
+      "english": "somewhere",
+      "indonesian": "di suatu tempat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "jährlich",
+      "english": "annually",
+      "indonesian": "tahunan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "jeweils",
+      "english": "respectively",
+      "indonesian": "masing-masing",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "knackig",
+      "english": "crispy",
+      "indonesian": "renyah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "konzentrieren",
+      "english": "to concentrate",
+      "indonesian": "berkonsentrasi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Kumpel",
+      "english": "mate",
+      "indonesian": "teman",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Leidenschaft",
+      "english": "passion",
+      "indonesian": "gairah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Löffel",
+      "english": "spoon",
+      "indonesian": "sendok",
+      "difficulty": 5,
+      "notes": "Plural: Löffel"
+    },
+    {
+      "german": "malen",
+      "english": "to paint",
+      "indonesian": "melukis",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "meist",
+      "english": "most",
+      "indonesian": "kebanyakan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Messer",
+      "english": "knife",
+      "indonesian": "pisau",
+      "difficulty": 5,
+      "notes": "Plural: Messer"
+    },
+    {
+      "german": "mitfahren",
+      "english": "to travel with",
+      "indonesian": "ikut bepergian",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "nähen",
+      "english": "to sew",
+      "indonesian": "menjahit",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "normalerweise",
+      "english": "normally",
+      "indonesian": "biasanya",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Open-Air-Konzert",
+      "english": "open air concert",
+      "indonesian": "konser terbuka",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Poetry-Slam",
+      "english": "poetry slam",
+      "indonesian": "lomba puisi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Regie",
+      "english": "management",
+      "indonesian": "pengarahan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Saal",
+      "english": "hall",
+      "indonesian": "aula",
+      "difficulty": 5,
+      "notes": "Plural: Säle"
+    },
+    {
+      "german": "das Schach",
+      "english": "chess",
+      "indonesian": "catur",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Schnupperkurs",
+      "english": "taster course",
+      "indonesian": "kursus pengenalan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Schüssel",
+      "english": "key",
+      "indonesian": "mangkuk",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "segeln",
+      "english": "to sail",
+      "indonesian": "berlayar",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Sieg",
+      "english": "victory",
+      "indonesian": "kemenangan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Spielfeld",
+      "english": "playing field",
+      "indonesian": "lapangan bermain",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Sportergebnis",
+      "english": "sports result",
+      "indonesian": "hasil olahraga",
+      "difficulty": 5,
+      "notes": "Plural: Sportergebnisse"
+    },
+    {
+      "german": "der Sportplatz",
+      "english": "sports field",
+      "indonesian": "lapangan olahraga",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "surfen",
+      "english": "to surf",
+      "indonesian": "berselancar",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Tango",
+      "english": "tango",
+      "indonesian": "tango",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Tänzer/in",
+      "english": "dancer",
+      "indonesian": "penari",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Tischdecke",
+      "english": "tablecloth",
+      "indonesian": "taplak meja",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Tischdekoration",
+      "english": "table decoration",
+      "indonesian": "dekorasi meja",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "trotzdem",
+      "english": "despite",
+      "indonesian": "meskipun demikian",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "umfangreich",
+      "english": "comprehensive",
+      "indonesian": "komprehensif",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Umfrage",
+      "english": "survey",
+      "indonesian": "survei",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Umkleide",
+      "english": "changing room",
+      "indonesian": "ruang ganti",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "unterhalten",
+      "english": "to entertain",
+      "indonesian": "menghibur",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "veranstalten",
+      "english": "to organise",
+      "indonesian": "menyelenggarakan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Veranstaltungshinweis",
+      "english": "event information",
+      "indonesian": "informasi acara",
+      "difficulty": 5,
+      "notes": "Plural: Veranstaltungshinweise"
+    },
+    {
+      "german": "verbringen",
+      "english": "to spend time",
+      "indonesian": "menghabiskan waktu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Verpackung",
+      "english": "packaging",
+      "indonesian": "kemasan",
+      "difficulty": 5,
+      "notes": "Plural: Verpackungen"
+    },
+    {
+      "german": "verteilen",
+      "english": "to distribute",
+      "indonesian": "mendistribusikan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Volleyballspiel",
+      "english": "volley ball game",
+      "indonesian": "permainan bola voli",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Vorlesung",
+      "english": "lecture",
+      "indonesian": "kuliah",
+      "difficulty": 5,
+      "notes": "Plural: Vorlesungen"
+    },
+    {
+      "german": "wundervoll",
+      "english": "wonderful",
+      "indonesian": "menakjubkan",
+      "difficulty": 5,
+      "notes": ""
+    }
+  ]
+}

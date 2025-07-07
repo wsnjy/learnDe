@@ -1,0 +1,402 @@
+[
+  {
+    "id": "a1_01",
+    "german": "Hallo",
+    "indonesian": "Halo",
+    "level": "A1",
+    "type": "phrase",
+    "difficulty": 1
+  },
+  {
+    "id": "a1_02",
+    "german": "Danke",
+    "indonesian": "Terima kasih",
+    "level": "A1",
+    "type": "phrase",
+    "difficulty": 1
+  },
+  {
+    "id": "a1_03",
+    "german": "Bitte",
+    "indonesian": "Tolong/Silakan",
+    "level": "A1",
+    "type": "phrase",
+    "difficulty": 1
+  },
+  {
+    "id": "a1_04",
+    "german": "Entschuldigung",
+    "indonesian": "Maaf",
+    "level": "A1",
+    "type": "phrase",
+    "difficulty": 2
+  },
+  {
+    "id": "a1_05",
+    "german": "ja",
+    "indonesian": "ya",
+    "level": "A1",
+    "type": "adverb",
+    "difficulty": 1
+  },
+  {
+    "id": "a1_06",
+    "german": "nein",
+    "indonesian": "tidak",
+    "level": "A1",
+    "type": "adverb",
+    "difficulty": 1
+  },
+  {
+    "id": "a1_07",
+    "german": "ich",
+    "indonesian": "saya",
+    "level": "A1",
+    "type": "pronoun",
+    "difficulty": 1
+  },
+  {
+    "id": "a1_08",
+    "german": "du",
+    "indonesian": "kamu",
+    "level": "A1",
+    "type": "pronoun",
+    "difficulty": 1
+  },
+  {
+    "id": "a1_09",
+    "german": "er",
+    "indonesian": "dia (laki-laki)",
+    "level": "A1",
+    "type": "pronoun",
+    "difficulty": 1
+  },
+  {
+    "id": "a1_10",
+    "german": "sie",
+    "indonesian": "dia (perempuan)",
+    "level": "A1",
+    "type": "pronoun",
+    "difficulty": 1
+  },
+  {
+    "id": "a1_11",
+    "german": "Haus",
+    "indonesian": "rumah",
+    "level": "A1",
+    "type": "noun",
+    "difficulty": 2
+  },
+  {
+    "id": "a1_12",
+    "german": "Wasser",
+    "indonesian": "air",
+    "level": "A1",
+    "type": "noun",
+    "difficulty": 2
+  },
+  {
+    "id": "a1_13",
+    "german": "Brot",
+    "indonesian": "roti",
+    "level": "A1",
+    "type": "noun",
+    "difficulty": 2
+  },
+  {
+    "id": "a1_14",
+    "german": "Milch",
+    "indonesian": "susu",
+    "level": "A1",
+    "type": "noun",
+    "difficulty": 2
+  },
+  {
+    "id": "a1_15",
+    "german": "Apfel",
+    "indonesian": "apel",
+    "level": "A1",
+    "type": "noun",
+    "difficulty": 2
+  },
+  {
+    "id": "a1_16",
+    "german": "essen",
+    "indonesian": "makan",
+    "level": "A1",
+    "type": "verb",
+    "difficulty": 2
+  },
+  {
+    "id": "a1_17",
+    "german": "trinken",
+    "indonesian": "minum",
+    "level": "A1",
+    "type": "verb",
+    "difficulty": 2
+  },
+  {
+    "id": "a1_18",
+    "german": "gehen",
+    "indonesian": "pergi",
+    "level": "A1",
+    "type": "verb",
+    "difficulty": 2
+  },
+  {
+    "id": "a1_19",
+    "german": "kommen",
+    "indonesian": "datang",
+    "level": "A1",
+    "type": "verb",
+    "difficulty": 2
+  },
+  {
+    "id": "a1_20",
+    "german": "sehen",
+    "indonesian": "melihat",
+    "level": "A1",
+    "type": "verb",
+    "difficulty": 2
+  },
+  {
+    "id": "a1_21",
+    "german": "schön",
+    "indonesian": "cantik/indah",
+    "level": "A1",
+    "type": "adjective",
+    "difficulty": 2
+  },
+  {
+    "id": "a1_22",
+    "german": "groß",
+    "indonesian": "besar",
+    "level": "A1",
+    "type": "adjective",
+    "difficulty": 2
+  },
+  {
+    "id": "a1_23",
+    "german": "klein",
+    "indonesian": "kecil",
+    "level": "A1",
+    "type": "adjective",
+    "difficulty": 2
+  },
+  {
+    "id": "a1_24",
+    "german": "gut",
+    "indonesian": "baik",
+    "level": "A1",
+    "type": "adjective",
+    "difficulty": 2
+  },
+  {
+    "id": "a1_25",
+    "german": "Familie",
+    "indonesian": "keluarga",
+    "level": "A1",
+    "type": "noun",
+    "difficulty": 2
+  },
+  {
+    "id": "a2_01",
+    "german": "arbeiten",
+    "indonesian": "bekerja",
+    "level": "A2",
+    "type": "verb",
+    "difficulty": 3
+  },
+  {
+    "id": "a2_02",
+    "german": "lernen",
+    "indonesian": "belajar",
+    "level": "A2",
+    "type": "verb",
+    "difficulty": 3
+  },
+  {
+    "id": "a2_03",
+    "german": "verstehen",
+    "indonesian": "memahami",
+    "level": "A2",
+    "type": "verb",
+    "difficulty": 3
+  },
+  {
+    "id": "a2_04",
+    "german": "sprechen",
+    "indonesian": "berbicara",
+    "level": "A2",
+    "type": "verb",
+    "difficulty": 3
+  },
+  {
+    "id": "a2_05",
+    "german": "hören",
+    "indonesian": "mendengar",
+    "level": "A2",
+    "type": "verb",
+    "difficulty": 3
+  },
+  {
+    "id": "a2_06",
+    "german": "schreiben",
+    "indonesian": "menulis",
+    "level": "A2",
+    "type": "verb",
+    "difficulty": 3
+  },
+  {
+    "id": "a2_07",
+    "german": "lesen",
+    "indonesian": "membaca",
+    "level": "A2",
+    "type": "verb",
+    "difficulty": 3
+  },
+  {
+    "id": "a2_08",
+    "german": "fahren",
+    "indonesian": "berkendara",
+    "level": "A2",
+    "type": "verb",
+    "difficulty": 3
+  },
+  {
+    "id": "a2_09",
+    "german": "wohnen",
+    "indonesian": "tinggal",
+    "level": "A2",
+    "type": "verb",
+    "difficulty": 3
+  },
+  {
+    "id": "a2_10",
+    "german": "kaufen",
+    "indonesian": "membeli",
+    "level": "A2",
+    "type": "verb",
+    "difficulty": 3
+  },
+  {
+    "id": "a2_11",
+    "german": "wichtig",
+    "indonesian": "penting",
+    "level": "A2",
+    "type": "adjective",
+    "difficulty": 3
+  },
+  {
+    "id": "a2_12",
+    "german": "schwierig",
+    "indonesian": "sulit",
+    "level": "A2",
+    "type": "adjective",
+    "difficulty": 3
+  },
+  {
+    "id": "a2_13",
+    "german": "einfach",
+    "indonesian": "mudah",
+    "level": "A2",
+    "type": "adjective",
+    "difficulty": 3
+  },
+  {
+    "id": "a2_14",
+    "german": "interessant",
+    "indonesian": "menarik",
+    "level": "A2",
+    "type": "adjective",
+    "difficulty": 3
+  },
+  {
+    "id": "a2_15",
+    "german": "langweilig",
+    "indonesian": "membosankan",
+    "level": "A2",
+    "type": "adjective",
+    "difficulty": 3
+  },
+  {
+    "id": "b1_01",
+    "german": "Erfahrung",
+    "indonesian": "pengalaman",
+    "level": "B1",
+    "type": "noun",
+    "difficulty": 4
+  },
+  {
+    "id": "b1_02",
+    "german": "entwickeln",
+    "indonesian": "mengembangkan",
+    "level": "B1",
+    "type": "verb",
+    "difficulty": 4
+  },
+  {
+    "id": "b1_03",
+    "german": "erreichen",
+    "indonesian": "mencapai",
+    "level": "B1",
+    "type": "verb",
+    "difficulty": 4
+  },
+  {
+    "id": "b1_04",
+    "german": "entscheiden",
+    "indonesian": "memutuskan",
+    "level": "B1",
+    "type": "verb",
+    "difficulty": 4
+  },
+  {
+    "id": "b1_05",
+    "german": "bedeuten",
+    "indonesian": "berarti",
+    "level": "B1",
+    "type": "verb",
+    "difficulty": 4
+  },
+  {
+    "id": "b1_06",
+    "german": "Gesellschaft",
+    "indonesian": "masyarakat",
+    "level": "B1",
+    "type": "noun",
+    "difficulty": 4
+  },
+  {
+    "id": "b1_07",
+    "german": "Umwelt",
+    "indonesian": "lingkungan",
+    "level": "B1",
+    "type": "noun",
+    "difficulty": 4
+  },
+  {
+    "id": "b1_08",
+    "german": "Zukunft",
+    "indonesian": "masa depan",
+    "level": "B1",
+    "type": "noun",
+    "difficulty": 4
+  },
+  {
+    "id": "b1_09",
+    "german": "Vergangenheit",
+    "indonesian": "masa lalu",
+    "level": "B1",
+    "type": "noun",
+    "difficulty": 4
+  },
+  {
+    "id": "b1_10",
+    "german": "Möglichkeit",
+    "indonesian": "kemungkinan",
+    "level": "B1",
+    "type": "noun",
+    "difficulty": 4
+  }
+]

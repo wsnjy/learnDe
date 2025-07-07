@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeutschLern - Embed Widget</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .embed-container {
+            width: 100%;
+            height: 500px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 16px;
+            overflow: hidden;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .embed-header {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 1rem;
+            text-align: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .embed-logo {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #4c51bf;
+            margin-bottom: 0.5rem;
+        }
+
+        .embed-subtitle {
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        .embed-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+            color: white;
+            text-align: center;
+        }
+
+        .embed-flashcard {
+            background: rgba(255, 255, 255, 0.95);
+            color: #333;
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+            min-width: 280px;
+            min-height: 150px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .embed-word {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #4c51bf;
+        }
+
+        .embed-translation {
+            font-size: 1.1rem;
+            color: #666;
+            font-style: italic;
+        }
+
+        .embed-cta {
+            background: rgba(255, 255, 255, 0.2);
+            border: 2px solid rgba(255, 255, 255, 0.5);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .embed-cta:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+
+        .embed-footer {
+            background: rgba(0, 0, 0, 0.1);
+            padding: 0.75rem;
+            text-align: center;
+            font-size: 0.8rem;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .powered-by {
+            opacity: 0.7;
+        }
+
+        @media (max-width: 480px) {
+            .embed-container {
+                height: 400px;
+            }
+            
+            .embed-content {
+                padding: 1rem;
+            }
+            
+            .embed-flashcard {
+                min-width: 200px;
+                min-height: 120px;
+                padding: 1.5rem;
+            }
+            
+            .embed-word {
+                font-size: 1.2rem;
+            }
+            
+            .embed-translation {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="embed-container">
+        <div class="embed-header">
+            <div class="embed-logo">🇩🇪 DeutschLern</div>
+            <div class="embed-subtitle">Interactive German Learning</div>
+        </div>
+        
+        <div class="embed-content">
+            <div class="embed-flashcard">
+                <div class="embed-word">Hallo</div>
+                <div class="embed-translation">Hello</div>
+            </div>
+            
+            <a href="#" class="embed-cta" onclick="openFullApp()">
+                Start Learning German
+            </a>
+        </div>
+        
+        <div class="embed-footer">
+            <div class="powered-by">Powered by DeutschLern • A1-B1 German Learning Tool</div>
+        </div>
+    </div>
+
+    <script>
+        function openFullApp() {
+            // In production, this would open the full application
+            // For demo purposes, we'll show an alert
+            alert('This would open the full DeutschLern application!');
+            // window.open('https://deutschlern-app.pages.dev', '_blank');
+        }
+
+        // Demo flashcard rotation
+        const words = [
+            { german: 'Hallo', english: 'Hello' },
+            { german: 'Danke', english: 'Thank you' },
+            { german: 'Haus', english: 'House' },
+            { german: 'Wasser', english: 'Water' },
+            { german: 'Familie', english: 'Family' }
+        ];
+
+        let currentWordIndex = 0;
+
+        function rotateWord() {
+            const wordElement = document.querySelector('.embed-word');
+            const translationElement = document.querySelector('.embed-translation');
+            
+            if (wordElement && translationElement) {
+                currentWordIndex = (currentWordIndex + 1) % words.length;
+                const currentWord = words[currentWordIndex];
+                
+                wordElement.textContent = currentWord.german;
+                translationElement.textContent = currentWord.english;
+            }
+        }
+
+        // Rotate words every 3 seconds
+        setInterval(rotateWord, 3000);
+    </script>
+</body>
+</html>

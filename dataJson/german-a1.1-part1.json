@@ -1,0 +1,645 @@
+{
+  "name": "German A1 Part 1",
+  "description": "German vocabulary level A1 part 1 from the book \"Einfach gut! Deutsch für die Integration\"",
+  "date_created": "2025-03-28T12:00:00Z",
+  "source": "telc gGmbH - Einfach gut! Deutsch für die Integration A1.1",
+  "cards": [
+    {
+      "german": "der Abend",
+      "english": "evening",
+      "indonesian": "malam",
+      "difficulty": 5,
+      "notes": "Plural: Abende"
+    },
+    {
+      "german": "alles",
+      "english": "everything",
+      "indonesian": "semua",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "antworten",
+      "english": "to answer",
+      "indonesian": "menjawab",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "auch",
+      "english": "also/too",
+      "indonesian": "juga",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "auf",
+      "english": "on",
+      "indonesian": "di atas",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "aus",
+      "english": "from",
+      "indonesian": "dari",
+      "difficulty": 5,
+      "notes": "Ich komme aus Syrien."
+    },
+    {
+      "german": "die Aussage",
+      "english": "statement",
+      "indonesian": "pernyataan",
+      "difficulty": 5,
+      "notes": "Plural: Aussagen"
+    },
+    {
+      "german": "bisschen",
+      "english": "a little/a bit",
+      "indonesian": "sedikit",
+      "difficulty": 5,
+      "notes": "Er spricht ein bisschen Englisch."
+    },
+    {
+      "german": "bitte",
+      "english": "please/thank you",
+      "indonesian": "tolong/terima kasih",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "danke",
+      "english": "thank you",
+      "indonesian": "terima kasih",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "dann",
+      "english": "then",
+      "indonesian": "kemudian",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das",
+      "english": "the (neuter noun)",
+      "indonesian": "artikel (untuk kata benda netral)",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der",
+      "english": "the (masculine noun)",
+      "indonesian": "artikel (untuk kata benda maskulin)",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "Deutsch",
+      "english": "German",
+      "indonesian": "bahasa Jerman",
+      "difficulty": 5,
+      "notes": "Ich spreche Deutsch."
+    },
+    {
+      "german": "der Dialog",
+      "english": "dialogue",
+      "indonesian": "dialog",
+      "difficulty": 5,
+      "notes": "Plural: Dialoge"
+    },
+    {
+      "german": "die",
+      "english": "the (feminine noun)",
+      "indonesian": "artikel (untuk kata benda feminin)",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "dir",
+      "english": "(to) you",
+      "indonesian": "kepadamu",
+      "difficulty": 5,
+      "notes": "Wie geht es dir?"
+    },
+    {
+      "german": "du",
+      "english": "you",
+      "indonesian": "kamu",
+      "difficulty": 5,
+      "notes": "Bist du aus Polen?"
+    },
+    {
+      "german": "ein, eine",
+      "english": "a/one",
+      "indonesian": "sebuah/satu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Entschuldigung",
+      "english": "apology",
+      "indonesian": "permintaan maaf",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "er",
+      "english": "he",
+      "indonesian": "dia (laki-laki)",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "es",
+      "english": "it",
+      "indonesian": "itu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Form",
+      "english": "form/type",
+      "indonesian": "bentuk/jenis",
+      "difficulty": 5,
+      "notes": "Plural: Formen"
+    },
+    {
+      "german": "die Frage",
+      "english": "question",
+      "indonesian": "pertanyaan",
+      "difficulty": 5,
+      "notes": "Plural: Fragen"
+    },
+    {
+      "german": "fragen",
+      "english": "to ask",
+      "indonesian": "bertanya",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Frau",
+      "english": "woman/mrs",
+      "indonesian": "wanita/nyonya",
+      "difficulty": 5,
+      "notes": "Plural: Frauen"
+    },
+    {
+      "german": "ganz",
+      "english": "quite",
+      "indonesian": "cukup",
+      "difficulty": 5,
+      "notes": "Es geht mir ganz gut."
+    },
+    {
+      "german": "gehen",
+      "english": "to go",
+      "indonesian": "pergi",
+      "difficulty": 5,
+      "notes": "Es geht mir gut."
+    },
+    {
+      "german": "die Grammatik",
+      "english": "grammar",
+      "indonesian": "tata bahasa",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "gut",
+      "english": "good",
+      "indonesian": "baik",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "hallo",
+      "english": "hello",
+      "indonesian": "halo",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "heißen",
+      "english": "to be called",
+      "indonesian": "bernama",
+      "difficulty": 5,
+      "notes": "Ich heiße Anna."
+    },
+    {
+      "german": "der Herr",
+      "english": "man/mr",
+      "indonesian": "tuan",
+      "difficulty": 5,
+      "notes": "Plural: Herren"
+    },
+    {
+      "german": "hören",
+      "english": "to hear",
+      "indonesian": "mendengar",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "ich",
+      "english": "I/me",
+      "indonesian": "saya",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "Ihnen",
+      "english": "(to) you (formal)",
+      "indonesian": "kepada Anda (formal)",
+      "difficulty": 5,
+      "notes": "Wie geht es Ihnen?"
+    },
+    {
+      "german": "ihr",
+      "english": "her/their",
+      "indonesian": "miliknya (perempuan)/milik mereka",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "im",
+      "english": "in",
+      "indonesian": "di dalam",
+      "difficulty": 5,
+      "notes": "Fragen Sie im Kurs."
+    },
+    {
+      "german": "ja",
+      "english": "yes",
+      "indonesian": "ya",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "klar",
+      "english": "of course",
+      "indonesian": "tentu saja",
+      "difficulty": 5,
+      "notes": "Ja, klar."
+    },
+    {
+      "german": "kommen",
+      "english": "to come from",
+      "indonesian": "berasal dari",
+      "difficulty": 5,
+      "notes": "Woher kommst du?"
+    },
+    {
+      "german": "der Kurs",
+      "english": "course",
+      "indonesian": "kursus",
+      "difficulty": 5,
+      "notes": "Plural: Kurse"
+    },
+    {
+      "german": "der Kursteilnehmer",
+      "english": "course participant (male)",
+      "indonesian": "peserta kursus (laki-laki)",
+      "difficulty": 5,
+      "notes": "Plural: Kursteilnehmer"
+    },
+    {
+      "german": "die Kursteilnehmerin",
+      "english": "course participant (female)",
+      "indonesian": "peserta kursus (perempuan)",
+      "difficulty": 5,
+      "notes": "Plural: Kursteilnehmerinnen"
+    },
+    {
+      "german": "das Land",
+      "english": "country",
+      "indonesian": "negara",
+      "difficulty": 5,
+      "notes": "Plural: Länder"
+    },
+    {
+      "german": "lesen",
+      "english": "to read",
+      "indonesian": "membaca",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Mann",
+      "english": "man",
+      "indonesian": "pria",
+      "difficulty": 5,
+      "notes": "Plural: Männer"
+    },
+    {
+      "german": "mein, meine",
+      "english": "my, mine",
+      "indonesian": "milik saya",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "mit",
+      "english": "with",
+      "indonesian": "dengan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "morgen",
+      "english": "tomorrow",
+      "indonesian": "besok",
+      "difficulty": 5,
+      "notes": "Bis morgen!"
+    },
+    {
+      "german": "die Nacht",
+      "english": "night",
+      "indonesian": "malam",
+      "difficulty": 5,
+      "notes": "Plural: Nächte; Gute Nacht!"
+    },
+    {
+      "german": "der Name",
+      "english": "name",
+      "indonesian": "nama",
+      "difficulty": 5,
+      "notes": "Plural: Namen"
+    },
+    {
+      "german": "nein",
+      "english": "no",
+      "indonesian": "tidak",
+      "difficulty": 5,
+      "notes": "Nein, danke."
+    },
+    {
+      "german": "neu",
+      "english": "new",
+      "indonesian": "baru",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "nicht",
+      "english": "not",
+      "indonesian": "tidak",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "oder",
+      "english": "or",
+      "indonesian": "atau",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Person",
+      "english": "person",
+      "indonesian": "orang",
+      "difficulty": 5,
+      "notes": "Plural: Personen"
+    },
+    {
+      "german": "richtig",
+      "english": "correct",
+      "indonesian": "benar",
+      "difficulty": 5,
+      "notes": "Das ist richtig!"
+    },
+    {
+      "german": "der Satz",
+      "english": "sentence",
+      "indonesian": "kalimat",
+      "difficulty": 5,
+      "notes": "Plural: Sätze"
+    },
+    {
+      "german": "schreiben",
+      "english": "to write",
+      "indonesian": "menulis",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "sehr",
+      "english": "very",
+      "indonesian": "sangat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "sein",
+      "english": "to be",
+      "indonesian": "adalah",
+      "difficulty": 5,
+      "notes": "ich bin – du bist – er ist – sie/Sie sind"
+    },
+    {
+      "german": "sie",
+      "english": "they",
+      "indonesian": "mereka",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "Sie",
+      "english": "you (formal)",
+      "indonesian": "Anda (formal)",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "so",
+      "english": "so",
+      "indonesian": "begitu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Sprache",
+      "english": "language",
+      "indonesian": "bahasa",
+      "difficulty": 5,
+      "notes": "Plural: Sprachen"
+    },
+    {
+      "german": "sprechen",
+      "english": "to speak",
+      "indonesian": "berbicara",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "supergut",
+      "english": "very good",
+      "indonesian": "sangat baik",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Tag",
+      "english": "day",
+      "indonesian": "hari",
+      "difficulty": 5,
+      "notes": "Plural: Tage; Guten Tag, Herr Maier."
+    },
+    {
+      "german": "Tschüss",
+      "english": "bye",
+      "indonesian": "selamat tinggal",
+      "difficulty": 5,
+      "notes": "Tschüss, bis bald!"
+    },
+    {
+      "german": "und",
+      "english": "and",
+      "indonesian": "dan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "was",
+      "english": "what",
+      "indonesian": "apa",
+      "difficulty": 5,
+      "notes": "Was machst du morgen?"
+    },
+    {
+      "german": "welche",
+      "english": "which",
+      "indonesian": "yang mana",
+      "difficulty": 5,
+      "notes": "Welche Sprachen sprichst du?"
+    },
+    {
+      "german": "wer",
+      "english": "who",
+      "indonesian": "siapa",
+      "difficulty": 5,
+      "notes": "Wer ist das?"
+    },
+    {
+      "german": "das Wiedersehen",
+      "english": "good bye",
+      "indonesian": "selamat tinggal",
+      "difficulty": 5,
+      "notes": "Auf Wiedersehen!"
+    },
+    {
+      "german": "wie",
+      "english": "how",
+      "indonesian": "bagaimana",
+      "difficulty": 5,
+      "notes": "Wie heißt du?"
+    },
+    {
+      "german": "wissen",
+      "english": "to know",
+      "indonesian": "mengetahui",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "wo",
+      "english": "where",
+      "indonesian": "di mana",
+      "difficulty": 5,
+      "notes": "Wo wohnst du?"
+    },
+    {
+      "german": "woher",
+      "english": "where ... from",
+      "indonesian": "dari mana",
+      "difficulty": 5,
+      "notes": "Woher kommst du?"
+    },
+    {
+      "german": "das Wort",
+      "english": "word",
+      "indonesian": "kata",
+      "difficulty": 5,
+      "notes": "Plural: Wörter"
+    },
+    {
+      "german": "aber",
+      "english": "but",
+      "indonesian": "tetapi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Adresse",
+      "english": "address",
+      "indonesian": "alamat",
+      "difficulty": 5,
+      "notes": "Plural: Adressen"
+    },
+    {
+      "german": "alt",
+      "english": "old",
+      "indonesian": "tua",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "anmelden",
+      "english": "register",
+      "indonesian": "mendaftar",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Anmeldung",
+      "english": "registration",
+      "indonesian": "pendaftaran",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "arbeiten",
+      "english": "to work",
+      "indonesian": "bekerja",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Bild",
+      "english": "image/photo",
+      "indonesian": "gambar/foto",
+      "difficulty": 5,
+      "notes": "Plural: Bilder"
+    },
+    {
+      "german": "der Bruder",
+      "english": "brother",
+      "indonesian": "saudara laki-laki",
+      "difficulty": 5,
+      "notes": "Plural: Brüder"
+    },
+    {
+      "german": "buchstabieren",
+      "english": "to spell",
+      "indonesian": "mengeja",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "dein, deine",
+      "english": "your/yours",
+      "indonesian": "milikmu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "einmal",
+      "english": "once again",
+      "indonesian": "sekali lagi",
+      "difficulty": 5,
+      "notes": "Noch einmal, bitte."
+    }
+  ]
+}

@@ -1,0 +1,652 @@
+{
+  "name": "German B1.1 Part 2",
+  "description": "German vocabulary level B1.1 part 2 from the book \"Einfach gut! Deutsch für die Integration B1.1\"",
+  "date_created": "2025-03-28T12:00:00Z",
+  "source": "telc gGmbH - Einfach gut! Deutsch für die Integration B1.1",
+  "cards": [
+    {
+      "german": "der Wohnwagen",
+      "english": "caravan",
+      "indonesian": "karavan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Zelt",
+      "english": "tent",
+      "indonesian": "tenda",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Zoll",
+      "english": "customs",
+      "indonesian": "bea cukai",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Zuschlag",
+      "english": "fees",
+      "indonesian": "biaya tambahan",
+      "difficulty": 5,
+      "notes": "Plural: Zuschläge"
+    },
+    {
+      "german": "absprechen",
+      "english": "to arrange",
+      "indonesian": "mengatur",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Abstellplatz",
+      "english": "parking space",
+      "indonesian": "tempat parkir",
+      "difficulty": 5,
+      "notes": "Plural: Abstellplätze"
+    },
+    {
+      "german": "akzeptieren",
+      "english": "to accept",
+      "indonesian": "menerima",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "anstreichen",
+      "english": "to paint",
+      "indonesian": "mengecat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Ärger",
+      "english": "trouble",
+      "indonesian": "masalah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "ärgerlich",
+      "english": "annoying",
+      "indonesian": "menjengkelkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Aufregung",
+      "english": "commotion",
+      "indonesian": "keributan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Ausnahme",
+      "english": "exception",
+      "indonesian": "pengecualian",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Balkongeländer",
+      "english": "balcony railing",
+      "indonesian": "pagar balkon",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "befestigen",
+      "english": "to secure",
+      "indonesian": "mengamankan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "behalten",
+      "english": "to keep",
+      "indonesian": "menyimpan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "beleidigen",
+      "english": "to offend",
+      "indonesian": "menyinggung",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Beleidigung",
+      "english": "insult",
+      "indonesian": "penghinaan",
+      "difficulty": 5,
+      "notes": "Plural: Beleidigungen"
+    },
+    {
+      "german": "berechtigt",
+      "english": "justified",
+      "indonesian": "dibenarkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "beschimpfen",
+      "english": "to insult",
+      "indonesian": "menghina",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Beschimpfung",
+      "english": "swear",
+      "indonesian": "umpatan",
+      "difficulty": 5,
+      "notes": "Plural: Beschimpfungen"
+    },
+    {
+      "german": "beschweren",
+      "english": "to complain",
+      "indonesian": "mengeluh",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Blumentopf",
+      "english": "flower pot",
+      "indonesian": "pot bunga",
+      "difficulty": 5,
+      "notes": "Plural: Blumentöpfe"
+    },
+    {
+      "german": "bohren",
+      "english": "to drill",
+      "indonesian": "mengebor",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "deswegen",
+      "english": "that is why",
+      "indonesian": "oleh karena itu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "dumm",
+      "english": "stupid",
+      "indonesian": "bodoh",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "eilig",
+      "english": "urgent",
+      "indonesian": "mendesak",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "einhalten",
+      "english": "to comply",
+      "indonesian": "mematuhi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "einlegen",
+      "english": "to insert",
+      "indonesian": "menyisipkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "einstellen",
+      "english": "to set up",
+      "indonesian": "mengatur",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "enden",
+      "english": "to end",
+      "indonesian": "berakhir",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Entscheidung",
+      "english": "decision",
+      "indonesian": "keputusan",
+      "difficulty": 5,
+      "notes": "Plural: Entscheidungen"
+    },
+    {
+      "german": "entspannend",
+      "english": "relaxing",
+      "indonesian": "menenangkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "entsprechen",
+      "english": "to correspond to",
+      "indonesian": "sesuai dengan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "erhöhen",
+      "english": "to increase",
+      "indonesian": "meningkatkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "erleichtern",
+      "english": "to relieve",
+      "indonesian": "meringankan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "erwähnen",
+      "english": "to mention",
+      "indonesian": "menyebutkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "eskalieren",
+      "english": "to escalate",
+      "indonesian": "meningkat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "exotisch",
+      "english": "exotic",
+      "indonesian": "eksotis",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "fair",
+      "english": "fair",
+      "indonesian": "adil",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "festkleben",
+      "english": "to stick",
+      "indonesian": "menempelkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Freude",
+      "english": "joy",
+      "indonesian": "kegembiraan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Frist",
+      "english": "deadline",
+      "indonesian": "tenggat waktu",
+      "difficulty": 5,
+      "notes": "Plural: Fristen"
+    },
+    {
+      "german": "fristgerecht",
+      "english": "punctual",
+      "indonesian": "tepat waktu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "fristlos",
+      "english": "without notice",
+      "indonesian": "tanpa pemberitahuan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Gemeinschaftsraum",
+      "english": "common room",
+      "indonesian": "ruang bersama",
+      "difficulty": 5,
+      "notes": "Plural: Gemeinschaftsräume"
+    },
+    {
+      "german": "gesetzlich",
+      "english": "legal",
+      "indonesian": "secara hukum",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "hämmern",
+      "english": "to hammer",
+      "indonesian": "memalu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "heizen",
+      "english": "to heat",
+      "indonesian": "memanaskan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Instandhaltung",
+      "english": "maintenance",
+      "indonesian": "pemeliharaan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "klug",
+      "english": "clever",
+      "indonesian": "pintar",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Konflikt",
+      "english": "conflict",
+      "indonesian": "konflik",
+      "difficulty": 5,
+      "notes": "Plural: Konflikte"
+    },
+    {
+      "german": "die Kündigung",
+      "english": "termination",
+      "indonesian": "pemutusan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "lüften",
+      "english": "to air",
+      "indonesian": "menganginkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "massiv",
+      "english": "solid",
+      "indonesian": "masif",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "meckern",
+      "english": "to whinge",
+      "indonesian": "menggerutu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Meerschweinchen",
+      "english": "guinea pig",
+      "indonesian": "marmut",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Mieterhöhung",
+      "english": "rent increase",
+      "indonesian": "kenaikan sewa",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Mietspiegel",
+      "english": "rent index",
+      "indonesian": "indeks sewa",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Mietvertrag",
+      "english": "rental contract",
+      "indonesian": "kontrak sewa",
+      "difficulty": 5,
+      "notes": "Plural: Mietverträge"
+    },
+    {
+      "german": "die Modernisierung",
+      "english": "modernisation",
+      "indonesian": "modernisasi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "nachsehen",
+      "english": "to check",
+      "indonesian": "memeriksa",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "neugierig",
+      "english": "curious",
+      "indonesian": "ingin tahu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "obwohl",
+      "english": "although",
+      "indonesian": "meskipun",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "offenbar",
+      "english": "obvious",
+      "indonesian": "jelas",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "protestieren",
+      "english": "to protest",
+      "indonesian": "memprotes",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Richter/in",
+      "english": "judge",
+      "indonesian": "hakim",
+      "difficulty": 5,
+      "notes": "Plural: Richter/innen"
+    },
+    {
+      "german": "die Rücksicht",
+      "english": "consideration",
+      "indonesian": "pertimbangan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "sammeln",
+      "english": "to collect",
+      "indonesian": "mengumpulkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "sauer",
+      "english": "sour",
+      "indonesian": "asam",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Schaden",
+      "english": "damages",
+      "indonesian": "kerusakan",
+      "difficulty": 5,
+      "notes": "Plural: Schäden"
+    },
+    {
+      "german": "schmutzig",
+      "english": "dirty",
+      "indonesian": "kotor",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "selbstverständlich",
+      "english": "of course",
+      "indonesian": "tentu saja",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "sinnlos",
+      "english": "meaningless",
+      "indonesian": "tidak berarti",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "sinnvoll",
+      "english": "meaningful",
+      "indonesian": "bermakna",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "sortieren",
+      "english": "to sort",
+      "indonesian": "menyortir",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "stinken",
+      "english": "to stink",
+      "indonesian": "berbau busuk",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "streiten",
+      "english": "to argue",
+      "indonesian": "berdebat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "total",
+      "english": "totally",
+      "indonesian": "total",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "treu",
+      "english": "faithful",
+      "indonesian": "setia",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "überlegen",
+      "english": "to think about",
+      "indonesian": "memikirkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "üblich",
+      "english": "normal",
+      "indonesian": "biasa",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "unglaublich",
+      "english": "unbelievable",
+      "indonesian": "tidak dapat dipercaya",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Unrecht",
+      "english": "unjust",
+      "indonesian": "ketidakadilan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Urteil",
+      "english": "judgement",
+      "indonesian": "keputusan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "vergleichbar",
+      "english": "comparable",
+      "indonesian": "sebanding",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "verpflichten",
+      "english": "to compel",
+      "indonesian": "mewajibkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Verständnis",
+      "english": "understanding",
+      "indonesian": "pemahaman",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Verstoß",
+      "english": "violation",
+      "indonesian": "pelanggaran",
+      "difficulty": 5,
+      "notes": "Plural: Verstöße"
+    },
+    {
+      "german": "verstoßen",
+      "english": "to violate",
+      "indonesian": "melanggar",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "völlig",
+      "english": "completely",
+      "indonesian": "sepenuhnya",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "vorher",
+      "english": "before",
+      "indonesian": "sebelumnya",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "wegräumen",
+      "english": "to clear away",
+      "indonesian": "membereskan",
+      "difficulty": 5,
+      "notes": ""
+    }
+  ]
+}

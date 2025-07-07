@@ -1,0 +1,645 @@
+{
+  "name": "German B1.1 Part 6",
+  "description": "German vocabulary level B1.1 part 6 from the book \"Einfach gut! Deutsch für die Integration B1.1\"",
+  "date_created": "2025-03-28T12:00:00Z",
+  "source": "telc gGmbH - Einfach gut! Deutsch für die Integration B1.1",
+  "cards": [
+    {
+      "german": "das Tor",
+      "english": "goal",
+      "indonesian": "gol",
+      "difficulty": 5,
+      "notes": "Plural: Tore"
+    },
+    {
+      "german": "der/die Torwart/in",
+      "english": "goalee",
+      "indonesian": "penjaga gawang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Tote",
+      "english": "dead people",
+      "indonesian": "orang mati",
+      "difficulty": 5,
+      "notes": "Plural: Toten"
+    },
+    {
+      "german": "die Übertragung",
+      "english": "transmission",
+      "indonesian": "transmisi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "unentschieden",
+      "english": "undecided",
+      "indonesian": "seri",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "ungesund",
+      "english": "unhealthy",
+      "indonesian": "tidak sehat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Unterhaltung",
+      "english": "entertainment",
+      "indonesian": "hiburan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Verlierer/in",
+      "english": "loser",
+      "indonesian": "pecundang",
+      "difficulty": 5,
+      "notes": "Plural: Verlierer/innen"
+    },
+    {
+      "german": "die Weltmeisterschaft (WM)",
+      "english": "World cup",
+      "indonesian": "Piala Dunia",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "weshalb",
+      "english": "which is why",
+      "indonesian": "alasan mengapa",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "zappen",
+      "english": "to channel surf",
+      "indonesian": "gonta-ganti saluran",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Zeichentrickfilm",
+      "english": "animated film",
+      "indonesian": "film animasi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Zeitverschwendung",
+      "english": "waste of time",
+      "indonesian": "buang-buang waktu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Zuschauer/in",
+      "english": "viewer",
+      "indonesian": "penonton",
+      "difficulty": 5,
+      "notes": "Plural: Zuschauer/innen"
+    },
+    {
+      "german": "der/die Alliierte",
+      "english": "allies",
+      "indonesian": "sekutu",
+      "difficulty": 5,
+      "notes": "Plural: Alliierten"
+    },
+    {
+      "german": "die Amtssprache",
+      "english": "official language",
+      "indonesian": "bahasa resmi",
+      "difficulty": 5,
+      "notes": "Plural: Amtssprachen"
+    },
+    {
+      "german": "anfangs",
+      "english": "initially",
+      "indonesian": "pada awalnya",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "anheben",
+      "english": "to raise",
+      "indonesian": "menaikkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Arbeitskraft",
+      "english": "workforce",
+      "indonesian": "tenaga kerja",
+      "difficulty": 5,
+      "notes": "Plural: Arbeitskräfte"
+    },
+    {
+      "german": "die Arbeitslosigkeit",
+      "english": "unemployment",
+      "indonesian": "pengangguran",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Astronaut/in",
+      "english": "astronaut",
+      "indonesian": "astronot",
+      "difficulty": 5,
+      "notes": "Plural: Astronauten/Astronautinnen"
+    },
+    {
+      "german": "das Asyl",
+      "english": "asylum",
+      "indonesian": "suaka",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "aufschreiben",
+      "english": "to write down",
+      "indonesian": "mencatat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "aufteilen",
+      "english": "to divide",
+      "indonesian": "membagi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Auswanderer",
+      "english": "emigrant",
+      "indonesian": "emigran",
+      "difficulty": 5,
+      "notes": "Plural: Auswanderer"
+    },
+    {
+      "german": "die Auswanderung",
+      "english": "emigration",
+      "indonesian": "emigrasi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Besatzungszone",
+      "english": "occupied zone",
+      "indonesian": "zona pendudukan",
+      "difficulty": 5,
+      "notes": "Plural: Besatzungszonen"
+    },
+    {
+      "german": "besiegen",
+      "english": "to conquer",
+      "indonesian": "menaklukkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Bundeskanzler/in",
+      "english": "federal chancellor",
+      "indonesian": "kanselir federal",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Bundesrepublik (BRD)",
+      "english": "federal republic (FRG)",
+      "indonesian": "republik federal",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Bürger/in",
+      "english": "citizen",
+      "indonesian": "warga negara",
+      "difficulty": 5,
+      "notes": "Plural: Bürger/innen"
+    },
+    {
+      "german": "der Bürgerkrieg",
+      "english": "civil war",
+      "indonesian": "perang saudara",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Demokratie",
+      "english": "democracy",
+      "indonesian": "demokrasi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "demokratisch",
+      "english": "democratic",
+      "indonesian": "demokratis",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Demonstration",
+      "english": "demonstration",
+      "indonesian": "demonstrasi",
+      "difficulty": 5,
+      "notes": "Plural: Demonstrationen"
+    },
+    {
+      "german": "die Deutsche Demokratische Republik (DDR)",
+      "english": "German democratic republic (GDR)",
+      "indonesian": "Republik Demokratik Jerman",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "ehemalig",
+      "english": "former",
+      "indonesian": "mantan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "einführen",
+      "english": "to introduce",
+      "indonesian": "memperkenalkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "einsperren",
+      "english": "to confine",
+      "indonesian": "mengurung",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Einwanderung",
+      "english": "immigration",
+      "indonesian": "imigrasi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "emotional",
+      "english": "emotional",
+      "indonesian": "emosional",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "entwickeln",
+      "english": "to develop",
+      "indonesian": "mengembangkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "erinnern",
+      "english": "to remember",
+      "indonesian": "mengingat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Erinnerung",
+      "english": "memory",
+      "indonesian": "ingatan",
+      "difficulty": 5,
+      "notes": "Plural: Erinnerungen"
+    },
+    {
+      "german": "ernähren",
+      "english": "to feed",
+      "indonesian": "memberi makan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Europäische Union (EU)",
+      "english": "European union",
+      "indonesian": "Uni Eropa",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Euroeinführung",
+      "english": "introduction of the Euro",
+      "indonesian": "pengenalan Euro",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Flüchtling",
+      "english": "refugee",
+      "indonesian": "pengungsi",
+      "difficulty": 5,
+      "notes": "Plural: Flüchtlinge"
+    },
+    {
+      "german": "fördern",
+      "english": "to promote",
+      "indonesian": "mempromosikan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Fremdsprache",
+      "english": "foreign language",
+      "indonesian": "bahasa asing",
+      "difficulty": 5,
+      "notes": "Plural: Fremdsprachen"
+    },
+    {
+      "german": "friedlich",
+      "english": "peaceful",
+      "indonesian": "damai",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Gastarbeiter/in",
+      "english": "guest worker",
+      "indonesian": "pekerja tamu",
+      "difficulty": 5,
+      "notes": "Plural: Gastarbeiter/innen"
+    },
+    {
+      "german": "das Gefühl",
+      "english": "feeling",
+      "indonesian": "perasaan",
+      "difficulty": 5,
+      "notes": "Plural: Gefühle"
+    },
+    {
+      "german": "der/die Gegner/in",
+      "english": "opponent",
+      "indonesian": "lawan",
+      "difficulty": 5,
+      "notes": "Plural: Gegner/innen"
+    },
+    {
+      "german": "das Gehalt",
+      "english": "salary",
+      "indonesian": "gaji",
+      "difficulty": 5,
+      "notes": "Plural: Gehälter"
+    },
+    {
+      "german": "das Gewürz",
+      "english": "spice",
+      "indonesian": "rempah-rempah",
+      "difficulty": 5,
+      "notes": "Plural: Gewürze"
+    },
+    {
+      "german": "die Grenze",
+      "english": "border",
+      "indonesian": "perbatasan",
+      "difficulty": 5,
+      "notes": "Plural: Grenzen"
+    },
+    {
+      "german": "gründen",
+      "english": "to establish",
+      "indonesian": "mendirikan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "hart",
+      "english": "hard",
+      "indonesian": "keras",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Hauptstadt",
+      "english": "capital city",
+      "indonesian": "ibu kota",
+      "difficulty": 5,
+      "notes": "Plural: Hauptstädte"
+    },
+    {
+      "german": "die Heimat",
+      "english": "home country",
+      "indonesian": "tanah air",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Industrie",
+      "english": "industry",
+      "indonesian": "industri",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "irgendwann",
+      "english": "at some point",
+      "indonesian": "suatu saat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "jahrelang",
+      "english": "for years",
+      "indonesian": "selama bertahun-tahun",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Jahrhundert",
+      "english": "century",
+      "indonesian": "abad",
+      "difficulty": 5,
+      "notes": "Plural: Jahrhunderte"
+    },
+    {
+      "german": "das Jahrzehnt",
+      "english": "decade",
+      "indonesian": "dekade",
+      "difficulty": 5,
+      "notes": "Plural: Jahrzehnte"
+    },
+    {
+      "german": "der/die Jude/Jüdin",
+      "english": "jew",
+      "indonesian": "orang Yahudi",
+      "difficulty": 5,
+      "notes": "Plural: Juden/Jüdinnen"
+    },
+    {
+      "german": "kaum",
+      "english": "hardly",
+      "indonesian": "hampir tidak",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Kindheit",
+      "english": "childhood",
+      "indonesian": "masa kecil",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Krieg",
+      "english": "war",
+      "indonesian": "perang",
+      "difficulty": 5,
+      "notes": "Plural: Kriege"
+    },
+    {
+      "german": "das Kriegsende",
+      "english": "end of war",
+      "indonesian": "akhir perang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Krippe",
+      "english": "crib",
+      "indonesian": "tempat tidur bayi",
+      "difficulty": 5,
+      "notes": "Plural: Krippen"
+    },
+    {
+      "german": "der/die Kritiker/in",
+      "english": "critic",
+      "indonesian": "kritikus",
+      "difficulty": 5,
+      "notes": "Plural: Kritiker/innen"
+    },
+    {
+      "german": "die Mauer",
+      "english": "wall",
+      "indonesian": "tembok",
+      "difficulty": 5,
+      "notes": "Plural: Mauern"
+    },
+    {
+      "german": "der Mauerbau",
+      "english": "building of the wall",
+      "indonesian": "pembangunan tembok",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Mauerfall",
+      "english": "fall of the Berlin wall",
+      "indonesian": "runtuhnya Tembok Berlin",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Medizin",
+      "english": "medicine",
+      "indonesian": "kedokteran",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "merken",
+      "english": "to realise",
+      "indonesian": "menyadari",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Migration",
+      "english": "migration",
+      "indonesian": "migrasi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "miteinander",
+      "english": "together",
+      "indonesian": "bersama-sama",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "miterleben",
+      "english": "to experience with",
+      "indonesian": "mengalami bersama",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "musikalisch",
+      "english": "musical",
+      "indonesian": "musikal",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Muttersprache",
+      "english": "native language",
+      "indonesian": "bahasa ibu",
+      "difficulty": 5,
+      "notes": "Plural: Muttersprachen"
+    },
+    {
+      "german": "die Nachkriegszeit",
+      "english": "post-war years",
+      "indonesian": "tahun-tahun pasca perang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Nationalsozialismus",
+      "english": "national socialism",
+      "indonesian": "nasional sosialisme",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die NATO",
+      "english": "NATO",
+      "indonesian": "NATO",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Notunterkunft",
+      "english": "emergency accommodation",
+      "indonesian": "penampungan darurat",
+      "difficulty": 5,
+      "notes": "Plural: Notunterkünfte"
+    },
+    {
+      "german": "die Öffnung",
+      "english": "opening",
+      "indonesian": "pembukaan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Phase",
+      "english": "phase",
+      "indonesian": "fase",
+      "difficulty": 5,
+      "notes": "Plural: Phasen"
+    },
+    {
+      "german": "politisch",
+      "english": "political",
+      "indonesian": "politis",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Protest",
+      "english": "protest",
+      "indonesian": "protes",
+      "difficulty": 5,
+      "notes": "Plural: Proteste"
+    }
+  ]
+}

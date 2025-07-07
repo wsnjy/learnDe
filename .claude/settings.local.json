@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc:*)",
+      "Bash(mkdir:*)",
+      "Bash(npm install:*)",
+      "Bash(pkill:*)",
+      "Bash(python3:*)"
+    ],
+    "deny": []
+  }
+}

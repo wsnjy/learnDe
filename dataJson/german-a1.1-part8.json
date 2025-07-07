@@ -1,0 +1,113 @@
+{
+  "name": "German A1 Part 8",
+  "description": "German vocabulary level A1 part 8 from the book \"Einfach gut! Deutsch für die Integration\"",
+  "date_created": "2025-03-28T12:00:00Z",
+  "source": "telc gGmbH - Einfach gut! Deutsch für die Integration A1.1",
+  "cards": [
+    {
+      "german": "der Tropfen",
+      "english": "drops",
+      "indonesian": "tetes",
+      "difficulty": 5,
+      "notes": "Plural: Tropfen"
+    },
+    {
+      "german": "die Unterschrift",
+      "english": "signature",
+      "indonesian": "tanda tangan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Untersuchung",
+      "english": "examination",
+      "indonesian": "pemeriksaan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Verband",
+      "english": "association/bandage",
+      "indonesian": "pembalut/asosiasi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "verschieden",
+      "english": "different",
+      "indonesian": "berbeda",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Vorsorge",
+      "english": "prevention",
+      "indonesian": "pencegahan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Wartezimmer",
+      "english": "waiting room",
+      "indonesian": "ruang tunggu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Wechsel",
+      "english": "change",
+      "indonesian": "perubahan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "wechseln",
+      "english": "to change",
+      "indonesian": "mengubah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "wehtun",
+      "english": "to hurt",
+      "indonesian": "sakit",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "wieder",
+      "english": "again",
+      "indonesian": "lagi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "wiederkommen",
+      "english": "to come again",
+      "indonesian": "datang lagi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Zahn",
+      "english": "tooth",
+      "indonesian": "gigi",
+      "difficulty": 5,
+      "notes": "Plural: Zähne"
+    },
+    {
+      "german": "der Zeh",
+      "english": "toe",
+      "indonesian": "jari kaki",
+      "difficulty": 5,
+      "notes": "Plural: Zehen"
+    },
+    {
+      "german": "zurzeit",
+      "english": "currently",
+      "indonesian": "saat ini",
+      "difficulty": 5,
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,666 @@
+{
+  "name": "German A2 Part 1",
+  "description": "German vocabulary level A2 part 1 from the book \"Einfach gut! Deutsch für die Integration A2.2\"",
+  "date_created": "2025-03-28T12:00:00Z",
+  "source": "telc gGmbH - Einfach gut! Deutsch für die Integration A2.2",
+  "cards": [
+    {
+      "german": "die Accessoires",
+      "english": "accessories",
+      "indonesian": "aksesoris",
+      "difficulty": 5,
+      "notes": "Plural"
+    },
+    {
+      "german": "anhaben",
+      "english": "to be wearing",
+      "indonesian": "mengenakan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Apfelschorle",
+      "english": "apple spritzer",
+      "indonesian": "minuman soda apel",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Aubergine",
+      "english": "aubergine",
+      "indonesian": "terong",
+      "difficulty": 5,
+      "notes": "Plural: Auberginen"
+    },
+    {
+      "german": "die Ausrüstung",
+      "english": "equipment",
+      "indonesian": "perlengkapan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Babyartikel",
+      "english": "baby items",
+      "indonesian": "barang bayi",
+      "difficulty": 5,
+      "notes": "Plural: Babyartikel"
+    },
+    {
+      "german": "die Badesachen",
+      "english": "swimwear",
+      "indonesian": "pakaian renang",
+      "difficulty": 5,
+      "notes": "Plural"
+    },
+    {
+      "german": "der Bart",
+      "english": "beard",
+      "indonesian": "janggut",
+      "difficulty": 5,
+      "notes": "Plural: Bärte"
+    },
+    {
+      "german": "die Bekleidung",
+      "english": "clothing",
+      "indonesian": "pakaian",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "bestimmt",
+      "english": "surely",
+      "indonesian": "pasti",
+      "difficulty": 5,
+      "notes": "Der Mantel ist bestimmt sehr teuer."
+    },
+    {
+      "german": "blond",
+      "english": "blond",
+      "indonesian": "pirang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "braten",
+      "english": "to roast",
+      "indonesian": "memanggang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "bummeln",
+      "english": "to stroll",
+      "indonesian": "berjalan-jalan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "bunt",
+      "english": "colourful",
+      "indonesian": "berwarna",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Camping",
+      "english": "camping",
+      "indonesian": "berkemah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Champignon",
+      "english": "mushroom",
+      "indonesian": "jamur",
+      "difficulty": 5,
+      "notes": "Plural: Champignons"
+    },
+    {
+      "german": "die Currywurst",
+      "english": "currywurst",
+      "indonesian": "sosis kari",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Dame",
+      "english": "lady",
+      "indonesian": "nyonya",
+      "difficulty": 5,
+      "notes": "Plural: Damen"
+    },
+    {
+      "german": "darin",
+      "english": "in it",
+      "indonesian": "di dalamnya",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "dick",
+      "english": "fat",
+      "indonesian": "gemuk",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Dieb/in",
+      "english": "thief",
+      "indonesian": "pencuri",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Ding",
+      "english": "thing",
+      "indonesian": "benda",
+      "difficulty": 5,
+      "notes": "Plural: Dinge"
+    },
+    {
+      "german": "der Duft",
+      "english": "smell",
+      "indonesian": "bau/aroma",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "dünn",
+      "english": "thin",
+      "indonesian": "kurus",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Duschgel",
+      "english": "shower gel",
+      "indonesian": "sabun mandi cair",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "egal",
+      "english": "equal",
+      "indonesian": "sama saja",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Ehepaar",
+      "english": "married couple",
+      "indonesian": "pasangan suami istri",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "einfarbig",
+      "english": "monochromatic",
+      "indonesian": "satu warna",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Elektronik",
+      "english": "electronics",
+      "indonesian": "elektronik",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Fahrradhelm",
+      "english": "cycle helmet",
+      "indonesian": "helm sepeda",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "fantastisch",
+      "english": "fantastic",
+      "indonesian": "fantastis",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Fast Food",
+      "english": "fast food",
+      "indonesian": "makanan cepat saji",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Flipflops",
+      "english": "flip flops",
+      "indonesian": "sandal jepit",
+      "difficulty": 5,
+      "notes": "Plural"
+    },
+    {
+      "german": "frittieren",
+      "english": "to fry",
+      "indonesian": "menggoreng",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Gemüselasagne",
+      "english": "vegetable lasagne",
+      "indonesian": "lasagna sayuran",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "gepunktet",
+      "english": "spotty",
+      "indonesian": "berbintik-bintik",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Gericht",
+      "english": "meal",
+      "indonesian": "hidangan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "gestreift",
+      "english": "striped",
+      "indonesian": "bergaris",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "glatt",
+      "english": "smooth",
+      "indonesian": "halus",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Glatze",
+      "english": "bald head",
+      "indonesian": "kepala botak",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Gold",
+      "english": "gold",
+      "indonesian": "emas",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "griechisch",
+      "english": "Greek",
+      "indonesian": "Yunani",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Gulaschsuppe",
+      "english": "goulash soup",
+      "indonesian": "sup gulash",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Gürtel",
+      "english": "belt",
+      "indonesian": "sabuk",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Haarpflege",
+      "english": "hair care",
+      "indonesian": "perawatan rambut",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Hauptgericht",
+      "english": "main meal",
+      "indonesian": "hidangan utama",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Hautpflege",
+      "english": "skin care",
+      "indonesian": "perawatan kulit",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "hübsch",
+      "english": "pretty",
+      "indonesian": "cantik",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Kamera",
+      "english": "camera",
+      "indonesian": "kamera",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "kariert",
+      "english": "checkered",
+      "indonesian": "kotak-kotak",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Kompliment",
+      "english": "compliment",
+      "indonesian": "pujian",
+      "difficulty": 5,
+      "notes": "Plural: Komplimente"
+    },
+    {
+      "german": "der Kopfhörer",
+      "english": "headphones",
+      "indonesian": "headphone",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Kosmetiktasche",
+      "english": "cosmetic bag",
+      "indonesian": "tas kosmetik",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Krawatte",
+      "english": "tie",
+      "indonesian": "dasi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Küchengerät",
+      "english": "kitchen appliance",
+      "indonesian": "peralatan dapur",
+      "difficulty": 5,
+      "notes": "Plural: Küchengeräte"
+    },
+    {
+      "german": "laufen",
+      "english": "to run",
+      "indonesian": "berlari",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Lieblingsfarbe",
+      "english": "favourite colour",
+      "indonesian": "warna favorit",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "lockig",
+      "english": "curly",
+      "indonesian": "keriting",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Make-up",
+      "english": "make up",
+      "indonesian": "riasan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Maus",
+      "english": "mouse",
+      "indonesian": "tikus",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Mineralwasser",
+      "english": "mineral water",
+      "indonesian": "air mineral",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Modegeschäft",
+      "english": "fashion shop",
+      "indonesian": "toko mode",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Modeschmuck",
+      "english": "fashion jewellry",
+      "indonesian": "perhiasan fashion",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "nachher",
+      "english": "afterwards",
+      "indonesian": "setelah itu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Naturkosmetik",
+      "english": "natural cosmetics",
+      "indonesian": "kosmetik alami",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Navigationsgerät",
+      "english": "navigation device",
+      "indonesian": "alat navigasi",
+      "difficulty": 5,
+      "notes": "Auch: Navi"
+    },
+    {
+      "german": "der Ofen",
+      "english": "oven",
+      "indonesian": "oven",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Ohrring",
+      "english": "earring",
+      "indonesian": "anting",
+      "difficulty": 5,
+      "notes": "Plural: Ohrringe"
+    },
+    {
+      "german": "die Parfümerie",
+      "english": "perfumery",
+      "indonesian": "toko parfum",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Pfanne",
+      "english": "pan",
+      "indonesian": "wajan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "plötzlich",
+      "english": "suddenly",
+      "indonesian": "tiba-tiba",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Polizist/in",
+      "english": "policeman",
+      "indonesian": "polisi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Schafskäse",
+      "english": "feta cheese",
+      "indonesian": "keju feta",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "scharf",
+      "english": "spicy",
+      "indonesian": "pedas",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "schauen",
+      "english": "to look",
+      "indonesian": "melihat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Schaufenster",
+      "english": "shop window",
+      "indonesian": "etalase toko",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "schick",
+      "english": "chic",
+      "indonesian": "elegan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "schlank",
+      "english": "slim",
+      "indonesian": "ramping",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Schmuck",
+      "english": "jewellry",
+      "indonesian": "perhiasan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Schnäppchen",
+      "english": "deal",
+      "indonesian": "barang murah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Schnitzel",
+      "english": "schnitzel",
+      "indonesian": "schnitzel",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Schnurrbart",
+      "english": "moustache",
+      "indonesian": "kumis",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Schrei",
+      "english": "scream",
+      "indonesian": "teriakan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Schuhgröße",
+      "english": "shoe size",
+      "indonesian": "ukuran sepatu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Shorts",
+      "english": "shorts",
+      "indonesian": "celana pendek",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Silber",
+      "english": "silver",
+      "indonesian": "perak",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Snack",
+      "english": "snack",
+      "indonesian": "camilan",
+      "difficulty": 5,
+      "notes": "Plural: Snacks"
+    },
+    {
+      "german": "die Spielwaren",
+      "english": "toys",
+      "indonesian": "mainan",
+      "difficulty": 5,
+      "notes": "Plural"
+    },
+    {
+      "german": "das Steak",
+      "english": "steak",
+      "indonesian": "steak",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "stehlen",
+      "english": "to steal",
+      "indonesian": "mencuri",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Stiefel",
+      "english": "boot",
+      "indonesian": "sepatu bot",
+      "difficulty": 5,
+      "notes": "Plural: Stiefel"
+    },
+    {
+      "german": "die Süßigkeiten",
+      "english": "sweets",
+      "indonesian": "permen",
+      "difficulty": 5,
+      "notes": "Plural"
+    },
+    {
+      "german": "das Tattoo",
+      "english": "tattoo",
+      "indonesian": "tato",
+      "difficulty": 5,
+      "notes": "Plural: Tattoos"
+    },
+    {
+      "german": "der Toaster",
+      "english": "toaster",
+      "indonesian": "pemanggang roti",
+      "difficulty": 5,
+      "notes": ""
+    }
+  ]
+}

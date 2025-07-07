@@ -1,0 +1,155 @@
+{
+  "name": "German B1.1 Part 7",
+  "description": "German vocabulary level B1.1 part 7 from the book \"Einfach gut! Deutsch für die Integration B1.1\"",
+  "date_created": "2025-03-28T12:00:00Z",
+  "source": "telc gGmbH - Einfach gut! Deutsch für die Integration B1.1",
+  "cards": [
+    {
+      "german": "die Regierung",
+      "english": "government",
+      "indonesian": "pemerintah",
+      "difficulty": 5,
+      "notes": "Plural: Regierungen"
+    },
+    {
+      "german": "die Republik",
+      "english": "republic",
+      "indonesian": "republik",
+      "difficulty": 5,
+      "notes": "Plural: Republiken"
+    },
+    {
+      "german": "der/die Russlanddeutsche",
+      "english": "German-Russian",
+      "indonesian": "Jerman-Rusia",
+      "difficulty": 5,
+      "notes": "Plural: Russlanddeutschen"
+    },
+    {
+      "german": "der Staat",
+      "english": "state",
+      "indonesian": "negara",
+      "difficulty": 5,
+      "notes": "Plural: Staaten"
+    },
+    {
+      "german": "die Staatsgründung",
+      "english": "formation of a state",
+      "indonesian": "pembentukan negara",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Stipendium",
+      "english": "scholarship",
+      "indonesian": "beasiswa",
+      "difficulty": 5,
+      "notes": "Plural: Stipendien"
+    },
+    {
+      "german": "tatsächlich",
+      "english": "actual",
+      "indonesian": "sebenarnya",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Teilung",
+      "english": "division",
+      "indonesian": "pembagian",
+      "difficulty": 5,
+      "notes": "Plural: Teilungen"
+    },
+    {
+      "german": "verdrängen",
+      "english": "to suppress",
+      "indonesian": "menekan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "vereinigen",
+      "english": "to unite",
+      "indonesian": "menyatukan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "verfolgen",
+      "english": "to follow",
+      "indonesian": "mengikuti",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "verhaften",
+      "english": "to arrest",
+      "indonesian": "menangkap",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "verlängern",
+      "english": "to extend",
+      "indonesian": "memperpanjang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "verlassen",
+      "english": "to leave",
+      "indonesian": "meninggalkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "vermischen",
+      "english": "to mix",
+      "indonesian": "mencampur",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Visum",
+      "english": "visa",
+      "indonesian": "visa",
+      "difficulty": 5,
+      "notes": "Plural: Visa"
+    },
+    {
+      "german": "das Weltall",
+      "english": "space",
+      "indonesian": "angkasa",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "wiedervereinigen",
+      "english": "to re-unify",
+      "indonesian": "menyatukan kembali",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Wiedervereinigung",
+      "english": "reunification",
+      "indonesian": "penyatuan kembali",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "zerschlagen",
+      "english": "to destroy",
+      "indonesian": "menghancurkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "zurückkehren",
+      "english": "to return",
+      "indonesian": "kembali",
+      "difficulty": 5,
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,624 @@
+{
+  "name": "German A1.2 Part 2",
+  "description": "German vocabulary level A1.2 part 2 from the book \"Einfach gut! Deutsch für die Integration\"",
+  "date_created": "2025-03-28T12:00:00Z",
+  "source": "telc gGmbH - Einfach gut! Deutsch für die Integration A1.2",
+  "cards": [
+    {
+      "german": "verstanden",
+      "english": "understood",
+      "indonesian": "dimengerti",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "verzögern",
+      "english": "to hesitate",
+      "indonesian": "menunda",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Volkshochschule (VHS)",
+      "english": "adult education centre",
+      "indonesian": "pusat pendidikan orang dewasa",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "voll",
+      "english": "full",
+      "indonesian": "penuh",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "vorbei",
+      "english": "past/over",
+      "indonesian": "lewat/selesai",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "vorne",
+      "english": "at the front",
+      "indonesian": "di depan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "warten",
+      "english": "to wait",
+      "indonesian": "menunggu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Weg",
+      "english": "path",
+      "indonesian": "jalan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Winter",
+      "english": "winter",
+      "indonesian": "musim dingin",
+      "difficulty": 5,
+      "notes": "Plural: Winter"
+    },
+    {
+      "german": "der Wochenmarkt",
+      "english": "weekly market",
+      "indonesian": "pasar mingguan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "wohin",
+      "english": "where to",
+      "indonesian": "ke mana",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "wollen",
+      "english": "to want",
+      "indonesian": "ingin",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Zug",
+      "english": "train",
+      "indonesian": "kereta",
+      "difficulty": 5,
+      "notes": "Plural: Züge"
+    },
+    {
+      "german": "zweimal",
+      "english": "twice",
+      "indonesian": "dua kali",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "zweite",
+      "english": "second",
+      "indonesian": "kedua",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "zwischen",
+      "english": "between",
+      "indonesian": "di antara",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "anfangen",
+      "english": "to start",
+      "indonesian": "memulai",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Arbeitstag",
+      "english": "work day",
+      "indonesian": "hari kerja",
+      "difficulty": 5,
+      "notes": "Plural: Arbeitstage"
+    },
+    {
+      "german": "die Ausbildung",
+      "english": "education",
+      "indonesian": "pendidikan",
+      "difficulty": 5,
+      "notes": "Plural: Ausbildungen"
+    },
+    {
+      "german": "ausfüllen",
+      "english": "to fill out",
+      "indonesian": "mengisi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Aushilfe",
+      "english": "help",
+      "indonesian": "bantuan",
+      "difficulty": 5,
+      "notes": "Plural: Aushilfen"
+    },
+    {
+      "german": "der Automechaniker",
+      "english": "car mechanic (male)",
+      "indonesian": "montir mobil (laki-laki)",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Automechanikerin",
+      "english": "car mechanic (female)",
+      "indonesian": "montir mobil (perempuan)",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "backen",
+      "english": "to bake",
+      "indonesian": "memanggang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Bäcker",
+      "english": "baker (male)",
+      "indonesian": "tukang roti (laki-laki)",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Bäckerin",
+      "english": "baker (female)",
+      "indonesian": "tukang roti (perempuan)",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "bald",
+      "english": "soon",
+      "indonesian": "segera",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "berichten",
+      "english": "to report",
+      "indonesian": "melaporkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Beruf",
+      "english": "career",
+      "indonesian": "karir",
+      "difficulty": 5,
+      "notes": "Plural: Berufe"
+    },
+    {
+      "german": "beruflich",
+      "english": "professionally",
+      "indonesian": "secara profesional",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Bürokauffrau",
+      "english": "office administrator (female)",
+      "indonesian": "administrator kantor (perempuan)",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Bürokaufmann",
+      "english": "office administrator (male)",
+      "indonesian": "administrator kantor (laki-laki)",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Chef",
+      "english": "boss (male)",
+      "indonesian": "bos (laki-laki)",
+      "difficulty": 5,
+      "notes": "Plural: Chefs"
+    },
+    {
+      "german": "die Chefin",
+      "english": "boss (female)",
+      "indonesian": "bos (perempuan)",
+      "difficulty": 5,
+      "notes": "Plural: Chefinnen"
+    },
+    {
+      "german": "das Computerprogramm",
+      "english": "computer programme",
+      "indonesian": "program komputer",
+      "difficulty": 5,
+      "notes": "Plural: Computerprogramme"
+    },
+    {
+      "german": "das Computersystem",
+      "english": "computer system",
+      "indonesian": "sistem komputer",
+      "difficulty": 5,
+      "notes": "Plural: Computersysteme"
+    },
+    {
+      "german": "dauern",
+      "english": "to last",
+      "indonesian": "berlangsung",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "dreimal",
+      "english": "three times",
+      "indonesian": "tiga kali",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Fahrer",
+      "english": "driver",
+      "indonesian": "pengemudi",
+      "difficulty": 5,
+      "notes": "Plural: Fahrer"
+    },
+    {
+      "german": "fangen",
+      "english": "to catch",
+      "indonesian": "menangkap",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Feierabend",
+      "english": "finishing time",
+      "indonesian": "waktu pulang kerja",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "flexibel",
+      "english": "flexible",
+      "indonesian": "fleksibel",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "fotografieren",
+      "english": "to photograph",
+      "indonesian": "memotret",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "freundlich",
+      "english": "friendly",
+      "indonesian": "ramah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Führerschein",
+      "english": "driver's license",
+      "indonesian": "SIM",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Fußballspieler",
+      "english": "football player",
+      "indonesian": "pemain sepak bola",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Gitarre",
+      "english": "guitar",
+      "indonesian": "gitar",
+      "difficulty": 5,
+      "notes": "Plural: Gitarren"
+    },
+    {
+      "german": "halbtags",
+      "english": "halfdays",
+      "indonesian": "paruh waktu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Hausfrau",
+      "english": "housewife",
+      "indonesian": "ibu rumah tangga",
+      "difficulty": 5,
+      "notes": "Plural: Hausfrauen"
+    },
+    {
+      "german": "der Hausmann",
+      "english": "househusband",
+      "indonesian": "bapak rumah tangga",
+      "difficulty": 5,
+      "notes": "Plural: Hausmänner"
+    },
+    {
+      "german": "der Hund",
+      "english": "dog",
+      "indonesian": "anjing",
+      "difficulty": 5,
+      "notes": "Plural: Hunde"
+    },
+    {
+      "german": "installieren",
+      "english": "to install",
+      "indonesian": "menginstal",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Kantine",
+      "english": "cantine",
+      "indonesian": "kantin",
+      "difficulty": 5,
+      "notes": "Plural: Kantinen"
+    },
+    {
+      "german": "kaputt",
+      "english": "broken",
+      "indonesian": "rusak",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Kasse",
+      "english": "cash register",
+      "indonesian": "kasir",
+      "difficulty": 5,
+      "notes": "Plural: Kassen"
+    },
+    {
+      "german": "der Kassierer",
+      "english": "cashier (male)",
+      "indonesian": "kasir (laki-laki)",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Kassiererin",
+      "english": "cashier (female)",
+      "indonesian": "kasir (perempuan)",
+      "difficulty": 5,
+      "notes": "Plural: Kassiererinnen"
+    },
+    {
+      "german": "die Kauffrau",
+      "english": "business woman",
+      "indonesian": "wanita bisnis",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Kellner",
+      "english": "waiter (male)",
+      "indonesian": "pelayan (laki-laki)",
+      "difficulty": 5,
+      "notes": "Plural: Kellner"
+    },
+    {
+      "german": "die Kellnerin",
+      "english": "waiter (female)",
+      "indonesian": "pelayan (perempuan)",
+      "difficulty": 5,
+      "notes": "Plural: Kellnerinnen"
+    },
+    {
+      "german": "klingeln",
+      "english": "to ring",
+      "indonesian": "berdering",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Koch",
+      "english": "chef (male)",
+      "indonesian": "koki (laki-laki)",
+      "difficulty": 5,
+      "notes": "Plural: Köche"
+    },
+    {
+      "german": "die Köchin",
+      "english": "chef (female)",
+      "indonesian": "koki (perempuan)",
+      "difficulty": 5,
+      "notes": "Plural: Köchinnen"
+    },
+    {
+      "german": "der Kollege",
+      "english": "colleague (male)",
+      "indonesian": "kolega (laki-laki)",
+      "difficulty": 5,
+      "notes": "Plural: Kollegen"
+    },
+    {
+      "german": "die Kollegin",
+      "english": "colleague (female)",
+      "indonesian": "kolega (perempuan)",
+      "difficulty": 5,
+      "notes": "Plural: Kolleginnen"
+    },
+    {
+      "german": "das Konzert",
+      "english": "concert",
+      "indonesian": "konser",
+      "difficulty": 5,
+      "notes": "Plural: Konzerte"
+    },
+    {
+      "german": "korrigieren",
+      "english": "to correct",
+      "indonesian": "mengoreksi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Kraftfahrzeug (KFZ)",
+      "english": "motor vehicle",
+      "indonesian": "kendaraan bermotor",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Krankenpfleger",
+      "english": "nurse",
+      "indonesian": "perawat",
+      "difficulty": 5,
+      "notes": "Plural: Krankenpfleger"
+    },
+    {
+      "german": "die Krankenschwester",
+      "english": "nurse",
+      "indonesian": "perawat wanita",
+      "difficulty": 5,
+      "notes": "Plural: Krankenschwestern"
+    },
+    {
+      "german": "kreativ",
+      "english": "people",
+      "indonesian": "kreatif",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "langweilig",
+      "english": "boring",
+      "indonesian": "membosankan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Leute (Pl.)",
+      "english": "people",
+      "indonesian": "orang-orang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Mathematik",
+      "english": "mathematics",
+      "indonesian": "matematika",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Mechaniker",
+      "english": "mechanic",
+      "indonesian": "mekanik",
+      "difficulty": 5,
+      "notes": "Plural: Mechaniker"
+    },
+    {
+      "german": "der Mensch",
+      "english": "person",
+      "indonesian": "orang",
+      "difficulty": 5,
+      "notes": "Plural: Menschen"
+    },
+    {
+      "german": "das Mittagessen",
+      "english": "lunch",
+      "indonesian": "makan siang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Moment",
+      "english": "moment",
+      "indonesian": "momen",
+      "difficulty": 5,
+      "notes": "Plural: Momente"
+    },
+    {
+      "german": "der Musiklehrer",
+      "english": "music teacher (male)",
+      "indonesian": "guru musik (laki-laki)",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Musiklehrerin",
+      "english": "music teacher (female)",
+      "indonesian": "guru musik (perempuan)",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Nachtdienst",
+      "english": "night shift",
+      "indonesian": "shift malam",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "organisieren",
+      "english": "to organise",
+      "indonesian": "mengorganisir",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Pizzafahrer",
+      "english": "pizza driver",
+      "indonesian": "pengantar pizza",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Pizzeria",
+      "english": "pizzeria",
+      "indonesian": "restoran pizza",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Pflege",
+      "english": "care",
+      "indonesian": "perawatan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "prüfen",
+      "english": "to check",
+      "indonesian": "memeriksa",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "pünktlich",
+      "english": "on time",
+      "indonesian": "tepat waktu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Radio",
+      "english": "radio",
+      "indonesian": "radio",
+      "difficulty": 5,
+      "notes": "Plural: Radios"
+    }
+  ]
+}

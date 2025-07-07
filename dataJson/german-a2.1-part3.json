@@ -1,0 +1,659 @@
+{
+  "name": "German A2 Part 3",
+  "description": "German vocabulary level A2 part 3 from the book \"Einfach gut! Deutsch für die Integration\"",
+  "date_created": "2025-03-28T12:00:00Z",
+  "source": "telc gGmbH - Einfach gut! Deutsch für die Integration A2.1",
+  "cards": [
+    {
+      "german": "die Einwurfzeit",
+      "english": "time slot for putting out rubbish",
+      "indonesian": "waktu pembuangan sampah",
+      "difficulty": 3,
+      "notes": "Plural: Einwurfzeiten"
+    },
+    {
+      "german": "einziehen",
+      "english": "to move in",
+      "indonesian": "pindah masuk",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Einzug",
+      "english": "move in",
+      "indonesian": "kepindahan masuk",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "entsorgen",
+      "english": "to dispose of",
+      "indonesian": "membuang",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "erfolgen",
+      "english": "to take place",
+      "indonesian": "terjadi",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Fahrradständer",
+      "english": "bicycle stand",
+      "indonesian": "tempat parkir sepeda",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Fernwärme",
+      "english": "remote heating",
+      "indonesian": "pemanas jarak jauh",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Gas",
+      "english": "gas",
+      "indonesian": "gas",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "Gassi gehen",
+      "english": "to walk the dog",
+      "indonesian": "jalan-jalan dengan anjing",
+      "difficulty": 3,
+      "notes": "Example: Pablo geht mit seinem Hund Gassi."
+    },
+    {
+      "german": "gehören",
+      "english": "to belong",
+      "indonesian": "termasuk",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "gesondert",
+      "english": "separate",
+      "indonesian": "terpisah",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Glascontainer",
+      "english": "bottle bank",
+      "indonesian": "tempat daur ulang botol",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der/die Hausbewohner/in",
+      "english": "house resident",
+      "indonesian": "penghuni rumah",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der/die Hausmeister/in",
+      "english": "caretaker",
+      "indonesian": "penjaga rumah",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Hausordnung",
+      "english": "house rules",
+      "indonesian": "peraturan rumah",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Hausregel",
+      "english": "house rule",
+      "indonesian": "aturan rumah",
+      "difficulty": 3,
+      "notes": "Plural: Hausregeln"
+    },
+    {
+      "german": "die Hausreinigung",
+      "english": "house cleaning",
+      "indonesian": "pembersihan rumah",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Hausverwaltung",
+      "english": "property management",
+      "indonesian": "manajemen properti",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "herzlich",
+      "english": "warm",
+      "indonesian": "hangat",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "hoch",
+      "english": "high",
+      "indonesian": "tinggi",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "Hof",
+      "english": "yard",
+      "indonesian": "halaman",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "hoffen",
+      "english": "to hope",
+      "indonesian": "berharap",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "jemand",
+      "english": "someone",
+      "indonesian": "seseorang",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Kellerzugang",
+      "english": "cellar entrance",
+      "indonesian": "pintu masuk gudang bawah tanah",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Kinderwagen",
+      "english": "baby buggy",
+      "indonesian": "kereta bayi",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Kleinmöbel",
+      "english": "small pieces of furniture",
+      "indonesian": "furnitur kecil",
+      "difficulty": 3,
+      "notes": "Always plural"
+    },
+    {
+      "german": "die Kommode",
+      "english": "dresser",
+      "indonesian": "lemari laci",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "kündigen",
+      "english": "to terminate",
+      "indonesian": "mengakhiri",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "legen",
+      "english": "to lay",
+      "indonesian": "meletakkan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "leidtun",
+      "english": "to be sorry",
+      "indonesian": "menyesal",
+      "difficulty": 3,
+      "notes": "Example: Es tut mir leid."
+    },
+    {
+      "german": "der/die Lieferant/in",
+      "english": "supplier",
+      "indonesian": "pemasok",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "liefern",
+      "english": "to supply",
+      "indonesian": "memasok",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der/die Makler/in",
+      "english": "broker",
+      "indonesian": "pialang",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der/die Mieter/in",
+      "english": "tenant",
+      "indonesian": "penyewa",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der/die Mitbewohner/in",
+      "english": "roommate",
+      "indonesian": "teman sekamar",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Mitteilung",
+      "english": "notification",
+      "indonesian": "pemberitahuan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Müllabfuhr",
+      "english": "garbage disposal",
+      "indonesian": "pengangkutan sampah",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Nachbarschaft",
+      "english": "neighbourhood",
+      "indonesian": "lingkungan tetangga",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Nachricht",
+      "english": "message",
+      "indonesian": "pesan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Nachtisch",
+      "english": "dessert",
+      "indonesian": "makanan penutup",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Nähe",
+      "english": "proximity",
+      "indonesian": "kedekatan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "ordnungsgerecht",
+      "english": "properly",
+      "indonesian": "dengan benar",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "privat",
+      "english": "private",
+      "indonesian": "pribadi",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "reichlich",
+      "english": "abundant",
+      "indonesian": "berlimpah",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Restmüll",
+      "english": "residual waste",
+      "indonesian": "sampah sisa",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "schließlich",
+      "english": "finally",
+      "indonesian": "akhirnya",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "schonen",
+      "english": "to treat with care",
+      "indonesian": "merawat dengan hati-hati",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "setzen",
+      "english": "to sit",
+      "indonesian": "duduk",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "sogar",
+      "english": "even",
+      "indonesian": "bahkan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "sorgen",
+      "english": "to care",
+      "indonesian": "peduli",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "sorgfältig",
+      "english": "thoroughly",
+      "indonesian": "teliti",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "Spaziergang",
+      "english": "walk",
+      "indonesian": "jalan-jalan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Spiegel",
+      "english": "mirror",
+      "indonesian": "cermin",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Stellplatz",
+      "english": "parking space",
+      "indonesian": "tempat parkir",
+      "difficulty": 3,
+      "notes": "Plural: Stellplätze"
+    },
+    {
+      "german": "die Tiefgarage",
+      "english": "underground garage",
+      "indonesian": "garasi bawah tanah",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Tonne",
+      "english": "barrel",
+      "indonesian": "tong",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "trennen",
+      "english": "to separate",
+      "indonesian": "memisahkan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Treppe",
+      "english": "stairs",
+      "indonesian": "tangga",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Treppenhaus",
+      "english": "stairway",
+      "indonesian": "ruang tangga",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "übernehmen",
+      "english": "to assume",
+      "indonesian": "mengambil alih",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "umziehen",
+      "english": "to move",
+      "indonesian": "pindah",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Umzug",
+      "english": "move",
+      "indonesian": "pindahan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Umzugskarton",
+      "english": "moving box",
+      "indonesian": "kotak pindahan",
+      "difficulty": 3,
+      "notes": "Plural: Umzugskartons"
+    },
+    {
+      "german": "die Vase",
+      "english": "vase",
+      "indonesian": "vas",
+      "difficulty": 3,
+      "notes": "Plural: Vasen"
+    },
+    {
+      "german": "der Verbraucherzähler",
+      "english": "consumption meter",
+      "indonesian": "meteran konsumsi",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "vereinbaren",
+      "english": "to arrange",
+      "indonesian": "menyepakati",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der/die Vermieter/in",
+      "english": "landlord",
+      "indonesian": "tuan rumah",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "vermieten",
+      "english": "to let",
+      "indonesian": "menyewakan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "vorhanden",
+      "english": "available",
+      "indonesian": "tersedia",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "wegen",
+      "english": "due to",
+      "indonesian": "karena",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "weil",
+      "english": "because",
+      "indonesian": "karena",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "weiterhin",
+      "english": "still",
+      "indonesian": "terus",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Wohngemeinschaft",
+      "english": "flat share",
+      "indonesian": "tinggal bersama",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Wohnungsbesichtigung",
+      "english": "flat viewing",
+      "indonesian": "melihat apartemen",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Wunsch",
+      "english": "wish",
+      "indonesian": "keinginan",
+      "difficulty": 3,
+      "notes": "Plural: Wünsche"
+    },
+    {
+      "german": "der Zähler",
+      "english": "meter",
+      "indonesian": "meteran",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Zugang",
+      "english": "entry",
+      "indonesian": "akses",
+      "difficulty": 3,
+      "notes": "Plural: Zugänge"
+    },
+    {
+      "german": "zuletzt",
+      "english": "recently",
+      "indonesian": "baru-baru ini",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "zuzüglich",
+      "english": "plus",
+      "indonesian": "ditambah",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "abgeben",
+      "english": "to submit",
+      "indonesian": "menyerahkan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "ablehnen",
+      "english": "to refuse",
+      "indonesian": "menolak",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "abmelden",
+      "english": "to deregister",
+      "indonesian": "membatalkan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Abmeldung",
+      "english": "deregistration",
+      "indonesian": "pembatalan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "ähnlich",
+      "english": "similar",
+      "indonesian": "mirip",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Amt",
+      "english": "office",
+      "indonesian": "kantor",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Amtsdeutsch",
+      "english": "official German",
+      "indonesian": "bahasa Jerman resmi",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "ändern",
+      "english": "to change",
+      "indonesian": "mengubah",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der/die Angehörige",
+      "english": "relative",
+      "indonesian": "kerabat",
+      "difficulty": 3,
+      "notes": "Plural: Angehörigen"
+    },
+    {
+      "german": "ankreuzen",
+      "english": "to mark with a cross",
+      "indonesian": "mencentang",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Anschrift",
+      "english": "address",
+      "indonesian": "alamat",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Antrag",
+      "english": "application",
+      "indonesian": "permohonan",
+      "difficulty": 3,
+      "notes": "Plural: Anträge"
+    },
+    {
+      "german": "der/die Antragsteller/in",
+      "english": "applicant",
+      "indonesian": "pemohon",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Arbeitsagentur",
+      "english": "employment agency",
+      "indonesian": "agen tenaga kerja",
+      "difficulty": 3,
+      "notes": ""
+    }
+  ]
+}

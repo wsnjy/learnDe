@@ -1,0 +1,610 @@
+{
+  "name": "German A1 Part 2",
+  "description": "German vocabulary level A1 part 2 from the book \"Einfach gut! Deutsch für die Integration\"",
+  "date_created": "2025-03-28T12:00:00Z",
+  "source": "telc gGmbH - Einfach gut! Deutsch für die Integration A1.1",
+  "cards": [
+    {
+      "german": "die Eltern",
+      "english": "parents",
+      "indonesian": "orang tua",
+      "difficulty": 5,
+      "notes": "Plural only"
+    },
+    {
+      "german": "falsch",
+      "english": "wrong",
+      "indonesian": "salah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Familie",
+      "english": "family",
+      "indonesian": "keluarga",
+      "difficulty": 5,
+      "notes": "Plural: Familien"
+    },
+    {
+      "german": "der Familienname",
+      "english": "surname",
+      "indonesian": "nama keluarga",
+      "difficulty": 5,
+      "notes": "Plural: Familiennamen"
+    },
+    {
+      "german": "der Familienstand",
+      "english": "marital status",
+      "indonesian": "status perkawinan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Formular",
+      "english": "form",
+      "indonesian": "formulir",
+      "difficulty": 5,
+      "notes": "Plural: Formulare"
+    },
+    {
+      "german": "geschieden",
+      "english": "divorced/separated",
+      "indonesian": "bercerai",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Geschwister",
+      "english": "siblings",
+      "indonesian": "saudara kandung",
+      "difficulty": 5,
+      "notes": "Plural only; Hast du Geschwister?"
+    },
+    {
+      "german": "haben",
+      "english": "to have",
+      "indonesian": "memiliki",
+      "difficulty": 5,
+      "notes": "ich habe – du hast – er hat"
+    },
+    {
+      "german": "die Handynummer",
+      "english": "mobile number",
+      "indonesian": "nomor ponsel",
+      "difficulty": 5,
+      "notes": "Plural: Handynummern; Wie ist deine Handynummer?"
+    },
+    {
+      "german": "die Hausnummer",
+      "english": "house number",
+      "indonesian": "nomor rumah",
+      "difficulty": 5,
+      "notes": "Plural: Hausnummern"
+    },
+    {
+      "german": "das Heimatland",
+      "english": "home country",
+      "indonesian": "tanah air",
+      "difficulty": 5,
+      "notes": "Plural: Heimatländer"
+    },
+    {
+      "german": "hier",
+      "english": "here",
+      "indonesian": "di sini",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "Ihr, Ihre",
+      "english": "your (formal)/yours (formal)",
+      "indonesian": "milik Anda (formal)",
+      "difficulty": 5,
+      "notes": "Wie ist Ihre Adresse?"
+    },
+    {
+      "german": "in",
+      "english": "in",
+      "indonesian": "di dalam",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Information",
+      "english": "information",
+      "indonesian": "informasi",
+      "difficulty": 5,
+      "notes": "Plural: Informationen"
+    },
+    {
+      "german": "das Jahr",
+      "english": "year",
+      "indonesian": "tahun",
+      "difficulty": 5,
+      "notes": "Plural: Jahre"
+    },
+    {
+      "german": "jetzt",
+      "english": "now",
+      "indonesian": "sekarang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "kein, keine",
+      "english": "no/none",
+      "indonesian": "tidak ada",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Kind",
+      "english": "child",
+      "indonesian": "anak",
+      "difficulty": 5,
+      "notes": "Plural: Kinder; Ich habe keine Kinder."
+    },
+    {
+      "german": "der Kindergarten",
+      "english": "nursery",
+      "indonesian": "taman kanak-kanak",
+      "difficulty": 5,
+      "notes": "Plural: Kindergärten"
+    },
+    {
+      "german": "der Kontakt",
+      "english": "contact",
+      "indonesian": "kontak",
+      "difficulty": 5,
+      "notes": "Plural: Kontakte"
+    },
+    {
+      "german": "leben",
+      "english": "to live",
+      "indonesian": "hidup",
+      "difficulty": 5,
+      "notes": "ich lebe – du lebst – er lebt; Wo lebst du?"
+    },
+    {
+      "german": "ledig",
+      "english": "single",
+      "indonesian": "lajang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die E-Mail",
+      "english": "email",
+      "indonesian": "email",
+      "difficulty": 5,
+      "notes": "Plural: E-Mails"
+    },
+    {
+      "german": "möchten",
+      "english": "to like",
+      "indonesian": "ingin",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Mutter",
+      "english": "mother",
+      "indonesian": "ibu",
+      "difficulty": 5,
+      "notes": "Plural: Mütter"
+    },
+    {
+      "german": "nach",
+      "english": "after",
+      "indonesian": "setelah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Nachname",
+      "english": "last name",
+      "indonesian": "nama belakang",
+      "difficulty": 5,
+      "notes": "Plural: Nachnamen"
+    },
+    {
+      "german": "noch",
+      "english": "also",
+      "indonesian": "juga/masih",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Postleitzahl",
+      "english": "postcode",
+      "indonesian": "kode pos",
+      "difficulty": 5,
+      "notes": "Plural: Postleitzahlen"
+    },
+    {
+      "german": "die Schwester",
+      "english": "sister",
+      "indonesian": "saudara perempuan",
+      "difficulty": 5,
+      "notes": "Plural: Schwestern"
+    },
+    {
+      "german": "die Schwägerin",
+      "english": "sister-in-law",
+      "indonesian": "ipar perempuan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Schwiegertochter",
+      "english": "step-daughter",
+      "indonesian": "menantu perempuan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Schwiegervater",
+      "english": "step-father",
+      "indonesian": "ayah mertua",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Sohn",
+      "english": "son",
+      "indonesian": "anak laki-laki",
+      "difficulty": 5,
+      "notes": "Plural: Söhne"
+    },
+    {
+      "german": "die Straße",
+      "english": "street",
+      "indonesian": "jalan",
+      "difficulty": 5,
+      "notes": "Plural: Straßen"
+    },
+    {
+      "german": "die Telefonnummer",
+      "english": "telephone number",
+      "indonesian": "nomor telepon",
+      "difficulty": 5,
+      "notes": "Plural: Telefonnummern"
+    },
+    {
+      "german": "die Tochter",
+      "english": "daughter",
+      "indonesian": "anak perempuan",
+      "difficulty": 5,
+      "notes": "Plural: Töchter"
+    },
+    {
+      "german": "über",
+      "english": "about / via / over",
+      "indonesian": "tentang / melalui / di atas",
+      "difficulty": 5,
+      "notes": "Der Zug nach Basel fährt über Stuttgart."
+    },
+    {
+      "german": "der Vater",
+      "english": "father",
+      "indonesian": "ayah",
+      "difficulty": 5,
+      "notes": "Plural: Väter"
+    },
+    {
+      "german": "vergleichen",
+      "english": "compare",
+      "indonesian": "membandingkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "verheiratet",
+      "english": "married",
+      "indonesian": "menikah",
+      "difficulty": 5,
+      "notes": "Sind Sie verheiratet?"
+    },
+    {
+      "german": "verwitwet",
+      "english": "widowed",
+      "indonesian": "menduda/menjanda",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "viel, viele",
+      "english": "many",
+      "indonesian": "banyak",
+      "difficulty": 5,
+      "notes": "Wie viele Kinder haben Sie?"
+    },
+    {
+      "german": "der Vorname",
+      "english": "forename",
+      "indonesian": "nama depan",
+      "difficulty": 5,
+      "notes": "Plural: Vornamen"
+    },
+    {
+      "german": "vorstellen",
+      "english": "introduce",
+      "indonesian": "memperkenalkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "welcher, welche, welches",
+      "english": "which",
+      "indonesian": "yang mana",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "willkommen",
+      "english": "welcome",
+      "indonesian": "selamat datang",
+      "difficulty": 5,
+      "notes": "Herzlich willkommen!"
+    },
+    {
+      "german": "wir",
+      "english": "we",
+      "indonesian": "kita",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "wohnen",
+      "english": "to live",
+      "indonesian": "tinggal",
+      "difficulty": 5,
+      "notes": "ich wohne – du wohnst – er wohnt"
+    },
+    {
+      "german": "der Wohnort",
+      "english": "place of residence",
+      "indonesian": "tempat tinggal",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Zahl",
+      "english": "number",
+      "indonesian": "angka",
+      "difficulty": 5,
+      "notes": "Plural: Zahlen"
+    },
+    {
+      "german": "zu",
+      "english": "too",
+      "indonesian": "terlalu",
+      "difficulty": 5,
+      "notes": "Das ist jetzt leider zu spät."
+    },
+    {
+      "german": "also",
+      "english": "well",
+      "indonesian": "jadi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "an",
+      "english": "on",
+      "indonesian": "pada",
+      "difficulty": 5,
+      "notes": "Am Samstag ist kein Deutschkurs."
+    },
+    {
+      "german": "andere",
+      "english": "other",
+      "indonesian": "lain",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "benutzen",
+      "english": "use (to use)",
+      "indonesian": "menggunakan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Blatt",
+      "english": "sheet (of paper)",
+      "indonesian": "lembar kertas",
+      "difficulty": 5,
+      "notes": "Plural: Blätter"
+    },
+    {
+      "german": "der Bleistift",
+      "english": "pencil",
+      "indonesian": "pensil",
+      "difficulty": 5,
+      "notes": "Plural: Bleistifte"
+    },
+    {
+      "german": "das Buch",
+      "english": "book",
+      "indonesian": "buku",
+      "difficulty": 5,
+      "notes": "Plural: Bücher"
+    },
+    {
+      "german": "da",
+      "english": "there",
+      "indonesian": "di sana",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Deutschkurs",
+      "english": "German course",
+      "indonesian": "kursus bahasa Jerman",
+      "difficulty": 5,
+      "notes": "Der Deutschkurs ist am Montag."
+    },
+    {
+      "german": "der Dienstag",
+      "english": "Tuesday",
+      "indonesian": "Selasa",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "doch",
+      "english": "indeed (speech particle, positive confirmation)",
+      "indonesian": "memang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Donnerstag",
+      "english": "Thursday",
+      "indonesian": "Kamis",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "endlich",
+      "english": "finally",
+      "indonesian": "akhirnya",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "erklären",
+      "english": "to explain",
+      "indonesian": "menjelaskan",
+      "difficulty": 5,
+      "notes": "ich erkläre – du erklärst – er erklärt"
+    },
+    {
+      "german": "erzählen",
+      "english": "to explain",
+      "indonesian": "menceritakan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Familienfoto",
+      "english": "family photo",
+      "indonesian": "foto keluarga",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Feiertag",
+      "english": "public holiday",
+      "indonesian": "hari libur",
+      "difficulty": 5,
+      "notes": "Plural: Feiertage"
+    },
+    {
+      "german": "das Fenster",
+      "english": "window",
+      "indonesian": "jendela",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Foto",
+      "english": "photo",
+      "indonesian": "foto",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "fragen",
+      "english": "ask",
+      "indonesian": "bertanya",
+      "difficulty": 5,
+      "notes": "ich frage – du fragst – er fragt"
+    },
+    {
+      "german": "der Freitag",
+      "english": "Friday",
+      "indonesian": "Jumat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Freund",
+      "english": "friend",
+      "indonesian": "teman",
+      "difficulty": 5,
+      "notes": "Plural: Freunde; Hast du schon Freunde hier?"
+    },
+    {
+      "german": "für",
+      "english": "for",
+      "indonesian": "untuk",
+      "difficulty": 5,
+      "notes": "Sie nehmen die Wohnung für 750 Euro."
+    },
+    {
+      "german": "genau",
+      "english": "exactly",
+      "indonesian": "tepat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "gestern",
+      "english": "yesterday",
+      "indonesian": "kemarin",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "groß",
+      "english": "big",
+      "indonesian": "besar",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Gruß",
+      "english": "greeting",
+      "indonesian": "salam",
+      "difficulty": 5,
+      "notes": "Plural: Grüße; Viele Grüße"
+    },
+    {
+      "german": "die Hausaufgabe",
+      "english": "homework",
+      "indonesian": "pekerjaan rumah",
+      "difficulty": 5,
+      "notes": "Plural: Hausaufgaben"
+    },
+    {
+      "german": "das Heft",
+      "english": "booklet",
+      "indonesian": "buku tulis",
+      "difficulty": 5,
+      "notes": "Plural: Hefte"
+    },
+    {
+      "german": "heute",
+      "english": "today",
+      "indonesian": "hari ini",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "ihr",
+      "english": "their/your",
+      "indonesian": "milik mereka/milikmu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "immer",
+      "english": "always",
+      "indonesian": "selalu",
+      "difficulty": 5,
+      "notes": ""
+    }
+  ]
+}

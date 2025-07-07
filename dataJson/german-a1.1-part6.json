@@ -1,0 +1,603 @@
+{
+  "name": "German A1 Part 6",
+  "description": "German vocabulary level A1 part 6 from the book \"Einfach gut! Deutsch für die Integration\"",
+  "date_created": "2025-03-28T12:00:00Z",
+  "source": "telc gGmbH - Einfach gut! Deutsch für die Integration A1.1",
+  "cards": [
+    {
+      "german": "das Arbeitszimmer",
+      "english": "workroom",
+      "indonesian": "ruang kerja",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Bad",
+      "english": "bathroom",
+      "indonesian": "kamar mandi",
+      "difficulty": 5,
+      "notes": "Plural: Bäder"
+    },
+    {
+      "german": "baden",
+      "english": "to bathe",
+      "indonesian": "mandi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Badewanne",
+      "english": "bathtub",
+      "indonesian": "bak mandi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Badezimmer",
+      "english": "bathroom",
+      "indonesian": "kamar mandi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Balkon",
+      "english": "balcony",
+      "indonesian": "balkon",
+      "difficulty": 5,
+      "notes": "Plural: Balkone"
+    },
+    {
+      "german": "der Bauernhof",
+      "english": "farm",
+      "indonesian": "peternakan",
+      "difficulty": 5,
+      "notes": "Plural: Bauernhöfe"
+    },
+    {
+      "german": "bei",
+      "english": "at",
+      "indonesian": "di",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "bekommen",
+      "english": "to receive",
+      "indonesian": "menerima",
+      "difficulty": 5,
+      "notes": "Meine Blumen bekommen jeden Tag Wasser."
+    },
+    {
+      "german": "der Besichtigungstermin",
+      "english": "appointment",
+      "indonesian": "janji untuk melihat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "besser",
+      "english": "better",
+      "indonesian": "lebih baik",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "billig",
+      "english": "cheap",
+      "indonesian": "murah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "breit",
+      "english": "wide",
+      "indonesian": "lebar",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "circa",
+      "english": "around",
+      "indonesian": "sekitar",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "dazu",
+      "english": "in addition",
+      "indonesian": "selain itu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Diele",
+      "english": "hallway",
+      "indonesian": "lorong",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "direkt",
+      "english": "direct",
+      "indonesian": "langsung",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "dort",
+      "english": "there",
+      "indonesian": "di sana",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "draußen",
+      "english": "outside",
+      "indonesian": "di luar",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "dringend",
+      "english": "urgent",
+      "indonesian": "mendesak",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "dunkel",
+      "english": "dark",
+      "indonesian": "gelap",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Dusche",
+      "english": "shower",
+      "indonesian": "pancuran",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Einfamilienhaus",
+      "english": "detached house",
+      "indonesian": "rumah untuk satu keluarga",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "einkaufen",
+      "english": "to shop",
+      "indonesian": "berbelanja",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Elektrogerät",
+      "english": "electronic device",
+      "indonesian": "perangkat elektronik",
+      "difficulty": 5,
+      "notes": "Plural: Elektrogeräte"
+    },
+    {
+      "german": "das Erdgeschoss",
+      "english": "ground floor",
+      "indonesian": "lantai dasar",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "ersetzen",
+      "english": "to replace",
+      "indonesian": "mengganti",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Euro",
+      "english": "euro",
+      "indonesian": "euro",
+      "difficulty": 5,
+      "notes": "Plural: Euros"
+    },
+    {
+      "german": "der Fernseher",
+      "english": "television",
+      "indonesian": "televisi",
+      "difficulty": 5,
+      "notes": "Plural: Fernseher"
+    },
+    {
+      "german": "finden",
+      "english": "to find",
+      "indonesian": "menemukan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Firma",
+      "english": "company",
+      "indonesian": "perusahaan",
+      "difficulty": 5,
+      "notes": "Plural: Firmen"
+    },
+    {
+      "german": "der Flur",
+      "english": "corridor",
+      "indonesian": "koridor",
+      "difficulty": 5,
+      "notes": "Plural: Flure"
+    },
+    {
+      "german": "frei",
+      "english": "free",
+      "indonesian": "bebas/kosong",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Garage",
+      "english": "garage",
+      "indonesian": "garasi",
+      "difficulty": 5,
+      "notes": "Plural: Garagen"
+    },
+    {
+      "german": "der Garten",
+      "english": "garden",
+      "indonesian": "kebun",
+      "difficulty": 5,
+      "notes": "Plural: Gärten"
+    },
+    {
+      "german": "der Gast",
+      "english": "guest",
+      "indonesian": "tamu",
+      "difficulty": 5,
+      "notes": "Plural: Gäste"
+    },
+    {
+      "german": "das Geld",
+      "english": "money",
+      "indonesian": "uang",
+      "difficulty": 5,
+      "notes": "Plural: Gelder"
+    },
+    {
+      "german": "gemütlich",
+      "english": "comfortable",
+      "indonesian": "nyaman",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "gepflegt",
+      "english": "looked after",
+      "indonesian": "terawat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Gerät",
+      "english": "appliance",
+      "indonesian": "peralatan",
+      "difficulty": 5,
+      "notes": "Plural: Geräte"
+    },
+    {
+      "german": "das Geschäft",
+      "english": "business",
+      "indonesian": "bisnis/toko",
+      "difficulty": 5,
+      "notes": "Plural: Geschäfte"
+    },
+    {
+      "german": "das Gespräch",
+      "english": "interview",
+      "indonesian": "wawancara/pembicaraan",
+      "difficulty": 5,
+      "notes": "Plural: Gespräche"
+    },
+    {
+      "german": "die Größe",
+      "english": "size",
+      "indonesian": "ukuran",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "grün",
+      "english": "green",
+      "indonesian": "hijau",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "hängen",
+      "english": "to hang",
+      "indonesian": "menggantung",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "hässlich",
+      "english": "ugly",
+      "indonesian": "jelek",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Hauptsache",
+      "english": "main thing",
+      "indonesian": "hal utama",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Haus",
+      "english": "house",
+      "indonesian": "rumah",
+      "difficulty": 5,
+      "notes": "Plural: Häuser"
+    },
+    {
+      "german": "das Haustier",
+      "english": "pet",
+      "indonesian": "hewan peliharaan",
+      "difficulty": 5,
+      "notes": "Plural: Haustiere"
+    },
+    {
+      "german": "die Heizung",
+      "english": "heating",
+      "indonesian": "pemanas",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "helfen",
+      "english": "to help",
+      "indonesian": "membantu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "hell",
+      "english": "light",
+      "indonesian": "terang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Herd",
+      "english": "stove",
+      "indonesian": "kompor",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Hilfe",
+      "english": "help",
+      "indonesian": "bantuan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "hinten",
+      "english": "behind",
+      "indonesian": "di belakang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Hochhaus",
+      "english": "high-rise building",
+      "indonesian": "gedung bertingkat tinggi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "ihr, ihre",
+      "english": "your/yours",
+      "indonesian": "milikmu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Immobilie",
+      "english": "property",
+      "indonesian": "properti",
+      "difficulty": 5,
+      "notes": "Plural: Immobilien"
+    },
+    {
+      "german": "insgesamt",
+      "english": "in total",
+      "indonesian": "secara total",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "interessant",
+      "english": "interesting",
+      "indonesian": "menarik",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "jeder, jede, jedes",
+      "english": "every",
+      "indonesian": "setiap",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Juni",
+      "english": "June",
+      "indonesian": "Juni",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Kaffeemaschine",
+      "english": "coffee machine",
+      "indonesian": "mesin kopi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "kalt",
+      "english": "cold",
+      "indonesian": "dingin",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Kaution",
+      "english": "deposit",
+      "indonesian": "deposit",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Keller",
+      "english": "cellar",
+      "indonesian": "ruang bawah tanah",
+      "difficulty": 5,
+      "notes": "Plural: Keller"
+    },
+    {
+      "german": "das Kinderzimmer",
+      "english": "child's room",
+      "indonesian": "kamar anak",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Kleiderschrank",
+      "english": "wardrobe",
+      "indonesian": "lemari pakaian",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Küche",
+      "english": "kitchen",
+      "indonesian": "dapur",
+      "difficulty": 5,
+      "notes": "Plural: Küchen"
+    },
+    {
+      "german": "der Kühlschrank",
+      "english": "fridge",
+      "indonesian": "kulkas",
+      "difficulty": 5,
+      "notes": "Plural: Kühlschränke"
+    },
+    {
+      "german": "lang",
+      "english": "long",
+      "indonesian": "panjang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "lassen",
+      "english": "to let",
+      "indonesian": "membiarkan",
+      "difficulty": 5,
+      "notes": "Lass uns in einem anderen Geschäft schauen."
+    },
+    {
+      "german": "laut",
+      "english": "loud",
+      "indonesian": "keras",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "liebsten (am liebsten)",
+      "english": "favourite (at best)",
+      "indonesian": "paling suka",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "liegen",
+      "english": "to lie",
+      "indonesian": "terletak",
+      "difficulty": 5,
+      "notes": "Die Wohnung liegt direkt an der Hauptstraße."
+    },
+    {
+      "german": "maximal",
+      "english": "maximal",
+      "indonesian": "maksimal",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Mehrfamilienhaus",
+      "english": "apartment building",
+      "indonesian": "bangunan apartemen",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Miete",
+      "english": "rent",
+      "indonesian": "sewa",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "mindestens",
+      "english": "at least",
+      "indonesian": "paling tidak",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Möbel",
+      "english": "furniture",
+      "indonesian": "mebel",
+      "difficulty": 5,
+      "notes": "Plural only"
+    },
+    {
+      "german": "möbliert",
+      "english": "furnished",
+      "indonesian": "berperabot",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "modern",
+      "english": "modern",
+      "indonesian": "modern",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Monat",
+      "english": "month",
+      "indonesian": "bulan",
+      "difficulty": 5,
+      "notes": "Plural: Monate"
+    },
+    {
+      "german": "die Monatsmiete",
+      "english": "monthly rent",
+      "indonesian": "sewa bulanan",
+      "difficulty": 5,
+      "notes": "Plural: Monatsmieten"
+    },
+    {
+      "german": "der Müll",
+      "english": "rubbish",
+      "indonesian": "sampah",
+      "difficulty": 5,
+      "notes": ""
+    }
+  ]
+}

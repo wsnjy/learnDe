@@ -1,0 +1,624 @@
+{
+  "name": "German A1 Part 4",
+  "description": "German vocabulary level A1 part 4 from the book \"Einfach gut! Deutsch für die Integration\"",
+  "date_created": "2025-03-28T12:00:00Z",
+  "source": "telc gGmbH - Einfach gut! Deutsch für die Integration A1.1",
+  "cards": [
+    {
+      "german": "die Erdbeere",
+      "english": "strawberry",
+      "indonesian": "stroberi",
+      "difficulty": 5,
+      "notes": "Plural: Erdbeeren"
+    },
+    {
+      "german": "essen",
+      "english": "to eat",
+      "indonesian": "makan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "etwas",
+      "english": "something",
+      "indonesian": "sesuatu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "fertig",
+      "english": "finished",
+      "indonesian": "selesai",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Fisch",
+      "english": "fish",
+      "indonesian": "ikan",
+      "difficulty": 5,
+      "notes": "Plural: Fische"
+    },
+    {
+      "german": "die Flasche",
+      "english": "bottle",
+      "indonesian": "botol",
+      "difficulty": 5,
+      "notes": "Plural: Flaschen"
+    },
+    {
+      "german": "das Fleisch",
+      "english": "meat",
+      "indonesian": "daging",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "frisch",
+      "english": "fresh",
+      "indonesian": "segar",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Frühstück",
+      "english": "breakfast",
+      "indonesian": "sarapan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "frühstücken",
+      "english": "to breakfast",
+      "indonesian": "sarapan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "gemeinsam",
+      "english": "together",
+      "indonesian": "bersama",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Gemüse",
+      "english": "vegetables",
+      "indonesian": "sayuran",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "gern",
+      "english": "very much",
+      "indonesian": "dengan senang hati",
+      "difficulty": 5,
+      "notes": "Ich esse gern Tomaten."
+    },
+    {
+      "german": "das Getränk",
+      "english": "drink",
+      "indonesian": "minuman",
+      "difficulty": 5,
+      "notes": "Plural: Getränke"
+    },
+    {
+      "german": "das Glas",
+      "english": "glass",
+      "indonesian": "gelas",
+      "difficulty": 5,
+      "notes": "Plural: Gläser"
+    },
+    {
+      "german": "gleich",
+      "english": "the same",
+      "indonesian": "sama",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Gramm",
+      "english": "gram",
+      "indonesian": "gram",
+      "difficulty": 5,
+      "notes": "Plural: Gramm"
+    },
+    {
+      "german": "die Himbeere",
+      "english": "raspberry",
+      "indonesian": "raspberry",
+      "difficulty": 5,
+      "notes": "Plural: Himbeeren"
+    },
+    {
+      "german": "der Honig",
+      "english": "honey",
+      "indonesian": "madu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Joghurt",
+      "english": "yoghurt",
+      "indonesian": "yogurt",
+      "difficulty": 5,
+      "notes": "Plural: Joghurts"
+    },
+    {
+      "german": "der Kaffee",
+      "english": "coffee",
+      "indonesian": "kopi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Kartoffel",
+      "english": "potato",
+      "indonesian": "kentang",
+      "difficulty": 5,
+      "notes": "Plural: Kartoffeln"
+    },
+    {
+      "german": "der Käse",
+      "english": "cheese",
+      "indonesian": "keju",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "kaufen",
+      "english": "to buy",
+      "indonesian": "membeli",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Keks",
+      "english": "biscuit",
+      "indonesian": "biskuit",
+      "difficulty": 5,
+      "notes": "Plural: Kekse"
+    },
+    {
+      "german": "die Kichererbse",
+      "english": "chickpea",
+      "indonesian": "kacang arab",
+      "difficulty": 5,
+      "notes": "Plural: Kichererbsen"
+    },
+    {
+      "german": "das Kilo",
+      "english": "kilo",
+      "indonesian": "kilo",
+      "difficulty": 5,
+      "notes": "Plural: Kilos"
+    },
+    {
+      "german": "die Kirsche",
+      "english": "cherry",
+      "indonesian": "ceri",
+      "difficulty": 5,
+      "notes": "Plural: Kirschen"
+    },
+    {
+      "german": "die Kiwi",
+      "english": "kiwi",
+      "indonesian": "kiwi",
+      "difficulty": 5,
+      "notes": "Plural: Kiwis"
+    },
+    {
+      "german": "die Kontrolle",
+      "english": "control",
+      "indonesian": "kontrol",
+      "difficulty": 5,
+      "notes": "Plural: Kontrollen"
+    },
+    {
+      "german": "kosten",
+      "english": "to cost",
+      "indonesian": "berharga",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Kuchen",
+      "english": "cake",
+      "indonesian": "kue",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Kunde",
+      "english": "customer (male)",
+      "indonesian": "pelanggan (laki-laki)",
+      "difficulty": 5,
+      "notes": "Plural: Kunden"
+    },
+    {
+      "german": "die Kundin",
+      "english": "customer (female)",
+      "indonesian": "pelanggan (perempuan)",
+      "difficulty": 5,
+      "notes": "Plural: Kundinnen"
+    },
+    {
+      "german": "kurz",
+      "english": "short",
+      "indonesian": "pendek",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Lammfleisch",
+      "english": "lamb meat",
+      "indonesian": "daging domba",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Lebensmittel",
+      "english": "groceries",
+      "indonesian": "bahan makanan",
+      "difficulty": 5,
+      "notes": "Plural: Lebensmittel"
+    },
+    {
+      "german": "die Limonade (Limo)",
+      "english": "lemonade",
+      "indonesian": "limun",
+      "difficulty": 5,
+      "notes": "Plural: Limonaden (Limos)"
+    },
+    {
+      "german": "der Liter",
+      "english": "litre",
+      "indonesian": "liter",
+      "difficulty": 5,
+      "notes": "Plural: Liter"
+    },
+    {
+      "german": "man",
+      "english": "one/you",
+      "indonesian": "seseorang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Mandarine",
+      "english": "mandarine",
+      "indonesian": "mandarin",
+      "difficulty": 5,
+      "notes": "Plural: Mandarinen"
+    },
+    {
+      "german": "die Mango",
+      "english": "mango",
+      "indonesian": "mangga",
+      "difficulty": 5,
+      "notes": "Plural: Mangos"
+    },
+    {
+      "german": "der Markt",
+      "english": "market",
+      "indonesian": "pasar",
+      "difficulty": 5,
+      "notes": "Plural: Märkte"
+    },
+    {
+      "german": "die Marmelade",
+      "english": "jam",
+      "indonesian": "selai",
+      "difficulty": 5,
+      "notes": "Plural: Marmeladen"
+    },
+    {
+      "german": "das Mehl",
+      "english": "flour",
+      "indonesian": "tepung",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "meistens",
+      "english": "mostly",
+      "indonesian": "kebanyakan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Mengenangabe",
+      "english": "amount",
+      "indonesian": "jumlah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Melone",
+      "english": "melon",
+      "indonesian": "melon",
+      "difficulty": 5,
+      "notes": "Plural: Melonen"
+    },
+    {
+      "german": "die Milch",
+      "english": "milk",
+      "indonesian": "susu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Milchprodukt",
+      "english": "dairy product",
+      "indonesian": "produk susu",
+      "difficulty": 5,
+      "notes": "Plural: Milchprodukte"
+    },
+    {
+      "german": "mögen",
+      "english": "to like",
+      "indonesian": "menyukai",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Möhre",
+      "english": "carrot",
+      "indonesian": "wortel",
+      "difficulty": 5,
+      "notes": "Plural: Möhren"
+    },
+    {
+      "german": "müssen",
+      "english": "to have to",
+      "indonesian": "harus",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "nehmen",
+      "english": "to take",
+      "indonesian": "mengambil",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Nudel",
+      "english": "pasta/noodles",
+      "indonesian": "pasta/mie",
+      "difficulty": 5,
+      "notes": "Plural: Nudeln"
+    },
+    {
+      "german": "nur",
+      "english": "only",
+      "indonesian": "hanya",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Obst",
+      "english": "fruit",
+      "indonesian": "buah-buahan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Obstsalat",
+      "english": "fruit salad",
+      "indonesian": "salad buah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Olivenöl",
+      "english": "olive oil",
+      "indonesian": "minyak zaitun",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Orange",
+      "english": "orange",
+      "indonesian": "jeruk",
+      "difficulty": 5,
+      "notes": "Plural: Orangen"
+    },
+    {
+      "german": "ordnen",
+      "english": "to order",
+      "indonesian": "mengurutkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Packung",
+      "english": "packaging",
+      "indonesian": "kemasan",
+      "difficulty": 5,
+      "notes": "Plural: Packungen; eine Packung Reis"
+    },
+    {
+      "german": "die Paprika",
+      "english": "pepper",
+      "indonesian": "paprika",
+      "difficulty": 5,
+      "notes": "Plural: Paprikas"
+    },
+    {
+      "german": "der Partner",
+      "english": "partner (male)",
+      "indonesian": "pasangan (laki-laki)",
+      "difficulty": 5,
+      "notes": "Plural: Partner"
+    },
+    {
+      "german": "die Partnerin",
+      "english": "partner (female)",
+      "indonesian": "pasangan (perempuan)",
+      "difficulty": 5,
+      "notes": "Plural: Partnerinnen"
+    },
+    {
+      "german": "das Pfund",
+      "english": "pound",
+      "indonesian": "pon",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Pilz",
+      "english": "mushroom",
+      "indonesian": "jamur",
+      "difficulty": 5,
+      "notes": "Plural: Pilze"
+    },
+    {
+      "german": "planen",
+      "english": "to plan",
+      "indonesian": "merencanakan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Preis",
+      "english": "price",
+      "indonesian": "harga",
+      "difficulty": 5,
+      "notes": "Plural: Preise"
+    },
+    {
+      "german": "pro",
+      "english": "per",
+      "indonesian": "per",
+      "difficulty": 5,
+      "notes": "Die Äpfel kosten 2,50 € pro Kilo."
+    },
+    {
+      "german": "der Pudding",
+      "english": "pudding",
+      "indonesian": "puding",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Reis",
+      "english": "rice",
+      "indonesian": "nasi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Rindfleisch",
+      "english": "beef",
+      "indonesian": "daging sapi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Saft",
+      "english": "juice",
+      "indonesian": "jus",
+      "difficulty": 5,
+      "notes": "Plural: Säfte"
+    },
+    {
+      "german": "die Sahne",
+      "english": "cream",
+      "indonesian": "krim",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Salat",
+      "english": "salad",
+      "indonesian": "salad",
+      "difficulty": 5,
+      "notes": "Plural: Salate"
+    },
+    {
+      "german": "das Salz",
+      "english": "salt",
+      "indonesian": "garam",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "sich",
+      "english": "oneself",
+      "indonesian": "diri sendiri",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "schmecken",
+      "english": "to taste",
+      "indonesian": "terasa",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Schokolade",
+      "english": "chocolate",
+      "indonesian": "cokelat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "schön",
+      "english": "beautiful",
+      "indonesian": "indah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Schweinefleisch",
+      "english": "pork",
+      "indonesian": "daging babi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "sonst",
+      "english": "otherwise",
+      "indonesian": "selain itu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "stehen",
+      "english": "to stand",
+      "indonesian": "berdiri",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "streichen",
+      "english": "to paint",
+      "indonesian": "mengecat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Stück",
+      "english": "piece",
+      "indonesian": "potong",
+      "difficulty": 5,
+      "notes": "Plural: Stücke; ein Stück Kuchen"
+    },
+    {
+      "german": "die Tasse",
+      "english": "cup",
+      "indonesian": "cangkir",
+      "difficulty": 5,
+      "notes": "Plural: Tassen"
+    },
+    {
+      "german": "der Tee",
+      "english": "tea",
+      "indonesian": "teh",
+      "difficulty": 5,
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,624 @@
+{
+  "name": "German A2 Part 4",
+  "description": "German vocabulary level A2 part 4 from the book \"Einfach gut! Deutsch für die Integration\"",
+  "date_created": "2025-03-28T12:00:00Z",
+  "source": "telc gGmbH - Einfach gut! Deutsch für die Integration A2.1",
+  "cards": [
+    {
+      "german": "die Arbeitserlaubnis",
+      "english": "work permit",
+      "indonesian": "izin kerja",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Arbeitslosengeld",
+      "english": "unemployment benefit",
+      "indonesian": "tunjangan pengangguran",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Arbeitsplatz",
+      "english": "workplace",
+      "indonesian": "tempat kerja",
+      "difficulty": 3,
+      "notes": "Plural: Arbeitsplätze"
+    },
+    {
+      "german": "die Arbeitsvermittlung",
+      "english": "employment service",
+      "indonesian": "layanan ketenagakerjaan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Aufenthalt",
+      "english": "stay",
+      "indonesian": "tinggal",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Aufenthaltserlaubnis",
+      "english": "residence permit",
+      "indonesian": "izin tinggal",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "aufrufen",
+      "english": "to call up",
+      "indonesian": "memanggil",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Ausbildungsplatz",
+      "english": "training place",
+      "indonesian": "tempat pelatihan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Ausländeramt",
+      "english": "immigration office",
+      "indonesian": "kantor imigrasi",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Ausländerbehörde",
+      "english": "immigration authorities",
+      "indonesian": "otoritas imigrasi",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Ausweis",
+      "english": "ID (identification document)",
+      "indonesian": "kartu identitas",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "beantragen",
+      "english": "to apply for",
+      "indonesian": "mengajukan permohonan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "bearbeiten",
+      "english": "to edit",
+      "indonesian": "mengedit",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Behörde",
+      "english": "authorities",
+      "indonesian": "otoritas",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Berufsberatung",
+      "english": "career guidance",
+      "indonesian": "bimbingan karir",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Berufsinformationszentrum",
+      "english": "career information centre",
+      "indonesian": "pusat informasi karir",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der/die Cousin/e",
+      "english": "cousin",
+      "indonesian": "sepupu",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "dabei",
+      "english": "thereby",
+      "indonesian": "pada saat itu",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Dokument",
+      "english": "document",
+      "indonesian": "dokumen",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der/die Ehepartner/in",
+      "english": "spouse",
+      "indonesian": "pasangan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Eheschließung",
+      "english": "marriage",
+      "indonesian": "pernikahan",
+      "difficulty": 3,
+      "notes": "Plural: Eheschließungen"
+    },
+    {
+      "german": "das Einwohnermeldeamt",
+      "english": "registration office",
+      "indonesian": "kantor pendaftaran penduduk",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der/die Enkel/in",
+      "english": "grandson",
+      "indonesian": "cucu",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Enkelkind",
+      "english": "grandchild",
+      "indonesian": "cucu",
+      "difficulty": 3,
+      "notes": "Plural: Enkelkinder"
+    },
+    {
+      "german": "entschuldigen",
+      "english": "to excuse",
+      "indonesian": "memaafkan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Familienbuch",
+      "english": "family register",
+      "indonesian": "buku keluarga",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Familienkasse",
+      "english": "family class",
+      "indonesian": "dana keluarga",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Familienmitglied",
+      "english": "family member",
+      "indonesian": "anggota keluarga",
+      "difficulty": 3,
+      "notes": "Plural: Familienmitglieder"
+    },
+    {
+      "german": "fehlen",
+      "english": "to miss",
+      "indonesian": "absen",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Finanzamt",
+      "english": "tax office",
+      "indonesian": "kantor pajak",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Geburt",
+      "english": "birth",
+      "indonesian": "kelahiran",
+      "difficulty": 3,
+      "notes": "Plural: Geburten"
+    },
+    {
+      "german": "das Geburtsdatum",
+      "english": "date of birth",
+      "indonesian": "tanggal lahir",
+      "difficulty": 3,
+      "notes": "Plural: Geburtsdaten"
+    },
+    {
+      "german": "das Geburtsland",
+      "english": "country of birth",
+      "indonesian": "negara kelahiran",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Geburtsname",
+      "english": "name at birth",
+      "indonesian": "nama lahir",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Geburtsort",
+      "english": "place of birth",
+      "indonesian": "tempat lahir",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Geburtsurkunde",
+      "english": "birth certificate",
+      "indonesian": "akta kelahiran",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "genehmigen",
+      "english": "to approve",
+      "indonesian": "menyetujui",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Geschlecht",
+      "english": "gender",
+      "indonesian": "jenis kelamin",
+      "difficulty": 3,
+      "notes": "Plural: Geschlechter"
+    },
+    {
+      "german": "herein",
+      "english": "within",
+      "indonesian": "masuk",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "hingehen",
+      "english": "to go there",
+      "indonesian": "pergi ke sana",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Integration",
+      "english": "integration",
+      "indonesian": "integrasi",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Integrationskurs",
+      "english": "integration course",
+      "indonesian": "kursus integrasi",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Kindergeld",
+      "english": "child allowance",
+      "indonesian": "tunjangan anak",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der/die Lebenspartner/in",
+      "english": "life partner",
+      "indonesian": "pasangan hidup",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Lichtbildausweis",
+      "english": "photo ID",
+      "indonesian": "kartu identitas dengan foto",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "losfahren",
+      "english": "to drive away",
+      "indonesian": "berangkat",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "männlich",
+      "english": "male",
+      "indonesian": "laki-laki",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Nichte",
+      "english": "niece",
+      "indonesian": "keponakan perempuan",
+      "difficulty": 3,
+      "notes": "Plural: Nichten"
+    },
+    {
+      "german": "notieren",
+      "english": "to note",
+      "indonesian": "mencatat",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Personalausweis",
+      "english": "personal ID",
+      "indonesian": "kartu tanda penduduk",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Reisepass",
+      "english": "passport",
+      "indonesian": "paspor",
+      "difficulty": 3,
+      "notes": "Plural: Reisepässe"
+    },
+    {
+      "german": "die Schwiegereltern",
+      "english": "parents-in-law",
+      "indonesian": "mertua",
+      "difficulty": 3,
+      "notes": "Always plural"
+    },
+    {
+      "german": "die Staatsangehörigkeit",
+      "english": "nationality",
+      "indonesian": "kewarganegaraan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Team",
+      "english": "team",
+      "indonesian": "tim",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Teil",
+      "english": "part",
+      "indonesian": "bagian",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Unterlagen",
+      "english": "documents",
+      "indonesian": "dokumen",
+      "difficulty": 3,
+      "notes": "Always plural"
+    },
+    {
+      "german": "unterschreiben",
+      "english": "to sign",
+      "indonesian": "menandatangani",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Urkunde",
+      "english": "certificate",
+      "indonesian": "sertifikat",
+      "difficulty": 3,
+      "notes": "Plural: Urkunden"
+    },
+    {
+      "german": "vollständig",
+      "english": "complete",
+      "indonesian": "lengkap",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Webseite",
+      "english": "website",
+      "indonesian": "situs web",
+      "difficulty": 3,
+      "notes": "Plural: Webseiten"
+    },
+    {
+      "german": "weiblich",
+      "english": "female",
+      "indonesian": "perempuan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "wiederholen",
+      "english": "to repeat",
+      "indonesian": "mengulangi",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Zulassungsstelle",
+      "english": "admission office",
+      "indonesian": "kantor perizinan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "zuständig",
+      "english": "responsible",
+      "indonesian": "bertanggung jawab",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Abitur",
+      "english": "A-level",
+      "indonesian": "ujian akhir SMA",
+      "difficulty": 3,
+      "notes": "Often abbreviated as 'Abi'"
+    },
+    {
+      "german": "ablegen",
+      "english": "to take (an exam)",
+      "indonesian": "mengambil (ujian)",
+      "difficulty": 3,
+      "notes": "Example: eine Prüfung ablegen"
+    },
+    {
+      "german": "abschließen",
+      "english": "to complete",
+      "indonesian": "menyelesaikan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Abschluss",
+      "english": "degree",
+      "indonesian": "gelar",
+      "difficulty": 3,
+      "notes": "Plural: Abschlüsse"
+    },
+    {
+      "german": "anbieten",
+      "english": "to offer",
+      "indonesian": "menawarkan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der/die Anfänger/in",
+      "english": "beginner",
+      "indonesian": "pemula",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Architektur",
+      "english": "architecture",
+      "indonesian": "arsitektur",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Ausland",
+      "english": "abroad",
+      "indonesian": "luar negeri",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Autounfall",
+      "english": "car accident",
+      "indonesian": "kecelakaan mobil",
+      "difficulty": 3,
+      "notes": "Plural: Autounfälle"
+    },
+    {
+      "german": "beenden",
+      "english": "to end",
+      "indonesian": "mengakhiri",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Beratung",
+      "english": "counselling",
+      "indonesian": "konseling",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Bereich",
+      "english": "area",
+      "indonesian": "bidang",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Berufsausbildung",
+      "english": "professional training",
+      "indonesian": "pelatihan profesional",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Berufsschule",
+      "english": "vocational college",
+      "indonesian": "sekolah kejuruan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "besonders",
+      "english": "especially",
+      "indonesian": "khususnya",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Bildungsweg",
+      "english": "course of education",
+      "indonesian": "jalur pendidikan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Büroorganisation",
+      "english": "office administration",
+      "indonesian": "administrasi kantor",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Chaos",
+      "english": "chaos",
+      "indonesian": "kekacauan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Decke",
+      "english": "ceiling",
+      "indonesian": "langit-langit",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Ende",
+      "english": "end",
+      "indonesian": "akhir",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Energie",
+      "english": "energy",
+      "indonesian": "energi",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "enthalten",
+      "english": "to contain",
+      "indonesian": "mengandung",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "entscheiden",
+      "english": "to decide",
+      "indonesian": "memutuskan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "erforderlich",
+      "english": "required",
+      "indonesian": "diperlukan",
+      "difficulty": 3,
+      "notes": ""
+    }
+  ]
+}

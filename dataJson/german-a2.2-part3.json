@@ -1,0 +1,771 @@
+{
+  "name": "German A2 Part 3",
+  "description": "German vocabulary level A2 part 3 from the book \"Einfach gut! Deutsch für die Integration A2.2\"",
+  "date_created": "2025-03-28T12:00:00Z",
+  "source": "telc gGmbH - Einfach gut! Deutsch für die Integration A2.2",
+  "cards": [
+    {
+      "german": "unbürokratisch",
+      "english": "unbureaucratic",
+      "indonesian": "tidak birokratis",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "unterstützen",
+      "english": "to support",
+      "indonesian": "mendukung",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "verabschieden",
+      "english": "to adopt",
+      "indonesian": "mengadopsi/menyetujui",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "verbessern",
+      "english": "to improve",
+      "indonesian": "memperbaiki",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "verboten",
+      "english": "to forbid",
+      "indonesian": "dilarang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Verhalten",
+      "english": "behaviour",
+      "indonesian": "perilaku",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "verlegen",
+      "english": "to reschedule",
+      "indonesian": "menjadwalkan ulang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "vermeiden",
+      "english": "to avoid",
+      "indonesian": "menghindari",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Vermeidung",
+      "english": "avoidance",
+      "indonesian": "penghindaran",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Versicherung",
+      "english": "insurance",
+      "indonesian": "asuransi",
+      "difficulty": 5,
+      "notes": "Plural: Versicherungen"
+    },
+    {
+      "german": "der Vertrieb",
+      "english": "sales",
+      "indonesian": "penjualan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "verwenden",
+      "english": "to use",
+      "indonesian": "menggunakan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "vorbeikommen",
+      "english": "to drop by",
+      "indonesian": "mampir",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "vorbereiten",
+      "english": "to prepare",
+      "indonesian": "menyiapkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Vorschrift",
+      "english": "regulation",
+      "indonesian": "peraturan",
+      "difficulty": 5,
+      "notes": "Plural: Vorschriften"
+    },
+    {
+      "german": "der Werbeflyer",
+      "english": "flyer",
+      "indonesian": "selebaran",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Werbeagentur",
+      "english": "marketing agency",
+      "indonesian": "agensi pemasaran",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Werbetexter/in",
+      "english": "copy writer",
+      "indonesian": "penulis naskah iklan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "aggressiv",
+      "english": "aggressive",
+      "indonesian": "agresif",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "anders",
+      "english": "different",
+      "indonesian": "berbeda",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Angst",
+      "english": "fear",
+      "indonesian": "ketakutan",
+      "difficulty": 5,
+      "notes": "Plural: Ängste"
+    },
+    {
+      "german": "aufhören",
+      "english": "to stop",
+      "indonesian": "berhenti",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "aufpassen",
+      "english": "to watch out",
+      "indonesian": "berhati-hati",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "ausreichend",
+      "english": "enough",
+      "indonesian": "cukup",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "befriedigend",
+      "english": "satisfactory",
+      "indonesian": "memuaskan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Begrüßung",
+      "english": "greeting",
+      "indonesian": "salam",
+      "difficulty": 5,
+      "notes": "Plural: Begrüßungen"
+    },
+    {
+      "german": "beraten",
+      "english": "to advise",
+      "indonesian": "memberi saran",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Bericht",
+      "english": "report",
+      "indonesian": "laporan",
+      "difficulty": 5,
+      "notes": "Plural: Berichte"
+    },
+    {
+      "german": "das Berufskolleg",
+      "english": "vocational college",
+      "indonesian": "sekolah kejuruan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Berufswunsch",
+      "english": "career aspiration",
+      "indonesian": "aspirasi karir",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Biologie",
+      "english": "biology",
+      "indonesian": "biologi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Bundesland",
+      "english": "federal state",
+      "indonesian": "negara bagian",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Chemie",
+      "english": "chemistry",
+      "indonesian": "kimia",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "damals",
+      "english": "back then",
+      "indonesian": "dulu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "dieselbe",
+      "english": "the same",
+      "indonesian": "yang sama",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Diplom",
+      "english": "diploma",
+      "indonesian": "diploma",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Elternabend",
+      "english": "parent's evening",
+      "indonesian": "malam pertemuan orang tua",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Elternsprechtag",
+      "english": "parent-teacher day",
+      "indonesian": "hari pertemuan orang tua dan guru",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Englischlehrer/in",
+      "english": "English teacher",
+      "indonesian": "guru bahasa Inggris",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Erdkunde",
+      "english": "geography",
+      "indonesian": "geografi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "etwa",
+      "english": "around",
+      "indonesian": "sekitar",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Fach",
+      "english": "subject",
+      "indonesian": "mata pelajaran",
+      "difficulty": 5,
+      "notes": "Plural: Fächer"
+    },
+    {
+      "german": "die Fachhochschule",
+      "english": "technical college",
+      "indonesian": "sekolah tinggi teknik",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Fachhochschulreife",
+      "english": "technical college certificate",
+      "indonesian": "sertifikat sekolah tinggi teknik",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Fluss",
+      "english": "river",
+      "indonesian": "sungai",
+      "difficulty": 5,
+      "notes": "Plural: Flüsse"
+    },
+    {
+      "german": "formell",
+      "english": "formula",
+      "indonesian": "rumus",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Fotograf/in",
+      "english": "photographer",
+      "indonesian": "fotografer",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "freiwillig",
+      "english": "voluntary",
+      "indonesian": "sukarela",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Gesamtschule",
+      "english": "comprehensive school",
+      "indonesian": "sekolah komprehensif",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Geschichte",
+      "english": "history",
+      "indonesian": "sejarah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Gipsbein",
+      "english": "leg in plaster",
+      "indonesian": "kaki dalam gips",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Glück",
+      "english": "luck",
+      "indonesian": "keberuntungan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Gymnasium",
+      "english": "Grammar school",
+      "indonesian": "sekolah menengah atas",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Halbjahr",
+      "english": "half-year",
+      "indonesian": "semester",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Hauptschule",
+      "english": "secondary school",
+      "indonesian": "sekolah menengah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "hinfallen",
+      "english": "to fall over",
+      "indonesian": "jatuh",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Integrationsverein",
+      "english": "integration association",
+      "indonesian": "asosiasi integrasi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Jugendliche",
+      "english": "youth",
+      "indonesian": "pemuda",
+      "difficulty": 5,
+      "notes": "Plural: Jugendlichen"
+    },
+    {
+      "german": "der Junge",
+      "english": "boy",
+      "indonesian": "anak laki-laki",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Kindertagesstätte",
+      "english": "nursery school",
+      "indonesian": "taman kanak-kanak",
+      "difficulty": 5,
+      "notes": "Auch: Kita, Plural: Kindertagesstätten"
+    },
+    {
+      "german": "die Klasse",
+      "english": "class",
+      "indonesian": "kelas",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Klassenarbeit",
+      "english": "classwork",
+      "indonesian": "tugas kelas",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Klassenlehrer/in",
+      "english": "class teacher",
+      "indonesian": "wali kelas",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Knöchel",
+      "english": "knuckle",
+      "indonesian": "pergelangan kaki",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Korb",
+      "english": "basket",
+      "indonesian": "keranjang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Kunst",
+      "english": "art",
+      "indonesian": "seni",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Lieblingsfach",
+      "english": "favourite subject",
+      "indonesian": "mata pelajaran favorit",
+      "difficulty": 5,
+      "notes": "Plural: Lieblingsfächer"
+    },
+    {
+      "german": "lösen",
+      "english": "to solve",
+      "indonesian": "memecahkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Lust",
+      "english": "desire",
+      "indonesian": "keinginan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Mädchen",
+      "english": "girl",
+      "indonesian": "anak perempuan",
+      "difficulty": 5,
+      "notes": "Plural: Mädchen"
+    },
+    {
+      "german": "mangelhaft",
+      "english": "unsatisfactory",
+      "indonesian": "kurang memuaskan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Mathearbeit",
+      "english": "maths test",
+      "indonesian": "tes matematika",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Meinung",
+      "english": "opinion",
+      "indonesian": "pendapat",
+      "difficulty": 5,
+      "notes": "Plural: Meinungen"
+    },
+    {
+      "german": "die Nachhilfe",
+      "english": "private tuition",
+      "indonesian": "les privat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "normal",
+      "english": "normal",
+      "indonesian": "normal",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Note",
+      "english": "mark",
+      "indonesian": "nilai",
+      "difficulty": 5,
+      "notes": "Plural: Noten"
+    },
+    {
+      "german": "die Oberschule",
+      "english": "secondary school",
+      "indonesian": "sekolah menengah atas",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "olympisch",
+      "english": "olympic",
+      "indonesian": "olimpiade",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Pflicht",
+      "english": "duty",
+      "indonesian": "kewajiban",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Physik",
+      "english": "physics",
+      "indonesian": "fisika",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Pilot/in",
+      "english": "pilot",
+      "indonesian": "pilot",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Planung",
+      "english": "schedule",
+      "indonesian": "perencanaan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Realschule",
+      "english": "secondary modern school",
+      "indonesian": "sekolah menengah modern",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Rede",
+      "english": "speech",
+      "indonesian": "pidato",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Religion",
+      "english": "religious studies",
+      "indonesian": "studi agama",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Schaubild",
+      "english": "diagram",
+      "indonesian": "diagram",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "schrecklich",
+      "english": "terrible",
+      "indonesian": "mengerikan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Schulform",
+      "english": "type of school",
+      "indonesian": "jenis sekolah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Schulleiter/in",
+      "english": "headteacher",
+      "indonesian": "kepala sekolah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Schulpflicht",
+      "english": "compulsory school attendance",
+      "indonesian": "wajib sekolah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Schulsystem",
+      "english": "school system",
+      "indonesian": "sistem sekolah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "selbst",
+      "english": "even",
+      "indonesian": "bahkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Sozialpädagoge/-pädagogin",
+      "english": "social education worker",
+      "indonesian": "pekerja pendidikan sosial",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Sportunterricht",
+      "english": "sports lessons",
+      "indonesian": "pelajaran olahraga",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "streng",
+      "english": "strict",
+      "indonesian": "ketat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Tagesordnung",
+      "english": "daily schedule",
+      "indonesian": "agenda harian",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Teenager",
+      "english": "teenager",
+      "indonesian": "remaja",
+      "difficulty": 5,
+      "notes": "Plural: Teenager"
+    },
+    {
+      "german": "teilnehmen",
+      "english": "to take part",
+      "indonesian": "mengambil bagian",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Tier",
+      "english": "animal",
+      "indonesian": "binatang",
+      "difficulty": 5,
+      "notes": "Plural: Tiere"
+    },
+    {
+      "german": "der/die Tierpfleger/in",
+      "english": "zookeeper",
+      "indonesian": "penjaga kebun binatang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "träumen",
+      "english": "to dream",
+      "indonesian": "bermimpi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "traurig",
+      "english": "sad",
+      "indonesian": "sedih",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "turnen",
+      "english": "to do gymnastics",
+      "indonesian": "senam",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "umknicken",
+      "english": "to fold over",
+      "indonesian": "terkilir",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "unfair",
+      "english": "unfair",
+      "indonesian": "tidak adil",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "ungenügend",
+      "english": "unsatisfactory",
+      "indonesian": "tidak memuaskan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Uniform",
+      "english": "uniform",
+      "indonesian": "seragam",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "unten",
+      "english": "under",
+      "indonesian": "di bawah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Unterschied",
+      "english": "difference",
+      "indonesian": "perbedaan",
+      "difficulty": 5,
+      "notes": "Plural: Unterschiede"
+    }
+  ]
+}

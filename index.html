@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeutschLern - German Learning Tool</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1 class="logo">🇩🇪 DeutschLern</h1>
+                <div class="header-controls">
+                    <button class="theme-toggle" id="themeToggle">🌙</button>
+                    <button class="settings-btn" id="settingsBtn">⚙️</button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main">
+            <!-- Navigation Tabs -->
+            <div class="navigation-tabs">
+                <button class="nav-tab active" data-view="dashboard">📚 Dashboard</button>
+                <button class="nav-tab" data-view="practice">🎯 Practice Mode</button>
+                <button class="nav-tab" data-view="statistics">📊 Statistics</button>
+            </div>
+
+            <!-- Dashboard View -->
+            <div class="dashboard-view" id="dashboardView">
+                <!-- Overall Progress -->
+                <div class="overall-progress">
+                    <h2>Learning Progress</h2>
+                    <div class="progress-stats">
+                        <div class="stat-item">
+                            <span class="stat-value" id="totalCardsLearned">0</span>
+                            <span class="stat-label">Cards Learned</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-value" id="currentStreak">0</span>
+                            <span class="stat-label">Day Streak</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-value" id="unlockedLevels">1</span>
+                            <span class="stat-label">Levels Unlocked</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Levels Container -->
+                <div class="levels-container" id="levelsContainer">
+                    <!-- Levels will be dynamically generated -->
+                </div>
+            </div>
+
+            <!-- Practice Mode View -->
+            <div class="practice-view" id="practiceView" style="display: none;">
+                <!-- Progress Bar -->
+                <div class="progress-section">
+                    <div class="level-info">
+                        <span class="current-level" id="currentLevel">A1</span>
+                        <span class="progress-text" id="progressText">0 / 0 words learned</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                </div>
+
+                <!-- Flashcard Container -->
+                <div class="flashcard-container" id="flashcardContainer">
+                    <div class="flashcard" id="flashcard">
+                        <div class="card-front" id="cardFront">
+                            <div class="card-content">
+                                <div class="word-display" id="wordDisplay">Select a part to begin learning</div>
+                                <button class="voice-btn" id="voiceBtnFront" style="display: none;">🔊</button>
+                            </div>
+                        </div>
+                        <div class="card-back" id="cardBack">
+                            <div class="card-content">
+                                <div class="translation" id="translation"></div>
+                                <div class="word-info" id="wordInfo"></div>
+                                <button class="voice-btn" id="voiceBtnBack" style="display: none;">🔊</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <div class="controls" id="controls">
+                    <button class="start-btn" id="startBtn">Start Random Practice</button>
+                    <div class="learning-controls" id="learningControls" style="display: none;">
+                        <div class="difficulty-buttons">
+                            <button class="diff-btn very-easy" data-difficulty="5">😍 Very Easy</button>
+                            <button class="diff-btn easy" data-difficulty="4">😊 Easy</button>
+                            <button class="diff-btn medium" data-difficulty="3">🤔 Medium</button>
+                            <button class="diff-btn hard" data-difficulty="2">😰 Hard</button>
+                            <button class="diff-btn very-hard" data-difficulty="1">😵 Very Hard</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Statistics View -->
+            <div class="statistics-view" id="statisticsView" style="display: none;">
+                <div class="statistics-header">
+                    <h2>📊 Learning Statistics</h2>
+                    <p class="statistics-subtitle">Track your progress and analyze your learning patterns</p>
+                </div>
+
+                <!-- Quick Stats Overview -->
+                <div class="quick-stats">
+                    <div class="stat-card primary">
+                        <div class="stat-icon">📚</div>
+                        <div class="stat-content">
+                            <div class="stat-number" id="totalWords">0</div>
+                            <div class="stat-label">Total Words</div>
+                        </div>
+                    </div>
+                    <div class="stat-card success">
+                        <div class="stat-icon">✅</div>
+                        <div class="stat-content">
+                            <div class="stat-number" id="learnedWords">0</div>
+                            <div class="stat-label">Learned Words</div>
+                        </div>
+                    </div>
+                    <div class="stat-card warning">
+                        <div class="stat-icon">⏰</div>
+                        <div class="stat-content">
+                            <div class="stat-number" id="reviewsDue">0</div>
+                            <div class="stat-label">Reviews Due</div>
+                        </div>
+                    </div>
+                    <div class="stat-card info">
+                        <div class="stat-icon">🎯</div>
+                        <div class="stat-content">
+                            <div class="stat-number" id="accuracy">0%</div>
+                            <div class="stat-label">Accuracy</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Learning Activity Section -->
+                <div class="stats-section">
+                    <div class="section-header">
+                        <h3>📈 Learning Activity</h3>
+                        <p>Your daily learning streak and activity patterns</p>
+                    </div>
+                    <div class="heatmap-container">
+                        <div class="heatmap" id="heatmap"></div>
+                        <div class="heatmap-legend">
+                            <span>Less</span>
+                            <div class="legend-colors">
+                                <div class="legend-color" data-level="0"></div>
+                                <div class="legend-color" data-level="1"></div>
+                                <div class="legend-color" data-level="2"></div>
+                                <div class="legend-color" data-level="3"></div>
+                                <div class="legend-color" data-level="4"></div>
+                            </div>
+                            <span>More</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Progress by Level Section -->
+                <div class="stats-section">
+                    <div class="section-header">
+                        <h3>📊 Progress by Level</h3>
+                        <p>Detailed breakdown of your progress across all levels</p>
+                    </div>
+                    <div class="level-progress-stats" id="levelProgressStats">
+                        <!-- Will be populated by JavaScript -->
+                    </div>
+                </div>
+
+                <!-- Study Patterns Section -->
+                <div class="stats-section">
+                    <div class="section-header">
+                        <h3>⏱️ Study Patterns</h3>
+                        <p>Insights into your learning habits and performance</p>
+                    </div>
+                    <div class="study-patterns">
+                        <div class="pattern-card">
+                            <div class="pattern-icon">🔥</div>
+                            <div class="pattern-content">
+                                <div class="pattern-number" id="currentStreak">0</div>
+                                <div class="pattern-label">Current Streak</div>
+                                <div class="pattern-desc">Days in a row</div>
+                            </div>
+                        </div>
+                        <div class="pattern-card">
+                            <div class="pattern-icon">🏆</div>
+                            <div class="pattern-content">
+                                <div class="pattern-number" id="totalSessions">0</div>
+                                <div class="pattern-label">Total Sessions</div>
+                                <div class="pattern-desc">Practice sessions completed</div>
+                            </div>
+                        </div>
+                        <div class="pattern-card">
+                            <div class="pattern-icon">📅</div>
+                            <div class="pattern-content">
+                                <div class="pattern-number" id="averageDaily">0</div>
+                                <div class="pattern-label">Daily Average</div>
+                                <div class="pattern-desc">Words learned per day</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Settings Panel -->
+            <div class="settings-panel" id="settingsPanel" style="display: none;">
+                <h2>Settings</h2>
+                <div class="setting-group">
+                    <label class="setting-label">
+                        <span>Learning Direction</span>
+                        <select id="learningDirection">
+                            <option value="de-id">German → Indonesian</option>
+                            <option value="id-de">Indonesian → German</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="setting-group">
+                    <label class="setting-label">
+                        <span>Level Selection</span>
+                        <select id="levelSelect">
+                            <option value="A1">A1 - Beginner</option>
+                            <option value="A2">A2 - Elementary</option>
+                            <option value="B1">B1 - Intermediate</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="setting-group">
+                    <label class="setting-label">
+                        <input type="checkbox" id="voiceEnabled" checked>
+                        <span>Enable Voice Pronunciation</span>
+                    </label>
+                </div>
+                <div class="setting-group">
+                    <label class="setting-label">
+                        <span>Cards per Session</span>
+                        <input type="number" id="cardsPerSession" value="20" min="5" max="50">
+                    </label>
+                </div>
+            </div>
+        </main>
+
+        <!-- Panel Backdrop -->
+        <div class="panel-backdrop" id="panelBackdrop"></div>
+
+        <!-- Loading Indicator -->
+        <div class="loading" id="loading" style="display: none;">
+            <div class="spinner"></div>
+            <p>Loading vocabulary...</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,659 @@
+{
+  "name": "German A2 Part 6",
+  "description": "German vocabulary level A2 part 6 from the book \"Einfach gut! Deutsch für die Integration\"",
+  "date_created": "2025-03-28T12:00:00Z",
+  "source": "telc gGmbH - Einfach gut! Deutsch für die Integration A2.1",
+  "cards": [
+    {
+      "german": "der/die Ansprechpartner/in",
+      "english": "contact person",
+      "indonesian": "narahubung",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Aushilfsjob",
+      "english": "temporary job",
+      "indonesian": "pekerjaan sementara",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "aussehen",
+      "english": "to look",
+      "indonesian": "terlihat",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der/die Auszubildende",
+      "english": "trainee",
+      "indonesian": "peserta pelatihan",
+      "difficulty": 3,
+      "notes": "Often abbreviated as 'Azubi'"
+    },
+    {
+      "german": "der/die Bäckereifachverkäufer/in",
+      "english": "baker's assistant",
+      "indonesian": "asisten toko roti",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "bedanken",
+      "english": "to thank",
+      "indonesian": "berterima kasih",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "bedienen",
+      "english": "to serve",
+      "indonesian": "melayani",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "beeilen",
+      "english": "to hurry",
+      "indonesian": "bergegas",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "begründen",
+      "english": "to justify",
+      "indonesian": "membenarkan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Beratungsgespräch",
+      "english": "consultation",
+      "indonesian": "konsultasi",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Berufsfeld",
+      "english": "field of work",
+      "indonesian": "bidang pekerjaan",
+      "difficulty": 3,
+      "notes": "Plural: Berufsfelder"
+    },
+    {
+      "german": "der/die Bewerber/in",
+      "english": "applicant",
+      "indonesian": "pelamar",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "bieten",
+      "english": "to offer",
+      "indonesian": "menawarkan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "eindecken",
+      "english": "to inundate",
+      "indonesian": "menutupi",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "genug",
+      "english": "enough",
+      "indonesian": "cukup",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "Grundschule",
+      "english": "primary school",
+      "indonesian": "sekolah dasar",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "handwerklich",
+      "english": "manual",
+      "indonesian": "kerajinan tangan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Holz",
+      "english": "wood",
+      "indonesian": "kayu",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der/die Informatiker/in",
+      "english": "IT technician",
+      "indonesian": "teknisi IT",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Kneipe",
+      "english": "pub",
+      "indonesian": "bar",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "kostenfrei",
+      "english": "free of charge",
+      "indonesian": "gratis",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Küchenhilfe",
+      "english": "kitchen assistant",
+      "indonesian": "asisten dapur",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Laufbahn",
+      "english": "career path",
+      "indonesian": "jalur karir",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Lebenslauf",
+      "english": "CV",
+      "indonesian": "curriculum vitae",
+      "difficulty": 3,
+      "notes": "Plural: Lebensläufe"
+    },
+    {
+      "german": "lückenlos",
+      "english": "seamless",
+      "indonesian": "tanpa celah",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "melden",
+      "english": "to notify",
+      "indonesian": "melaporkan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Mittelschule",
+      "english": "secondary school",
+      "indonesian": "sekolah menengah",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der/die Modedesigner/in",
+      "english": "fashion designer",
+      "indonesian": "perancang busana",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Muster",
+      "english": "pattern",
+      "indonesian": "pola",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "nötig",
+      "english": "necessary",
+      "indonesian": "diperlukan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "ob",
+      "english": "whether",
+      "indonesian": "apakah",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "persönlich",
+      "english": "personal",
+      "indonesian": "pribadi",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "professionell",
+      "english": "professional",
+      "indonesian": "profesional",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Reinigungsarbeiten",
+      "english": "cleaning jobs",
+      "indonesian": "pekerjaan pembersihan",
+      "difficulty": 3,
+      "notes": "Always plural"
+    },
+    {
+      "german": "die Rente",
+      "english": "retirement",
+      "indonesian": "pensiun",
+      "difficulty": 3,
+      "notes": "Plural: Renten"
+    },
+    {
+      "german": "der/die Restaurantfachmann/-frau",
+      "english": "restaurant specialist",
+      "indonesian": "spesialis restoran",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "spezial",
+      "english": "special",
+      "indonesian": "khusus",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "statt",
+      "english": "instead",
+      "indonesian": "alih-alih",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Stelle",
+      "english": "position",
+      "indonesian": "posisi",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Stellenangebot",
+      "english": "job offer",
+      "indonesian": "tawaran pekerjaan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Stellensuche",
+      "english": "job search",
+      "indonesian": "pencarian kerja",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Struktur",
+      "english": "structure",
+      "indonesian": "struktur",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "sympathisch",
+      "english": "kind",
+      "indonesian": "simpatik",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Teilzeit",
+      "english": "part-time",
+      "indonesian": "paruh waktu",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Teilzeitstelle",
+      "english": "part-time position",
+      "indonesian": "posisi paruh waktu",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "tippen",
+      "english": "to type",
+      "indonesian": "mengetik",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Tippfehler",
+      "english": "typing error",
+      "indonesian": "kesalahan ketik",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der/die Tischler/in",
+      "english": "carpenter",
+      "indonesian": "tukang kayu",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "üben",
+      "english": "to practice",
+      "indonesian": "berlatih",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Übersiedlung",
+      "english": "relocation",
+      "indonesian": "relokasi",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "unprofessionell",
+      "english": "unprofessional",
+      "indonesian": "tidak profesional",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "unsympathisch",
+      "english": "unkind",
+      "indonesian": "tidak simpatik",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "unzufrieden",
+      "english": "unsatisfied",
+      "indonesian": "tidak puas",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "verrückt",
+      "english": "crazy",
+      "indonesian": "gila",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Volleyball",
+      "english": "volleyball",
+      "indonesian": "bola voli",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Vollzeit",
+      "english": "full-time",
+      "indonesian": "waktu penuh",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Vollzeitstelle",
+      "english": "full-time position",
+      "indonesian": "posisi waktu penuh",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Voraussetzung",
+      "english": "requirement",
+      "indonesian": "persyaratan",
+      "difficulty": 3,
+      "notes": "Plural: Voraussetzungen"
+    },
+    {
+      "german": "die Vorlage",
+      "english": "template",
+      "indonesian": "templat",
+      "difficulty": 3,
+      "notes": "Plural: Vorlagen"
+    },
+    {
+      "german": "zuverlässig",
+      "english": "reliable",
+      "indonesian": "dapat diandalkan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Abendkasse",
+      "english": "box office",
+      "indonesian": "loket malam",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "abholen",
+      "english": "to collect",
+      "indonesian": "menjemput",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "aktuell",
+      "english": "current",
+      "indonesian": "saat ini",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "alle",
+      "english": "all",
+      "indonesian": "semua",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "anklicken",
+      "english": "to click",
+      "indonesian": "mengklik",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die App",
+      "english": "app",
+      "indonesian": "aplikasi",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "aussuchen",
+      "english": "to choose",
+      "indonesian": "memilih",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Benutzername",
+      "english": "user name",
+      "indonesian": "nama pengguna",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "bestellen",
+      "english": "to order",
+      "indonesian": "memesan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "chatten",
+      "english": "to chat",
+      "indonesian": "mengobrol",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Datei",
+      "english": "file",
+      "indonesian": "berkas",
+      "difficulty": 3,
+      "notes": "Plural: Dateien"
+    },
+    {
+      "german": "dich",
+      "english": "you",
+      "indonesian": "kamu",
+      "difficulty": 3,
+      "notes": "Accusative form of 'du'"
+    },
+    {
+      "german": "diskutieren",
+      "english": "to discuss",
+      "indonesian": "mendiskusikan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "drucken",
+      "english": "to print",
+      "indonesian": "mencetak",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Eintritt",
+      "english": "entry",
+      "indonesian": "masuk",
+      "difficulty": 3,
+      "notes": "Plural: Eintritte"
+    },
+    {
+      "german": "empfehlen",
+      "english": "to recommend",
+      "indonesian": "merekomendasikan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Empfehlung",
+      "english": "recommendation",
+      "indonesian": "rekomendasi",
+      "difficulty": 3,
+      "notes": "Plural: Empfehlungen"
+    },
+    {
+      "german": "flirten",
+      "english": "to flirt",
+      "indonesian": "menggoda",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Flohmarkt",
+      "english": "flea market",
+      "indonesian": "pasar loak",
+      "difficulty": 3,
+      "notes": "Plural: Flohmärkte"
+    },
+    {
+      "german": "das Forum",
+      "english": "forum",
+      "indonesian": "forum",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "funktionieren",
+      "english": "to work",
+      "indonesian": "berfungsi",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "gebraucht",
+      "english": "used",
+      "indonesian": "bekas",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "googeln",
+      "english": "to google",
+      "indonesian": "googling",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "herausfinden",
+      "english": "to find out",
+      "indonesian": "mencari tahu",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "herunterladen",
+      "english": "to download",
+      "indonesian": "mengunduh",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "hochladen",
+      "english": "to upload",
+      "indonesian": "mengunggah",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "informieren",
+      "english": "to inform",
+      "indonesian": "menginformasikan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "international",
+      "english": "international",
+      "indonesian": "internasional",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Internet",
+      "english": "Internet",
+      "indonesian": "internet",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Kennwort",
+      "english": "password",
+      "indonesian": "kata sandi",
+      "difficulty": 3,
+      "notes": "Plural: Kennwörter"
+    },
+    {
+      "german": "die Kinokarte",
+      "english": "cinema ticket",
+      "indonesian": "tiket bioskop",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "klicken",
+      "english": "to click",
+      "indonesian": "mengklik",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Kommentar",
+      "english": "comment",
+      "indonesian": "komentar",
+      "difficulty": 3,
+      "notes": "Plural: Kommentare"
+    }
+  ]
+}

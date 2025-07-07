@@ -1,0 +1,652 @@
+{
+  "name": "German A2 Part 2",
+  "description": "German vocabulary level A2 part 2 from the book \"Einfach gut! Deutsch für die Integration A2.2\"",
+  "date_created": "2025-03-28T12:00:00Z",
+  "source": "telc gGmbH - Einfach gut! Deutsch für die Integration A2.2",
+  "cards": [
+    {
+      "german": "ungarisch",
+      "english": "Hungarian",
+      "indonesian": "Hungaria",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Unterwäsche",
+      "english": "underwear",
+      "indonesian": "pakaian dalam",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Vanilleeis",
+      "english": "vanilla ice cream",
+      "indonesian": "es krim vanila",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Vegetarier/in",
+      "english": "vegetarian",
+      "indonesian": "vegetarian",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "vegetarisch",
+      "english": "vegetarian",
+      "indonesian": "vegetarian",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "wandern",
+      "english": "to hike",
+      "indonesian": "mendaki",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Wanderschuh",
+      "english": "hiking shoes",
+      "indonesian": "sepatu mendaki",
+      "difficulty": 5,
+      "notes": "Plural: Wanderschuhe"
+    },
+    {
+      "german": "der Wecker",
+      "english": "alarm",
+      "indonesian": "jam weker",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "wirklich",
+      "english": "really",
+      "indonesian": "sungguh",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "wunderbar",
+      "english": "wonderful",
+      "indonesian": "indah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "zubereiten",
+      "english": "to prepare",
+      "indonesian": "menyiapkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Zucchini",
+      "english": "zucchini",
+      "indonesian": "zukini",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "absetzen",
+      "english": "to distribute",
+      "indonesian": "mendistribusikan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Abteilung",
+      "english": "department",
+      "indonesian": "departemen",
+      "difficulty": 5,
+      "notes": "Plural: Abteilungen"
+    },
+    {
+      "german": "angeben",
+      "english": "to indicate",
+      "indonesian": "menunjukkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Anruf",
+      "english": "call",
+      "indonesian": "panggilan",
+      "difficulty": 5,
+      "notes": "Plural: Anrufe"
+    },
+    {
+      "german": "der/die Anrufer/in",
+      "english": "caller",
+      "indonesian": "penelepon",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Arbeitgeber/in",
+      "english": "employer",
+      "indonesian": "pemberi kerja",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Arbeitsauftrag",
+      "english": "work order",
+      "indonesian": "perintah kerja",
+      "difficulty": 5,
+      "notes": "Plural: Arbeitsaufträge"
+    },
+    {
+      "german": "der Arbeitsbeginn",
+      "english": "start of work",
+      "indonesian": "mulai kerja",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Arbeitsschutz",
+      "english": "occupational safety",
+      "indonesian": "keselamatan kerja",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Arbeitsvertrag",
+      "english": "work contract",
+      "indonesian": "kontrak kerja",
+      "difficulty": 5,
+      "notes": "Plural: Arbeitsverträge"
+    },
+    {
+      "german": "der Aufzug",
+      "english": "lift",
+      "indonesian": "lift",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Außendienst",
+      "english": "sales representatives",
+      "indonesian": "perwakilan penjualan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "ausmachen",
+      "english": "to account for",
+      "indonesian": "menjelaskan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Beauftragte",
+      "english": "agent",
+      "indonesian": "agen",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "bereit",
+      "english": "ready",
+      "indonesian": "siap",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "bereitstellen",
+      "english": "to make ready",
+      "indonesian": "menyiapkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "besprechen",
+      "english": "to discuss",
+      "indonesian": "mendiskusikan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Besprechung",
+      "english": "meeting",
+      "indonesian": "pertemuan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "betätigen",
+      "english": "to operate",
+      "indonesian": "mengoperasikan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "betreffen",
+      "english": "to relate to",
+      "indonesian": "berkaitan dengan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "bewahren",
+      "english": "to save from",
+      "indonesian": "menyimpan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "bewegen",
+      "english": "to move",
+      "indonesian": "bergerak",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Bildschirm",
+      "english": "screen",
+      "indonesian": "layar",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Brand",
+      "english": "fire",
+      "indonesian": "kebakaran",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Brandbekämpfung",
+      "english": "fire fighting",
+      "indonesian": "pemadaman kebakaran",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Brandfall",
+      "english": "case of fire",
+      "indonesian": "kasus kebakaran",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Brandmelder",
+      "english": "fire alarm",
+      "indonesian": "alarm kebakaran",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Brandschutz",
+      "english": "fire prevention",
+      "indonesian": "pencegahan kebakaran",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "brennen",
+      "english": "to burn",
+      "indonesian": "membakar",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Buchhaltung",
+      "english": "accountant",
+      "indonesian": "akuntan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "danken",
+      "english": "to thank",
+      "indonesian": "berterima kasih",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "deutlich",
+      "english": "clearly",
+      "indonesian": "jelas",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "echt",
+      "english": "really",
+      "indonesian": "asli",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Einweisung",
+      "english": "instruction",
+      "indonesian": "instruksi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Elektrik",
+      "english": "electrics",
+      "indonesian": "kelistrikan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Entwurf",
+      "english": "draft",
+      "indonesian": "draf",
+      "difficulty": 5,
+      "notes": "Plural: Entwürfe"
+    },
+    {
+      "german": "erlauben",
+      "english": "to allow",
+      "indonesian": "mengizinkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "erwarten",
+      "english": "to wait for",
+      "indonesian": "mengharapkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "erwischen",
+      "english": "to catch",
+      "indonesian": "menangkap",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Feuerlöscher",
+      "english": "fire extinguisher",
+      "indonesian": "alat pemadam api",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Flamme",
+      "english": "flame",
+      "indonesian": "nyala api",
+      "difficulty": 5,
+      "notes": "Plural: Flammen"
+    },
+    {
+      "german": "folgen",
+      "english": "to follow",
+      "indonesian": "mengikuti",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "gefährden",
+      "english": "to endanger",
+      "indonesian": "membahayakan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "gestalten",
+      "english": "to design",
+      "indonesian": "merancang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "gesund",
+      "english": "healthy",
+      "indonesian": "sehat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Grafik",
+      "english": "graphics",
+      "indonesian": "grafik",
+      "difficulty": 5,
+      "notes": "Plural: Grafiken"
+    },
+    {
+      "german": "der/die Grafiker/in",
+      "english": "graphic designer",
+      "indonesian": "desainer grafis",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Hektik",
+      "english": "rush",
+      "indonesian": "kesibukan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "heraussuchen",
+      "english": "to pick out",
+      "indonesian": "memilih",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "hinfahren",
+      "english": "to go there",
+      "indonesian": "pergi ke sana",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "höflich",
+      "english": "polite",
+      "indonesian": "sopan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Internetzugang",
+      "english": "internet access",
+      "indonesian": "akses internet",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Kabelsalat",
+      "english": "cable tangle",
+      "indonesian": "kabel kusut",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "kennzeichnen",
+      "english": "to mark",
+      "indonesian": "menandai",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Kerze",
+      "english": "candle",
+      "indonesian": "lilin",
+      "difficulty": 5,
+      "notes": "Plural: Kerzen"
+    },
+    {
+      "german": "das Konto",
+      "english": "account",
+      "indonesian": "rekening",
+      "difficulty": 5,
+      "notes": "Plural: Konten"
+    },
+    {
+      "german": "die Kontoverbindung",
+      "english": "account connection",
+      "indonesian": "koneksi rekening",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "kopieren",
+      "english": "to copy",
+      "indonesian": "menyalin",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Kraft",
+      "english": "power",
+      "indonesian": "kekuatan",
+      "difficulty": 5,
+      "notes": "Plural: Kräfte"
+    },
+    {
+      "german": "die Kundenbetreuung",
+      "english": "customer support",
+      "indonesian": "layanan pelanggan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Laptop",
+      "english": "laptop",
+      "indonesian": "laptop",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Marketing",
+      "english": "marketing",
+      "indonesian": "pemasaran",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Mehrfachsteckdose",
+      "english": "power strip",
+      "indonesian": "stop kontak ganda",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "mitschreiben",
+      "english": "to take notes",
+      "indonesian": "mencatat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Nachbereitung",
+      "english": "follow-up",
+      "indonesian": "tindak lanjut",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "nennen",
+      "english": "to name",
+      "indonesian": "menyebutkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Personalabteilung",
+      "english": "personnel department",
+      "indonesian": "departemen personalia",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Personalbüro",
+      "english": "personnel office",
+      "indonesian": "kantor personalia",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Personalleiter/in",
+      "english": "head of personnel",
+      "indonesian": "kepala personalia",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Protokoll",
+      "english": "protocol",
+      "indonesian": "protokol",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "reagieren",
+      "english": "to react",
+      "indonesian": "bereaksi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Regel",
+      "english": "rule",
+      "indonesian": "peraturan",
+      "difficulty": 5,
+      "notes": "Plural: Regeln"
+    },
+    {
+      "german": "der Rettungswagen",
+      "english": "ambulance",
+      "indonesian": "ambulans",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Rückfrage",
+      "english": "query",
+      "indonesian": "pertanyaan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Sekretariat",
+      "english": "secretary's office",
+      "indonesian": "kantor sekretaris",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Sicherheit",
+      "english": "security",
+      "indonesian": "keamanan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Steckdose",
+      "english": "socket",
+      "indonesian": "stop kontak",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Steuer",
+      "english": "tax",
+      "indonesian": "pajak",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Teelicht",
+      "english": "tea light",
+      "indonesian": "lilin teh",
+      "difficulty": 5,
+      "notes": "Plural: Teelichter"
+    },
+    {
+      "german": "überlasten",
+      "english": "to overload",
+      "indonesian": "kelebihan beban",
+      "difficulty": 5,
+      "notes": ""
+    }
+  ]
+}

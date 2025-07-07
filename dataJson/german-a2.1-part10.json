@@ -1,0 +1,687 @@
+{
+  "name": "German A2 Part 10",
+  "description": "German vocabulary level A2 part 10 from the book \"Einfach gut! Deutsch für die Integration\"",
+  "date_created": "2025-03-28T12:00:00Z",
+  "source": "telc gGmbH - Einfach gut! Deutsch für die Integration A2.1",
+  "cards": [
+    {
+      "german": "der Integrationskurs",
+      "english": "integration course",
+      "indonesian": "kursus integrasi",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Kindergeld",
+      "english": "child allowance",
+      "indonesian": "tunjangan anak",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der/die Lebenspartner/in",
+      "english": "life partner",
+      "indonesian": "pasangan hidup",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Lichtbildausweis",
+      "english": "photo ID",
+      "indonesian": "kartu identitas dengan foto",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "losfahren",
+      "english": "to drive away",
+      "indonesian": "berangkat",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "männlich",
+      "english": "male",
+      "indonesian": "laki-laki",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Nichte",
+      "english": "niece",
+      "indonesian": "keponakan perempuan",
+      "difficulty": 3,
+      "notes": "Plural: Nichten"
+    },
+    {
+      "german": "notieren",
+      "english": "to note",
+      "indonesian": "mencatat",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Personalausweis",
+      "english": "personal ID",
+      "indonesian": "kartu tanda penduduk",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Reisepass",
+      "english": "passport",
+      "indonesian": "paspor",
+      "difficulty": 3,
+      "notes": "Plural: Reisepässe"
+    },
+    {
+      "german": "die Schwiegereltern",
+      "english": "parents-in-law",
+      "indonesian": "mertua",
+      "difficulty": 3,
+      "notes": "Always plural"
+    },
+    {
+      "german": "die Staatsangehörigkeit",
+      "english": "nationality",
+      "indonesian": "kewarganegaraan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Team",
+      "english": "team",
+      "indonesian": "tim",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Teil",
+      "english": "part",
+      "indonesian": "bagian",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Unterlagen",
+      "english": "documents",
+      "indonesian": "dokumen",
+      "difficulty": 3,
+      "notes": "Always plural"
+    },
+    {
+      "german": "unterschreiben",
+      "english": "to sign",
+      "indonesian": "menandatangani",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Urkunde",
+      "english": "certificate",
+      "indonesian": "sertifikat",
+      "difficulty": 3,
+      "notes": "Plural: Urkunden"
+    },
+    {
+      "german": "vollständig",
+      "english": "complete",
+      "indonesian": "lengkap",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Webseite",
+      "english": "website",
+      "indonesian": "situs web",
+      "difficulty": 3,
+      "notes": "Plural: Webseiten"
+    },
+    {
+      "german": "weiblich",
+      "english": "female",
+      "indonesian": "perempuan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "wiederholen",
+      "english": "to repeat",
+      "indonesian": "mengulangi",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Zulassungsstelle",
+      "english": "admission office",
+      "indonesian": "kantor perizinan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "zuständig",
+      "english": "responsible",
+      "indonesian": "bertanggung jawab",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Abendkasse",
+      "english": "box office",
+      "indonesian": "loket malam",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "abholen",
+      "english": "to collect",
+      "indonesian": "menjemput",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "aktuell",
+      "english": "current",
+      "indonesian": "saat ini",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "alle",
+      "english": "all",
+      "indonesian": "semua",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "anklicken",
+      "english": "to click",
+      "indonesian": "mengklik",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die App",
+      "english": "app",
+      "indonesian": "aplikasi",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "aussuchen",
+      "english": "to choose",
+      "indonesian": "memilih",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Benutzername",
+      "english": "user name",
+      "indonesian": "nama pengguna",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "bestellen",
+      "english": "to order",
+      "indonesian": "memesan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "chatten",
+      "english": "to chat",
+      "indonesian": "mengobrol",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Datei",
+      "english": "file",
+      "indonesian": "berkas",
+      "difficulty": 3,
+      "notes": "Plural: Dateien"
+    },
+    {
+      "german": "dich",
+      "english": "you",
+      "indonesian": "kamu",
+      "difficulty": 3,
+      "notes": "Accusative form of 'du'"
+    },
+    {
+      "german": "diskutieren",
+      "english": "to discuss",
+      "indonesian": "mendiskusikan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "drucken",
+      "english": "to print",
+      "indonesian": "mencetak",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Eintritt",
+      "english": "entry",
+      "indonesian": "masuk",
+      "difficulty": 3,
+      "notes": "Plural: Eintritte"
+    },
+    {
+      "german": "empfehlen",
+      "english": "to recommend",
+      "indonesian": "merekomendasikan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Empfehlung",
+      "english": "recommendation",
+      "indonesian": "rekomendasi",
+      "difficulty": 3,
+      "notes": "Plural: Empfehlungen"
+    },
+    {
+      "german": "flirten",
+      "english": "to flirt",
+      "indonesian": "menggoda",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Flohmarkt",
+      "english": "flea market",
+      "indonesian": "pasar loak",
+      "difficulty": 3,
+      "notes": "Plural: Flohmärkte"
+    },
+    {
+      "german": "das Forum",
+      "english": "forum",
+      "indonesian": "forum",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "funktionieren",
+      "english": "to work",
+      "indonesian": "berfungsi",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "gebraucht",
+      "english": "used",
+      "indonesian": "bekas",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "googeln",
+      "english": "to google",
+      "indonesian": "googling",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "herausfinden",
+      "english": "to find out",
+      "indonesian": "mencari tahu",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "herunterladen",
+      "english": "to download",
+      "indonesian": "mengunduh",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "hochladen",
+      "english": "to upload",
+      "indonesian": "mengunggah",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "informieren",
+      "english": "to inform",
+      "indonesian": "menginformasikan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "international",
+      "english": "international",
+      "indonesian": "internasional",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Internet",
+      "english": "Internet",
+      "indonesian": "internet",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Kennwort",
+      "english": "password",
+      "indonesian": "kata sandi",
+      "difficulty": 3,
+      "notes": "Plural: Kennwörter"
+    },
+    {
+      "german": "die Kinokarte",
+      "english": "cinema ticket",
+      "indonesian": "tiket bioskop",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "klicken",
+      "english": "to click",
+      "indonesian": "mengklik",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Kommentar",
+      "english": "comment",
+      "indonesian": "komentar",
+      "difficulty": 3,
+      "notes": "Plural: Kommentare"
+    },
+    {
+      "german": "kostenlos",
+      "english": "free of charge",
+      "indonesian": "gratis",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Kulturcafé",
+      "english": "culture café",
+      "indonesian": "kafe budaya",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der/die Leser/in",
+      "english": "reader",
+      "indonesian": "pembaca",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "löschen",
+      "english": "to delete",
+      "indonesian": "menghapus",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "mailen",
+      "english": "to mail",
+      "indonesian": "mengirim email",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "mich",
+      "english": "me",
+      "indonesian": "saya",
+      "difficulty": 3,
+      "notes": "Accusative form of 'ich'"
+    },
+    {
+      "german": "mitkommen",
+      "english": "to come along",
+      "indonesian": "ikut serta",
+      "difficulty": 3,
+      "notes": "Example: Kommen deine Eltern mit?"
+    },
+    {
+      "german": "mitmachen",
+      "english": "to participate",
+      "indonesian": "berpartisipasi",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "nachschauen",
+      "english": "to look up",
+      "indonesian": "melihat",
+      "difficulty": 3,
+      "notes": "Example: Schauen wir doch mal im Internet nach."
+    },
+    {
+      "german": "der Neffe",
+      "english": "nephew",
+      "indonesian": "keponakan laki-laki",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "nervös",
+      "english": "nervous",
+      "indonesian": "gugup",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "Newsletter",
+      "english": "newsletter",
+      "indonesian": "buletin",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "oben",
+      "english": "at the top",
+      "indonesian": "di atas",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Politik",
+      "english": "politics",
+      "indonesian": "politik",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "prima",
+      "english": "great",
+      "indonesian": "bagus",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Programm",
+      "english": "programme",
+      "indonesian": "program",
+      "difficulty": 3,
+      "notes": "Plural: Programme"
+    },
+    {
+      "german": "die Radtour",
+      "english": "cycling tour",
+      "indonesian": "tur bersepeda",
+      "difficulty": 3,
+      "notes": "Plural: Radtouren"
+    },
+    {
+      "german": "der Regen",
+      "english": "rain",
+      "indonesian": "hujan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Regenschirm",
+      "english": "umbrella",
+      "indonesian": "payung",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Reihenfolge",
+      "english": "order",
+      "indonesian": "urutan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "reservieren",
+      "english": "to book",
+      "indonesian": "memesan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Reservierung",
+      "english": "booking",
+      "indonesian": "pemesanan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Rolle",
+      "english": "role",
+      "indonesian": "peran",
+      "difficulty": 3,
+      "notes": "Plural: Rollen"
+    },
+    {
+      "german": "sinken",
+      "english": "to decrease",
+      "indonesian": "menurun",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Smartphone",
+      "english": "smartphone",
+      "indonesian": "ponsel pintar",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "speichern",
+      "english": "to save",
+      "indonesian": "menyimpan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Spielzeug",
+      "english": "toy",
+      "indonesian": "mainan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "starten",
+      "english": "to begin",
+      "indonesian": "memulai",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Startseite",
+      "english": "homepage",
+      "indonesian": "halaman utama",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "steigen",
+      "english": "to increase",
+      "indonesian": "naik",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Straßenfest",
+      "english": "street party",
+      "indonesian": "pesta jalanan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Symbol",
+      "english": "symbol",
+      "indonesian": "simbol",
+      "difficulty": 3,
+      "notes": "Plural: Symbole"
+    },
+    {
+      "german": "tauschen",
+      "english": "to swap",
+      "indonesian": "menukar",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Temperatur",
+      "english": "temperature",
+      "indonesian": "suhu",
+      "difficulty": 3,
+      "notes": "Plural: Temperaturen"
+    },
+    {
+      "german": "das Theater",
+      "english": "theatre",
+      "indonesian": "teater",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Treffpunkt",
+      "english": "venue",
+      "indonesian": "tempat pertemuan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "unternehmen",
+      "english": "to undertake",
+      "indonesian": "melakukan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Verabredung",
+      "english": "meet up",
+      "indonesian": "janji bertemu",
+      "difficulty": 3,
+      "notes": "Plural: Verabredungen"
+    },
+    {
+      "german": "die Veranstaltung",
+      "english": "event",
+      "indonesian": "acara",
+      "difficulty": 3,
+      "notes": "Plural: Veranstaltungen"
+    },
+    {
+      "german": "der Veranstaltungstipp",
+      "english": "event tip",
+      "indonesian": "tip acara",
+      "difficulty": 3,
+      "notes": "Plural: Veranstaltungstipps"
+    },
+    {
+      "german": "der Vorschlag",
+      "english": "suggestion",
+      "indonesian": "saran",
+      "difficulty": 3,
+      "notes": "Plural: Vorschläge"
+    }
+  ]
+}

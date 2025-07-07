@@ -1,0 +1,645 @@
+{
+  "name": "German A1 Part 5",
+  "description": "German vocabulary level A1 part 5 from the book \"Einfach gut! Deutsch für die Integration\"",
+  "date_created": "2025-03-28T12:00:00Z",
+  "source": "telc gGmbH - Einfach gut! Deutsch für die Integration A1.1",
+  "cards": [
+    {
+      "german": "teuer",
+      "english": "expensive",
+      "indonesian": "mahal",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Tipp",
+      "english": "tip",
+      "indonesian": "tip/saran",
+      "difficulty": 5,
+      "notes": "Plural: Tipps"
+    },
+    {
+      "german": "die Tomate",
+      "english": "tomato",
+      "indonesian": "tomat",
+      "difficulty": 5,
+      "notes": "Plural: Tomaten"
+    },
+    {
+      "german": "die Traube",
+      "english": "grape",
+      "indonesian": "anggur",
+      "difficulty": 5,
+      "notes": "Plural: Trauben"
+    },
+    {
+      "german": "trinken",
+      "english": "to drink",
+      "indonesian": "minum",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "unterstreichen",
+      "english": "to emphasize",
+      "indonesian": "menggarisbawahi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "verbinden",
+      "english": "to connect",
+      "indonesian": "menghubungkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Verkäufer",
+      "english": "salesperson (male)",
+      "indonesian": "penjual (laki-laki)",
+      "difficulty": 5,
+      "notes": "Plural: Verkäufer"
+    },
+    {
+      "german": "die Verkäuferin",
+      "english": "salesperson (female)",
+      "indonesian": "penjual (perempuan)",
+      "difficulty": 5,
+      "notes": "Plural: Verkäuferinnen"
+    },
+    {
+      "german": "von",
+      "english": "from",
+      "indonesian": "dari",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Wasser",
+      "english": "water",
+      "indonesian": "air",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Wein",
+      "english": "wine",
+      "indonesian": "anggur",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Zitrone",
+      "english": "lemon",
+      "indonesian": "lemon",
+      "difficulty": 5,
+      "notes": "Plural: Zitronen"
+    },
+    {
+      "german": "der Zucker",
+      "english": "sugar",
+      "indonesian": "gula",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Zwiebel",
+      "english": "onion",
+      "indonesian": "bawang",
+      "difficulty": 5,
+      "notes": "Plural: Zwiebeln"
+    },
+    {
+      "german": "abends",
+      "english": "in the evenings",
+      "indonesian": "pada malam hari",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Alltag",
+      "english": "everyday",
+      "indonesian": "keseharian",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "anrufen",
+      "english": "to call",
+      "indonesian": "menelepon",
+      "difficulty": 5,
+      "notes": "Ich rufe dich an."
+    },
+    {
+      "german": "die Arbeit",
+      "english": "work",
+      "indonesian": "pekerjaan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "aufstehen",
+      "english": "to get up",
+      "indonesian": "bangun",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "beginnen",
+      "english": "to start",
+      "indonesian": "memulai",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "beide",
+      "english": "both",
+      "indonesian": "keduanya",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Bett",
+      "english": "bed",
+      "indonesian": "tempat tidur",
+      "difficulty": 5,
+      "notes": "Plural: Betten"
+    },
+    {
+      "german": "bis",
+      "english": "until",
+      "indonesian": "sampai",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Büro",
+      "english": "office",
+      "indonesian": "kantor",
+      "difficulty": 5,
+      "notes": "Plural: Büros"
+    },
+    {
+      "german": "der Computer",
+      "english": "computer",
+      "indonesian": "komputer",
+      "difficulty": 5,
+      "notes": "Plural: Computer"
+    },
+    {
+      "german": "das Computerspiel",
+      "english": "computer game",
+      "indonesian": "permainan komputer",
+      "difficulty": 5,
+      "notes": "Plural: Computerspiele"
+    },
+    {
+      "german": "erst",
+      "english": "first",
+      "indonesian": "pertama",
+      "difficulty": 5,
+      "notes": "Wir lernen erst Deutsch, dann gehen wir spazieren."
+    },
+    {
+      "german": "fernsehen",
+      "english": "to watch television",
+      "indonesian": "menonton televisi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Film",
+      "english": "film",
+      "indonesian": "film",
+      "difficulty": 5,
+      "notes": "Plural: Filme"
+    },
+    {
+      "german": "die Freundin",
+      "english": "friend (female)",
+      "indonesian": "teman (perempuan)",
+      "difficulty": 5,
+      "notes": "Plural: Freundinnen"
+    },
+    {
+      "german": "früh",
+      "english": "early",
+      "indonesian": "awal",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Fußball",
+      "english": "football",
+      "indonesian": "sepak bola",
+      "difficulty": 5,
+      "notes": "Ich spiele gern Fußball."
+    },
+    {
+      "german": "gehen",
+      "english": "to go",
+      "indonesian": "pergi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "geöffnet",
+      "english": "open",
+      "indonesian": "terbuka",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "grillen",
+      "english": "to grill/barbeque",
+      "indonesian": "memanggang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "halb",
+      "english": "half past",
+      "indonesian": "setengah",
+      "difficulty": 5,
+      "notes": "Es ist halb zwölf."
+    },
+    {
+      "german": "der Hunger",
+      "english": "hunger",
+      "indonesian": "lapar",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Idee",
+      "english": "idea",
+      "indonesian": "ide",
+      "difficulty": 5,
+      "notes": "Plural: Ideen"
+    },
+    {
+      "german": "das Interview",
+      "english": "interview",
+      "indonesian": "wawancara",
+      "difficulty": 5,
+      "notes": "Plural: Interviews"
+    },
+    {
+      "german": "kochen",
+      "english": "to cook",
+      "indonesian": "memasak",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "können",
+      "english": "to be able to",
+      "indonesian": "dapat/bisa",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "lecker",
+      "english": "delicious",
+      "indonesian": "lezat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "leider",
+      "english": "unfortunately",
+      "indonesian": "sayangnya",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "manchmal",
+      "english": "sometimes",
+      "indonesian": "kadang-kadang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "mehr",
+      "english": "more",
+      "indonesian": "lebih",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Mittag",
+      "english": "midday",
+      "indonesian": "siang hari",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "mittags",
+      "english": "at midday",
+      "indonesian": "pada siang hari",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Mittagspause",
+      "english": "lunchtime",
+      "indonesian": "istirahat makan siang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Morgen",
+      "english": "morning",
+      "indonesian": "pagi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "morgens",
+      "english": "in the mornings",
+      "indonesian": "pada pagi hari",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "müde",
+      "english": "tired",
+      "indonesian": "lelah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Musik",
+      "english": "music",
+      "indonesian": "musik",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Nachmittag",
+      "english": "afternoon",
+      "indonesian": "sore",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "nachmittags",
+      "english": "in the afternoons",
+      "indonesian": "pada sore hari",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "nachts",
+      "english": "at night",
+      "indonesian": "pada malam hari",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "nie",
+      "english": "never",
+      "indonesian": "tidak pernah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Notizzettel",
+      "english": "note",
+      "indonesian": "memo",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "oft",
+      "english": "often",
+      "indonesian": "sering",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Pizza",
+      "english": "pizza",
+      "indonesian": "pizza",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "putzen",
+      "english": "to clean",
+      "indonesian": "membersihkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "schade",
+      "english": "shame",
+      "indonesian": "sayang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "schlafen",
+      "english": "to sleep",
+      "indonesian": "tidur",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Schluss",
+      "english": "end, end of work",
+      "indonesian": "akhir, akhir pekerjaan",
+      "difficulty": 5,
+      "notes": "Um eins haben wir Schluss."
+    },
+    {
+      "german": "die Schule",
+      "english": "school",
+      "indonesian": "sekolah",
+      "difficulty": 5,
+      "notes": "Plural: Schulen"
+    },
+    {
+      "german": "spät",
+      "english": "late",
+      "indonesian": "terlambat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "spazieren",
+      "english": "to walk",
+      "indonesian": "berjalan-jalan",
+      "difficulty": 5,
+      "notes": "Wir gehen im Park spazieren."
+    },
+    {
+      "german": "das Spiel",
+      "english": "game",
+      "indonesian": "permainan",
+      "difficulty": 5,
+      "notes": "Plural: Spiele"
+    },
+    {
+      "german": "der Sport",
+      "english": "sport",
+      "indonesian": "olahraga",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Stunde",
+      "english": "hour",
+      "indonesian": "jam",
+      "difficulty": 5,
+      "notes": "Plural: Stunden"
+    },
+    {
+      "german": "der Stundenplan",
+      "english": "schedule",
+      "indonesian": "jadwal",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Supermarkt",
+      "english": "supermarket",
+      "indonesian": "supermarket",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "telefonieren",
+      "english": "to telephone",
+      "indonesian": "menelepon",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "tun",
+      "english": "to do",
+      "indonesian": "melakukan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Uhr",
+      "english": "clock",
+      "indonesian": "jam",
+      "difficulty": 5,
+      "notes": "Die Uhr steht im Wohnzimmer."
+    },
+    {
+      "german": "die Uhrzeit",
+      "english": "time",
+      "indonesian": "waktu",
+      "difficulty": 5,
+      "notes": "Es ist 14 Uhr."
+    },
+    {
+      "german": "um",
+      "english": "at",
+      "indonesian": "pada",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Unterricht",
+      "english": "lesson",
+      "indonesian": "pelajaran",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Viertel",
+      "english": "quarter to",
+      "indonesian": "seperempat",
+      "difficulty": 5,
+      "notes": "Es ist Viertel vor zehn."
+    },
+    {
+      "german": "vor",
+      "english": "before",
+      "indonesian": "sebelum",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Vormittag",
+      "english": "morning",
+      "indonesian": "pagi menjelang siang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "vormittags",
+      "english": "in the morning",
+      "indonesian": "pada pagi hari",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "wann",
+      "english": "when",
+      "indonesian": "kapan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Wohnung",
+      "english": "flat",
+      "indonesian": "apartemen",
+      "difficulty": 5,
+      "notes": "Plural: Wohnungen"
+    },
+    {
+      "german": "zeichnen",
+      "english": "to draw",
+      "indonesian": "menggambar",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Zeit",
+      "english": "time",
+      "indonesian": "waktu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "zu Hause",
+      "english": "at home",
+      "indonesian": "di rumah",
+      "difficulty": 5,
+      "notes": "Ich bin zu Hause."
+    },
+    {
+      "german": "ab",
+      "english": "from",
+      "indonesian": "mulai dari",
+      "difficulty": 5,
+      "notes": "Die Wohnung ist ab 1.5. frei."
+    },
+    {
+      "german": "der Altbau",
+      "english": "old building",
+      "indonesian": "bangunan tua",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Angabe",
+      "english": "detail",
+      "indonesian": "detail",
+      "difficulty": 5,
+      "notes": "Plural: Angaben"
+    },
+    {
+      "german": "die Anzeige",
+      "english": "advert",
+      "indonesian": "iklan",
+      "difficulty": 5,
+      "notes": "Plural: Anzeigen"
+    }
+  ]
+}

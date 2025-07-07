@@ -1,0 +1,701 @@
+{
+  "name": "German A2 Part 4",
+  "description": "German vocabulary level A2 part 4 from the book \"Einfach gut! Deutsch für die Integration A2.2\"",
+  "date_created": "2025-03-28T12:00:00Z",
+  "source": "telc gGmbH - Einfach gut! Deutsch für die Integration A2.2",
+  "cards": [
+    {
+      "german": "die Variante",
+      "english": "alternative",
+      "indonesian": "varian",
+      "difficulty": 5,
+      "notes": "Plural: Varianten"
+    },
+    {
+      "german": "die Vergangenheit",
+      "english": "past",
+      "indonesian": "masa lalu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Vokabeltest",
+      "english": "vocabulary test",
+      "indonesian": "tes kosakata",
+      "difficulty": 5,
+      "notes": "Plural: Vokabeltests"
+    },
+    {
+      "german": "der Vortrag",
+      "english": "presentation",
+      "indonesian": "presentasi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "werfen",
+      "english": "to throw",
+      "indonesian": "melempar",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Akupunktur",
+      "english": "acupuncture",
+      "indonesian": "akupunktur",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Alternative",
+      "english": "alternative",
+      "indonesian": "alternatif",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "anerkannt",
+      "english": "recognised",
+      "indonesian": "diakui",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Anweisung",
+      "english": "instruction",
+      "indonesian": "petunjuk",
+      "difficulty": 5,
+      "notes": "Plural: Anweisungen"
+    },
+    {
+      "german": "die Auflistung",
+      "english": "list",
+      "indonesian": "daftar",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Behandlung",
+      "english": "treatment",
+      "indonesian": "perawatan",
+      "difficulty": 5,
+      "notes": "Plural: Behandlungen"
+    },
+    {
+      "german": "belegen",
+      "english": "to prove",
+      "indonesian": "membuktikan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Bescheinigung",
+      "english": "certificate",
+      "indonesian": "sertifikat",
+      "difficulty": 5,
+      "notes": "Plural: Bescheinigungen"
+    },
+    {
+      "german": "der Boden",
+      "english": "floor",
+      "indonesian": "lantai",
+      "difficulty": 5,
+      "notes": "Plural: Böden"
+    },
+    {
+      "german": "dagegen",
+      "english": "in contrast",
+      "indonesian": "sebaliknya",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "damit",
+      "english": "so that",
+      "indonesian": "dengan itu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Eiswürfel",
+      "english": "ice cube",
+      "indonesian": "es batu",
+      "difficulty": 5,
+      "notes": "Plural: Eiswürfel"
+    },
+    {
+      "german": "empfindlich",
+      "english": "sensitive",
+      "indonesian": "sensitif",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "engagieren",
+      "english": "to engage",
+      "indonesian": "melibatkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "entspannen",
+      "english": "to relax",
+      "indonesian": "bersantai",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Entspannung",
+      "english": "relaxation",
+      "indonesian": "relaksasi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "erfahren",
+      "english": "to find out",
+      "indonesian": "mengetahui",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "erstatten",
+      "english": "to compensate",
+      "indonesian": "mengganti",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "fit",
+      "english": "fit",
+      "indonesian": "bugar",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "gesamt",
+      "english": "whole",
+      "indonesian": "keseluruhan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "gesundheitlich",
+      "english": "hygienic",
+      "indonesian": "berhubungan dengan kesehatan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Gymnastik",
+      "english": "gymnastics",
+      "indonesian": "senam",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Handgelenk",
+      "english": "wrist",
+      "indonesian": "pergelangan tangan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Hausmittel",
+      "english": "home remedy",
+      "indonesian": "obat rumahan",
+      "difficulty": 5,
+      "notes": "Plural: Hausmittel"
+    },
+    {
+      "german": "die Haut",
+      "english": "skin",
+      "indonesian": "kulit",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "hiermit",
+      "english": "hierwith",
+      "indonesian": "dengan ini",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "hierzu",
+      "english": "hereto",
+      "indonesian": "untuk ini",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "hochlegen",
+      "english": "to elevate",
+      "indonesian": "mengangkat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "holen",
+      "english": "to fetch",
+      "indonesian": "mengambil",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "klagen",
+      "english": "to sue",
+      "indonesian": "mengeluh",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "kommunizieren",
+      "english": "to communicate",
+      "indonesian": "berkomunikasi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "kompliziert",
+      "english": "complicated",
+      "indonesian": "rumit",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Kostenerstattung",
+      "english": "reimbursement of costs",
+      "indonesian": "penggantian biaya",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Kostenübernahme",
+      "english": "cost transfer",
+      "indonesian": "pengambilalihan biaya",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "kühlen",
+      "english": "to cool",
+      "indonesian": "mendinginkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "leihen",
+      "english": "to lend",
+      "indonesian": "meminjam",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "manche",
+      "english": "some",
+      "indonesian": "beberapa",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Massage",
+      "english": "massage",
+      "indonesian": "pijat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "massieren",
+      "english": "to massage",
+      "indonesian": "memijat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Meditation",
+      "english": "meditation",
+      "indonesian": "meditasi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Muskel",
+      "english": "muscle",
+      "indonesian": "otot",
+      "difficulty": 5,
+      "notes": "Plural: Muskeln"
+    },
+    {
+      "german": "die Nebenwirkung",
+      "english": "side effect",
+      "indonesian": "efek samping",
+      "difficulty": 5,
+      "notes": "Plural: Nebenwirkungen"
+    },
+    {
+      "german": "das Pilates",
+      "english": "pilates",
+      "indonesian": "pilates",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Rat",
+      "english": "advice",
+      "indonesian": "saran",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "reizen",
+      "english": "to irritate",
+      "indonesian": "mengiritasi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Rückenmuskulatur",
+      "english": "back muscles",
+      "indonesian": "otot punggung",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "schlafengehen",
+      "english": "to go to sleep",
+      "indonesian": "pergi tidur",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "schlagen",
+      "english": "to hit",
+      "indonesian": "memukul",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Schmerztablette",
+      "english": "pain medication",
+      "indonesian": "obat pereda nyeri",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Schwellung",
+      "english": "swelling",
+      "indonesian": "pembengkakan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "selber",
+      "english": "by oneself",
+      "indonesian": "sendiri",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "speziell",
+      "english": "special",
+      "indonesian": "khusus",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Sportart",
+      "english": "type of sport",
+      "indonesian": "jenis olahraga",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Sportverein",
+      "english": "sports club",
+      "indonesian": "klub olahraga",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "ständig",
+      "english": "constant",
+      "indonesian": "terus-menerus",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "stärken",
+      "english": "to strengthen",
+      "indonesian": "memperkuat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Tanzkurs",
+      "english": "dance class",
+      "indonesian": "kursus tari",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Teilnahme",
+      "english": "participation",
+      "indonesian": "partisipasi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Teilnahmebescheinigung",
+      "english": "participation certificate",
+      "indonesian": "sertifikat partisipasi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "telefonisch",
+      "english": "by telephone",
+      "indonesian": "melalui telepon",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Therapie",
+      "english": "therapy",
+      "indonesian": "terapi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Trainer/in",
+      "english": "trainer",
+      "indonesian": "pelatih",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "treiben",
+      "english": "to do",
+      "indonesian": "melakukan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Tüte",
+      "english": "bag",
+      "indonesian": "kantong",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Übelkeit",
+      "english": "nausea",
+      "indonesian": "mual",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "übersenden",
+      "english": "to send",
+      "indonesian": "mengirim",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "überweisen",
+      "english": "to transfer",
+      "indonesian": "mentransfer",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "übrigens",
+      "english": "by the way",
+      "indonesian": "ngomong-ngomong",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Verabschiedung",
+      "english": "approval",
+      "indonesian": "persetujuan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "vermitteln",
+      "english": "to procure",
+      "indonesian": "memperoleh",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "verschreiben",
+      "english": "to prescribe",
+      "indonesian": "meresepkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Versicherungsnehmer/in",
+      "english": "policy holder",
+      "indonesian": "pemegang polis",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Versicherungstarif",
+      "english": "insurance tariff",
+      "indonesian": "tarif asuransi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Verspannung",
+      "english": "tension",
+      "indonesian": "ketegangan",
+      "difficulty": 5,
+      "notes": "Plural: Verspannungen"
+    },
+    {
+      "german": "während",
+      "english": "during",
+      "indonesian": "selama",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Wärmflasche",
+      "english": "hot water bottle",
+      "indonesian": "botol air panas",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "weggehen",
+      "english": "to go away",
+      "indonesian": "pergi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "zwischendurch",
+      "english": "occasionally",
+      "indonesian": "kadang-kadang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "abheben",
+      "english": "to withdraw",
+      "indonesian": "menarik (uang)",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Aktivität",
+      "english": "activity",
+      "indonesian": "aktivitas",
+      "difficulty": 5,
+      "notes": "Plural: Aktivitäten"
+    },
+    {
+      "german": "anfordern",
+      "english": "to request",
+      "indonesian": "meminta",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Armut",
+      "english": "poverty",
+      "indonesian": "kemiskinan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "aufheben",
+      "english": "to cancel",
+      "indonesian": "membatalkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "ausdrucken",
+      "english": "to print",
+      "indonesian": "mencetak",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Bankkarte",
+      "english": "bank card",
+      "indonesian": "kartu bank",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Bankkaufmann/Bankkauffrau",
+      "english": "banker",
+      "indonesian": "bankir",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Bankleitzahl",
+      "english": "sort code",
+      "indonesian": "kode bank",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Bankschalter",
+      "english": "bank counter",
+      "indonesian": "loket bank",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "bar",
+      "english": "in cash",
+      "indonesian": "tunai",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Bargeld",
+      "english": "cash",
+      "indonesian": "uang tunai",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "bargeldlos",
+      "english": "cashless",
+      "indonesian": "tanpa uang tunai",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Basis",
+      "english": "basis",
+      "indonesian": "dasar",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "begleichen",
+      "english": "to settle",
+      "indonesian": "melunasi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "berechnen",
+      "english": "to calculate",
+      "indonesian": "menghitung",
+      "difficulty": 5,
+      "notes": ""
+    }
+  ]
+}

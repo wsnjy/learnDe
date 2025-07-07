@@ -1,0 +1,316 @@
+{
+  "name": "German B1.2 Part 5",
+  "description": "German vocabulary level B1.2 part 5 from the book \"Einfach gut! Deutsch für die Integration B1.2\"",
+  "date_created": "2025-03-28T12:00:00Z",
+  "source": "telc gGmbH - Einfach gut! Deutsch für die Integration B1.2",
+  "cards": [
+    {
+      "german": "der Personenschaden",
+      "english": "personal injury",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Personenschäden"
+    },
+    {
+      "german": "PS (= Pferdestärke)",
+      "english": "HP (= horsepower)",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "quietschen",
+      "english": "to screech",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "regulieren",
+      "english": "to regulate",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Regulierung",
+      "english": "regulation",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Reifen",
+      "english": "tyre",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Reifen"
+    },
+    {
+      "german": "das Rücklicht",
+      "english": "tail light",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Rücklichter"
+    },
+    {
+      "german": "die Rückscheibe",
+      "english": "rear window",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "rückwärts",
+      "english": "backwards",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "rutschen",
+      "english": "to slide",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Sachschaden",
+      "english": "property damage",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Sachschäden"
+    },
+    {
+      "german": "der Schadensfall",
+      "english": "damage claim",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Scheibe",
+      "english": "windscreen",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Scheiben"
+    },
+    {
+      "german": "der Scheinwerfer",
+      "english": "headlight",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Scheinwerfer"
+    },
+    {
+      "german": "der Schläger",
+      "english": "bat",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "schwingen",
+      "english": "to swing",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Sinn",
+      "english": "meaning",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Sportwagen",
+      "english": "sports car",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Stoßstange",
+      "english": "bumper",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Straßenrand",
+      "english": "roadside",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Straßenverkehr",
+      "english": "traffic",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Sturm",
+      "english": "storm",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das/der Sport Utiliy Vehicle (SUV)",
+      "english": "sport utility vehicle (SUV)",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Teilkaskoversicherung (Teilkasko)",
+      "english": "partial coverage insurance",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "überraschen",
+      "english": "to surprise",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Überschwemmung",
+      "english": "flood",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "umfallen",
+      "english": "to fall over",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "umso",
+      "english": "all the (more)",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Unfall",
+      "english": "accident",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Unfälle"
+    },
+    {
+      "german": "die Unfallgefahr",
+      "english": "risk of accident",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "verletzen",
+      "english": "to injure",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "versehentlich",
+      "english": "accidental",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "versichern",
+      "english": "to insure",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Versicherungsberater/in",
+      "english": "insurance advisor",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Versicherungsberater/innen"
+    },
+    {
+      "german": "der Versicherungsschutz",
+      "english": "insurance cover",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "verursachen",
+      "english": "to cause",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Vollkaskoversicherung (Vollkasko)",
+      "english": "full comprehensive insurance",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "vorschreiben",
+      "english": "to stipulate",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "vorsichtig",
+      "english": "careful",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "wegfahren",
+      "english": "to drive away",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Windschutzscheibe",
+      "english": "windscreen",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "zulassen",
+      "english": "to allow",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "zusammenstoßen",
+      "english": "to collide",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Zusatzversicherung",
+      "english": "additional insurance",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,666 @@
+{
+  "name": "German B1.1 Part 3",
+  "description": "German vocabulary level B1.1 part 3 from the book \"Einfach gut! Deutsch für die Integration B1.1\"",
+  "date_created": "2025-03-28T12:00:00Z",
+  "source": "telc gGmbH - Einfach gut! Deutsch für die Integration B1.1",
+  "cards": [
+    {
+      "german": "der Widerspruch",
+      "english": "contradiction",
+      "indonesian": "kontradiksi",
+      "difficulty": 5,
+      "notes": "Plural: Widersprüche"
+    },
+    {
+      "german": "wütend",
+      "english": "angry",
+      "indonesian": "marah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Zeitraum",
+      "english": "time frame",
+      "indonesian": "jangka waktu",
+      "difficulty": 5,
+      "notes": "Plural: Zeiträume"
+    },
+    {
+      "german": "ziemlich",
+      "english": "rather",
+      "indonesian": "cukup",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Zimmerlautstärke",
+      "english": "room volume",
+      "indonesian": "volume ruangan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "zugeben",
+      "english": "to admit",
+      "indonesian": "mengakui",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "zurücklassen",
+      "english": "to leave behind",
+      "indonesian": "meninggalkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Zusammenleben",
+      "english": "life together",
+      "indonesian": "hidup bersama",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "zustimmen",
+      "english": "to agree",
+      "indonesian": "menyetujui",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Zutritt",
+      "english": "access",
+      "indonesian": "akses",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Abgas",
+      "english": "exhaust gas",
+      "indonesian": "gas buang",
+      "difficulty": 5,
+      "notes": "Plural: Abgase"
+    },
+    {
+      "german": "das Abwasser",
+      "english": "sewage",
+      "indonesian": "air limbah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Altöl",
+      "english": "waste oil",
+      "indonesian": "minyak bekas",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Altpapier",
+      "english": "waste paper",
+      "indonesian": "kertas bekas",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Aluminium",
+      "english": "aluminium",
+      "indonesian": "aluminium",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "andauernd",
+      "english": "lasting",
+      "indonesian": "berkelanjutan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "ankündigen",
+      "english": "to announce",
+      "indonesian": "mengumumkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "anstatt",
+      "english": "instead",
+      "indonesian": "alih-alih",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Begleitperson",
+      "english": "accompanying person",
+      "indonesian": "pendamping",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "belasten",
+      "english": "to pollute",
+      "indonesian": "mencemari",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Belastung",
+      "english": "pollution",
+      "indonesian": "polusi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "beobachten",
+      "english": "to observe",
+      "indonesian": "mengamati",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Beutel",
+      "english": "bag",
+      "indonesian": "kantong",
+      "difficulty": 5,
+      "notes": "Plural: Beutel"
+    },
+    {
+      "german": "biologisch",
+      "english": "biological",
+      "indonesian": "biologis",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Chemikalie",
+      "english": "chemicals",
+      "indonesian": "bahan kimia",
+      "difficulty": 5,
+      "notes": "Plural: Chemikalien"
+    },
+    {
+      "german": "der Deckel",
+      "english": "lid",
+      "indonesian": "tutup",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "doof",
+      "english": "stupid",
+      "indonesian": "bodoh",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Eierkarton",
+      "english": "egg box",
+      "indonesian": "kotak telur",
+      "difficulty": 5,
+      "notes": "Plural: Eierkartons"
+    },
+    {
+      "german": "die Eierschale",
+      "english": "egg shell",
+      "indonesian": "cangkang telur",
+      "difficulty": 5,
+      "notes": "Plural: Eierschalen"
+    },
+    {
+      "german": "einfallen",
+      "english": "to occur",
+      "indonesian": "terlintas",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Elektroauto",
+      "english": "electric car",
+      "indonesian": "mobil listrik",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Energiesparhaus",
+      "english": "energy efficient house",
+      "indonesian": "rumah hemat energi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Energiesparlampe",
+      "english": "energy efficient bulb",
+      "indonesian": "lampu hemat energi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Erdbeben",
+      "english": "earthquake",
+      "indonesian": "gempa bumi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Erde",
+      "english": "earth",
+      "indonesian": "bumi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Erderwärmung",
+      "english": "global warming",
+      "indonesian": "pemanasan global",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Erlaubnis",
+      "english": "permission",
+      "indonesian": "izin",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Förster/in",
+      "english": "woodsman",
+      "indonesian": "penjaga hutan",
+      "difficulty": 5,
+      "notes": "Plural: Förster/innen"
+    },
+    {
+      "german": "der Gegenstand",
+      "english": "object",
+      "indonesian": "benda",
+      "difficulty": 5,
+      "notes": "Plural: Gegenstände"
+    },
+    {
+      "german": "der Gegenvorschlag",
+      "english": "counterproposal",
+      "indonesian": "usulan tandingan",
+      "difficulty": 5,
+      "notes": "Plural: Gegenvorschläge"
+    },
+    {
+      "german": "giftig",
+      "english": "toxic",
+      "indonesian": "beracun",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Haushalt",
+      "english": "household",
+      "indonesian": "rumah tangga",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Hochwasser",
+      "english": "high-tide",
+      "indonesian": "air pasang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Hörer/in",
+      "english": "listener",
+      "indonesian": "pendengar",
+      "difficulty": 5,
+      "notes": "Plural: Hörer/innen"
+    },
+    {
+      "german": "der Kaffeefilter",
+      "english": "coffee filter",
+      "indonesian": "filter kopi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Klima",
+      "english": "climate",
+      "indonesian": "iklim",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Klimawandel",
+      "english": "climate change",
+      "indonesian": "perubahan iklim",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Konservendose",
+      "english": "preserving jars",
+      "indonesian": "stoples pengawet",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Kunststoff",
+      "english": "synthetic material",
+      "indonesian": "bahan sintetis",
+      "difficulty": 5,
+      "notes": "Plural: Kunststoffe"
+    },
+    {
+      "german": "die Luft",
+      "english": "air",
+      "indonesian": "udara",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Matratze",
+      "english": "mattress",
+      "indonesian": "kasur",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Metall",
+      "english": "metal",
+      "indonesian": "logam",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Milchkarton",
+      "english": "milk carton",
+      "indonesian": "karton susu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Mülltonne",
+      "english": "rubbish bin",
+      "indonesian": "tempat sampah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Mülltrennung",
+      "english": "waste separation",
+      "indonesian": "pemisahan sampah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Naturkatastrophe",
+      "english": "natural disaster",
+      "indonesian": "bencana alam",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Naturprodukt",
+      "english": "natural product",
+      "indonesian": "produk alami",
+      "difficulty": 5,
+      "notes": "Plural: Naturprodukte"
+    },
+    {
+      "german": "die Obstschale",
+      "english": "fruit skin",
+      "indonesian": "kulit buah",
+      "difficulty": 5,
+      "notes": "Plural: Obstschalen"
+    },
+    {
+      "german": "der Papiermüll",
+      "english": "paper waste",
+      "indonesian": "sampah kertas",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Pappe",
+      "english": "cardboard",
+      "indonesian": "karton",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Picknick",
+      "english": "picnic",
+      "indonesian": "piknik",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Planet",
+      "english": "planet",
+      "indonesian": "planet",
+      "difficulty": 5,
+      "notes": "Plural: Planeten"
+    },
+    {
+      "german": "das Plastik",
+      "english": "plastic",
+      "indonesian": "plastik",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "recyceln",
+      "english": "to recycle",
+      "indonesian": "mendaur ulang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Sack",
+      "english": "bag",
+      "indonesian": "karung",
+      "difficulty": 5,
+      "notes": "Plural: Säcke"
+    },
+    {
+      "german": "die Sammelstelle",
+      "english": "collection point",
+      "indonesian": "tempat pengumpulan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "schädigen",
+      "english": "to damage",
+      "indonesian": "merusak",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "schädlich",
+      "english": "harmful",
+      "indonesian": "berbahaya",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Schadstoff",
+      "english": "hazardous substance",
+      "indonesian": "zat berbahaya",
+      "difficulty": 5,
+      "notes": "Plural: Schadstoffe"
+    },
+    {
+      "german": "schützen",
+      "english": "to protect",
+      "indonesian": "melindungi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Solarenergie",
+      "english": "solar energy",
+      "indonesian": "energi surya",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Sondermüll",
+      "english": "hazardous waste",
+      "indonesian": "limbah berbahaya",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Sonnenschein",
+      "english": "sunshine",
+      "indonesian": "sinar matahari",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Sorge",
+      "english": "worry",
+      "indonesian": "kekhawatiran",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "sparsam",
+      "english": "economical",
+      "indonesian": "hemat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Sperrmüll",
+      "english": "bulky waste",
+      "indonesian": "sampah besar",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "stattfinden",
+      "english": "to take place",
+      "indonesian": "berlangsung",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Tierschutz",
+      "english": "animal protection",
+      "indonesian": "perlindungan hewan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Trinkwasser",
+      "english": "drinking water",
+      "indonesian": "air minum",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "trüb",
+      "english": "gloomy",
+      "indonesian": "suram",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Tsunami",
+      "english": "tsunami",
+      "indonesian": "tsunami",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Turm",
+      "english": "tower",
+      "indonesian": "menara",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "umdrehen",
+      "english": "to turn around",
+      "indonesian": "membalikkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "umgehen",
+      "english": "to go round",
+      "indonesian": "mengelilingi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "umweltfreundlich",
+      "english": "environmentally friendly",
+      "indonesian": "ramah lingkungan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Umweltschutz",
+      "english": "environmental protection",
+      "indonesian": "perlindungan lingkungan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Umweltverschmutzung",
+      "english": "environmental pollution",
+      "indonesian": "pencemaran lingkungan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Unwetter",
+      "english": "thunderstorm",
+      "indonesian": "badai petir",
+      "difficulty": 5,
+      "notes": "Plural: Unwetter"
+    },
+    {
+      "german": "verändern",
+      "english": "to change",
+      "indonesian": "mengubah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "verlaufen",
+      "english": "to continue",
+      "indonesian": "berlanjut",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "verschmutzen",
+      "english": "to contaminate",
+      "indonesian": "mencemari",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "verschwenden",
+      "english": "to disappear",
+      "indonesian": "menghilang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Verschwendung",
+      "english": "waste",
+      "indonesian": "pemborosan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "versprechen",
+      "english": "to promise",
+      "indonesian": "berjanji",
+      "difficulty": 5,
+      "notes": ""
+    }
+  ]
+}

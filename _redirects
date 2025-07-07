@@ -1,0 +1,5 @@
+# Cloudflare Pages redirects file
+# Handle client-side routing for single page application
+
+# All routes should serve index.html for client-side routing
+/*    /index.html   200

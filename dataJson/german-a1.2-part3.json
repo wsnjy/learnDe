@@ -1,0 +1,652 @@
+{
+  "name": "German A1.2 Part 3",
+  "description": "German vocabulary level A1.2 part 3 from the book \"Einfach gut! Deutsch für die Integration\"",
+  "date_created": "2025-03-28T12:00:00Z",
+  "source": "telc gGmbH - Einfach gut! Deutsch für die Integration A1.2",
+  "cards": [
+    {
+      "german": "rechnen",
+      "english": "to calculate",
+      "indonesian": "menghitung",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Rentner",
+      "english": "pensioner",
+      "indonesian": "pensiunan",
+      "difficulty": 5,
+      "notes": "Plural: Rentner"
+    },
+    {
+      "german": "die Reparatur",
+      "english": "repair",
+      "indonesian": "perbaikan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "reparieren",
+      "english": "to repair",
+      "indonesian": "memperbaiki",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Reporter",
+      "english": "reporter",
+      "indonesian": "reporter",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Roman",
+      "english": "novel",
+      "indonesian": "novel",
+      "difficulty": 5,
+      "notes": "Plural: Romane"
+    },
+    {
+      "german": "schlimm",
+      "english": "bad",
+      "indonesian": "buruk",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Schüler",
+      "english": "schoolchild (male)",
+      "indonesian": "murid (laki-laki)",
+      "difficulty": 5,
+      "notes": "Plural: Schüler"
+    },
+    {
+      "german": "die Schülerin",
+      "english": "schoolchild (female)",
+      "indonesian": "murid (perempuan)",
+      "difficulty": 5,
+      "notes": "Plural: Schülerinnen"
+    },
+    {
+      "german": "servieren",
+      "english": "to serve",
+      "indonesian": "menyajikan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Stress",
+      "english": "stress",
+      "indonesian": "stres",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Student",
+      "english": "student (male)",
+      "indonesian": "mahasiswa",
+      "difficulty": 5,
+      "notes": "Plural: Studenten"
+    },
+    {
+      "german": "die Studentin",
+      "english": "student (female)",
+      "indonesian": "mahasiswi",
+      "difficulty": 5,
+      "notes": "Plural: Studentinnen"
+    },
+    {
+      "german": "studieren",
+      "english": "to study",
+      "indonesian": "belajar",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Taxifahrer",
+      "english": "taxi driver (male)",
+      "indonesian": "sopir taksi (laki-laki)",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Taxifahrerin",
+      "english": "taxi driver (female)",
+      "indonesian": "sopir taksi (perempuan)",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Techniker",
+      "english": "technician",
+      "indonesian": "teknisi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Telefon",
+      "english": "telephone",
+      "indonesian": "telepon",
+      "difficulty": 5,
+      "notes": "Plural: Telefone"
+    },
+    {
+      "german": "der Traumberuf",
+      "english": "dream job",
+      "indonesian": "pekerjaan impian",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "treffen",
+      "english": "to meet",
+      "indonesian": "bertemu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Universität",
+      "english": "university",
+      "indonesian": "universitas",
+      "difficulty": 5,
+      "notes": "Plural: Universitäten"
+    },
+    {
+      "german": "unterrichten",
+      "english": "to teach",
+      "indonesian": "mengajar",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "vielleicht",
+      "english": "maybe",
+      "indonesian": "mungkin",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "wählen",
+      "english": "to choose",
+      "indonesian": "memilih",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Werkstatt",
+      "english": "workshop",
+      "indonesian": "bengkel",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Wiederhören",
+      "english": "(on telephone) talk again soon!",
+      "indonesian": "sampai jumpa lagi!",
+      "difficulty": 5,
+      "notes": "Auf Wiederhören!"
+    },
+    {
+      "german": "zuerst",
+      "english": "first",
+      "indonesian": "pertama-tama",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Altenpflegeheim",
+      "english": "old people's home",
+      "indonesian": "panti jompo",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "anbei",
+      "english": "attached",
+      "indonesian": "terlampir",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Anrede",
+      "english": "speech",
+      "indonesian": "sapaan",
+      "difficulty": 5,
+      "notes": "Sehr geehrter Herr Maier, ..."
+    },
+    {
+      "german": "der Arm",
+      "english": "arm",
+      "indonesian": "lengan",
+      "difficulty": 5,
+      "notes": "Plural: Arme"
+    },
+    {
+      "german": "atmen",
+      "english": "to breathe",
+      "indonesian": "bernapas",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Auge",
+      "english": "eye",
+      "indonesian": "mata",
+      "difficulty": 5,
+      "notes": "Plural: Augen"
+    },
+    {
+      "german": "der Bauch",
+      "english": "stomach",
+      "indonesian": "perut",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Bein",
+      "english": "leg",
+      "indonesian": "kaki",
+      "difficulty": 5,
+      "notes": "Plural: Beine"
+    },
+    {
+      "german": "die Bauchschmerzen (Pl.)",
+      "english": "stomach ache",
+      "indonesian": "sakit perut",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Bescheid",
+      "english": "notice (I'll let you know)",
+      "indonesian": "pemberitahuan",
+      "difficulty": 5,
+      "notes": "Ich sage dir Bescheid."
+    },
+    {
+      "german": "die Besserung",
+      "english": "recovery",
+      "indonesian": "pemulihan",
+      "difficulty": 5,
+      "notes": "Gute Besserung!"
+    },
+    {
+      "german": "der Betreff",
+      "english": "subject line",
+      "indonesian": "subjek",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "bevor",
+      "english": "before",
+      "indonesian": "sebelum",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "bleiben",
+      "english": "to stay",
+      "indonesian": "tinggal",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Brief",
+      "english": "letter",
+      "indonesian": "surat",
+      "difficulty": 5,
+      "notes": "Plural: Briefe"
+    },
+    {
+      "german": "der Briefteil",
+      "english": "part of letter",
+      "indonesian": "bagian surat",
+      "difficulty": 5,
+      "notes": "Plural: Briefteile"
+    },
+    {
+      "german": "die Brust",
+      "english": "chest",
+      "indonesian": "dada",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "danach",
+      "english": "after",
+      "indonesian": "setelah itu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Datum",
+      "english": "date",
+      "indonesian": "tanggal",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "dürfen",
+      "english": "to be allowed to",
+      "indonesian": "diperbolehkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Ellbogen/Ellenbogen",
+      "english": "elbow",
+      "indonesian": "siku",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Empfänger",
+      "english": "recipient",
+      "indonesian": "penerima",
+      "difficulty": 5,
+      "notes": "Plural: Empfänger"
+    },
+    {
+      "german": "das Entschuldigungsschreiben",
+      "english": "letter of apology",
+      "indonesian": "surat permintaan maaf",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "erkälten",
+      "english": "to get a cold",
+      "indonesian": "masuk angin",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Erkältung",
+      "english": "cold/flu",
+      "indonesian": "flu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "euer, eure",
+      "english": "your (informal)/yours",
+      "indonesian": "milikmu/milik kalian",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Fieber",
+      "english": "fever",
+      "indonesian": "demam",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Finger",
+      "english": "finger",
+      "indonesian": "jari",
+      "difficulty": 5,
+      "notes": "Plural: Finger"
+    },
+    {
+      "german": "freundlich",
+      "english": "friendly (best regards)",
+      "indonesian": "ramah (salam)",
+      "difficulty": 5,
+      "notes": "Mit freundlichen Grüßen"
+    },
+    {
+      "german": "geehrter, geehrte",
+      "english": "dear",
+      "indonesian": "yang terhormat",
+      "difficulty": 5,
+      "notes": "Sehr geehrte Frau Müller, ..."
+    },
+    {
+      "german": "das Gesicht",
+      "english": "face",
+      "indonesian": "wajah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Gesundheit",
+      "english": "health",
+      "indonesian": "kesehatan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Gesundheitskarte",
+      "english": "health insurance card",
+      "indonesian": "kartu asuransi kesehatan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Grippe",
+      "english": "flu",
+      "indonesian": "flu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Gruppe",
+      "english": "group",
+      "indonesian": "kelompok",
+      "difficulty": 5,
+      "notes": "Plural: Gruppen"
+    },
+    {
+      "german": "das Haar",
+      "english": "hair",
+      "indonesian": "rambut",
+      "difficulty": 5,
+      "notes": "Plural: Haare"
+    },
+    {
+      "german": "der Hals",
+      "english": "throat",
+      "indonesian": "tenggorokan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Hals-Nasen-Ohren-Arzt (HNO)",
+      "english": "throat-nose-mouth",
+      "indonesian": "dokter THT",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Halsweh",
+      "english": "sore throat",
+      "indonesian": "sakit tenggorokan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Hand",
+      "english": "hand",
+      "indonesian": "tangan",
+      "difficulty": 5,
+      "notes": "Plural: Hände"
+    },
+    {
+      "german": "der Hausarzt",
+      "english": "GP (general practicioner)",
+      "indonesian": "dokter umum",
+      "difficulty": 5,
+      "notes": "Plural: Hausärzte"
+    },
+    {
+      "german": "heiß",
+      "english": "hot",
+      "indonesian": "panas",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Husten",
+      "english": "cough",
+      "indonesian": "batuk",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "Hustensaft",
+      "english": "cough syrup",
+      "indonesian": "sirup batuk",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Knie",
+      "english": "knee",
+      "indonesian": "lutut",
+      "difficulty": 5,
+      "notes": "Plural: Knie"
+    },
+    {
+      "german": "der Kopf",
+      "english": "head",
+      "indonesian": "kepala",
+      "difficulty": 5,
+      "notes": "Plural: Köpfe"
+    },
+    {
+      "german": "die Kopfschmerzen (Pl.)",
+      "english": "headache",
+      "indonesian": "sakit kepala",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Körper",
+      "english": "body",
+      "indonesian": "tubuh",
+      "difficulty": 5,
+      "notes": "Plural: Körper"
+    },
+    {
+      "german": "der Körperteil",
+      "english": "body part",
+      "indonesian": "bagian tubuh",
+      "difficulty": 5,
+      "notes": "Plural: Körperteile"
+    },
+    {
+      "german": "krank",
+      "english": "ill",
+      "indonesian": "sakit",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Krankheit",
+      "english": "illness",
+      "indonesian": "penyakit",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Krankmeldung",
+      "english": "sick note",
+      "indonesian": "surat keterangan sakit",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der März",
+      "english": "march",
+      "indonesian": "Maret",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Medikament",
+      "english": "medicine",
+      "indonesian": "obat",
+      "difficulty": 5,
+      "notes": "Plural: Medikamente"
+    },
+    {
+      "german": "der Mund",
+      "english": "mouth",
+      "indonesian": "mulut",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Nacken",
+      "english": "neck",
+      "indonesian": "leher belakang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Nase",
+      "english": "nose",
+      "indonesian": "hidung",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Notfallsprechstunde",
+      "english": "emergency consultation",
+      "indonesian": "konsultasi darurat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Ohr",
+      "english": "ear",
+      "indonesian": "telinga",
+      "difficulty": 5,
+      "notes": "Plural: Ohren"
+    },
+    {
+      "german": "der Orthopäde",
+      "english": "orthopaedist",
+      "indonesian": "dokter ortopedi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Patient",
+      "english": "patient (male)",
+      "indonesian": "pasien (laki-laki)",
+      "difficulty": 5,
+      "notes": "Plural: Patienten"
+    },
+    {
+      "german": "die Patientin",
+      "english": "patient (female)",
+      "indonesian": "pasien (perempuan)",
+      "difficulty": 5,
+      "notes": "Plural: Patientinnen"
+    },
+    {
+      "german": "per",
+      "english": "by",
+      "indonesian": "melalui",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Pflaster",
+      "english": "plaster",
+      "indonesian": "plester",
+      "difficulty": 5,
+      "notes": "Plural: Pflaster"
+    },
+    {
+      "german": "das Praktikum",
+      "english": "internship",
+      "indonesian": "magang",
+      "difficulty": 5,
+      "notes": "Plural: Praktika"
+    }
+  ]
+}

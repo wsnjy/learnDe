@@ -1,0 +1,673 @@
+{
+  "name": "German B1.2 Part 1",
+  "description": "German vocabulary level B1.2 part 1 from the book \"Einfach gut! Deutsch für die Integration B1.2\"",
+  "date_created": "2025-03-28T12:00:00Z",
+  "source": "telc gGmbH - Einfach gut! Deutsch für die Integration B1.2",
+  "cards": [
+    {
+      "german": "abschicken",
+      "english": "to submit",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Abwicklung",
+      "english": "settlement",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "amtlich",
+      "english": "official",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "anerkennen",
+      "english": "to recognise",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Anerkennung",
+      "english": "recognition",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Anfang",
+      "english": "beginning",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Anfänge"
+    },
+    {
+      "german": "ansteckend",
+      "english": "infectious",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "ausstellen",
+      "english": "to issue",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Bearbeitung",
+      "english": "processing",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "beglaubigen",
+      "english": "to certify",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Beglaubigung",
+      "english": "certification",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Bekannte",
+      "english": "acquaintance",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Bekannten"
+    },
+    {
+      "german": "benötigen",
+      "english": "to require",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "berufen",
+      "english": "to appoint",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "bescheinigen",
+      "english": "to certify",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "dran sein",
+      "english": "to be for it",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "einreichen",
+      "english": "to submit",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "enttäuschen",
+      "english": "to disappoint",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Enttäuschung",
+      "english": "disappointment",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Enttäuschungen"
+    },
+    {
+      "german": "der Erhalt",
+      "english": "receipt",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Erklärung",
+      "english": "explanation",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Erklärungen"
+    },
+    {
+      "german": "erkundigen",
+      "english": "to enquire",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Fähigkeit",
+      "english": "ability",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Fähigkeiten"
+    },
+    {
+      "german": "die Fantasie",
+      "english": "phantasy",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Formalität",
+      "english": "formality",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Formalitäten"
+    },
+    {
+      "german": "förmlich",
+      "english": "formal",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Fotokopie",
+      "english": "photocopy",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Fotokopien"
+    },
+    {
+      "german": "der Frieden",
+      "english": "peace",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Führungszeugnis",
+      "english": "certificate of good conduct",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "garantieren",
+      "english": "to guarantee",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Gedanke",
+      "english": "thought",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Gedanken"
+    },
+    {
+      "german": "die Geduld",
+      "english": "patience",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "geduldig",
+      "english": "patient",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Gemeinsamkeit",
+      "english": "common feature",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Gemeinsamkeiten"
+    },
+    {
+      "german": "der Geruch",
+      "english": "smell",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Gerüche"
+    },
+    {
+      "german": "das Gesundheitszeugnis",
+      "english": "health certificate",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "gewährleisten",
+      "english": "to ensure",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "häufig",
+      "english": "often",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Heimweh",
+      "english": "home sickness",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "herkommen",
+      "english": "to come from",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Herkunftsland",
+      "english": "country of origin",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Herkunftsländer"
+    },
+    {
+      "german": "hierher",
+      "english": "here",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "hilfsbereit",
+      "english": "ready to help",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "inzwischen",
+      "english": "meanwhile",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Kopie",
+      "english": "copy",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Kopien"
+    },
+    {
+      "german": "die Mentalität",
+      "english": "mentality",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Mentalitäten"
+    },
+    {
+      "german": "nachdenklich",
+      "english": "thoughtful",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Pflegehelfer/in",
+      "english": "nursing assistant",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Pflegehelfer/innen"
+    },
+    {
+      "german": "die Pflegekraft",
+      "english": "carer",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Pflegekräfte"
+    },
+    {
+      "german": "die Reihe",
+      "english": "row",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Sachbearbeiter/in",
+      "english": "administrative assistant",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Sachbearbeiter/innen"
+    },
+    {
+      "german": "der Sprachnachweis",
+      "english": "language certificate",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "übereinstimmen",
+      "english": "to correspond",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "überglücklich",
+      "english": "overjoyed",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "übersetzen",
+      "english": "to translate",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Übersetzung",
+      "english": "translation",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Übersetzungen"
+    },
+    {
+      "german": "das Übersetzungsbüro",
+      "english": "translation agency",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "ungeduldig",
+      "english": "impatient",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "vermissen",
+      "english": "to miss",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "verurteilen",
+      "english": "to judge",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "wahr",
+      "english": "true",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "weitergehen",
+      "english": "to continue",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "wohlfühlen",
+      "english": "to feel comfortable",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Ziel",
+      "english": "aim",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Ziele"
+    },
+    {
+      "german": "zügig",
+      "english": "quick",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "zusammenstellen",
+      "english": "to put together",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "abhängig",
+      "english": "dependent",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "absolvieren",
+      "english": "to complete",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Abteilungsleiter/in",
+      "english": "division manager",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Abteilungsleiter/innen"
+    },
+    {
+      "german": "abwechslungsreich",
+      "english": "varied",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Altenpfleger/in",
+      "english": "geriatric nurse",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Altenpfleger/innen"
+    },
+    {
+      "german": "die Anlage",
+      "english": "system",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Annahme",
+      "english": "acceptance",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "anrechnen",
+      "english": "to charge",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Anstellung",
+      "english": "employment",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Arbeitsstelle",
+      "english": "position",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Arbeitsweise",
+      "english": "working method",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Arbeitszeit",
+      "english": "working hours",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Arbeitszeiten"
+    },
+    {
+      "german": "die Assistenz",
+      "english": "assistance",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Aufteilung",
+      "english": "allocation",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Auszug",
+      "english": "extract",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Auszüge"
+    },
+    {
+      "german": "der Bachelor",
+      "english": "Bachelor's degree",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "beherrschen",
+      "english": "to master",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "beilegen",
+      "english": "to enclose",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Berufsbezeichnung",
+      "english": "job description",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Berufserfahrung",
+      "english": "job experience",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Berufsleben",
+      "english": "professional life",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Betriebswirtschaft",
+      "english": "business administration",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "beurteilen",
+      "english": "to evaluate",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Bewerbungsschreiben",
+      "english": "letter of application",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Bilanzbuchhalter/in",
+      "english": "accountant",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Bilanzbuchhalter/innen"
+    },
+    {
+      "german": "bisher",
+      "english": "until now",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Briefpapier",
+      "english": "letter paper",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Büromaterial",
+      "english": "office stationary",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Bürozeit",
+      "english": "office hours",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Bürozeiten"
+    }
+  ]
+}

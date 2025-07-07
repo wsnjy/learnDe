@@ -1,0 +1,645 @@
+{
+  "name": "German B1.1 Part 4",
+  "description": "German vocabulary level B1.1 part 4 from the book \"Einfach gut! Deutsch für die Integration B1.1\"",
+  "date_created": "2025-03-28T12:00:00Z",
+  "source": "telc gGmbH - Einfach gut! Deutsch für die Integration B1.1",
+  "cards": [
+    {
+      "german": "verwerten",
+      "english": "to exploit",
+      "indonesian": "memanfaatkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "voraussichtlich",
+      "english": "provisionally",
+      "indonesian": "sementara",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "vorhersagen",
+      "english": "to predict",
+      "indonesian": "meramalkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "wahrscheinlich",
+      "english": "probably",
+      "indonesian": "mungkin",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "wegschmeißen (ugs.)",
+      "english": "to chuck out",
+      "indonesian": "membuang",
+      "difficulty": 5,
+      "notes": "umgangssprachlich (colloquial)"
+    },
+    {
+      "german": "wegwerfen",
+      "english": "to throw away",
+      "indonesian": "membuang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Wertstoff",
+      "english": "recyclable material",
+      "indonesian": "bahan daur ulang",
+      "difficulty": 5,
+      "notes": "Plural: Wertstoffe"
+    },
+    {
+      "german": "der Wind",
+      "english": "wind",
+      "indonesian": "angin",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Windel",
+      "english": "nappy",
+      "indonesian": "popok",
+      "difficulty": 5,
+      "notes": "Plural: Windeln"
+    },
+    {
+      "german": "der Wirbelsturm",
+      "english": "hurricane",
+      "indonesian": "badai",
+      "difficulty": 5,
+      "notes": "Plural: Wirbelstürme"
+    },
+    {
+      "german": "die Wolke",
+      "english": "cloud",
+      "indonesian": "awan",
+      "difficulty": 5,
+      "notes": "Plural: Wolken"
+    },
+    {
+      "german": "zerstören",
+      "english": "to destroy",
+      "indonesian": "menghancurkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Zerstörung",
+      "english": "destruction",
+      "indonesian": "kehancuran",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Zigarettenkippe",
+      "english": "cigarette butts",
+      "indonesian": "puntung rokok",
+      "difficulty": 5,
+      "notes": "Plural: Zigarettenkippen"
+    },
+    {
+      "german": "zurückfahren",
+      "english": "to go back",
+      "indonesian": "kembali",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "AGB (= Allgemeine Geschäftsbedingungen)",
+      "english": "General T&C (General terms and conditions)",
+      "indonesian": "Syarat dan Ketentuan Umum",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "anfassen",
+      "english": "to touch",
+      "indonesian": "menyentuh",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Anprobe",
+      "english": "fitting room",
+      "indonesian": "ruang ganti",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "anprobieren",
+      "english": "to try on",
+      "indonesian": "mencoba",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Art",
+      "english": "type",
+      "indonesian": "jenis",
+      "difficulty": 5,
+      "notes": "Plural: Arten"
+    },
+    {
+      "german": "die Artikelnummer",
+      "english": "item number",
+      "indonesian": "nomor item",
+      "difficulty": 5,
+      "notes": "Plural: Artikelnummern"
+    },
+    {
+      "german": "die Atmung",
+      "english": "breathing",
+      "indonesian": "pernapasan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "atmungsaktiv",
+      "english": "breathable",
+      "indonesian": "bernapas",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "aufmerksam",
+      "english": "attentive",
+      "indonesian": "penuh perhatian",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Auftrag",
+      "english": "order",
+      "indonesian": "pesanan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Auftragsnummer",
+      "english": "order number",
+      "indonesian": "nomor pesanan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "ausliefern",
+      "english": "to deliver",
+      "indonesian": "mengirimkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Auswahl",
+      "english": "selection",
+      "indonesian": "pilihan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Bankeinzug",
+      "english": "direct debit",
+      "indonesian": "debit langsung",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "bereits",
+      "english": "already",
+      "indonesian": "sudah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "beschädigt",
+      "english": "damaged",
+      "indonesian": "rusak",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Bestellhotline",
+      "english": "order hotline",
+      "indonesian": "telepon pemesanan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Betrag",
+      "english": "sum",
+      "indonesian": "jumlah",
+      "difficulty": 5,
+      "notes": "Plural: Beträge"
+    },
+    {
+      "german": "der Bezahlvorgang",
+      "english": "payment process",
+      "indonesian": "proses pembayaran",
+      "difficulty": 5,
+      "notes": "Plural: Bezahlvorgänge"
+    },
+    {
+      "german": "das Callcenter",
+      "english": "call centre",
+      "indonesian": "pusat panggilan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Datenschutz",
+      "english": "data protection",
+      "indonesian": "perlindungan data",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "dicht",
+      "english": "thick",
+      "indonesian": "tebal",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "durchlässig",
+      "english": "permeable",
+      "indonesian": "tembus",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "ebenso",
+      "english": "as well",
+      "indonesian": "juga",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "eher",
+      "english": "rather",
+      "indonesian": "agak",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Eigentum",
+      "english": "property",
+      "indonesian": "properti",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Ergänzung",
+      "english": "addition",
+      "indonesian": "tambahan",
+      "difficulty": 5,
+      "notes": "Plural: Ergänzungen"
+    },
+    {
+      "german": "erhältlich",
+      "english": "available",
+      "indonesian": "tersedia",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "eventuell",
+      "english": "possible",
+      "indonesian": "mungkin",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "falls",
+      "english": "in case",
+      "indonesian": "jika",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Gutschein",
+      "english": "voucher",
+      "indonesian": "voucher",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "herstellen",
+      "english": "to manufacture",
+      "indonesian": "memproduksi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Herstellung",
+      "english": "manufacture",
+      "indonesian": "produksi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Impressum",
+      "english": "imprint",
+      "indonesian": "impresi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "innerhalb",
+      "english": "within",
+      "indonesian": "dalam",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "irgendwie",
+      "english": "somehow",
+      "indonesian": "entah bagaimana",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Kauf",
+      "english": "purchase",
+      "indonesian": "pembelian",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Kaufbestätigung",
+      "english": "purchase confirmation",
+      "indonesian": "konfirmasi pembelian",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Käufer/in",
+      "english": "customer",
+      "indonesian": "pembeli",
+      "difficulty": 5,
+      "notes": "Plural: Käufer/innen"
+    },
+    {
+      "german": "der Kaufvertrag",
+      "english": "sales contract",
+      "indonesian": "kontrak penjualan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Kosmetik",
+      "english": "cosmetics",
+      "indonesian": "kosmetik",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Kundenbefragung",
+      "english": "customer survey",
+      "indonesian": "survei pelanggan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "kundenfreundlich",
+      "english": "customer friendly",
+      "indonesian": "ramah pelanggan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Lager",
+      "english": "warehouse",
+      "indonesian": "gudang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "lieferbar",
+      "english": "in stock",
+      "indonesian": "tersedia",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Lieferbedingung",
+      "english": "delivery conditions",
+      "indonesian": "ketentuan pengiriman",
+      "difficulty": 5,
+      "notes": "Plural: Lieferbedingungen"
+    },
+    {
+      "german": "die Lieferung",
+      "english": "delivery",
+      "indonesian": "pengiriman",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "luftdurchlässig",
+      "english": "breathable",
+      "indonesian": "bernapas",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Mehrkosten (Pl.)",
+      "english": "extra costs",
+      "indonesian": "biaya tambahan",
+      "difficulty": 5,
+      "notes": "Plural only"
+    },
+    {
+      "german": "die Nachnahme",
+      "english": "cash on delivery",
+      "indonesian": "bayar di tempat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Nachteil",
+      "english": "disadvantage",
+      "indonesian": "kerugian",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Onlineeinkauf",
+      "english": "online shopping",
+      "indonesian": "belanja online",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Onlineshop",
+      "english": "online shop",
+      "indonesian": "toko online",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Onlineshopping",
+      "english": "online shopping",
+      "indonesian": "belanja online",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Paket",
+      "english": "parcel",
+      "indonesian": "paket",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Paketbote",
+      "english": "parcel carrier",
+      "indonesian": "kurir paket",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Paketdienst",
+      "english": "parcel service",
+      "indonesian": "layanan paket",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Porto",
+      "english": "postage",
+      "indonesian": "biaya kirim",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "portofrei",
+      "english": "postage paid",
+      "indonesian": "bebas ongkos kirim",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Portokosten (Pl.)",
+      "english": "postage",
+      "indonesian": "biaya pengiriman",
+      "difficulty": 5,
+      "notes": "Plural only"
+    },
+    {
+      "german": "produzieren",
+      "english": "to produce",
+      "indonesian": "memproduksi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Qualität",
+      "english": "quality",
+      "indonesian": "kualitas",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Reklamation",
+      "english": "complaint",
+      "indonesian": "keluhan",
+      "difficulty": 5,
+      "notes": "Plural: Reklamationen"
+    },
+    {
+      "german": "die Retoure",
+      "english": "return order",
+      "indonesian": "pengembalian",
+      "difficulty": 5,
+      "notes": "Plural: Retouren"
+    },
+    {
+      "german": "der Retourenschein",
+      "english": "return order slip",
+      "indonesian": "bukti pengembalian",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Rücksendung",
+      "english": "return delivery",
+      "indonesian": "pengiriman kembali",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Shopping",
+      "english": "shopping",
+      "indonesian": "belanja",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "unverbindlich",
+      "english": "non-binding",
+      "indonesian": "tidak mengikat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Verbraucher/in",
+      "english": "consumer",
+      "indonesian": "konsumen",
+      "difficulty": 5,
+      "notes": "Plural: Verbraucher/innen"
+    },
+    {
+      "german": "verpacken",
+      "english": "to package",
+      "indonesian": "mengemas",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Versand",
+      "english": "shipping",
+      "indonesian": "pengiriman",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Versandkosten (Pl.)",
+      "english": "shipping fee",
+      "indonesian": "biaya pengiriman",
+      "difficulty": 5,
+      "notes": "Plural only"
+    },
+    {
+      "german": "versandkostenfrei",
+      "english": "free of shipping costs",
+      "indonesian": "bebas biaya pengiriman",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Versandkostenpauschale",
+      "english": "flat shipping rate",
+      "indonesian": "tarif pengiriman tetap",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "versenden",
+      "english": "to send",
+      "indonesian": "mengirim",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Ware",
+      "english": "goods",
+      "indonesian": "barang",
+      "difficulty": 5,
+      "notes": "Plural: Waren"
+    }
+  ]
+}

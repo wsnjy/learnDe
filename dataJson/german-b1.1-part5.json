@@ -1,0 +1,673 @@
+{
+  "name": "German B1.1 Part 5",
+  "description": "German vocabulary level B1.1 part 5 from the book \"Einfach gut! Deutsch für die Integration B1.1\"",
+  "date_created": "2025-03-28T12:00:00Z",
+  "source": "telc gGmbH - Einfach gut! Deutsch für die Integration B1.1",
+  "cards": [
+    {
+      "german": "der Warenkorb",
+      "english": "basket",
+      "indonesian": "keranjang belanja",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "wasserdicht",
+      "english": "waterproof",
+      "indonesian": "tahan air",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Werktag",
+      "english": "working day",
+      "indonesian": "hari kerja",
+      "difficulty": 5,
+      "notes": "Plural: Werktage"
+    },
+    {
+      "german": "wetterfest",
+      "english": "waterproof",
+      "indonesian": "tahan cuaca",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "widerrufen",
+      "english": "disclaimer",
+      "indonesian": "menyangkal",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Widerrufsrecht",
+      "english": "right of revocation",
+      "indonesian": "hak pencabutan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Zahlung",
+      "english": "payment",
+      "indonesian": "pembayaran",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "zurückschicken",
+      "english": "to send back",
+      "indonesian": "mengirim kembali",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "zurücksenden",
+      "english": "to send back",
+      "indonesian": "mengirim kembali",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "zurücktreten",
+      "english": "to withdraw",
+      "indonesian": "mengundurkan diri",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "zustellen",
+      "english": "to deliver",
+      "indonesian": "mengantarkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Alter",
+      "english": "age",
+      "indonesian": "usia",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "anschauen",
+      "english": "to look at",
+      "indonesian": "melihat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Anstoß",
+      "english": "stimulus",
+      "indonesian": "rangsangan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "anstrengend",
+      "english": "tiring",
+      "indonesian": "melelahkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Autorennen",
+      "english": "motor racing",
+      "indonesian": "balap motor",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "befragen",
+      "english": "to consult",
+      "indonesian": "menanyakan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "begeistern",
+      "english": "to inspire",
+      "indonesian": "menginspirasi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "beliebt",
+      "english": "popular",
+      "indonesian": "populer",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Biergarten",
+      "english": "beer garden",
+      "indonesian": "taman bir",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Boxen",
+      "english": "boxing",
+      "indonesian": "tinju",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Chips (Pl.)",
+      "english": "crisps",
+      "indonesian": "keripik",
+      "difficulty": 5,
+      "notes": "Plural only"
+    },
+    {
+      "german": "demnächst",
+      "english": "soon",
+      "indonesian": "segera",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Detektivgeschichte",
+      "english": "detective story",
+      "indonesian": "cerita detektif",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Diagramm",
+      "english": "diagram",
+      "indonesian": "diagram",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Diskussion",
+      "english": "discussion",
+      "indonesian": "diskusi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Dokumentation (Doku)",
+      "english": "documentary",
+      "indonesian": "dokumenter",
+      "difficulty": 5,
+      "notes": "Plural: Dokumentationen (Dokus)"
+    },
+    {
+      "german": "doppelt",
+      "english": "doubled",
+      "indonesian": "ganda",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "dramatisch",
+      "english": "dramatic",
+      "indonesian": "dramatis",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Durchschnitt",
+      "english": "average",
+      "indonesian": "rata-rata",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die DVD",
+      "english": "DVD",
+      "indonesian": "DVD",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "ehrlich",
+      "english": "honest",
+      "indonesian": "jujur",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "einschlafen",
+      "english": "to fall asleep",
+      "indonesian": "tertidur",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "einsetzen",
+      "english": "to use",
+      "indonesian": "menggunakan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Eishockey",
+      "english": "ice hockey",
+      "indonesian": "hoki es",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Eiskunstlauf",
+      "english": "ice skating",
+      "indonesian": "seluncur es",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "entstehen",
+      "english": "to result",
+      "indonesian": "timbul",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Ereignis",
+      "english": "event",
+      "indonesian": "peristiwa",
+      "difficulty": 5,
+      "notes": "Plural: Ereignisse"
+    },
+    {
+      "german": "erfolgreich",
+      "english": "successful",
+      "indonesian": "sukses",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Ergebnis",
+      "english": "result",
+      "indonesian": "hasil",
+      "difficulty": 5,
+      "notes": "Plural: Ergebnisse"
+    },
+    {
+      "german": "der/die Experte/Expertin",
+      "english": "expert",
+      "indonesian": "ahli",
+      "difficulty": 5,
+      "notes": "Plural: Experten/Expertinnen"
+    },
+    {
+      "german": "der Fan",
+      "english": "fan",
+      "indonesian": "penggemar",
+      "difficulty": 5,
+      "notes": "Plural: Fans"
+    },
+    {
+      "german": "der Fußballclub",
+      "english": "football club",
+      "indonesian": "klub sepak bola",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Gewohnheit",
+      "english": "habit",
+      "indonesian": "kebiasaan",
+      "difficulty": 5,
+      "notes": "Plural: Gewohnheiten"
+    },
+    {
+      "german": "das Golf",
+      "english": "golf",
+      "indonesian": "golf",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Handball",
+      "english": "hand ball",
+      "indonesian": "bola tangan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Herz",
+      "english": "heart",
+      "indonesian": "hati",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Horrorfilm",
+      "english": "horror film",
+      "indonesian": "film horor",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Kandidat/in",
+      "english": "candidate",
+      "indonesian": "kandidat",
+      "difficulty": 5,
+      "notes": "Plural: Kandidaten/Kandidatinnen"
+    },
+    {
+      "german": "der/die Kommissar/in",
+      "english": "commissioner",
+      "indonesian": "komisaris",
+      "difficulty": 5,
+      "notes": "Plural: Kommissare/Kommissarinnen"
+    },
+    {
+      "german": "der/die Kommentator/in",
+      "english": "commentator",
+      "indonesian": "komentator",
+      "difficulty": 5,
+      "notes": "Plural: Kommentatoren/Kommentatorinnen"
+    },
+    {
+      "german": "die Komödie",
+      "english": "comedy",
+      "indonesian": "komedi",
+      "difficulty": 5,
+      "notes": "Plural: Komödien"
+    },
+    {
+      "german": "der Krimi",
+      "english": "crime thriller",
+      "indonesian": "film kriminal",
+      "difficulty": 5,
+      "notes": "Plural: Krimis"
+    },
+    {
+      "german": "kuscheln",
+      "english": "to cuddle",
+      "indonesian": "memeluk",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Langeweile",
+      "english": "boredom",
+      "indonesian": "kebosanan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Leichtathletik",
+      "english": "athletics",
+      "indonesian": "atletik",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Lieblingsbeschäftigung",
+      "english": "favourite pastime",
+      "indonesian": "hobi favorit",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Magazin",
+      "english": "magazine",
+      "indonesian": "majalah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Mannschaft",
+      "english": "team",
+      "indonesian": "tim",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Mehrheit",
+      "english": "majority",
+      "indonesian": "mayoritas",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Minderheit",
+      "english": "minority",
+      "indonesian": "minoritas",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "mitreden",
+      "english": "to have a say",
+      "indonesian": "ikut berbicara",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Mittelfeld",
+      "english": "mid-field",
+      "indonesian": "lapangan tengah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Moderation",
+      "english": "presentation",
+      "indonesian": "presentasi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Mord",
+      "english": "murder",
+      "indonesian": "pembunuhan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "motiviert",
+      "english": "motivated",
+      "indonesian": "termotivasi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "naschen",
+      "english": "to snack",
+      "indonesian": "ngemil",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Niederlage",
+      "english": "defeat",
+      "indonesian": "kekalahan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "objektiv",
+      "english": "objective",
+      "indonesian": "objektif",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Quizshow",
+      "english": "quiz show",
+      "indonesian": "kuis",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Radrennen",
+      "english": "cycling race",
+      "indonesian": "balapan sepeda",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Rangliste",
+      "english": "league table",
+      "indonesian": "tabel liga",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Rätsel",
+      "english": "puzzle",
+      "indonesian": "teka-teki",
+      "difficulty": 5,
+      "notes": "Plural: Rätsel"
+    },
+    {
+      "german": "die Reportage",
+      "english": "report",
+      "indonesian": "laporan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Reporter/in",
+      "english": "reporter",
+      "indonesian": "reporter",
+      "difficulty": 5,
+      "notes": "Plural: Reporter/innen"
+    },
+    {
+      "german": "retten",
+      "english": "to rescue",
+      "indonesian": "menyelamatkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "romantisch",
+      "english": "romantic",
+      "indonesian": "romantis",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Runde",
+      "english": "round",
+      "indonesian": "putaran",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "schalten",
+      "english": "to switch",
+      "indonesian": "mengganti",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Schiedsrichter",
+      "english": "referee",
+      "indonesian": "wasit",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "schießen",
+      "english": "to shoot",
+      "indonesian": "menembak",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Seifenoper",
+      "english": "soap opera",
+      "indonesian": "opera sabun",
+      "difficulty": 5,
+      "notes": "Plural: Seifenopern"
+    },
+    {
+      "german": "die Sendung",
+      "english": "programme",
+      "indonesian": "program",
+      "difficulty": 5,
+      "notes": "Plural: Sendungen"
+    },
+    {
+      "german": "die Serie",
+      "english": "series",
+      "indonesian": "serial",
+      "difficulty": 5,
+      "notes": "Plural: Serien"
+    },
+    {
+      "german": "siegen",
+      "english": "to win",
+      "indonesian": "menang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Sieger/in",
+      "english": "winner",
+      "indonesian": "pemenang",
+      "difficulty": 5,
+      "notes": "Plural: Sieger/innen"
+    },
+    {
+      "german": "der Skisport",
+      "english": "ski sport",
+      "indonesian": "olahraga ski",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Soap",
+      "english": "soap opera",
+      "indonesian": "sinetron",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "spannend",
+      "english": "exciting",
+      "indonesian": "menegangkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Spieler/in",
+      "english": "player",
+      "indonesian": "pemain",
+      "difficulty": 5,
+      "notes": "Plural: Spieler/innen"
+    },
+    {
+      "german": "der Spielfilm",
+      "english": "feature film",
+      "indonesian": "film cerita",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Stadion",
+      "english": "stadium",
+      "indonesian": "stadion",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Statistik",
+      "english": "statistics",
+      "indonesian": "statistik",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Tagesablauf",
+      "english": "daily routine",
+      "indonesian": "rutinitas harian",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Talkshow",
+      "english": "talk show",
+      "indonesian": "acara bincang-bincang",
+      "difficulty": 5,
+      "notes": ""
+    }
+  ]
+}

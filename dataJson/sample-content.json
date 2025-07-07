@@ -1,0 +1,128 @@
+{
+  "name": "German A1.1 - Guten Tag (Sample)",
+  "description": "Basic German greetings and introductions",
+  "level": "A1.1",
+  "part": 1,
+  "cards": [
+    {
+      "german": "Hallo",
+      "indonesian": "Halo",
+      "english": "Hello",
+      "notes": "Informal greeting"
+    },
+    {
+      "german": "Guten Tag",
+      "indonesian": "Selamat siang",
+      "english": "Good day",
+      "notes": "Formal greeting, used during daytime"
+    },
+    {
+      "german": "Guten Morgen",
+      "indonesian": "Selamat pagi",
+      "english": "Good morning",
+      "notes": "Morning greeting until 10-11 AM"
+    },
+    {
+      "german": "Guten Abend",
+      "indonesian": "Selamat malam",
+      "english": "Good evening",
+      "notes": "Evening greeting from 6 PM"
+    },
+    {
+      "german": "Auf Wiedersehen",
+      "indonesian": "Sampai jumpa",
+      "english": "Goodbye",
+      "notes": "Formal farewell"
+    },
+    {
+      "german": "Tschüss",
+      "indonesian": "Dadah",
+      "english": "Bye",
+      "notes": "Informal farewell"
+    },
+    {
+      "german": "Wie heißen Sie?",
+      "indonesian": "Siapa nama Anda?",
+      "english": "What is your name? (formal)",
+      "notes": "Formal way to ask someone's name"
+    },
+    {
+      "german": "Wie heißt du?",
+      "indonesian": "Siapa nama kamu?",
+      "english": "What is your name? (informal)",
+      "notes": "Informal way to ask someone's name"
+    },
+    {
+      "german": "Ich heiße",
+      "indonesian": "Nama saya",
+      "english": "My name is",
+      "notes": "Used to introduce yourself"
+    },
+    {
+      "german": "Freut mich",
+      "indonesian": "Senang berkenalan",
+      "english": "Nice to meet you",
+      "notes": "Polite response when meeting someone"
+    },
+    {
+      "german": "Danke",
+      "indonesian": "Terima kasih",
+      "english": "Thank you",
+      "notes": "Basic expression of gratitude"
+    },
+    {
+      "german": "Bitte",
+      "indonesian": "Tolong / Silakan",
+      "english": "Please / You're welcome",
+      "notes": "Multipurpose polite word"
+    },
+    {
+      "german": "Entschuldigung",
+      "indonesian": "Maaf / Permisi",
+      "english": "Excuse me / Sorry",
+      "notes": "Used to apologize or get attention"
+    },
+    {
+      "german": "Ja",
+      "indonesian": "Ya",
+      "english": "Yes",
+      "notes": "Affirmative response"
+    },
+    {
+      "german": "Nein",
+      "indonesian": "Tidak",
+      "english": "No",
+      "notes": "Negative response"
+    },
+    {
+      "german": "Ich verstehe nicht",
+      "indonesian": "Saya tidak mengerti",
+      "english": "I don't understand",
+      "notes": "Useful phrase for beginners"
+    },
+    {
+      "german": "Sprechen Sie Englisch?",
+      "indonesian": "Apakah Anda bisa berbahasa Inggris?",
+      "english": "Do you speak English?",
+      "notes": "Helpful question for travelers"
+    },
+    {
+      "german": "Wo ist...?",
+      "indonesian": "Di mana...?",
+      "english": "Where is...?",
+      "notes": "Used to ask for directions"
+    },
+    {
+      "german": "Wie viel kostet das?",
+      "indonesian": "Berapa harganya?",
+      "english": "How much does it cost?",
+      "notes": "Essential for shopping"
+    },
+    {
+      "german": "Hilfe",
+      "indonesian": "Tolong",
+      "english": "Help",
+      "notes": "Emergency word"
+    }
+  ]
+}

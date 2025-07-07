@@ -1,0 +1,652 @@
+{
+  "name": "German A1.2 Part 4",
+  "description": "German vocabulary level A1.2 part 4 from the book \"Einfach gut! Deutsch für die Integration\"",
+  "date_created": "2025-03-28T12:00:00Z",
+  "source": "telc gGmbH - Einfach gut! Deutsch für die Integration A1.2",
+  "cards": [
+    {
+      "german": "die Praktikumsbetreuerin",
+      "english": "internship supervisor",
+      "indonesian": "supervisor magang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Praxis",
+      "english": "practice",
+      "indonesian": "praktik",
+      "difficulty": 5,
+      "notes": "Plural: Praxen"
+    },
+    {
+      "german": "die Praxisgemeinschaft",
+      "english": "joint practice",
+      "indonesian": "praktik bersama",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "rauchen",
+      "english": "to smoke",
+      "indonesian": "merokok",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "regelmäßig",
+      "english": "regularly",
+      "indonesian": "secara teratur",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Rezept",
+      "english": "recipe",
+      "indonesian": "resep",
+      "difficulty": 5,
+      "notes": "Plural: Rezepte"
+    },
+    {
+      "german": "rot",
+      "english": "red",
+      "indonesian": "merah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Rücken",
+      "english": "back",
+      "indonesian": "punggung",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "rund",
+      "english": "round",
+      "indonesian": "bulat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Salbe",
+      "english": "ointment",
+      "indonesian": "salep",
+      "difficulty": 5,
+      "notes": "Plural: Salben"
+    },
+    {
+      "german": "schicken",
+      "english": "to send",
+      "indonesian": "mengirim",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Schmerz",
+      "english": "pain",
+      "indonesian": "rasa sakit",
+      "difficulty": 5,
+      "notes": "Plural: Schmerzen"
+    },
+    {
+      "german": "der Schnupfen",
+      "english": "to sniff",
+      "indonesian": "pilek",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Schulter",
+      "english": "shoulder",
+      "indonesian": "bahu",
+      "difficulty": 5,
+      "notes": "Plural: Schultern"
+    },
+    {
+      "german": "schwanger",
+      "english": "pregnant",
+      "indonesian": "hamil",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "sein, seine",
+      "english": "his",
+      "indonesian": "miliknya (laki-laki)",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Sprechstunde",
+      "english": "consultation hours",
+      "indonesian": "jam konsultasi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Sprechstundenhilfe",
+      "english": "receptionist",
+      "indonesian": "resepsionis",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Sprechzimmer",
+      "english": "consultation room",
+      "indonesian": "ruang konsultasi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "stark",
+      "english": "strong",
+      "indonesian": "kuat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Stirn",
+      "english": "forehead",
+      "indonesian": "dahi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Tablette",
+      "english": "tablet",
+      "indonesian": "tablet",
+      "difficulty": 5,
+      "notes": "Plural: Tabletten"
+    },
+    {
+      "german": "der Termin",
+      "english": "appointment",
+      "indonesian": "janji temu",
+      "difficulty": 5,
+      "notes": "Plural: Termine"
+    },
+    {
+      "german": "der Tropfen",
+      "english": "drops",
+      "indonesian": "tetes",
+      "difficulty": 5,
+      "notes": "Plural: Tropfen"
+    },
+    {
+      "german": "die Unterschrift",
+      "english": "signature",
+      "indonesian": "tanda tangan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Untersuchung",
+      "english": "examination",
+      "indonesian": "pemeriksaan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Verband",
+      "english": "association",
+      "indonesian": "asosiasi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "verschieden",
+      "english": "different",
+      "indonesian": "berbeda",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Vorsorge",
+      "english": "provision",
+      "indonesian": "pencegahan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Wartezimmer",
+      "english": "waiting room",
+      "indonesian": "ruang tunggu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Wechsel",
+      "english": "change",
+      "indonesian": "perubahan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "wechseln",
+      "english": "to change",
+      "indonesian": "mengubah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "wehtun",
+      "english": "to hurt",
+      "indonesian": "sakit",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "wieder",
+      "english": "again",
+      "indonesian": "lagi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "wiederkommen",
+      "english": "to come again",
+      "indonesian": "datang lagi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Zahn",
+      "english": "tooth",
+      "indonesian": "gigi",
+      "difficulty": 5,
+      "notes": "Plural: Zähne"
+    },
+    {
+      "german": "der Zeh",
+      "english": "toe",
+      "indonesian": "jari kaki",
+      "difficulty": 5,
+      "notes": "Plural: Zehen"
+    },
+    {
+      "german": "zurzeit",
+      "english": "currently",
+      "indonesian": "saat ini",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "aufwachsen",
+      "english": "to grow up",
+      "indonesian": "tumbuh dewasa",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "beantworten",
+      "english": "to answer",
+      "indonesian": "menjawab",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Besuch",
+      "english": "visit",
+      "indonesian": "kunjungan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Bewegung",
+      "english": "movement",
+      "indonesian": "gerakan",
+      "difficulty": 5,
+      "notes": "Plural: Bewegungen"
+    },
+    {
+      "german": "bilden",
+      "english": "to form",
+      "indonesian": "membentuk",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Blume",
+      "english": "flower",
+      "indonesian": "bunga",
+      "difficulty": 5,
+      "notes": "Plural: Blumen"
+    },
+    {
+      "german": "der Dienst",
+      "english": "service",
+      "indonesian": "layanan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "extra",
+      "english": "extra",
+      "indonesian": "tambahan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Ferienhaus",
+      "english": "holiday home",
+      "indonesian": "rumah liburan",
+      "difficulty": 5,
+      "notes": "Plural: Ferienhäuser"
+    },
+    {
+      "german": "früher",
+      "english": "earlier",
+      "indonesian": "dulu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "geboren sein",
+      "english": "to be born",
+      "indonesian": "dilahirkan",
+      "difficulty": 5,
+      "notes": "Ich bin in Kabul geboren."
+    },
+    {
+      "german": "gerade",
+      "english": "at the moment",
+      "indonesian": "saat ini",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "gucken",
+      "english": "to watch",
+      "indonesian": "menonton",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Hausflur",
+      "english": "corridor",
+      "indonesian": "koridor",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "heiraten",
+      "english": "to marry",
+      "indonesian": "menikah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Hobby",
+      "english": "hobby",
+      "indonesian": "hobi",
+      "difficulty": 5,
+      "notes": "Plural: Hobbys"
+    },
+    {
+      "german": "der Ingenieur",
+      "english": "engineer",
+      "indonesian": "insinyur",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Insel",
+      "english": "island",
+      "indonesian": "pulau",
+      "difficulty": 5,
+      "notes": "Plural: Inseln"
+    },
+    {
+      "german": "die Inselrundfahrt",
+      "english": "island tour",
+      "indonesian": "tur pulau",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "kennen",
+      "english": "to know (somebody)",
+      "indonesian": "mengenal",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Koffer",
+      "english": "suitcase",
+      "indonesian": "koper",
+      "difficulty": 5,
+      "notes": "Plural: Koffer"
+    },
+    {
+      "german": "letzte",
+      "english": "last",
+      "indonesian": "terakhir",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Meer",
+      "english": "ocean",
+      "indonesian": "laut",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Mond",
+      "english": "moon",
+      "indonesian": "bulan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Nachbar",
+      "english": "neighbour (male)",
+      "indonesian": "tetangga (laki-laki)",
+      "difficulty": 5,
+      "notes": "Plural: Nachbarn"
+    },
+    {
+      "german": "die Nachbarin",
+      "english": "neighbour (female)",
+      "indonesian": "tetangga (perempuan)",
+      "difficulty": 5,
+      "notes": "Plural: Nachbarinnen"
+    },
+    {
+      "german": "die Natur",
+      "english": "nature",
+      "indonesian": "alam",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "packen",
+      "english": "to pack",
+      "indonesian": "mengemas",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Postkarte",
+      "english": "postcard",
+      "indonesian": "kartu pos",
+      "difficulty": 5,
+      "notes": "Plural: Postkarten"
+    },
+    {
+      "german": "die Reise",
+      "english": "journey",
+      "indonesian": "perjalanan",
+      "difficulty": 5,
+      "notes": "Plural: Reisen"
+    },
+    {
+      "german": "das Schiff",
+      "english": "ship",
+      "indonesian": "kapal",
+      "difficulty": 5,
+      "notes": "Plural: Schiffe"
+    },
+    {
+      "german": "der Seehund",
+      "english": "seal",
+      "indonesian": "anjing laut",
+      "difficulty": 5,
+      "notes": "Plural: Seehunde"
+    },
+    {
+      "german": "der Ski",
+      "english": "ski",
+      "indonesian": "ski",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Strand",
+      "english": "beach",
+      "indonesian": "pantai",
+      "difficulty": 5,
+      "notes": "Plural: Strände"
+    },
+    {
+      "german": "stressig",
+      "english": "stressful",
+      "indonesian": "penuh tekanan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Studium",
+      "english": "course of study",
+      "indonesian": "studi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "stundenlang",
+      "english": "for hours",
+      "indonesian": "berjam-jam",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Suppe",
+      "english": "soup",
+      "indonesian": "sup",
+      "difficulty": 5,
+      "notes": "Plural: Suppen"
+    },
+    {
+      "german": "süß",
+      "english": "sweet",
+      "indonesian": "manis",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Tennis",
+      "english": "tennis",
+      "indonesian": "tenis",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Tourist",
+      "english": "tourist",
+      "indonesian": "turis",
+      "difficulty": 5,
+      "notes": "Plural: Touristen"
+    },
+    {
+      "german": "unregelmäßig",
+      "english": "infrequent",
+      "indonesian": "tidak teratur",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Urlaub",
+      "english": "holiday",
+      "indonesian": "liburan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "verdienen",
+      "english": "to earn",
+      "indonesian": "menghasilkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "warten",
+      "english": "to wait",
+      "indonesian": "menunggu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Wetter",
+      "english": "weather",
+      "indonesian": "cuaca",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "anziehen",
+      "english": "to dress",
+      "indonesian": "mengenakan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Anzug",
+      "english": "suit",
+      "indonesian": "jas",
+      "difficulty": 5,
+      "notes": "Plural: Anzüge"
+    },
+    {
+      "german": "beige",
+      "english": "beige",
+      "indonesian": "krem",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "bequem",
+      "english": "comfortable",
+      "indonesian": "nyaman",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "besser",
+      "english": "better",
+      "indonesian": "lebih baik",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "besten (am besten)",
+      "english": "best (the best)",
+      "indonesian": "terbaik (yang terbaik)",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "bestimmt",
+      "english": "certainly",
+      "indonesian": "pasti",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "blau",
+      "english": "blue",
+      "indonesian": "biru",
+      "difficulty": 5,
+      "notes": ""
+    }
+  ]
+}

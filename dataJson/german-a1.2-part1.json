@@ -1,0 +1,680 @@
+{
+  "name": "German A1.2 Part 1",
+  "description": "German vocabulary level A1.2 part 1 from the book \"Einfach gut! Deutsch für die Integration\"",
+  "date_created": "2025-03-28T12:00:00Z",
+  "source": "telc gGmbH - Einfach gut! Deutsch für die Integration A1.2",
+  "cards": [
+    {
+      "german": "die Ampel",
+      "english": "traffic lights",
+      "indonesian": "lampu lalu lintas",
+      "difficulty": 5,
+      "notes": "Plural: Ampeln"
+    },
+    {
+      "german": "die Ankunftszeit",
+      "english": "arrival time",
+      "indonesian": "waktu kedatangan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Ansage",
+      "english": "announcement",
+      "indonesian": "pengumuman",
+      "difficulty": 5,
+      "notes": "Plural: Ansagen"
+    },
+    {
+      "german": "die Apotheke",
+      "english": "pharmacy",
+      "indonesian": "apotek",
+      "difficulty": 5,
+      "notes": "Plural: Apotheken"
+    },
+    {
+      "german": "der Arzt",
+      "english": "doctor",
+      "indonesian": "dokter",
+      "difficulty": 5,
+      "notes": "Plural: Ärzte"
+    },
+    {
+      "german": "die Ärztin",
+      "english": "female doctor",
+      "indonesian": "dokter wanita",
+      "difficulty": 5,
+      "notes": "Plural: Ärztinnen"
+    },
+    {
+      "german": "die Auskunft",
+      "english": "information",
+      "indonesian": "informasi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "außerdem",
+      "english": "also",
+      "indonesian": "selain itu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "außerplanmäßig",
+      "english": "unscheduled",
+      "indonesian": "tidak terjadwal",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Auto",
+      "english": "car",
+      "indonesian": "mobil",
+      "difficulty": 5,
+      "notes": "Plural: Autos"
+    },
+    {
+      "german": "die Bahn",
+      "english": "train",
+      "indonesian": "kereta api",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Bahnhof",
+      "english": "train station",
+      "indonesian": "stasiun kereta",
+      "difficulty": 5,
+      "notes": "Plural: Bahnhöfe"
+    },
+    {
+      "german": "der Ball",
+      "english": "ball",
+      "indonesian": "bola",
+      "difficulty": 5,
+      "notes": "Plural: Bälle"
+    },
+    {
+      "german": "die Bank",
+      "english": "bank",
+      "indonesian": "bank",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "bezahlen",
+      "english": "to pay",
+      "indonesian": "membayar",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Bibliothek",
+      "english": "library",
+      "indonesian": "perpustakaan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Bürgerbüro",
+      "english": "local city office",
+      "indonesian": "kantor pemerintah kota",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Bus",
+      "english": "bus",
+      "indonesian": "bus",
+      "difficulty": 5,
+      "notes": "Plural: Busse"
+    },
+    {
+      "german": "die Bushaltestelle",
+      "english": "bus stop",
+      "indonesian": "halte bus",
+      "difficulty": 5,
+      "notes": "Plural: Bushaltestellen"
+    },
+    {
+      "german": "das Café",
+      "english": "café",
+      "indonesian": "kafe",
+      "difficulty": 5,
+      "notes": "Plural: Cafés"
+    },
+    {
+      "german": "dafür",
+      "english": "for that",
+      "indonesian": "untuk itu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "dritte",
+      "english": "third",
+      "indonesian": "ketiga",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Durchsage",
+      "english": "announcement",
+      "indonesian": "pengumuman",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "einfach",
+      "english": "easy",
+      "indonesian": "mudah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Einzelfahrkarte",
+      "english": "single ticket",
+      "indonesian": "tiket sekali jalan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "erste",
+      "english": "first",
+      "indonesian": "pertama",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Erwachsene",
+      "english": "adult",
+      "indonesian": "orang dewasa",
+      "difficulty": 5,
+      "notes": "Plural: Erwachsenen"
+    },
+    {
+      "german": "fahren",
+      "english": "to travel",
+      "indonesian": "bepergian",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Fahrgast",
+      "english": "passenger",
+      "indonesian": "penumpang",
+      "difficulty": 5,
+      "notes": "Plural: Fahrgäste"
+    },
+    {
+      "german": "die Fahrkarte",
+      "english": "travel ticket",
+      "indonesian": "tiket perjalanan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Fahrrad",
+      "english": "bicycle",
+      "indonesian": "sepeda",
+      "difficulty": 5,
+      "notes": "Plural: Fahrräder"
+    },
+    {
+      "german": "fallen",
+      "english": "to fall",
+      "indonesian": "jatuh",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "fast",
+      "english": "nearly",
+      "indonesian": "hampir",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Flughafen",
+      "english": "airport",
+      "indonesian": "bandara",
+      "difficulty": 5,
+      "notes": "Plural: Flughäfen"
+    },
+    {
+      "german": "das Gebäude",
+      "english": "building",
+      "indonesian": "gedung",
+      "difficulty": 5,
+      "notes": "Plural: Gebäude"
+    },
+    {
+      "german": "geben",
+      "english": "to give",
+      "indonesian": "memberi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "gegenüber",
+      "english": "opposite",
+      "indonesian": "berhadapan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "geradeaus",
+      "english": "straight ahead",
+      "indonesian": "lurus ke depan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Gleis",
+      "english": "platform",
+      "indonesian": "peron",
+      "difficulty": 5,
+      "notes": "Plural: Gleise"
+    },
+    {
+      "german": "gültig",
+      "english": "valid",
+      "indonesian": "berlaku",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "halten",
+      "english": "to stop",
+      "indonesian": "berhenti",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Haltestelle",
+      "english": "stop/station",
+      "indonesian": "pemberhentian/stasiun",
+      "difficulty": 5,
+      "notes": "Plural: Haltestellen"
+    },
+    {
+      "german": "der Hauptbahnhof",
+      "english": "main train station",
+      "indonesian": "stasiun kereta utama",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "hinter",
+      "english": "behind",
+      "indonesian": "di belakang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Hotel",
+      "english": "hotel",
+      "indonesian": "hotel",
+      "difficulty": 5,
+      "notes": "Plural: Hotels"
+    },
+    {
+      "german": "der Informationsschalter",
+      "english": "information desk",
+      "indonesian": "meja informasi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Intercity (IC)",
+      "english": "intercity",
+      "indonesian": "antar kota",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Jobcenter",
+      "english": "job centre",
+      "indonesian": "pusat kerja",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Kino",
+      "english": "cinema",
+      "indonesian": "bioskop",
+      "difficulty": 5,
+      "notes": "Plural: Kinos"
+    },
+    {
+      "german": "die Kirche",
+      "english": "church",
+      "indonesian": "gereja",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Krankenhaus",
+      "english": "hospital",
+      "indonesian": "rumah sakit",
+      "difficulty": 5,
+      "notes": "Plural: Krankenhäuser"
+    },
+    {
+      "german": "die Krankenkasse",
+      "english": "health insurance",
+      "indonesian": "asuransi kesehatan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Kreuzung",
+      "english": "crossroads",
+      "indonesian": "persimpangan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Kurzstrecke",
+      "english": "short-haul",
+      "indonesian": "jarak pendek",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Linie",
+      "english": "line",
+      "indonesian": "jalur",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "links",
+      "english": "left",
+      "indonesian": "kiri",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Lösung",
+      "english": "solution",
+      "indonesian": "solusi",
+      "difficulty": 5,
+      "notes": "Plural: Lösungen"
+    },
+    {
+      "german": "der Meter",
+      "english": "metre",
+      "indonesian": "meter",
+      "difficulty": 5,
+      "notes": "Plural: Meter"
+    },
+    {
+      "german": "der Metzger",
+      "english": "butcher",
+      "indonesian": "tukang daging",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Minute",
+      "english": "minute",
+      "indonesian": "menit",
+      "difficulty": 5,
+      "notes": "Plural: Minuten"
+    },
+    {
+      "german": "die Mobilität",
+      "english": "mobility",
+      "indonesian": "mobilitas",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Motorrad",
+      "english": "motorcycle",
+      "indonesian": "sepeda motor",
+      "difficulty": 5,
+      "notes": "Plural: Motorräder"
+    },
+    {
+      "german": "nachfragen",
+      "english": "to ask about",
+      "indonesian": "bertanya tentang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "nächster, nächste, nächstes",
+      "english": "next",
+      "indonesian": "berikutnya",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "nichts",
+      "english": "nothing",
+      "indonesian": "tidak ada",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "öffentlich",
+      "english": "public",
+      "indonesian": "umum",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Orientierung",
+      "english": "orientation/bearings",
+      "indonesian": "orientasi/petunjuk arah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Park",
+      "english": "park",
+      "indonesian": "taman",
+      "difficulty": 5,
+      "notes": "Plural: Parks"
+    },
+    {
+      "german": "die Parkgebühr",
+      "english": "parking fee",
+      "indonesian": "biaya parkir",
+      "difficulty": 5,
+      "notes": "Plural: Parkgebühren"
+    },
+    {
+      "german": "der Parkplatz",
+      "english": "car park",
+      "indonesian": "tempat parkir",
+      "difficulty": 5,
+      "notes": "Plural: Parkplätze"
+    },
+    {
+      "german": "die Polizei",
+      "english": "police",
+      "indonesian": "polisi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Position",
+      "english": "police station",
+      "indonesian": "kantor polisi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Post",
+      "english": "post office",
+      "indonesian": "kantor pos",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "praktisch",
+      "english": "practical",
+      "indonesian": "praktis",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "rechts",
+      "english": "right",
+      "indonesian": "kanan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Rathaus",
+      "english": "city hall",
+      "indonesian": "balai kota",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Regionalbahn",
+      "english": "regional train",
+      "indonesian": "kereta regional",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Restaurant",
+      "english": "restaurant",
+      "indonesian": "restoran",
+      "difficulty": 5,
+      "notes": "Plural: Restaurants"
+    },
+    {
+      "german": "die Ruhe",
+      "english": "quiet",
+      "indonesian": "ketenangan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Schienenersatzverkehr",
+      "english": "replacement bus service",
+      "indonesian": "layanan bus pengganti",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Schwimmbad",
+      "english": "swimming pool",
+      "indonesian": "kolam renang",
+      "difficulty": 5,
+      "notes": "Plural: Schwimmbäder"
+    },
+    {
+      "german": "selten",
+      "english": "rarely",
+      "indonesian": "jarang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "sowieso",
+      "english": "anyway",
+      "indonesian": "bagaimanapun juga",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "später",
+      "english": "later",
+      "indonesian": "nanti",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Stadtplan",
+      "english": "city map",
+      "indonesian": "peta kota",
+      "difficulty": 5,
+      "notes": "Plural: Stadtpläne"
+    },
+    {
+      "german": "der Stadtwald",
+      "english": "city forest",
+      "indonesian": "hutan kota",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "steigen",
+      "english": "to climb",
+      "indonesian": "mendaki",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Straßenbahn",
+      "english": "tram",
+      "indonesian": "trem",
+      "difficulty": 5,
+      "notes": "Plural: Straßenbahnen"
+    },
+    {
+      "german": "die Tageskarte",
+      "english": "day ticket",
+      "indonesian": "tiket harian",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Taxi",
+      "english": "taxi",
+      "indonesian": "taksi",
+      "difficulty": 5,
+      "notes": "Plural: Taxis"
+    },
+    {
+      "german": "überall",
+      "english": "everywhere",
+      "indonesian": "di mana-mana",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "umsteigen",
+      "english": "to change",
+      "indonesian": "berganti",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "ungefähr",
+      "english": "around",
+      "indonesian": "sekitar",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "unter",
+      "english": "under",
+      "indonesian": "di bawah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Verfügung",
+      "english": "availability",
+      "indonesian": "ketersediaan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Verkehrsmittel",
+      "english": "means of transport",
+      "indonesian": "alat transportasi",
+      "difficulty": 5,
+      "notes": "Plural: Verkehrsmittel"
+    }
+  ]
+}

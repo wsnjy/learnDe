@@ -1,0 +1,645 @@
+{
+  "name": "German A2 Part 9",
+  "description": "German vocabulary level A2 part 9 from the book \"Einfach gut! Deutsch für die Integration\"",
+  "date_created": "2025-03-28T12:00:00Z",
+  "source": "telc gGmbH - Einfach gut! Deutsch für die Integration A2.1",
+  "cards": [
+    {
+      "german": "reichlich",
+      "english": "abundant",
+      "indonesian": "berlimpah",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Restmüll",
+      "english": "residual waste",
+      "indonesian": "sampah sisa",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "schließlich",
+      "english": "finally",
+      "indonesian": "akhirnya",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "schonen",
+      "english": "to treat with care",
+      "indonesian": "memperlakukan dengan hati-hati",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "setzen",
+      "english": "to sit",
+      "indonesian": "mendudukkan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "sogar",
+      "english": "even",
+      "indonesian": "bahkan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "sorgen",
+      "english": "to care",
+      "indonesian": "mengurus",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "sorgfältig",
+      "english": "thoroughly",
+      "indonesian": "teliti",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "Spaziergang",
+      "english": "walk",
+      "indonesian": "jalan-jalan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Spiegel",
+      "english": "mirror",
+      "indonesian": "cermin",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Stellplatz",
+      "english": "parking space",
+      "indonesian": "tempat parkir",
+      "difficulty": 3,
+      "notes": "Plural: Stellplätze"
+    },
+    {
+      "german": "die Tiefgarage",
+      "english": "underground garage",
+      "indonesian": "garasi bawah tanah",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Tonne",
+      "english": "barrel",
+      "indonesian": "tong",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "trennen",
+      "english": "to separate",
+      "indonesian": "memisahkan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Treppe",
+      "english": "stairs",
+      "indonesian": "tangga",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Treppenhaus",
+      "english": "stairway",
+      "indonesian": "tangga dalam gedung",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "übernehmen",
+      "english": "to assume",
+      "indonesian": "mengambil alih",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "umziehen",
+      "english": "to move",
+      "indonesian": "pindah",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Umzug",
+      "english": "move",
+      "indonesian": "pindahan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Umzugskarton",
+      "english": "moving box",
+      "indonesian": "kardus pindahan",
+      "difficulty": 3,
+      "notes": "Plural: Umzugskartons"
+    },
+    {
+      "german": "die Vase",
+      "english": "vase",
+      "indonesian": "vas",
+      "difficulty": 3,
+      "notes": "Plural: Vasen"
+    },
+    {
+      "german": "der Verbraucherzähler",
+      "english": "consumption meter",
+      "indonesian": "meteran konsumsi",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "vereinbaren",
+      "english": "to arrange",
+      "indonesian": "menyepakati",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der/die Vermieter/in",
+      "english": "landlord",
+      "indonesian": "pemilik rumah",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "vermieten",
+      "english": "to let",
+      "indonesian": "menyewakan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "vorhanden",
+      "english": "available",
+      "indonesian": "tersedia",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "wegen",
+      "english": "due to",
+      "indonesian": "karena",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "weil",
+      "english": "because",
+      "indonesian": "karena",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "weiterhin",
+      "english": "still",
+      "indonesian": "selanjutnya",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Wohngemeinschaft",
+      "english": "flat share",
+      "indonesian": "tempat tinggal bersama",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Wohnungsbesichtigung",
+      "english": "flat viewing",
+      "indonesian": "melihat apartemen",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Wunsch",
+      "english": "wish",
+      "indonesian": "keinginan",
+      "difficulty": 3,
+      "notes": "Plural: Wünsche"
+    },
+    {
+      "german": "der Zähler",
+      "english": "meter",
+      "indonesian": "meteran",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Zugang",
+      "english": "entry",
+      "indonesian": "akses",
+      "difficulty": 3,
+      "notes": "Plural: Zugänge"
+    },
+    {
+      "german": "zuletzt",
+      "english": "recently",
+      "indonesian": "baru-baru ini",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "zuzüglich",
+      "english": "plus",
+      "indonesian": "ditambah",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "abgeben",
+      "english": "to submit",
+      "indonesian": "menyerahkan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "ablehnen",
+      "english": "to refuse",
+      "indonesian": "menolak",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "abmelden",
+      "english": "to deregister",
+      "indonesian": "membatalkan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Abmeldung",
+      "english": "deregistration",
+      "indonesian": "pembatalan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "ähnlich",
+      "english": "similar",
+      "indonesian": "mirip",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Amt",
+      "english": "office",
+      "indonesian": "kantor",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Amtsdeutsch",
+      "english": "official German",
+      "indonesian": "bahasa Jerman resmi",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "ändern",
+      "english": "to change",
+      "indonesian": "mengubah",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der/die Angehörige",
+      "english": "relative",
+      "indonesian": "kerabat",
+      "difficulty": 3,
+      "notes": "Plural: Angehörigen"
+    },
+    {
+      "german": "ankreuzen",
+      "english": "to mark with a cross",
+      "indonesian": "menandai dengan silang",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Anschrift",
+      "english": "address",
+      "indonesian": "alamat",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Antrag",
+      "english": "application",
+      "indonesian": "permohonan",
+      "difficulty": 3,
+      "notes": "Plural: Anträge"
+    },
+    {
+      "german": "der/die Antragsteller/in",
+      "english": "applicant",
+      "indonesian": "pemohon",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Arbeitsagentur",
+      "english": "employment agency",
+      "indonesian": "agen ketenagakerjaan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Arbeitserlaubnis",
+      "english": "work permit",
+      "indonesian": "izin kerja",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Arbeitslosengeld",
+      "english": "unemployment benefit",
+      "indonesian": "tunjangan pengangguran",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Arbeitsplatz",
+      "english": "workplace",
+      "indonesian": "tempat kerja",
+      "difficulty": 3,
+      "notes": "Plural: Arbeitsplätze"
+    },
+    {
+      "german": "die Arbeitsvermittlung",
+      "english": "employment service",
+      "indonesian": "layanan ketenagakerjaan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Aufenthalt",
+      "english": "stay",
+      "indonesian": "tinggal",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Aufenthaltserlaubnis",
+      "english": "residence permit",
+      "indonesian": "izin tinggal",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "aufrufen",
+      "english": "to call up",
+      "indonesian": "memanggil",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Ausbildungsplatz",
+      "english": "training place",
+      "indonesian": "tempat pelatihan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Ausländeramt",
+      "english": "immigration office",
+      "indonesian": "kantor imigrasi",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Ausländerbehörde",
+      "english": "immigration authorities",
+      "indonesian": "otoritas imigrasi",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Ausweis",
+      "english": "ID (identification document)",
+      "indonesian": "kartu identitas",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "beantragen",
+      "english": "to apply for",
+      "indonesian": "mengajukan permohonan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "bearbeiten",
+      "english": "to edit",
+      "indonesian": "mengedit",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Behörde",
+      "english": "authorities",
+      "indonesian": "otoritas",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Berufsberatung",
+      "english": "career guidance",
+      "indonesian": "bimbingan karir",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Berufsinformationszentrum",
+      "english": "career information centre",
+      "indonesian": "pusat informasi karir",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der/die Cousin/e",
+      "english": "cousin",
+      "indonesian": "sepupu",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "dabei",
+      "english": "thereby",
+      "indonesian": "pada saat itu",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Dokument",
+      "english": "document",
+      "indonesian": "dokumen",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der/die Ehepartner/in",
+      "english": "spouse",
+      "indonesian": "pasangan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Eheschließung",
+      "english": "marriage",
+      "indonesian": "pernikahan",
+      "difficulty": 3,
+      "notes": "Plural: Eheschließungen"
+    },
+    {
+      "german": "das Einwohnermeldeamt",
+      "english": "registration office",
+      "indonesian": "kantor pendaftaran penduduk",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der/die Enkel/in",
+      "english": "grandson",
+      "indonesian": "cucu",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Enkelkind",
+      "english": "grandchild",
+      "indonesian": "cucu",
+      "difficulty": 3,
+      "notes": "Plural: Enkelkinder"
+    },
+    {
+      "german": "entschuldigen",
+      "english": "to excuse",
+      "indonesian": "memaafkan",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Familienbuch",
+      "english": "family register",
+      "indonesian": "buku keluarga",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Familienkasse",
+      "english": "family class",
+      "indonesian": "dana keluarga",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Familienmitglied",
+      "english": "family member",
+      "indonesian": "anggota keluarga",
+      "difficulty": 3,
+      "notes": "Plural: Familienmitglieder"
+    },
+    {
+      "german": "fehlen",
+      "english": "to miss",
+      "indonesian": "absen",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Finanzamt",
+      "english": "tax office",
+      "indonesian": "kantor pajak",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Geburt",
+      "english": "birth",
+      "indonesian": "kelahiran",
+      "difficulty": 3,
+      "notes": "Plural: Geburten"
+    },
+    {
+      "german": "das Geburtsdatum",
+      "english": "date of birth",
+      "indonesian": "tanggal lahir",
+      "difficulty": 3,
+      "notes": "Plural: Geburtsdaten"
+    },
+    {
+      "german": "das Geburtsland",
+      "english": "country of birth",
+      "indonesian": "negara kelahiran",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Geburtsname",
+      "english": "name at birth",
+      "indonesian": "nama lahir",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "der Geburtsort",
+      "english": "place of birth",
+      "indonesian": "tempat lahir",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Geburtsurkunde",
+      "english": "birth certificate",
+      "indonesian": "akta kelahiran",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "genehmigen",
+      "english": "to approve",
+      "indonesian": "menyetujui",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "das Geschlecht",
+      "english": "gender",
+      "indonesian": "jenis kelamin",
+      "difficulty": 3,
+      "notes": "Plural: Geschlechter"
+    },
+    {
+      "german": "herein",
+      "english": "within",
+      "indonesian": "masuk",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "hingehen",
+      "english": "to go there",
+      "indonesian": "pergi ke sana",
+      "difficulty": 3,
+      "notes": ""
+    },
+    {
+      "german": "die Integration",
+      "english": "integration",
+      "indonesian": "integrasi",
+      "difficulty": 3,
+      "notes": ""
+    }
+  ]
+}

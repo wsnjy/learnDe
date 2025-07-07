@@ -1,0 +1,666 @@
+{
+  "name": "German B1.2 Part 2",
+  "description": "German vocabulary level B1.2 part 2 from the book \"Einfach gut! Deutsch für die Integration B1.2\"",
+  "date_created": "2025-03-28T12:00:00Z",
+  "source": "telc gGmbH - Einfach gut! Deutsch für die Integration B1.2",
+  "cards": [
+    {
+      "german": "das Catering",
+      "english": "catering",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "daneben",
+      "english": "besides",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "eigenverantwortlich",
+      "english": "independent",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "eingehen",
+      "english": "to enter",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "einschreiben",
+      "english": "to inscribe",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Eintrittsdatum",
+      "english": "entry date",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Empfang",
+      "english": "reception",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "empfangen",
+      "english": "to receive",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "englischsprachig",
+      "english": "in English",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "entnehmen",
+      "english": "to take from",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Erstellung",
+      "english": "creation",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "färben",
+      "english": "to colour",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Fax",
+      "english": "fax",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Festanstellung",
+      "english": "full-time position",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "festlegen",
+      "english": "to determine",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "finanziell",
+      "english": "financial",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Finanzwesen",
+      "english": "finance",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Firmensitz",
+      "english": "registered office",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "fließend",
+      "english": "fluent",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Föhn",
+      "english": "hairdryer",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "fordern",
+      "english": "to demand",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Formulierung",
+      "english": "wording",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Fortbildung",
+      "english": "further education",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Frisur",
+      "english": "hairdresser",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Gehaltsvorstellung",
+      "english": "desired salary",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Geschäftsführer/in",
+      "english": "managing director",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Geschäftsführer/innen"
+    },
+    {
+      "german": "die Geschäftsführung",
+      "english": "management",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "gleichzeitig",
+      "english": "at the same time",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Handlung",
+      "english": "conduct",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Herausforderung",
+      "english": "challenge",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "individuell",
+      "english": "individual",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "insofern",
+      "english": "provided",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "intern",
+      "english": "internal",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Jobbezeichnung",
+      "english": "job description",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Kamm",
+      "english": "comb",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Kommunikationsstärke",
+      "english": "strong communication skills",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "kommunikativ",
+      "english": "communicative",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Konferenzraum",
+      "english": "conference room",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Kontaktdaten (Pl.)",
+      "english": "contact details",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "kümmern",
+      "english": "to take care of",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "leistungsgerecht",
+      "english": "performance-based",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "leiten",
+      "english": "to lead",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Manager/in",
+      "english": "manager",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Manager/innen"
+    },
+    {
+      "german": "der Maschinenbau",
+      "english": "engineering",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "meistern",
+      "english": "to master",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Millionär/in",
+      "english": "millionaire",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "mittelständisch",
+      "english": "middle-class",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "nachdem",
+      "english": "after",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Niveau",
+      "english": "level",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Original",
+      "english": "original",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der PC",
+      "english": "PC",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: PCs"
+    },
+    {
+      "german": "der Posteingang",
+      "english": "inbox",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Probezeit",
+      "english": "probationary period",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Qualifikation",
+      "english": "qualification",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Qualifikationen"
+    },
+    {
+      "german": "regeln",
+      "english": "to control",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Sales Manager/in",
+      "english": "sales manager",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Sales Manager/innen"
+    },
+    {
+      "german": "schneiden",
+      "english": "to cut",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Schreiben",
+      "english": "correspondence",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "seitdem",
+      "english": "since then",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Selbstständige",
+      "english": "self-employed person",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Selbstständigen"
+    },
+    {
+      "german": "senden",
+      "english": "to broadcast",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Seniorenheim",
+      "english": "old people's home",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "soweit",
+      "english": "so far as",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Speise",
+      "english": "dish",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Speisen"
+    },
+    {
+      "german": "spezialisieren",
+      "english": "to specialise",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Stellenanzeige",
+      "english": "job advertisement",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Stellenanzeigen"
+    },
+    {
+      "german": "der Steuerberater",
+      "english": "tax consultant",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Steuerberatungsbüro",
+      "english": "tax consultancy firm",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Teamfähigkeit",
+      "english": "ability to work in a team",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Telekommunikation",
+      "english": "telecommunication",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Terminkalender",
+      "english": "appointment calendar",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "traditionsreich",
+      "english": "steeped in tradition",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Überstunde",
+      "english": "overtime",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Überstunden"
+    },
+    {
+      "german": "der Umgang",
+      "english": "handling",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Umschulung",
+      "english": "re-training",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "unbefristet",
+      "english": "indefinite",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Unternehmen",
+      "english": "company",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Unternehmen"
+    },
+    {
+      "german": "der Urlaubstag",
+      "english": "paid leave",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Urlaubstage"
+    },
+    {
+      "german": "verabreden",
+      "english": "to arrange",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Vergütung",
+      "english": "remuneration",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Verstärkung",
+      "english": "enhancement",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "weiterhelfen",
+      "english": "to help out",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Weiterleitung",
+      "english": "forwarding",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Werkzeug",
+      "english": "work tools",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "zaubern",
+      "english": "to conjure",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "zeitlich",
+      "english": "on time",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Zeitpunkt",
+      "english": "point in time",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "zusätzlich",
+      "english": "additional",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Zusatzqualifikation",
+      "english": "additional qualifications",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Zuverlässigkeit",
+      "english": "reliability",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "abdrehen",
+      "english": "to change course",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "abheften",
+      "english": "to file away",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "allerdings",
+      "english": "however",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "anmachen",
+      "english": "to turn on",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    }
+  ]
+}

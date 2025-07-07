@@ -1,0 +1,645 @@
+{
+  "name": "German A1.2 Part 5",
+  "description": "German vocabulary level A1.2 part 5 from the book \"Einfach gut! Deutsch für die Integration\"",
+  "date_created": "2025-03-28T12:00:00Z",
+  "source": "telc gGmbH - Einfach gut! Deutsch für die Integration A1.2",
+  "cards": [
+    {
+      "german": "blöd",
+      "english": "stupid",
+      "indonesian": "bodoh",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Bluse",
+      "english": "blouse",
+      "indonesian": "blus",
+      "difficulty": 5,
+      "notes": "Plural: Blusen"
+    },
+    {
+      "german": "braun",
+      "english": "brown",
+      "indonesian": "cokelat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "bringen",
+      "english": "to bring",
+      "indonesian": "membawa",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "denken",
+      "english": "to think",
+      "indonesian": "berpikir",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Einkaufsbummel",
+      "english": "shopping spree",
+      "indonesian": "belanja",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "eng",
+      "english": "tight",
+      "indonesian": "ketat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "euch",
+      "english": "you (informal)",
+      "indonesian": "kalian",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Farbe",
+      "english": "colour",
+      "indonesian": "warna",
+      "difficulty": 5,
+      "notes": "Plural: Farben"
+    },
+    {
+      "german": "furchtbar",
+      "english": "terrible",
+      "indonesian": "mengerikan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "gefallen",
+      "english": "to please",
+      "indonesian": "menyukai",
+      "difficulty": 5,
+      "notes": "Die Bluse gefällt mir."
+    },
+    {
+      "german": "gegenseitig",
+      "english": "mutual",
+      "indonesian": "saling",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "gelb",
+      "english": "yellow",
+      "indonesian": "kuning",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "genauso",
+      "english": "equally",
+      "indonesian": "sama",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "glauben",
+      "english": "to believe",
+      "indonesian": "percaya",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "grau",
+      "english": "grey",
+      "indonesian": "abu-abu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "günstig",
+      "english": "good value",
+      "indonesian": "murah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Hemd",
+      "english": "shirt",
+      "indonesian": "kemeja",
+      "difficulty": 5,
+      "notes": "Plural: Hemden"
+    },
+    {
+      "german": "die Hose",
+      "english": "trousers",
+      "indonesian": "celana",
+      "difficulty": 5,
+      "notes": "Plural: Hosen"
+    },
+    {
+      "german": "ihm",
+      "english": "him",
+      "indonesian": "dia (laki-laki)",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Jacke",
+      "english": "jacket",
+      "indonesian": "jaket",
+      "difficulty": 5,
+      "notes": "Plural: Jacken"
+    },
+    {
+      "german": "die Jeans",
+      "english": "jeans",
+      "indonesian": "jins",
+      "difficulty": 5,
+      "notes": "Plural: Jeans"
+    },
+    {
+      "german": "der Jogginganzug",
+      "english": "tracksuit",
+      "indonesian": "pakaian olahraga",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Kassenbon",
+      "english": "receipt",
+      "indonesian": "struk",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Kaufhaus",
+      "english": "department store",
+      "indonesian": "toserba",
+      "difficulty": 5,
+      "notes": "Plural: Kaufhäuser"
+    },
+    {
+      "german": "die Klamotten (Pl.)",
+      "english": "clothes",
+      "indonesian": "pakaian",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "klasse",
+      "english": "great",
+      "indonesian": "hebat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Kleid",
+      "english": "dress",
+      "indonesian": "gaun",
+      "difficulty": 5,
+      "notes": "Plural: Kleider"
+    },
+    {
+      "german": "die Kleidung",
+      "english": "clothing",
+      "indonesian": "pakaian",
+      "difficulty": 5,
+      "notes": "Plural: Kleidung"
+    },
+    {
+      "german": "das Kleidungsstück",
+      "english": "item of clothing",
+      "indonesian": "pakaian",
+      "difficulty": 5,
+      "notes": "Plural: Kleidungsstücke"
+    },
+    {
+      "german": "lila",
+      "english": "purple",
+      "indonesian": "ungu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Mantel",
+      "english": "coat",
+      "indonesian": "mantel",
+      "difficulty": 5,
+      "notes": "Plural: Mäntel"
+    },
+    {
+      "german": "meisten (am meisten)",
+      "english": "most (the most)",
+      "indonesian": "paling (yang paling)",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Mode",
+      "english": "fashion",
+      "indonesian": "mode",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Modell",
+      "english": "model",
+      "indonesian": "model",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Mütze",
+      "english": "hat",
+      "indonesian": "topi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "online",
+      "english": "online",
+      "indonesian": "online",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Ordnung",
+      "english": "order",
+      "indonesian": "keteraturan",
+      "difficulty": 5,
+      "notes": "Das ist in Ordnung."
+    },
+    {
+      "german": "das Paar",
+      "english": "pair",
+      "indonesian": "pasangan",
+      "difficulty": 5,
+      "notes": "Plural: Paare"
+    },
+    {
+      "german": "passen",
+      "english": "to fit",
+      "indonesian": "pas",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "positiv",
+      "english": "positive",
+      "indonesian": "positif",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "probieren",
+      "english": "to try",
+      "indonesian": "mencoba",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Prospekt",
+      "english": "prospect",
+      "indonesian": "prospek",
+      "difficulty": 5,
+      "notes": "Plural: Prospekte"
+    },
+    {
+      "german": "der Pullover",
+      "english": "jumper",
+      "indonesian": "sweter",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "raten",
+      "english": "to advise",
+      "indonesian": "menyarankan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Rock",
+      "english": "skirt",
+      "indonesian": "rok",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Schal",
+      "english": "scarf",
+      "indonesian": "syal",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Schuh",
+      "english": "shoe",
+      "indonesian": "sepatu",
+      "difficulty": 5,
+      "notes": "Plural: Schuhe"
+    },
+    {
+      "german": "schwarz",
+      "english": "black",
+      "indonesian": "hitam",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "sicher",
+      "english": "secure",
+      "indonesian": "aman",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Socke",
+      "english": "sock",
+      "indonesian": "kaus kaki",
+      "difficulty": 5,
+      "notes": "Plural: Socken"
+    },
+    {
+      "german": "der Sportschuh",
+      "english": "trainer",
+      "indonesian": "sepatu olahraga",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Strickjacke",
+      "english": "cardigan",
+      "indonesian": "kardigan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Strumpf",
+      "english": "stocking",
+      "indonesian": "stoking",
+      "difficulty": 5,
+      "notes": "Plural: Strümpfe"
+    },
+    {
+      "german": "tragen",
+      "english": "to wear",
+      "indonesian": "mengenakan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das T-Shirt",
+      "english": "tshirt",
+      "indonesian": "kaos",
+      "difficulty": 5,
+      "notes": "Plural: T-Shirts"
+    },
+    {
+      "german": "typisch",
+      "english": "typical",
+      "indonesian": "tipikal",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "überhaupt",
+      "english": "at all",
+      "indonesian": "sama sekali",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "umtauschen",
+      "english": "to exchange",
+      "indonesian": "menukar",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "uns",
+      "english": "us",
+      "indonesian": "kita/kami",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "vergessen",
+      "english": "to forget",
+      "indonesian": "lupa",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Wintermantel",
+      "english": "winter coat",
+      "indonesian": "mantel musim dingin",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "zurück",
+      "english": "return",
+      "indonesian": "kembali",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Achtung",
+      "english": "caution",
+      "indonesian": "perhatian",
+      "difficulty": 5,
+      "notes": "Achtung!"
+    },
+    {
+      "german": "der April",
+      "english": "April",
+      "indonesian": "April",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "aufregen",
+      "english": "to get excited/upset",
+      "indonesian": "menjadi bersemangat/kesal",
+      "difficulty": 5,
+      "notes": "Ich bin ganz aufgeregt."
+    },
+    {
+      "german": "der August",
+      "english": "August",
+      "indonesian": "Agustus",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "bauen",
+      "english": "to build",
+      "indonesian": "membangun",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Baum",
+      "english": "tree",
+      "indonesian": "pohon",
+      "difficulty": 5,
+      "notes": "Plural: Bäume"
+    },
+    {
+      "german": "besuchen",
+      "english": "to visit",
+      "indonesian": "mengunjungi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "bewölkt",
+      "english": "cloudy",
+      "indonesian": "berawan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Braut",
+      "english": "bride",
+      "indonesian": "pengantin wanita",
+      "difficulty": 5,
+      "notes": "Plural: Bräute"
+    },
+    {
+      "german": "der Dank",
+      "english": "Thanks",
+      "indonesian": "terima kasih",
+      "difficulty": 5,
+      "notes": "Vielen Dank!"
+    },
+    {
+      "german": "darüber",
+      "english": "about",
+      "indonesian": "tentang itu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Deutschlandkarte",
+      "english": "map of Germany",
+      "indonesian": "peta Jerman",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Dezember",
+      "english": "December",
+      "indonesian": "Desember",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "eben",
+      "english": "just",
+      "indonesian": "baru saja",
+      "difficulty": 5,
+      "notes": "Na, da muss es eben ein Freitag sein."
+    },
+    {
+      "german": "einladen",
+      "english": "to invite",
+      "indonesian": "mengundang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Einladung",
+      "english": "invitation",
+      "indonesian": "undangan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "einverstanden",
+      "english": "agreed",
+      "indonesian": "setuju",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Eis",
+      "english": "ice cream",
+      "indonesian": "es krim",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Februar",
+      "english": "February",
+      "indonesian": "Februari",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Feier",
+      "english": "celebration",
+      "indonesian": "perayaan",
+      "difficulty": 5,
+      "notes": "Plural: Feiern"
+    },
+    {
+      "german": "feiern",
+      "english": "to celebrate",
+      "indonesian": "merayakan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Fest",
+      "english": "party",
+      "indonesian": "pesta",
+      "difficulty": 5,
+      "notes": "Plural: Feste"
+    },
+    {
+      "german": "freuen",
+      "english": "to be happy",
+      "indonesian": "senang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "froh",
+      "english": "glad",
+      "indonesian": "gembira",
+      "difficulty": 5,
+      "notes": "Frohe Ostern!"
+    },
+    {
+      "german": "der Frühling",
+      "english": "spring",
+      "indonesian": "musim semi",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "fühlen",
+      "english": "to feel",
+      "indonesian": "merasa",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Gartenparty",
+      "english": "garden party",
+      "indonesian": "pesta kebun",
+      "difficulty": 5,
+      "notes": "Plural: Gartenpartys"
+    },
+    {
+      "german": "der Geburtstag",
+      "english": "birthday",
+      "indonesian": "ulang tahun",
+      "difficulty": 5,
+      "notes": ""
+    }
+  ]
+}

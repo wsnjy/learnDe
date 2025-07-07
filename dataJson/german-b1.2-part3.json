@@ -1,0 +1,659 @@
+{
+  "name": "German B1.2 Part 3",
+  "description": "German vocabulary level B1.2 part 3 from the book \"Einfach gut! Deutsch für die Integration B1.2\"",
+  "date_created": "2025-03-28T12:00:00Z",
+  "source": "telc gGmbH - Einfach gut! Deutsch für die Integration B1.2",
+  "cards": [
+    {
+      "german": "ansehen",
+      "english": "to look at",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "aufdrehen",
+      "english": "to open",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "aufmachen",
+      "english": "to open",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "ausschalten",
+      "english": "to turn off",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "ausschlafen",
+      "english": "to sleep in",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Besprechungszimmer",
+      "english": "meeting room",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Büroalltag",
+      "english": "office life",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Büroassistent/in",
+      "english": "office assistant",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Büroassistenten/Büroassistentinnen"
+    },
+    {
+      "german": "der Büroraum",
+      "english": "office space",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Büroräume"
+    },
+    {
+      "german": "die Dienstleistung",
+      "english": "service",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Dienstleistungen"
+    },
+    {
+      "german": "drinnen",
+      "english": "inside",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "einschalten",
+      "english": "to turn on",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Energiekosten (Pl.)",
+      "english": "energy costs",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Energieverschwendung",
+      "english": "waste of energy",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Handwerker/in",
+      "english": "workman",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Handwerker/innen"
+    },
+    {
+      "german": "die Heizkosten (Pl.)",
+      "english": "heating costs",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "indem",
+      "english": "by",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "kippen",
+      "english": "to tilt",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die König/in",
+      "english": "king",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Könige/Königinnen"
+    },
+    {
+      "german": "der Kopierer",
+      "english": "copying machine",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Kopierer"
+    },
+    {
+      "german": "langfristig",
+      "english": "long-term",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "mehrmals",
+      "english": "multiple times",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Million",
+      "english": "million",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Millionen"
+    },
+    {
+      "german": "mitdenken",
+      "english": "to follow a thought",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "offen",
+      "english": "open",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Privatnummer",
+      "english": "private number",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "rasieren",
+      "english": "to shave",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Reinigungsfirma",
+      "english": "cleaning company",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Reinigungsvertrag",
+      "english": "cleaning contract",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "senken",
+      "english": "to reduce",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "stinksauer (ugs.)",
+      "english": "furious",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Strom",
+      "english": "electricity",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Stromanbieter",
+      "english": "electricity provider",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Stromkosten (PL)",
+      "english": "electricity costs",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "tropfen",
+      "english": "to drip",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "übergeben",
+      "english": "to be sick",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "unnötig",
+      "english": "unnecessary",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Verbrauch",
+      "english": "use",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "verschwenden",
+      "english": "to waste",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Vertragsende",
+      "english": "contract end",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Vertragsnummer",
+      "english": "contract number",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Wärme",
+      "english": "warmth",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Wasserhahn",
+      "english": "tap",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Weise",
+      "english": "manner",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "zudrehen",
+      "english": "to turn off",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "zumachen",
+      "english": "to close",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Zusammenarbeit",
+      "english": "cooperation",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "zusammenarbeiten",
+      "english": "to work together",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "abnehmen",
+      "english": "to lose weight",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "achten",
+      "english": "to be careful",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Allergie",
+      "english": "allergy",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "allergisch",
+      "english": "allergic",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Anbau",
+      "english": "cultivation",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "angewöhnen",
+      "english": "to get used to",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "auseinandersetzen",
+      "english": "to discuss",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "ausgewogen",
+      "english": "balanced",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "ausprobieren",
+      "english": "to try",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "bedenklich",
+      "english": "questionable",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Bedingung",
+      "english": "condition",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Bedingungen"
+    },
+    {
+      "german": "behaupten",
+      "english": "to claim",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Berufstätigkeit",
+      "english": "professional activity",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Bevölkerung",
+      "english": "population",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "bewusst",
+      "english": "conscious",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "bio (=biologisch)",
+      "english": "organic",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Bioprodukt",
+      "english": "organic produce",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Bioprodukte"
+    },
+    {
+      "german": "bloß",
+      "english": "purely",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Diabetiker/in",
+      "english": "diabetic",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Diabetiker/innen"
+    },
+    {
+      "german": "der Döner",
+      "english": "kebab",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "durchschnittlich",
+      "english": "average",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Einkommen",
+      "english": "income",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Einkommen"
+    },
+    {
+      "german": "einseitig",
+      "english": "one-sided",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Eiweiß",
+      "english": "protein",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "erkennen",
+      "english": "to recognise",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Ernährung",
+      "english": "nutrition",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der/die Esser/in",
+      "english": "eater",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Esser/innen"
+    },
+    {
+      "german": "das Fertiggericht",
+      "english": "ready meal",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "fett",
+      "english": "fat",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "fix",
+      "english": "quick",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "fleischfrei",
+      "english": "meat-free",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "fleischlos",
+      "english": "vegetarian",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Freundeskreis",
+      "english": "circle of friends",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Frust",
+      "english": "frustration",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "furchtbar",
+      "english": "terrible",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Gang",
+      "english": "course",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Gänge"
+    },
+    {
+      "german": "der/die Gemüsehändler/in",
+      "english": "greengrocer",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Gemüsehändler/innen"
+    },
+    {
+      "german": "der Geschmack",
+      "english": "taste",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Getreide",
+      "english": "grain",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "glutenfrei",
+      "english": "gluten-free",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "grundsätzlich",
+      "english": "basically",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Hartweizen",
+      "english": "durum wheat",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Haselnuss",
+      "english": "hazelnut",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Haselnüsse"
+    },
+    {
+      "german": "der Hauptgrund",
+      "english": "main reason",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Hauptgründe"
+    },
+    {
+      "german": "die Hülsenfrucht",
+      "english": "pulse",
+      "indonesian": "",
+      "difficulty": 5,
+      "notes": "Plural: Hülsenfrüchte"
+    }
+  ]
+}

@@ -1,0 +1,526 @@
+{
+  "name": "German A1.2 Part 6",
+  "description": "German vocabulary level A1.2 part 6 from the book \"Einfach gut! Deutsch für die Integration\"",
+  "date_created": "2025-03-28T12:00:00Z",
+  "source": "telc gGmbH - Einfach gut! Deutsch für die Integration A1.2",
+  "cards": [
+    {
+      "german": "die Geburtstagstorte",
+      "english": "birthday cake",
+      "indonesian": "kue ulang tahun",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Geschenk",
+      "english": "present",
+      "indonesian": "hadiah",
+      "difficulty": 5,
+      "notes": "Plural: Geschenke"
+    },
+    {
+      "german": "glücklich",
+      "english": "happy",
+      "indonesian": "bahagia",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Glückstag",
+      "english": "lucky day",
+      "indonesian": "hari keberuntungan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Grad",
+      "english": "degrees",
+      "indonesian": "derajat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "hageln",
+      "english": "hail",
+      "indonesian": "hujan es",
+      "difficulty": 5,
+      "notes": "Es hagelt."
+    },
+    {
+      "german": "der Handschuh",
+      "english": "glove",
+      "indonesian": "sarung tangan",
+      "difficulty": 5,
+      "notes": "Plural: Handschuhe"
+    },
+    {
+      "german": "der Hase",
+      "english": "rabbit",
+      "indonesian": "kelinci",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Herbst",
+      "english": "autumn",
+      "indonesian": "musim gugur",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Himmelsrichtung",
+      "english": "compass point",
+      "indonesian": "arah mata angin",
+      "difficulty": 5,
+      "notes": "Plural: Himmelsrichtungen"
+    },
+    {
+      "german": "die Hochzeit",
+      "english": "wedding",
+      "indonesian": "pernikahan",
+      "difficulty": 5,
+      "notes": "Plural: Hochzeiten"
+    },
+    {
+      "german": "die Hochzeitsfeier",
+      "english": "wedding party",
+      "indonesian": "pesta pernikahan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Jahreszahl",
+      "english": "year",
+      "indonesian": "angka tahun",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Jahreszeit",
+      "english": "season",
+      "indonesian": "musim",
+      "difficulty": 5,
+      "notes": "Plural: Jahreszeiten"
+    },
+    {
+      "german": "der Januar",
+      "english": "January",
+      "indonesian": "Januari",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Juli",
+      "english": "July",
+      "indonesian": "Juli",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Kalender",
+      "english": "calendar",
+      "indonesian": "kalender",
+      "difficulty": 5,
+      "notes": "Plural: Kalender"
+    },
+    {
+      "german": "lieben",
+      "english": "to love",
+      "indonesian": "mencintai",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Luftballon",
+      "english": "air balloon",
+      "indonesian": "balon udara",
+      "difficulty": 5,
+      "notes": "Plural: Luftballons"
+    },
+    {
+      "german": "lustig",
+      "english": "funny",
+      "indonesian": "lucu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Mai",
+      "english": "May",
+      "indonesian": "Mei",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Mama",
+      "english": "mum",
+      "indonesian": "mama",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "minus",
+      "english": "minus",
+      "indonesian": "minus",
+      "difficulty": 5,
+      "notes": "Es sind minus 15 Grad."
+    },
+    {
+      "german": "mitbringen",
+      "english": "to bring with",
+      "indonesian": "membawa serta",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "nass",
+      "english": "wet",
+      "indonesian": "basah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "nebelig",
+      "english": "foggy",
+      "indonesian": "berkabut",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Norden",
+      "english": "north",
+      "indonesian": "utara",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der November",
+      "english": "November",
+      "indonesian": "November",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "nun",
+      "english": "now",
+      "indonesian": "sekarang",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Oktober",
+      "english": "October",
+      "indonesian": "Oktober",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Oktoberfest",
+      "english": "Octoberfest",
+      "indonesian": "Oktoberfest",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Oma",
+      "english": "Grandma",
+      "indonesian": "nenek",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Osten",
+      "english": "east",
+      "indonesian": "timur",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Osterei",
+      "english": "easter egg",
+      "indonesian": "telur paskah",
+      "difficulty": 5,
+      "notes": "Plural: Ostereier"
+    },
+    {
+      "german": "das Osterfest",
+      "english": "Easter",
+      "indonesian": "Paskah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Osterhase",
+      "english": "easter bunny",
+      "indonesian": "kelinci paskah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Ostern",
+      "english": "Easter",
+      "indonesian": "Paskah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Papa",
+      "english": "dad",
+      "indonesian": "papa",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "räumen",
+      "english": "to clear",
+      "indonesian": "membersihkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "reden",
+      "english": "to talk",
+      "indonesian": "berbicara",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "regnen",
+      "english": "to rain",
+      "indonesian": "hujan",
+      "difficulty": 5,
+      "notes": "Es regnet."
+    },
+    {
+      "german": "samstags",
+      "english": "on saturdays",
+      "indonesian": "pada hari Sabtu",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Schatz",
+      "english": "treasure",
+      "indonesian": "harta",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "scheinen",
+      "english": "to shine",
+      "indonesian": "bersinar",
+      "difficulty": 5,
+      "notes": "Die Sonne scheint."
+    },
+    {
+      "german": "schenken",
+      "english": "to gift",
+      "indonesian": "memberikan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "schlecht",
+      "english": "bad",
+      "indonesian": "buruk",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Schnee",
+      "english": "snow",
+      "indonesian": "salju",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Schneemann",
+      "english": "snowman",
+      "indonesian": "boneka salju",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "schneien",
+      "english": "to snow",
+      "indonesian": "salju turun",
+      "difficulty": 5,
+      "notes": "Es schneit."
+    },
+    {
+      "german": "der Schokoladenkuchen",
+      "english": "chocolate cake",
+      "indonesian": "kue cokelat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Sekt",
+      "english": "sparking wine",
+      "indonesian": "anggur bersoda",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der September",
+      "english": "September",
+      "indonesian": "September",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Sommer",
+      "english": "summer",
+      "indonesian": "musim panas",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "sonnig",
+      "english": "sunny",
+      "indonesian": "cerah",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "die Spezialität",
+      "english": "speciality",
+      "indonesian": "kekhususan",
+      "difficulty": 5,
+      "notes": "Plural: Spezialitäten"
+    },
+    {
+      "german": "das Standesamt",
+      "english": "registry office",
+      "indonesian": "kantor catatan sipil",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "stellen",
+      "english": "to set",
+      "indonesian": "menempatkan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Süden",
+      "english": "south",
+      "indonesian": "selatan",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "tanzen",
+      "english": "to dance",
+      "indonesian": "menari",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Teller",
+      "english": "plate",
+      "indonesian": "piring",
+      "difficulty": 5,
+      "notes": "Plural: Teller"
+    },
+    {
+      "german": "die Torte",
+      "english": "cake",
+      "indonesian": "kue tart",
+      "difficulty": 5,
+      "notes": "Plural: Torten"
+    },
+    {
+      "german": "trocken",
+      "english": "dry",
+      "indonesian": "kering",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "unglücklich",
+      "english": "unhappy",
+      "indonesian": "tidak bahagia",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Unglückstag",
+      "english": "unlucky day",
+      "indonesian": "hari sial",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "warm",
+      "english": "warm",
+      "indonesian": "hangat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Weihnachten",
+      "english": "Christmas",
+      "indonesian": "Natal",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Weihnachtsbaum",
+      "english": "Christmas tree",
+      "indonesian": "pohon Natal",
+      "difficulty": 5,
+      "notes": "Plural: Weihnachtsbäume"
+    },
+    {
+      "german": "die Weihnachtsfeier",
+      "english": "Christmas party",
+      "indonesian": "pesta Natal",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Weihnachtsgeschenk",
+      "english": "Christmas present",
+      "indonesian": "hadiah Natal",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Weihnachtsmann",
+      "english": "Santa claus",
+      "indonesian": "Sinterklas",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "das Westdeutschland",
+      "english": "West Germany",
+      "indonesian": "Jerman Barat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Westen",
+      "english": "west",
+      "indonesian": "barat",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "der Wetterbericht",
+      "english": "weather report",
+      "indonesian": "laporan cuaca",
+      "difficulty": 5,
+      "notes": ""
+    },
+    {
+      "german": "wieso",
+      "english": "why",
+      "indonesian": "mengapa",
+      "difficulty": 5,
+      "notes": ""
+    }
+  ]
+}
