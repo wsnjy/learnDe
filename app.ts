@@ -93,6 +93,7 @@ class GermanLearningApp {
         };
 
         this.speechSynthesis = window.speechSynthesis;
+        this.initializeVoices();
         this.init();
     }
 
@@ -845,10 +846,55 @@ class GermanLearningApp {
             : this.currentCard.german; // Always pronounce German
 
         const utterance = new SpeechSynthesisUtterance(textToSpeak);
+        
+        // Get available voices and find German voice
+        const voices = this.speechSynthesis.getVoices();
+        const germanVoice = voices.find(voice => 
+            voice.lang === 'de-DE' || 
+            voice.lang === 'de' ||
+            voice.lang.startsWith('de-') ||
+            voice.name.toLowerCase().includes('german') ||
+            voice.name.toLowerCase().includes('deutsch')
+        );
+        
+        // Set German voice if available
+        if (germanVoice) {
+            utterance.voice = germanVoice;
+        }
+        
         utterance.lang = 'de-DE';
-        utterance.rate = 0.8;
+        utterance.rate = 0.8; // Slightly slower for learning
+        utterance.pitch = 1.0;
+        utterance.volume = 1.0;
         
         this.speechSynthesis.speak(utterance);
+    }
+
+    private initializeVoices(): void {
+        if (!this.speechSynthesis) return;
+
+        // Load voices when available
+        const loadVoices = () => {
+            const voices = this.speechSynthesis!.getVoices();
+            if (voices.length > 0) {
+                console.log('Available voices:', voices.map(v => `${v.name} (${v.lang})`));
+                const germanVoices = voices.filter(voice => 
+                    voice.lang === 'de-DE' || 
+                    voice.lang === 'de' ||
+                    voice.lang.startsWith('de-') ||
+                    voice.name.toLowerCase().includes('german') ||
+                    voice.name.toLowerCase().includes('deutsch')
+                );
+                console.log('German voices found:', germanVoices.map(v => `${v.name} (${v.lang})`));
+            }
+        };
+
+        // Voices might not be loaded immediately
+        if (this.speechSynthesis.getVoices().length > 0) {
+            loadVoices();
+        } else {
+            this.speechSynthesis.addEventListener('voiceschanged', loadVoices);
+        }
     }
 
     private updateUI(): void {

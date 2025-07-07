@@ -1,12 +1,3 @@
-var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
-    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
-    return new (P || (P = Promise))(function (resolve, reject) {
-        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
-        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
-        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
-        step((generator = generator.apply(thisArg, _arguments || [])).next());
-    });
-};
 class GermanLearningApp {
     constructor() {
         this.vocabulary = [];
@@ -37,102 +28,99 @@ class GermanLearningApp {
             currentView: 'dashboard'
         };
         this.speechSynthesis = window.speechSynthesis;
+        this.initializeVoices();
         this.init();
     }
-    init() {
-        return __awaiter(this, void 0, void 0, function* () {
-            try {
-                yield this.loadAllVocabularyParts();
-                this.loadUserData();
-                this.updateLevelLocks(); // Move this before initializeTheme
-                this.initializeTheme();
-                this.setupEventListeners();
-                this.updateUI();
-                this.generateHeatmap();
-                this.renderDashboard();
-                this.switchView(this.settings.currentView); // Initialize correct view
-            }
-            catch (error) {
-                console.error('Initialization error:', error);
-                this.showError('Failed to initialize the application. Please refresh the page.');
-            }
-        });
+    async init() {
+        try {
+            await this.loadAllVocabularyParts();
+            this.loadUserData();
+            this.updateLevelLocks(); // Move this before initializeTheme
+            this.initializeTheme();
+            this.setupEventListeners();
+            this.updateUI();
+            this.generateHeatmap();
+            this.renderDashboard();
+            this.switchView(this.settings.currentView); // Initialize correct view
+        }
+        catch (error) {
+            console.error('Initialization error:', error);
+            this.showError('Failed to initialize the application. Please refresh the page.');
+        }
     }
-    loadAllVocabularyParts() {
-        return __awaiter(this, void 0, void 0, function* () {
-            this.showLoading(true);
-            try {
-                const fileStructure = [
-                    { level: 'A1', subLevel: '1', parts: 8 },
-                    { level: 'A1', subLevel: '2', parts: 6 },
-                    { level: 'A2', subLevel: '1', parts: 10 },
-                    { level: 'A2', subLevel: '2', parts: 6 },
-                    { level: 'B1', subLevel: '1', parts: 7 },
-                    { level: 'B1', subLevel: '2', parts: 5 }
-                ];
-                this.levels = [];
-                for (const levelInfo of fileStructure) {
-                    const levelId = `${levelInfo.level}.${levelInfo.subLevel}`;
-                    const level = {
-                        id: levelId,
-                        name: `${levelInfo.level}.${levelInfo.subLevel}`,
-                        parts: [],
-                        isUnlocked: false,
-                        progress: 0
-                    };
-                    for (let partNum = 1; partNum <= levelInfo.parts; partNum++) {
-                        const filename = `german-${levelInfo.level.toLowerCase()}.${levelInfo.subLevel}-part${partNum}.json`;
-                        const partId = `${levelId}-part${partNum}`;
-                        try {
-                            const response = yield fetch(`./dataJson/${filename}`);
-                            if (response.ok) {
-                                const partData = yield response.json();
-                                const vocabularyPart = {
-                                    id: partId,
-                                    name: partData.name || `Part ${partNum}`,
-                                    description: partData.description || '',
+    async loadAllVocabularyParts() {
+        this.showLoading(true);
+        try {
+            const fileStructure = [
+                { level: 'A1', subLevel: '1', parts: 8 },
+                { level: 'A1', subLevel: '2', parts: 6 },
+                { level: 'A2', subLevel: '1', parts: 10 },
+                { level: 'A2', subLevel: '2', parts: 6 },
+                { level: 'B1', subLevel: '1', parts: 7 },
+                { level: 'B1', subLevel: '2', parts: 5 }
+            ];
+            this.levels = [];
+            for (const levelInfo of fileStructure) {
+                const levelId = `${levelInfo.level}.${levelInfo.subLevel}`;
+                const level = {
+                    id: levelId,
+                    name: `${levelInfo.level}.${levelInfo.subLevel}`,
+                    parts: [],
+                    isUnlocked: false,
+                    progress: 0
+                };
+                for (let partNum = 1; partNum <= levelInfo.parts; partNum++) {
+                    const filename = `german-${levelInfo.level.toLowerCase()}.${levelInfo.subLevel}-part${partNum}.json`;
+                    const partId = `${levelId}-part${partNum}`;
+                    try {
+                        const response = await fetch(`./dataJson/${filename}`);
+                        if (response.ok) {
+                            const partData = await response.json();
+                            const vocabularyPart = {
+                                id: partId,
+                                name: partData.name || `Part ${partNum}`,
+                                description: partData.description || '',
+                                level: levelInfo.level,
+                                subLevel: levelInfo.subLevel,
+                                partNumber: partNum,
+                                cards: partData.cards.map((card, index) => ({
+                                    id: `${partId}_${index}`,
+                                    german: card.german,
+                                    indonesian: card.indonesian,
+                                    english: card.english || '',
                                     level: levelInfo.level,
-                                    subLevel: levelInfo.subLevel,
-                                    partNumber: partNum,
-                                    cards: partData.cards.map((card, index) => ({
-                                        id: `${partId}_${index}`,
-                                        german: card.german,
-                                        indonesian: card.indonesian,
-                                        english: card.english || '',
-                                        level: levelInfo.level,
-                                        type: card.type || 'noun',
-                                        difficulty: card.difficulty || 3,
-                                        lastReviewed: null,
-                                        nextReview: null,
-                                        reviewCount: 0,
-                                        correctCount: 0,
-                                        incorrectCount: 0,
-                                        partId: partId,
-                                        learned: false
-                                    })),
-                                    isUnlocked: false,
-                                    isCompleted: false,
-                                    progress: 0
-                                };
-                                level.parts.push(vocabularyPart);
-                                this.vocabulary.push(...vocabularyPart.cards);
-                            }
-                        }
-                        catch (error) {
-                            console.warn(`Failed to load ${filename}:`, error);
+                                    type: card.type || 'noun',
+                                    difficulty: card.difficulty || 3,
+                                    lastReviewed: null,
+                                    nextReview: null,
+                                    reviewCount: 0,
+                                    correctCount: 0,
+                                    incorrectCount: 0,
+                                    partId: partId,
+                                    learned: false
+                                })),
+                                isUnlocked: false,
+                                isCompleted: false,
+                                progress: 0
+                            };
+                            level.parts.push(vocabularyPart);
+                            this.vocabulary.push(...vocabularyPart.cards);
                         }
                     }
-                    this.levels.push(level);
+                    catch (error) {
+                        console.warn(`Failed to load ${filename}:`, error);
+                    }
                 }
+                this.levels.push(level);
             }
-            catch (error) {
-                console.error('Failed to load vocabulary parts:', error);
-                this.vocabulary = this.generateSampleVocabulary();
-            }
-            finally {
-                this.showLoading(false);
-            }
-        });
+        }
+        catch (error) {
+            console.error('Failed to load vocabulary parts:', error);
+            this.vocabulary = this.generateSampleVocabulary();
+        }
+        finally {
+            this.showLoading(false);
+        }
     }
     generateSampleVocabulary() {
         const sampleWords = [
@@ -692,9 +680,46 @@ class GermanLearningApp {
             ? this.currentCard.german
             : this.currentCard.german; // Always pronounce German
         const utterance = new SpeechSynthesisUtterance(textToSpeak);
+        // Get available voices and find German voice
+        const voices = this.speechSynthesis.getVoices();
+        const germanVoice = voices.find(voice => voice.lang === 'de-DE' ||
+            voice.lang === 'de' ||
+            voice.lang.startsWith('de-') ||
+            voice.name.toLowerCase().includes('german') ||
+            voice.name.toLowerCase().includes('deutsch'));
+        // Set German voice if available
+        if (germanVoice) {
+            utterance.voice = germanVoice;
+        }
         utterance.lang = 'de-DE';
-        utterance.rate = 0.8;
+        utterance.rate = 0.8; // Slightly slower for learning
+        utterance.pitch = 1.0;
+        utterance.volume = 1.0;
         this.speechSynthesis.speak(utterance);
+    }
+    initializeVoices() {
+        if (!this.speechSynthesis)
+            return;
+        // Load voices when available
+        const loadVoices = () => {
+            const voices = this.speechSynthesis.getVoices();
+            if (voices.length > 0) {
+                console.log('Available voices:', voices.map(v => `${v.name} (${v.lang})`));
+                const germanVoices = voices.filter(voice => voice.lang === 'de-DE' ||
+                    voice.lang === 'de' ||
+                    voice.lang.startsWith('de-') ||
+                    voice.name.toLowerCase().includes('german') ||
+                    voice.name.toLowerCase().includes('deutsch'));
+                console.log('German voices found:', germanVoices.map(v => `${v.name} (${v.lang})`));
+            }
+        };
+        // Voices might not be loaded immediately
+        if (this.speechSynthesis.getVoices().length > 0) {
+            loadVoices();
+        }
+        else {
+            this.speechSynthesis.addEventListener('voiceschanged', loadVoices);
+        }
     }
     updateUI() {
         this.updateProgress();
