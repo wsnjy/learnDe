@@ -24,19 +24,23 @@ The German Learning App now supports cross-browser progress synchronization usin
 
 ### 3. Configure Firestore Rules
 
-Replace the default Firestore rules with:
+1. Go to "Firestore Database" → "Rules"
+2. Replace the default rules with this (IMPORTANT - copy exactly):
 
 ```javascript
 rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
-    // Allow users to read/write their own data
-    match /users/{userId} {
-      allow read, write: if true; // For simplicity - in production, add proper authentication
+    // Allow all reads and writes for development
+    match /{document=**} {
+      allow read, write: if true;
     }
   }
 }
 ```
+
+3. Click "Publish" to save the rules
+4. Wait a few minutes for rules to propagate
 
 ### 4. Get Firebase Configuration
 

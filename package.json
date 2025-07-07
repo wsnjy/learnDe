@@ -8,13 +8,21 @@
     "build": "npx tsc",
     "deploy": "npm run build && npx wrangler pages publish"
   },
-  "keywords": ["german", "learning", "flashcards", "anki", "spaced-repetition"],
+  "keywords": [
+    "german",
+    "learning",
+    "flashcards",
+    "anki",
+    "spaced-repetition"
+  ],
   "author": "DeutschLern",
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^5.0.0",
     "http-server": "^14.1.1",
+    "typescript": "^5.0.0",
     "wrangler": "^3.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "firebase": "^11.10.0"
+  }
 }
