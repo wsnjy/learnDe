@@ -1777,6 +1777,63 @@ body {
     font-weight: 500;
 }
 
+.difficulty-breakdown {
+    background: var(--bg-secondary);
+    border-radius: 16px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.difficulty-breakdown h3 {
+    margin: 0 0 1rem 0;
+    color: var(--text-primary);
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.difficulty-stats {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.difficulty-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem 1rem;
+    background: var(--bg-tertiary);
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.difficulty-item:hover {
+    background: var(--card-bg);
+}
+
+.difficulty-emoji {
+    font-size: 1.2rem;
+    margin-right: 0.75rem;
+}
+
+.difficulty-label {
+    flex: 1;
+    text-align: left;
+    font-weight: 500;
+    color: var(--text-primary);
+}
+
+.difficulty-count {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    background: var(--primary-color-light);
+    padding: 0.25rem 0.75rem;
+    border-radius: 8px;
+    min-width: 2rem;
+    text-align: center;
+}
+
 .completion-actions {
     display: flex;
     gap: 1rem;
@@ -1827,6 +1884,19 @@ body {
     .session-stats {
         grid-template-columns: 1fr;
         gap: 0.5rem;
+    }
+    
+    .difficulty-breakdown {
+        padding: 1rem;
+    }
+    
+    .difficulty-item {
+        padding: 0.5rem 0.75rem;
+    }
+    
+    .difficulty-emoji {
+        font-size: 1rem;
+        margin-right: 0.5rem;
     }
     
     .completion-actions {

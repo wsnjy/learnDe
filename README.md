@@ -60,12 +60,19 @@ The vocabulary is stored in `dataJson/vocabulary.json` with the following struct
 }
 ```
 
-## Learning Algorithm
+## Learning Algorithm - FSRS
 
-The app uses a spaced repetition algorithm:
-- **Easy (😊)**: Review in 5+ days
-- **Medium (🤔)**: Review in 2-3 days  
-- **Hard (😰)**: Review within 1 day
+The app uses the **Free Spaced Repetition Scheduler (FSRS)** algorithm:
+- **Advanced memory modeling**: Based on 3-component model (Difficulty, Stability, Retrievability)
+- **Adaptive scheduling**: Learns from your memory patterns and optimizes review intervals
+- **90% retention target**: Designed to maintain 90% memory retention with optimal efficiency
+- **25% fewer reviews**: Reduces review workload compared to traditional SM-2 algorithm
+- **Rating system**: 
+  - **😵 Very Hard (1)**: Again - Review immediately
+  - **😰 Hard (2)**: Hard - Shorter interval with stability adjustment  
+  - **🤔 Medium (3)**: Good - Standard interval increase
+  - **😊 Easy (4)**: Good - Standard interval increase
+  - **😍 Very Easy (5)**: Easy - Longer interval with bonus stability
 
 ## Keyboard Shortcuts
 
@@ -81,16 +88,25 @@ The app uses a spaced repetition algorithm:
 2. Follow the existing format
 3. Rebuild the application
 
-### Modifying Difficulty Algorithm
-Update the `calculateNextInterval()` method in `app.ts`:
+### FSRS Algorithm Configuration
+The FSRS algorithm is configured with optimal parameters in `app.js`:
 
-```typescript
-private calculateNextInterval(difficulty: number, reviewCount: number): number {
-    const baseInterval = 1;
-    const multiplier = Math.max(1.3, difficulty * 0.5);
-    return Math.round(baseInterval * Math.pow(multiplier, reviewCount - 1));
-}
+```javascript
+// FSRS Parameters (21 weights optimized for general learning)
+w: [0.2172, 1.1771, 3.2602, 16.1507, 7.0114, 0.57, 2.0966, 0.0069,
+    1.5261, 0.112, 1.0178, 1.849, 0.1133, 0.3127, 2.2934, 0.2191,
+    3.0004, 0.7536, 0.3332, 0.1437, 0.2],
+desired_retention: 0.9,      // 90% retention rate
+maximum_interval: 36500,     // ~100 years max
+enable_fuzz: true,           // Prevents ease hell
+enable_short_term: false     // Focuses on long-term memory
 ```
+
+### FSRS Features
+- **Memory State Tracking**: Each card maintains difficulty (D), stability (S), and retrievability (R)
+- **Adaptive Learning**: Algorithm learns from your response patterns to optimize scheduling
+- **Scientific Foundation**: Based on cognitive science research and DSR model
+- **Efficiency**: Reduces review burden by ~25% compared to traditional algorithms
 
 ## Deployment
 

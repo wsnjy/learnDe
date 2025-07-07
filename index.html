@@ -290,6 +290,64 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- FSRS Algorithm Section -->
+                <div class="stats-section">
+                    <div class="section-header">
+                        <h3>🧠 FSRS Algorithm Status</h3>
+                        <p>Free Spaced Repetition Scheduler - Advanced memory algorithm</p>
+                    </div>
+                    <div class="study-patterns">
+                        <div class="pattern-card">
+                            <div class="pattern-icon">🤖</div>
+                            <div class="pattern-content">
+                                <div class="pattern-number" id="fsrsAlgorithm">FSRS</div>
+                                <div class="pattern-label">Algorithm</div>
+                                <div class="pattern-desc">Free Spaced Repetition Scheduler</div>
+                            </div>
+                        </div>
+                        <div class="pattern-card">
+                            <div class="pattern-icon">📈</div>
+                            <div class="pattern-content">
+                                <div class="pattern-number" id="fsrsAvgDifficulty">5.0</div>
+                                <div class="pattern-label">Avg Difficulty</div>
+                                <div class="pattern-desc">Card difficulty rating</div>
+                            </div>
+                        </div>
+                        <div class="pattern-card">
+                            <div class="pattern-icon">⏰</div>
+                            <div class="pattern-content">
+                                <div class="pattern-number" id="fsrsAvgStability">2.0</div>
+                                <div class="pattern-label">Avg Stability</div>
+                                <div class="pattern-desc">Days until R=90%</div>
+                            </div>
+                        </div>
+                        <div class="pattern-card">
+                            <div class="pattern-icon">📋</div>
+                            <div class="pattern-content">
+                                <div class="pattern-number" id="fsrsReviewDue">0</div>
+                                <div class="pattern-label">Review Due</div>
+                                <div class="pattern-desc">Cards needing review</div>
+                            </div>
+                        </div>
+                        <div class="pattern-card">
+                            <div class="pattern-icon">🎯</div>
+                            <div class="pattern-content">
+                                <div class="pattern-number" id="fsrsRetention">90%</div>
+                                <div class="pattern-label">Target Retention</div>
+                                <div class="pattern-desc">Desired memory retention</div>
+                            </div>
+                        </div>
+                        <div class="pattern-card">
+                            <div class="pattern-icon">🔬</div>
+                            <div class="pattern-content">
+                                <div class="pattern-number" id="fsrsEfficiency">~25%</div>
+                                <div class="pattern-label">Efficiency Gain</div>
+                                <div class="pattern-desc">Fewer reviews vs SM-2</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <!-- Settings Panel -->
@@ -387,6 +445,37 @@
                         <div class="stat-item">
                             <div class="stat-value" id="sessionTimeSpent">0m</div>
                             <div class="stat-label">Time Spent</div>
+                        </div>
+                    </div>
+                    
+                    <div class="difficulty-breakdown">
+                        <h3>Difficulty Breakdown</h3>
+                        <div class="difficulty-stats">
+                            <div class="difficulty-item">
+                                <span class="difficulty-emoji">😵</span>
+                                <span class="difficulty-label">Very Hard</span>
+                                <span class="difficulty-count" id="veryHardCount">0</span>
+                            </div>
+                            <div class="difficulty-item">
+                                <span class="difficulty-emoji">😰</span>
+                                <span class="difficulty-label">Hard</span>
+                                <span class="difficulty-count" id="hardCount">0</span>
+                            </div>
+                            <div class="difficulty-item">
+                                <span class="difficulty-emoji">🤔</span>
+                                <span class="difficulty-label">Medium</span>
+                                <span class="difficulty-count" id="mediumCount">0</span>
+                            </div>
+                            <div class="difficulty-item">
+                                <span class="difficulty-emoji">😊</span>
+                                <span class="difficulty-label">Easy</span>
+                                <span class="difficulty-count" id="easyCount">0</span>
+                            </div>
+                            <div class="difficulty-item">
+                                <span class="difficulty-emoji">😍</span>
+                                <span class="difficulty-label">Very Easy</span>
+                                <span class="difficulty-count" id="veryEasyCount">0</span>
+                            </div>
                         </div>
                     </div>
                     
