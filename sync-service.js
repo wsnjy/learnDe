@@ -222,19 +222,34 @@ class SyncService {
                 this.setFormDisabled(true);
                 
                 try {
+                    console.log('Attempting to create user with Firebase Auth...');
+                    console.log('Auth object:', auth);
+                    console.log('Email:', email);
+                    
                     const userCredential = await createUserWithEmailAndPassword(auth, email, password);
+                    console.log('User created successfully:', userCredential.user.uid);
                     
                     // Send verification email
+                    console.log('Sending verification email...');
                     await sendEmailVerification(userCredential.user);
+                    console.log('Verification email sent');
                     
                     this.showAuthStatus('Account created! Please check your email for verification link.', 'success');
                     this.showVerificationNotice();
                     
                 } catch (error) {
-                    console.error('Registration error:', error);
+                    console.error('Registration error details:', {
+                        code: error.code,
+                        message: error.message,
+                        stack: error.stack
+                    });
+                    
                     let message = 'Registration failed';
                     
                     switch (error.code) {
+                        case 'auth/configuration-not-found':
+                            message = 'Firebase Authentication not configured. Please check Firebase Console.';
+                            break;
                         case 'auth/email-already-in-use':
                             message = 'An account with this email already exists';
                             break;
@@ -244,8 +259,11 @@ class SyncService {
                         case 'auth/weak-password':
                             message = 'Password is too weak';
                             break;
+                        case 'auth/operation-not-allowed':
+                            message = 'Email/password authentication is not enabled in Firebase Console';
+                            break;
                         default:
-                            message = error.message;
+                            message = `${error.code}: ${error.message}`;
                     }
                     
                     this.showAuthStatus(message, 'error');

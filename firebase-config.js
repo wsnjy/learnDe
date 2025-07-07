@@ -30,8 +30,10 @@ const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 const auth = getAuth(app);
 
-// Set persistence to keep user logged in
-setPersistence(auth, browserLocalPersistence);
+// Set persistence to keep user logged in (after auth is ready)
+auth.onAuthStateChanged(() => {
+    setPersistence(auth, browserLocalPersistence).catch(console.warn);
+});
 
 export { 
     db, 
