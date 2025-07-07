@@ -1637,12 +1637,16 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.9);
+    background: rgba(0, 0, 0, 0.8);
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 3000;
+    z-index: 1000;
     backdrop-filter: blur(10px);
+    overflow-y: auto;
+    padding: 1rem;
+    box-sizing: border-box;
+    transition: opacity 0.3s ease;
 }
 
 .session-complete-container {
@@ -1653,8 +1657,43 @@ body {
     border: 1px solid var(--border-color);
     width: 90%;
     max-width: 500px;
+    max-height: 90vh;
     text-align: center;
     animation: modalSlideIn 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow-y: auto;
+}
+
+.modal-close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: transparent;
+    border: none;
+    color: var(--text-secondary);
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    z-index: 10;
+}
+
+.modal-close-btn:hover {
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+    transform: scale(1.1);
+}
+
+.modal-close-btn:active {
+    transform: scale(0.95);
+}
+
+.modal-close-btn svg {
+    width: 20px;
+    height: 20px;
 }
 
 .completion-animation {
@@ -1876,18 +1915,60 @@ body {
 
 /* Responsive completion modal */
 @media (max-width: 768px) {
+    .session-complete-modal {
+        padding: 0.5rem;
+        align-items: flex-start;
+        padding-top: 2rem;
+    }
+    
     .session-complete-container {
-        padding: 2rem;
-        margin: 1rem;
+        padding: 1.5rem;
+        margin: 0;
+        width: 100%;
+        max-width: 100%;
+        max-height: 90vh;
+        border-radius: 16px;
+    }
+    
+    .modal-close-btn {
+        top: 0.5rem;
+        right: 0.5rem;
+        padding: 0.25rem;
+    }
+    
+    .modal-close-btn svg {
+        width: 18px;
+        height: 18px;
+    }
+    
+    .completion-animation {
+        margin-bottom: 1rem;
+    }
+    
+    .completion-circle {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .checkmark {
+        font-size: 1.5rem;
     }
     
     .session-stats {
         grid-template-columns: 1fr;
         gap: 0.5rem;
+        padding: 1rem;
+        margin-bottom: 1rem;
     }
     
     .difficulty-breakdown {
         padding: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .difficulty-breakdown h3 {
+        font-size: 1rem;
+        margin-bottom: 0.75rem;
     }
     
     .difficulty-item {
@@ -1901,6 +1982,14 @@ body {
     
     .completion-actions {
         flex-direction: column;
+        gap: 0.75rem;
+    }
+    
+    .primary-btn, .secondary-btn {
+        padding: 0.75rem 1rem;
+        font-size: 0.9rem;
+        min-width: auto;
+        width: 100%;
     }
     
     .learned-words-chart {

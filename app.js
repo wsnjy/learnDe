@@ -378,6 +378,8 @@ class GermanLearningApp {
         // Session completion modal handlers
         const continueSessionBtn = document.getElementById('continueSessionBtn');
         const finishSessionBtn = document.getElementById('finishSessionBtn');
+        const sessionModalCloseBtn = document.getElementById('sessionModalCloseBtn');
+        const sessionCompleteModal = document.getElementById('sessionCompleteModal');
         
         continueSessionBtn?.addEventListener('click', () => {
             this.hideSessionCompleteModal();
@@ -387,6 +389,28 @@ class GermanLearningApp {
         finishSessionBtn?.addEventListener('click', () => {
             this.hideSessionCompleteModal();
             this.endSession();
+        });
+        
+        // Close button functionality
+        sessionModalCloseBtn?.addEventListener('click', () => {
+            this.hideSessionCompleteModal();
+            this.endSession(); // End session when user closes modal
+        });
+        
+        // Click outside modal to close
+        sessionCompleteModal?.addEventListener('click', (e) => {
+            if (e.target === sessionCompleteModal) {
+                this.hideSessionCompleteModal();
+                this.endSession(); // End session when clicking outside
+            }
+        });
+        
+        // Escape key to close modal
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && sessionCompleteModal?.style.display === 'flex') {
+                this.hideSessionCompleteModal();
+                this.endSession(); // End session when pressing Escape
+            }
         });
         
         // Keyboard shortcuts
@@ -1024,14 +1048,32 @@ class GermanLearningApp {
         document.getElementById('easyCount').textContent = breakdown.easy;
         document.getElementById('veryEasyCount').textContent = breakdown.veryEasy;
         
-        // Show modal
+        // Prevent background scrolling
+        document.body.style.overflow = 'hidden';
+        
+        // Show modal with smooth animation
         modal.style.display = 'flex';
+        
+        // Focus management for accessibility
+        const closeButton = document.getElementById('sessionModalCloseBtn');
+        if (closeButton) {
+            setTimeout(() => closeButton.focus(), 100);
+        }
     }
     
     hideSessionCompleteModal() {
         const modal = document.getElementById('sessionCompleteModal');
         if (modal) {
-            modal.style.display = 'none';
+            // Restore background scrolling
+            document.body.style.overflow = '';
+            
+            // Add fade out animation
+            modal.style.opacity = '0';
+            
+            setTimeout(() => {
+                modal.style.display = 'none';
+                modal.style.opacity = '1'; // Reset for next time
+            }, 200);
         }
     }
     
