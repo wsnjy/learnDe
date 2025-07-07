@@ -407,10 +407,46 @@ class GermanLearningApp {
         
         // Escape key to close modal
         document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape' && sessionCompleteModal?.style.display === 'flex') {
-                this.hideSessionCompleteModal();
-                this.endSession(); // End session when pressing Escape
+            if (e.key === 'Escape') {
+                // Session complete modal
+                if (sessionCompleteModal?.style.display === 'flex') {
+                    this.hideSessionCompleteModal();
+                    this.endSession(); // End session when pressing Escape
+                }
+                // Level statistics modal
+                const levelStatsModal = document.getElementById('levelStatsModal');
+                if (levelStatsModal?.style.display === 'flex') {
+                    this.hideLevelStatisticsModal();
+                }
             }
+        });
+        
+        // Level statistics modal handlers
+        const levelStatsCloseBtn = document.getElementById('levelStatsCloseBtn');
+        const levelStatsModal = document.getElementById('levelStatsModal');
+        const reviewAllLevelBtn = document.getElementById('reviewAllLevelBtn');
+        const reviewHardWordsBtn = document.getElementById('reviewHardWordsBtn');
+        
+        // Close button functionality
+        levelStatsCloseBtn?.addEventListener('click', () => {
+            this.hideLevelStatisticsModal();
+        });
+        
+        // Click outside modal to close
+        levelStatsModal?.addEventListener('click', (e) => {
+            if (e.target === levelStatsModal) {
+                this.hideLevelStatisticsModal();
+            }
+        });
+        
+        // Review all words button
+        reviewAllLevelBtn?.addEventListener('click', () => {
+            this.reviewAllLevelWords();
+        });
+        
+        // Review hard words button
+        reviewHardWordsBtn?.addEventListener('click', () => {
+            this.reviewHardWords();
         });
         
         // Keyboard shortcuts
@@ -600,6 +636,278 @@ class GermanLearningApp {
         this.switchView('practice');
         this.displayCard();
         this.showLearningControls();
+    }
+    
+    // Show detailed level statistics modal
+    showLevelStatistics(level) {
+        const modal = document.getElementById('levelStatsModal');
+        if (!modal) return;
+        
+        // Calculate level statistics
+        const stats = this.calculateLevelStatistics(level);
+        
+        // Update modal content
+        this.updateLevelStatisticsModal(level, stats);
+        
+        // Store current level for use in other functions
+        this.currentStatsLevel = level;
+        
+        // Prevent background scrolling
+        document.body.style.overflow = 'hidden';
+        
+        // Show modal
+        modal.style.display = 'flex';
+        
+        // Focus management
+        const closeButton = document.getElementById('levelStatsCloseBtn');
+        if (closeButton) {
+            setTimeout(() => closeButton.focus(), 100);
+        }
+    }
+    
+    // Calculate comprehensive statistics for a level
+    calculateLevelStatistics(level) {
+        const stats = {
+            totalWords: 0,
+            learnedWords: 0,
+            difficultyBreakdown: {
+                veryHard: [], // difficulty 1
+                hard: [],     // difficulty 2  
+                medium: [],   // difficulty 3
+                easy: [],     // difficulty 4
+                veryEasy: []  // difficulty 5
+            },
+            averageDifficulty: 0,
+            progress: 0
+        };
+        
+        let totalDifficulty = 0;
+        let difficultyCount = 0;
+        
+        // Process all cards in the level
+        level.parts.forEach(part => {
+            part.cards.forEach(card => {
+                stats.totalWords++;
+                
+                if (card.learned) {
+                    stats.learnedWords++;
+                    
+                    // Get the last difficulty rating from user (we'll use reviewCount as proxy)
+                    // In a real implementation, you'd store the last user rating
+                    let lastDifficulty = 3; // default medium
+                    
+                    // Calculate difficulty based on correctCount vs incorrectCount ratio
+                    const totalReviews = card.correctCount + card.incorrectCount;
+                    if (totalReviews > 0) {
+                        const accuracy = card.correctCount / totalReviews;
+                        if (accuracy >= 0.9) lastDifficulty = 5; // Very Easy
+                        else if (accuracy >= 0.7) lastDifficulty = 4; // Easy
+                        else if (accuracy >= 0.5) lastDifficulty = 3; // Medium
+                        else if (accuracy >= 0.3) lastDifficulty = 2; // Hard
+                        else lastDifficulty = 1; // Very Hard
+                    }
+                    
+                    totalDifficulty += lastDifficulty;
+                    difficultyCount++;
+                    
+                    // Add to appropriate difficulty bucket
+                    switch (lastDifficulty) {
+                        case 1:
+                            stats.difficultyBreakdown.veryHard.push(card);
+                            break;
+                        case 2:
+                            stats.difficultyBreakdown.hard.push(card);
+                            break;
+                        case 3:
+                            stats.difficultyBreakdown.medium.push(card);
+                            break;
+                        case 4:
+                            stats.difficultyBreakdown.easy.push(card);
+                            break;
+                        case 5:
+                            stats.difficultyBreakdown.veryEasy.push(card);
+                            break;
+                    }
+                }
+            });
+        });
+        
+        // Calculate derived statistics
+        stats.progress = stats.totalWords > 0 ? Math.round((stats.learnedWords / stats.totalWords) * 100) : 0;
+        stats.averageDifficulty = difficultyCount > 0 ? (totalDifficulty / difficultyCount) : 0;
+        
+        return stats;
+    }
+    
+    // Update level statistics modal content
+    updateLevelStatisticsModal(level, stats) {
+        // Update header
+        document.getElementById('levelStatsTitle').textContent = `${level.name} Statistics`;
+        document.getElementById('levelStatsSubtitle').textContent = `Difficulty breakdown of learned words`;
+        
+        // Update summary cards
+        document.getElementById('levelTotalWords').textContent = stats.totalWords;
+        document.getElementById('levelLearnedWords').textContent = stats.learnedWords;
+        document.getElementById('levelProgress').textContent = `${stats.progress}%`;
+        document.getElementById('levelAvgDifficulty').textContent = stats.averageDifficulty.toFixed(1);
+        
+        // Generate difficulty chart
+        this.generateDifficultyChart(stats.difficultyBreakdown);
+    }
+    
+    // Generate interactive bar chart for difficulty breakdown
+    generateDifficultyChart(difficultyBreakdown) {
+        const chartContainer = document.getElementById('difficultyChart');
+        if (!chartContainer) return;
+        
+        chartContainer.innerHTML = '';
+        
+        const difficultyLevels = [
+            { key: 'veryHard', label: '😵 Very Hard', emoji: '😵', className: 'difficulty-very-hard' },
+            { key: 'hard', label: '😰 Hard', emoji: '😰', className: 'difficulty-hard' },
+            { key: 'medium', label: '🤔 Medium', emoji: '🤔', className: 'difficulty-medium' },
+            { key: 'easy', label: '😊 Easy', emoji: '😊', className: 'difficulty-easy' },
+            { key: 'veryEasy', label: '😍 Very Easy', emoji: '😍', className: 'difficulty-very-easy' }
+        ];
+        
+        // Find max count for scaling
+        const maxCount = Math.max(...difficultyLevels.map(level => difficultyBreakdown[level.key].length));
+        const minBarHeight = 4; // minimum bar height in pixels
+        
+        difficultyLevels.forEach(diffLevel => {
+            const count = difficultyBreakdown[diffLevel.key].length;
+            const percentage = maxCount > 0 ? (count / maxCount) * 100 : 0;
+            const barHeight = Math.max(percentage, minBarHeight);
+            
+            const barElement = document.createElement('div');
+            barElement.className = 'chart-bar';
+            barElement.dataset.difficulty = diffLevel.key;
+            
+            barElement.innerHTML = `
+                <div class="chart-bar-container">
+                    <div class="chart-bar-fill ${diffLevel.className}" 
+                         style="height: ${barHeight}%">
+                        ${count > 0 ? count : ''}
+                    </div>
+                </div>
+                <div class="chart-bar-label">${diffLevel.emoji}</div>
+                <div class="chart-bar-count">${count} words</div>
+            `;
+            
+            // Add click handler to review words of this difficulty
+            barElement.addEventListener('click', () => {
+                if (count > 0) {
+                    this.reviewWordsByDifficulty(diffLevel.key, difficultyBreakdown[diffLevel.key]);
+                }
+            });
+            
+            chartContainer.appendChild(barElement);
+        });
+    }
+    
+    // Hide level statistics modal
+    hideLevelStatisticsModal() {
+        const modal = document.getElementById('levelStatsModal');
+        if (modal) {
+            // Restore background scrolling
+            document.body.style.overflow = '';
+            
+            // Add fade out animation
+            modal.style.opacity = '0';
+            
+            setTimeout(() => {
+                modal.style.display = 'none';
+                modal.style.opacity = '1'; // Reset for next time
+            }, 200);
+        }
+    }
+    
+    // Review words by specific difficulty level
+    reviewWordsByDifficulty(difficultyKey, words) {
+        if (!words || words.length === 0) {
+            this.showError(`No words found for this difficulty level.`);
+            return;
+        }
+        
+        console.log(`Starting review session for ${difficultyKey} words:`, words.length);
+        
+        // Close the statistics modal first
+        this.hideLevelStatisticsModal();
+        
+        // Set up review session with filtered words
+        this.sessionWords = [...words]; // Create a copy
+        this.currentPartId = `difficulty_${difficultyKey}`;
+        
+        // Initialize session tracking
+        this.currentSession = {
+            wordsLearned: 0,
+            correctAnswers: 0,
+            totalAnswers: 0,
+            startTime: Date.now(),
+            targetWords: Math.min(this.settings.cardsPerSession, words.length),
+            difficultyBreakdown: {
+                veryHard: 0,  // difficulty 1
+                hard: 0,      // difficulty 2
+                medium: 0,    // difficulty 3
+                easy: 0,      // difficulty 4
+                veryEasy: 0   // difficulty 5
+            }
+        };
+        
+        this.currentSessionIndex = 0;
+        this.currentCard = this.sessionWords[0];
+        this.isFlipped = false;
+        this.switchView('practice');
+        this.displayCard();
+        this.showLearningControls();
+        
+        // Show notification about the review session
+        const difficultyLabels = {
+            veryHard: 'Very Hard 😵',
+            hard: 'Hard 😰',
+            medium: 'Medium 🤔',
+            easy: 'Easy 😊',
+            veryEasy: 'Very Easy 😍'
+        };
+        
+        console.log(`Starting review session: ${difficultyLabels[difficultyKey]} words (${words.length} cards)`);
+    }
+    
+    // Review all words from current level
+    reviewAllLevelWords() {
+        if (!this.currentStatsLevel) return;
+        
+        const learnedWords = [];
+        this.currentStatsLevel.parts.forEach(part => {
+            part.cards.forEach(card => {
+                if (card.learned) {
+                    learnedWords.push(card);
+                }
+            });
+        });
+        
+        if (learnedWords.length === 0) {
+            this.showError(`No learned words in ${this.currentStatsLevel.name} yet!`);
+            return;
+        }
+        
+        this.hideLevelStatisticsModal();
+        this.reviewLevelWords(this.currentStatsLevel);
+    }
+    
+    // Review only hard words (difficulty 1-2) from current level
+    reviewHardWords() {
+        if (!this.currentStatsLevel) return;
+        
+        const stats = this.calculateLevelStatistics(this.currentStatsLevel);
+        const hardWords = [...stats.difficultyBreakdown.veryHard, ...stats.difficultyBreakdown.hard];
+        
+        if (hardWords.length === 0) {
+            this.showError(`No hard words found in ${this.currentStatsLevel.name}.`);
+            return;
+        }
+        
+        this.reviewWordsByDifficulty('hard', hardWords);
     }
     updateLevelLocks() {
         console.log('Updating level locks, levels count:', this.levels.length);
@@ -1292,9 +1600,9 @@ class GermanLearningApp {
                 </div>
             `;
             
-            // Add click handler to review words from this level
+            // Add click handler to show level statistics modal
             cardElement.addEventListener('click', () => {
-                this.reviewLevelWords(level);
+                this.showLevelStatistics(level);
             });
             
             container.appendChild(cardElement);

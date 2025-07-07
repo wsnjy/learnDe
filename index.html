@@ -496,6 +496,59 @@
                 </div>
             </div>
         </div>
+
+        <!-- Level Statistics Modal -->
+        <div id="levelStatsModal" class="level-stats-modal" style="display: none;">
+            <div class="level-stats-container">
+                <button class="modal-close-btn" id="levelStatsCloseBtn" title="Close">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+                
+                <div class="level-stats-header">
+                    <h2 id="levelStatsTitle">Level A1.1 Statistics</h2>
+                    <p id="levelStatsSubtitle">Difficulty breakdown of learned words</p>
+                </div>
+                
+                <div class="level-stats-summary">
+                    <div class="summary-card">
+                        <div class="summary-value" id="levelTotalWords">0</div>
+                        <div class="summary-label">Total Words</div>
+                    </div>
+                    <div class="summary-card">
+                        <div class="summary-value" id="levelLearnedWords">0</div>
+                        <div class="summary-label">Learned</div>
+                    </div>
+                    <div class="summary-card">
+                        <div class="summary-value" id="levelProgress">0%</div>
+                        <div class="summary-label">Progress</div>
+                    </div>
+                    <div class="summary-card">
+                        <div class="summary-value" id="levelAvgDifficulty">0.0</div>
+                        <div class="summary-label">Avg Difficulty</div>
+                    </div>
+                </div>
+                
+                <div class="difficulty-chart-section">
+                    <h3>📊 Difficulty Distribution</h3>
+                    <p>Click on any bar to review words of that difficulty level</p>
+                    <div class="difficulty-chart" id="difficultyChart">
+                        <!-- Bar chart will be generated here -->
+                    </div>
+                </div>
+                
+                <div class="level-stats-actions">
+                    <button id="reviewAllLevelBtn" class="primary-btn">
+                        📚 Review All Words
+                    </button>
+                    <button id="reviewHardWordsBtn" class="secondary-btn">
+                        😰 Review Hard Words
+                    </button>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script type="module" src="app.js"></script>
