@@ -83,7 +83,7 @@ class SyncService {
                     learnedWords: Array.from(this.app.userProgress.learnedWords),
                     completedParts: Array.from(this.app.userProgress.completedParts),
                     unlockedLevels: Array.from(this.app.userProgress.unlockedLevels),
-                    dailyActivity: Array.from(this.app.userProgress.dailyActivity)
+                    dailyActivity: Object.fromEntries(this.app.userProgress.dailyActivity)
                 },
                 settings: this.app.settings,
                 lastModified: Date.now(),
@@ -140,7 +140,7 @@ class SyncService {
                     learnedWords: new Set(cloudProgress.learnedWords || []),
                     completedParts: new Set(cloudProgress.completedParts || []),
                     unlockedLevels: new Set(cloudProgress.unlockedLevels || ['A1.1']),
-                    dailyActivity: new Map(cloudProgress.dailyActivity || []),
+                    dailyActivity: new Map(Object.entries(cloudProgress.dailyActivity || {})),
                     lastModified: data.lastModified
                 };
             }
