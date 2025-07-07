@@ -10,12 +10,81 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Auth Modal -->
+    <div id="authModal" class="auth-modal">
+        <div class="auth-container">
+            <div class="auth-header">
+                <h2>🇩🇪 DeutschLern</h2>
+                <p id="authSubtitle">Masuk ke akun Anda untuk melanjutkan belajar</p>
+            </div>
+            
+            <!-- Login Form -->
+            <form id="loginForm" class="auth-form" style="display: block;">
+                <div class="form-group">
+                    <label for="loginEmail">Email</label>
+                    <input type="email" id="loginEmail" placeholder="contoh@email.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="loginPassword">Password</label>
+                    <input type="password" id="loginPassword" placeholder="Masukkan password" required>
+                </div>
+                <button type="submit" id="loginBtn" class="auth-btn">
+                    🔑 Masuk
+                </button>
+                <p class="auth-switch">
+                    Belum punya akun? 
+                    <a href="#" id="showRegister">Daftar di sini</a>
+                </p>
+            </form>
+
+            <!-- Register Form -->
+            <form id="registerForm" class="auth-form" style="display: none;">
+                <div class="form-group">
+                    <label for="registerEmail">Email</label>
+                    <input type="email" id="registerEmail" placeholder="contoh@email.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="registerPassword">Password</label>
+                    <input type="password" id="registerPassword" placeholder="Minimal 6 karakter" required minlength="6">
+                </div>
+                <div class="form-group">
+                    <label for="confirmPassword">Konfirmasi Password</label>
+                    <input type="password" id="confirmPassword" placeholder="Masukkan ulang password" required minlength="6">
+                </div>
+                <button type="submit" id="registerBtn" class="auth-btn">
+                    ✉️ Daftar & Verifikasi Email
+                </button>
+                <p class="auth-switch">
+                    Sudah punya akun? 
+                    <a href="#" id="showLogin">Masuk di sini</a>
+                </p>
+            </form>
+
+            <!-- Email Verification Notice -->
+            <div id="verificationNotice" class="verification-notice" style="display: none;">
+                <div class="verification-icon">✉️</div>
+                <h3>Verifikasi Email</h3>
+                <p>Kami telah mengirim link verifikasi ke email Anda.</p>
+                <p>Silakan cek email dan klik link untuk mengaktifkan akun.</p>
+                <button id="resendVerification" class="auth-btn secondary">
+                    📧 Kirim Ulang Email
+                </button>
+                <button id="backToLogin" class="auth-btn secondary">
+                    ← Kembali ke Login
+                </button>
+            </div>
+
+            <div id="authStatus" class="auth-status"></div>
+        </div>
+    </div>
+
     <div class="app">
         <!-- Header -->
         <header class="header">
             <div class="header-content">
                 <h1 class="logo">🇩🇪 DeutschLern</h1>
                 <div class="header-controls">
+                    <span id="userEmailDisplay" class="user-info"></span>
                     <button class="theme-toggle" id="themeToggle">🌙</button>
                     <button class="settings-btn" id="settingsBtn">⚙️</button>
                 </div>
@@ -247,18 +316,21 @@
                     </label>
                 </div>
                 <div class="setting-group">
-                    <h3 style="margin: 1rem 0 0.5rem 0; color: var(--text-primary);">🔄 Cross-Browser Sync</h3>
+                    <h3 style="margin: 1rem 0 0.5rem 0; color: var(--text-primary);">👤 Account</h3>
+                    <div class="account-info">
+                        <p style="font-size: 0.875rem; color: var(--text-secondary); margin: 0.5rem 0;">
+                            <span id="accountEmail">Email: Loading...</span>
+                        </p>
+                        <p style="font-size: 0.8rem; color: var(--text-muted); margin: 0 0 1rem 0;">
+                            Your progress automatically syncs across all devices
+                        </p>
+                    </div>
                     <button id="manualSyncBtn" class="sync-btn">
                         📡 Sync Now
                     </button>
-                    <div class="sync-info">
-                        <p style="font-size: 0.875rem; color: var(--text-secondary); margin: 0.5rem 0;">
-                            <span id="userId">User ID: Loading...</span>
-                        </p>
-                        <p style="font-size: 0.8rem; color: var(--text-muted); margin: 0;">
-                            Your progress automatically syncs across browsers
-                        </p>
-                    </div>
+                    <button id="logoutBtn" class="logout-btn">
+                        🚪 Logout
+                    </button>
                 </div>
             </div>
         </main>

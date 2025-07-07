@@ -32,10 +32,11 @@ class GermanLearningApp {
         this.speechSynthesis = window.speechSynthesis;
         this.initializeVoices();
         this.initializeSyncService();
-        this.init();
+        // App initialization moved to after login
     }
     async init() {
         try {
+            this.initialized = true;
             await this.loadAllVocabularyParts();
             this.loadUserData();
             this.updateLevelLocks(); // Move this before initializeTheme
@@ -297,11 +298,20 @@ class GermanLearningApp {
                 this.syncService.manualSync();
             }
         });
-        // Update user ID display when sync service is ready
+        
+        // Logout button
+        const logoutBtn = document.getElementById('logoutBtn');
+        logoutBtn?.addEventListener('click', () => {
+            if (this.syncService && confirm('Are you sure you want to logout?')) {
+                this.syncService.logout();
+            }
+        });
+        
+        // Update account email display when sync service is ready
         if (this.syncService) {
-            const userIdElement = document.getElementById('userId');
-            if (userIdElement) {
-                userIdElement.textContent = `User ID: ${this.syncService.getUserId()}`;
+            const accountEmailElement = document.getElementById('accountEmail');
+            if (accountEmailElement && this.syncService.userEmail) {
+                accountEmailElement.textContent = `Email: ${this.syncService.userEmail}`;
             }
         }
         // Keyboard shortcuts

@@ -1,31 +1,357 @@
-// Sync Service for Cross-Browser Progress Synchronization
-import { db, doc, setDoc, getDoc, onSnapshot } from './firebase-config.js';
+// Sync Service for Cross-Browser Progress Synchronization with Firebase Auth
+import { 
+    db, 
+    auth,
+    doc, 
+    setDoc, 
+    getDoc, 
+    onSnapshot,
+    createUserWithEmailAndPassword,
+    signInWithEmailAndPassword,
+    sendEmailVerification,
+    onAuthStateChanged,
+    signOut
+} from './firebase-config.js';
 
 class SyncService {
     constructor(app) {
         this.app = app;
         this.userId = null;
+        this.userEmail = null;
+        this.currentUser = null;
         this.isOnline = navigator.onLine;
         this.syncInProgress = false;
         this.lastSyncTime = null;
+        this.realtimeListener = null;
         
         this.setupOnlineStatusListener();
-        this.generateOrLoadUserId();
+        this.setupAuthStateListener();
+        this.setupAuthModal();
     }
 
-    // Generate or load user ID for this device/browser
-    generateOrLoadUserId() {
-        let userId = localStorage.getItem('deutschlern_user_id');
-        if (!userId) {
-            // Generate unique user ID
-            userId = 'user_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
-            localStorage.setItem('deutschlern_user_id', userId);
-        }
-        this.userId = userId;
-        console.log('User ID:', this.userId);
+    // Setup Firebase Auth state listener
+    setupAuthStateListener() {
+        onAuthStateChanged(auth, (user) => {
+            if (user && user.emailVerified) {
+                // User is signed in and email is verified
+                this.currentUser = user;
+                this.userId = user.uid;
+                this.userEmail = user.email;
+                console.log('User authenticated:', this.userEmail);
+                
+                this.hideAuthModal();
+                this.updateUserDisplay();
+                this.setupRealtimeSync();
+                
+                // Initialize app if not already done
+                if (this.app.init && !this.app.initialized) {
+                    this.app.init();
+                }
+                
+            } else if (user && !user.emailVerified) {
+                // User exists but email not verified
+                this.showVerificationNotice();
+                
+            } else {
+                // User is signed out
+                this.currentUser = null;
+                this.userId = null;
+                this.userEmail = null;
+                this.showAuthModal();
+                this.clearRealtimeSync();
+            }
+        });
+    }
+
+    // Setup auth modal and form handlers
+    setupAuthModal() {
+        // Show auth modal initially
+        this.showAuthModal();
         
-        // Set up real-time sync listener
-        this.setupRealtimeSync();
+        // Setup form switching
+        const showRegisterLink = document.getElementById('showRegister');
+        const showLoginLink = document.getElementById('showLogin');
+        
+        showRegisterLink?.addEventListener('click', (e) => {
+            e.preventDefault();
+            this.switchToRegister();
+        });
+        
+        showLoginLink?.addEventListener('click', (e) => {
+            e.preventDefault();
+            this.switchToLogin();
+        });
+        
+        // Setup form submissions
+        this.setupLoginForm();
+        this.setupRegisterForm();
+        this.setupVerificationHandlers();
+    }
+
+    // Show auth modal
+    showAuthModal() {
+        const authModal = document.getElementById('authModal');
+        if (authModal) {
+            authModal.style.display = 'flex';
+        }
+    }
+
+    // Hide auth modal
+    hideAuthModal() {
+        const authModal = document.getElementById('authModal');
+        if (authModal) {
+            authModal.style.display = 'none';
+        }
+    }
+
+    // Switch to register form
+    switchToRegister() {
+        const loginForm = document.getElementById('loginForm');
+        const registerForm = document.getElementById('registerForm');
+        const authSubtitle = document.getElementById('authSubtitle');
+        
+        if (loginForm) loginForm.style.display = 'none';
+        if (registerForm) registerForm.style.display = 'block';
+        if (authSubtitle) authSubtitle.textContent = 'Daftar akun baru untuk mulai belajar';
+        
+        this.clearAuthStatus();
+    }
+
+    // Switch to login form
+    switchToLogin() {
+        const loginForm = document.getElementById('loginForm');
+        const registerForm = document.getElementById('registerForm');
+        const verificationNotice = document.getElementById('verificationNotice');
+        const authSubtitle = document.getElementById('authSubtitle');
+        
+        if (loginForm) loginForm.style.display = 'block';
+        if (registerForm) registerForm.style.display = 'none';
+        if (verificationNotice) verificationNotice.style.display = 'none';
+        if (authSubtitle) authSubtitle.textContent = 'Masuk ke akun Anda untuk melanjutkan belajar';
+        
+        this.clearAuthStatus();
+    }
+
+    // Setup login form handlers
+    setupLoginForm() {
+        const loginForm = document.getElementById('loginForm');
+        
+        if (loginForm) {
+            loginForm.onsubmit = async (e) => {
+                e.preventDefault();
+                
+                const email = document.getElementById('loginEmail').value.trim();
+                const password = document.getElementById('loginPassword').value;
+                
+                if (!email || !password) {
+                    this.showAuthStatus('Please fill in all fields', 'error');
+                    return;
+                }
+
+                this.showAuthStatus('Signing in...', 'loading');
+                this.setFormDisabled(true);
+                
+                try {
+                    const userCredential = await signInWithEmailAndPassword(auth, email, password);
+                    
+                    if (!userCredential.user.emailVerified) {
+                        this.showAuthStatus('Please verify your email first', 'error');
+                        await signOut(auth);
+                        return;
+                    }
+                    
+                    this.showAuthStatus('Login successful!', 'success');
+                    
+                } catch (error) {
+                    console.error('Login error:', error);
+                    let message = 'Login failed';
+                    
+                    switch (error.code) {
+                        case 'auth/user-not-found':
+                            message = 'No account found with this email';
+                            break;
+                        case 'auth/wrong-password':
+                            message = 'Incorrect password';
+                            break;
+                        case 'auth/invalid-email':
+                            message = 'Invalid email address';
+                            break;
+                        case 'auth/too-many-requests':
+                            message = 'Too many failed attempts. Please try again later';
+                            break;
+                        default:
+                            message = error.message;
+                    }
+                    
+                    this.showAuthStatus(message, 'error');
+                } finally {
+                    this.setFormDisabled(false);
+                }
+            };
+        }
+    }
+
+    // Setup register form handlers
+    setupRegisterForm() {
+        const registerForm = document.getElementById('registerForm');
+        
+        if (registerForm) {
+            registerForm.onsubmit = async (e) => {
+                e.preventDefault();
+                
+                const email = document.getElementById('registerEmail').value.trim();
+                const password = document.getElementById('registerPassword').value;
+                const confirmPassword = document.getElementById('confirmPassword').value;
+                
+                if (!email || !password || !confirmPassword) {
+                    this.showAuthStatus('Please fill in all fields', 'error');
+                    return;
+                }
+                
+                if (password !== confirmPassword) {
+                    this.showAuthStatus('Passwords do not match', 'error');
+                    return;
+                }
+                
+                if (password.length < 6) {
+                    this.showAuthStatus('Password must be at least 6 characters', 'error');
+                    return;
+                }
+
+                this.showAuthStatus('Creating account...', 'loading');
+                this.setFormDisabled(true);
+                
+                try {
+                    const userCredential = await createUserWithEmailAndPassword(auth, email, password);
+                    
+                    // Send verification email
+                    await sendEmailVerification(userCredential.user);
+                    
+                    this.showAuthStatus('Account created! Please check your email for verification link.', 'success');
+                    this.showVerificationNotice();
+                    
+                } catch (error) {
+                    console.error('Registration error:', error);
+                    let message = 'Registration failed';
+                    
+                    switch (error.code) {
+                        case 'auth/email-already-in-use':
+                            message = 'An account with this email already exists';
+                            break;
+                        case 'auth/invalid-email':
+                            message = 'Invalid email address';
+                            break;
+                        case 'auth/weak-password':
+                            message = 'Password is too weak';
+                            break;
+                        default:
+                            message = error.message;
+                    }
+                    
+                    this.showAuthStatus(message, 'error');
+                } finally {
+                    this.setFormDisabled(false);
+                }
+            };
+        }
+    }
+
+    // Setup verification notice handlers
+    setupVerificationHandlers() {
+        const resendVerificationBtn = document.getElementById('resendVerification');
+        const backToLoginBtn = document.getElementById('backToLogin');
+        
+        resendVerificationBtn?.addEventListener('click', async () => {
+            if (auth.currentUser) {
+                try {
+                    await sendEmailVerification(auth.currentUser);
+                    this.showAuthStatus('Verification email sent!', 'success');
+                } catch (error) {
+                    this.showAuthStatus('Failed to send verification email', 'error');
+                }
+            }
+        });
+        
+        backToLoginBtn?.addEventListener('click', () => {
+            this.switchToLogin();
+        });
+    }
+
+    // Show verification notice
+    showVerificationNotice() {
+        const loginForm = document.getElementById('loginForm');
+        const registerForm = document.getElementById('registerForm');
+        const verificationNotice = document.getElementById('verificationNotice');
+        
+        if (loginForm) loginForm.style.display = 'none';
+        if (registerForm) registerForm.style.display = 'none';
+        if (verificationNotice) verificationNotice.style.display = 'block';
+        
+        this.clearAuthStatus();
+    }
+
+    // Helper function to disable/enable forms
+    setFormDisabled(disabled) {
+        const inputs = document.querySelectorAll('#authModal input, #authModal button');
+        inputs.forEach(input => {
+            input.disabled = disabled;
+        });
+    }
+
+    // Show auth status message
+    showAuthStatus(message, type) {
+        const authStatus = document.getElementById('authStatus');
+        if (authStatus) {
+            authStatus.textContent = message;
+            authStatus.className = `auth-status ${type}`;
+            
+            if (type === 'success') {
+                setTimeout(() => {
+                    this.clearAuthStatus();
+                }, 3000);
+            }
+        }
+    }
+
+    // Clear auth status
+    clearAuthStatus() {
+        const authStatus = document.getElementById('authStatus');
+        if (authStatus) {
+            authStatus.textContent = '';
+            authStatus.className = 'auth-status';
+        }
+    }
+
+    // Update user display in header and settings
+    updateUserDisplay() {
+        const userEmailDisplay = document.getElementById('userEmailDisplay');
+        const accountEmailElement = document.getElementById('accountEmail');
+        
+        if (userEmailDisplay && this.userEmail) {
+            userEmailDisplay.textContent = this.userEmail;
+        }
+        
+        if (accountEmailElement && this.userEmail) {
+            accountEmailElement.textContent = `Email: ${this.userEmail}`;
+        }
+    }
+
+    // Logout function
+    async logout() {
+        try {
+            await signOut(auth);
+            // onAuthStateChanged will handle the rest
+        } catch (error) {
+            console.error('Logout error:', error);
+        }
+    }
+
+    // Clear real-time sync
+    clearRealtimeSync() {
+        if (this.realtimeListener) {
+            this.realtimeListener();
+            this.realtimeListener = null;
+        }
     }
 
     // Setup online/offline status listener
@@ -44,13 +370,16 @@ class SyncService {
 
     // Setup real-time sync listener
     setupRealtimeSync() {
-        if (!this.isOnline) return;
+        if (!this.isOnline || !this.userId) return;
+        
+        // Clear existing listener
+        this.clearRealtimeSync();
         
         try {
             const userDocRef = doc(db, 'users', this.userId);
             
             // Listen for real-time updates
-            onSnapshot(userDocRef, (docSnapshot) => {
+            this.realtimeListener = onSnapshot(userDocRef, (docSnapshot) => {
                 if (docSnapshot.exists() && !this.syncInProgress) {
                     const cloudData = docSnapshot.data();
                     const cloudTimestamp = cloudData.lastModified;
