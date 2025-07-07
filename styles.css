@@ -1554,3 +1554,286 @@ body {
         font-size: 1.6rem;
     }
 }
+
+/* Learned Words Chart Styles */
+.learned-words-chart {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.level-word-card {
+    background: var(--card-bg);
+    border: 2px solid var(--border-color);
+    border-radius: 12px;
+    padding: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.level-word-card:hover {
+    border-color: var(--primary-color);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(37, 99, 235, 0.15);
+}
+
+.level-word-card.active {
+    border-color: var(--primary-color);
+    background: linear-gradient(135deg, rgba(37, 99, 235, 0.1), rgba(37, 99, 235, 0.05));
+}
+
+.level-word-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.level-word-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.level-word-count {
+    background: var(--primary-color);
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.level-word-progress {
+    width: 100%;
+    height: 8px;
+    background: var(--bg-secondary);
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+}
+
+.level-word-progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--primary-color), var(--accent-primary));
+    border-radius: 4px;
+    transition: width 0.3s ease;
+}
+
+.level-word-details {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Session Completion Modal Styles */
+.session-complete-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3000;
+    backdrop-filter: blur(10px);
+}
+
+.session-complete-container {
+    background: var(--card-bg);
+    padding: 3rem;
+    border-radius: 24px;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.4);
+    border: 1px solid var(--border-color);
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    animation: modalSlideIn 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.completion-animation {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.completion-circle {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(135deg, #10b981, #059669);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    animation: scaleIn 0.6s cubic-bezier(0.4, 0, 0.2, 1) 0.3s both;
+}
+
+.checkmark {
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+    animation: checkmarkDraw 0.4s ease 0.9s both;
+}
+
+.celebration-particles {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+.particle {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: var(--primary-color);
+    border-radius: 50%;
+    animation: particleExplode 1.2s ease-out 0.6s both;
+}
+
+.particle:nth-child(1) { animation-delay: 0.6s; transform: rotate(0deg) translateX(60px); }
+.particle:nth-child(2) { animation-delay: 0.7s; transform: rotate(72deg) translateX(60px); }
+.particle:nth-child(3) { animation-delay: 0.8s; transform: rotate(144deg) translateX(60px); }
+.particle:nth-child(4) { animation-delay: 0.9s; transform: rotate(216deg) translateX(60px); }
+.particle:nth-child(5) { animation-delay: 1s; transform: rotate(288deg) translateX(60px); }
+
+@keyframes scaleIn {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes checkmarkDraw {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes particleExplode {
+    0% {
+        opacity: 1;
+        transform: rotate(var(--angle, 0deg)) translateX(0);
+    }
+    100% {
+        opacity: 0;
+        transform: rotate(var(--angle, 0deg)) translateX(100px);
+    }
+}
+
+.completion-content h2 {
+    margin: 0 0 0.5rem 0;
+    color: var(--text-primary);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.completion-content p {
+    margin: 0 0 2rem 0;
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+}
+
+.session-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: var(--bg-secondary);
+    border-radius: 16px;
+}
+
+.session-stats .stat-item {
+    text-align: center;
+}
+
+.session-stats .stat-value {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 0.25rem;
+}
+
+.session-stats .stat-label {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+.completion-actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.primary-btn, .secondary-btn {
+    padding: 0.875rem 1.5rem;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+    min-width: 140px;
+}
+
+.primary-btn {
+    background: linear-gradient(135deg, var(--primary-color), #1d4ed8);
+    color: white;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+}
+
+.primary-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(37, 99, 235, 0.4);
+}
+
+.secondary-btn {
+    background: transparent;
+    border: 2px solid var(--border-color);
+    color: var(--text-primary);
+}
+
+.secondary-btn:hover {
+    background: var(--card-bg);
+    border-color: var(--primary-color);
+    transform: translateY(-1px);
+}
+
+/* Responsive completion modal */
+@media (max-width: 768px) {
+    .session-complete-container {
+        padding: 2rem;
+        margin: 1rem;
+    }
+    
+    .session-stats {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+    }
+    
+    .completion-actions {
+        flex-direction: column;
+    }
+    
+    .learned-words-chart {
+        grid-template-columns: 1fr;
+    }
+}

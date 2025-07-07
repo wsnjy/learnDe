@@ -30,6 +30,16 @@ class GermanLearningApp {
             currentView: 'dashboard'
         };
         this.speechSynthesis = window.speechSynthesis;
+        
+        // Session tracking
+        this.currentSession = {
+            wordsLearned: 0,
+            correctAnswers: 0,
+            totalAnswers: 0,
+            startTime: null,
+            targetWords: 20 // Default from settings
+        };
+        
         this.initializeVoices();
         this.initializeSyncService();
         // App initialization moved to after login
@@ -314,6 +324,21 @@ class GermanLearningApp {
                 accountEmailElement.textContent = `Email: ${this.syncService.userEmail}`;
             }
         }
+        
+        // Session completion modal handlers
+        const continueSessionBtn = document.getElementById('continueSessionBtn');
+        const finishSessionBtn = document.getElementById('finishSessionBtn');
+        
+        continueSessionBtn?.addEventListener('click', () => {
+            this.hideSessionCompleteModal();
+            this.extendSession();
+        });
+        
+        finishSessionBtn?.addEventListener('click', () => {
+            this.hideSessionCompleteModal();
+            this.endSession();
+        });
+        
         // Keyboard shortcuts
         // Navigation tabs
         const navTabs = document.querySelectorAll('.nav-tab');
@@ -478,6 +503,16 @@ class GermanLearningApp {
             this.showError('All cards in this part have been learned!');
             return;
         }
+        
+        // Initialize session tracking
+        this.currentSession = {
+            wordsLearned: 0,
+            correctAnswers: 0,
+            totalAnswers: 0,
+            startTime: Date.now(),
+            targetWords: Math.min(this.settings.cardsPerSession, this.sessionWords.length)
+        };
+        
         this.currentSessionIndex = 0;
         this.currentCard = this.sessionWords[0];
         this.isFlipped = false;
@@ -654,8 +689,14 @@ class GermanLearningApp {
         }
     }
     handleDifficultyResponse(difficulty) {
-        if (!this.currentCard)
-            return;
+        if (!this.currentCard) return;
+        
+        // Track session progress
+        this.currentSession.totalAnswers++;
+        if (difficulty >= 4) {
+            this.currentSession.correctAnswers++;
+        }
+        
         // Update card statistics
         this.currentCard.reviewCount++;
         this.currentCard.lastReviewed = new Date();
@@ -664,18 +705,22 @@ class GermanLearningApp {
             this.userProgress.correctAnswers++;
             this.userProgress.learnedWords.add(this.currentCard.id);
             this.currentCard.learned = true;
+            this.currentSession.wordsLearned++;
         }
         else {
             this.currentCard.incorrectCount++;
         }
         this.userProgress.totalReviews++;
+        
         // Calculate next review date using spaced repetition
         const interval = this.calculateNextInterval(difficulty, this.currentCard.reviewCount);
         this.currentCard.nextReview = new Date(Date.now() + interval * 24 * 60 * 60 * 1000);
+        
         // Update daily activity and streak
         const today = new Date().toISOString().split('T')[0];
         const currentActivity = this.userProgress.dailyActivity.get(today) || 0;
         this.userProgress.dailyActivity.set(today, currentActivity + 1);
+        
         // Update streak
         if (this.userProgress.lastStudyDate !== today) {
             const yesterday = new Date();
@@ -692,8 +737,16 @@ class GermanLearningApp {
             }
             this.userProgress.lastStudyDate = today;
         }
+        
         this.updateLevelLocks();
         this.saveUserData();
+        
+        // Check if session target reached
+        if (this.currentSession.totalAnswers >= this.currentSession.targetWords) {
+            this.showSessionCompleteModal();
+            return;
+        }
+        
         this.nextCard();
     }
     calculateNextInterval(difficulty, reviewCount) {
@@ -716,12 +769,50 @@ class GermanLearningApp {
         this.hideLearningControls();
         this.updateUI();
         this.generateHeatmap();
+        this.switchView('dashboard');
     }
+    
     showCompletionMessage() {
         const wordDisplay = document.getElementById('wordDisplay');
         if (wordDisplay) {
             wordDisplay.textContent = `Session Complete! 🎉\n${this.sessionWords.length} words reviewed.`;
         }
+    }
+    
+    // Session completion modal methods
+    showSessionCompleteModal() {
+        const modal = document.getElementById('sessionCompleteModal');
+        if (!modal) return;
+        
+        // Calculate session stats
+        const timeSpent = Math.round((Date.now() - this.currentSession.startTime) / 1000 / 60); // minutes
+        const accuracy = this.currentSession.totalAnswers > 0 
+            ? Math.round((this.currentSession.correctAnswers / this.currentSession.totalAnswers) * 100) 
+            : 0;
+        
+        // Update modal content
+        document.getElementById('sessionWordsLearned').textContent = this.currentSession.wordsLearned;
+        document.getElementById('sessionAccuracy').textContent = `${accuracy}%`;
+        document.getElementById('sessionTimeSpent').textContent = `${timeSpent}m`;
+        
+        // Show modal
+        modal.style.display = 'flex';
+    }
+    
+    hideSessionCompleteModal() {
+        const modal = document.getElementById('sessionCompleteModal');
+        if (modal) {
+            modal.style.display = 'none';
+        }
+    }
+    
+    extendSession() {
+        // Extend session by another round
+        this.currentSession.targetWords += this.settings.cardsPerSession;
+        console.log(`Session extended. New target: ${this.currentSession.targetWords} words`);
+        
+        // Continue with next card if available
+        this.nextCard();
     }
     playPronunciation() {
         if (!this.currentCard || !this.settings.voiceEnabled || !this.speechSynthesis)
@@ -892,11 +983,95 @@ class GermanLearningApp {
         this.updateStats();
         // Generate heatmap
         this.generateHeatmap();
+        // Render learned words chart
+        this.renderLearnedWordsChart();
         // Render level progress stats
         this.renderLevelProgressStats();
         // Update study patterns
         this.updateStudyPatterns();
     }
+    
+    renderLearnedWordsChart() {
+        const container = document.getElementById('learnedWordsChart');
+        if (!container) return;
+        
+        container.innerHTML = '';
+        
+        this.levels.forEach(level => {
+            const totalCards = level.parts.reduce((sum, part) => sum + part.cards.length, 0);
+            const learnedCards = level.parts.reduce((sum, part) => 
+                sum + part.cards.filter(card => card.learned).length, 0);
+            const percentage = totalCards > 0 ? Math.round((learnedCards / totalCards) * 100) : 0;
+            
+            const cardElement = document.createElement('div');
+            cardElement.className = 'level-word-card';
+            cardElement.dataset.level = level.name;
+            
+            cardElement.innerHTML = `
+                <div class="level-word-header">
+                    <div class="level-word-title">${level.name}</div>
+                    <div class="level-word-count">${learnedCards}</div>
+                </div>
+                <div class="level-word-progress">
+                    <div class="level-word-progress-fill" style="width: ${percentage}%"></div>
+                </div>
+                <div class="level-word-details">
+                    <span>${learnedCards} of ${totalCards} words</span>
+                    <span>${percentage}%</span>
+                </div>
+            `;
+            
+            // Add click handler to review words from this level
+            cardElement.addEventListener('click', () => {
+                this.reviewLevelWords(level);
+            });
+            
+            container.appendChild(cardElement);
+        });
+    }
+    
+    reviewLevelWords(level) {
+        // Get all learned words from this level
+        const learnedWords = [];
+        level.parts.forEach(part => {
+            part.cards.forEach(card => {
+                if (card.learned) {
+                    learnedWords.push(card);
+                }
+            });
+        });
+        
+        if (learnedWords.length === 0) {
+            this.showError(`No learned words in ${level.name} yet! Start learning to see words here.`);
+            return;
+        }
+        
+        // Set up review session with learned words
+        this.sessionWords = learnedWords;
+        this.currentPartId = `review_${level.name}`;
+        
+        // Initialize session tracking for review
+        this.currentSession = {
+            wordsLearned: 0,
+            correctAnswers: 0,
+            totalAnswers: 0,
+            startTime: Date.now(),
+            targetWords: Math.min(this.settings.cardsPerSession, learnedWords.length)
+        };
+        
+        this.currentSessionIndex = 0;
+        this.currentCard = this.sessionWords[0];
+        this.isFlipped = false;
+        this.switchView('practice');
+        this.displayCard();
+        this.showLearningControls();
+        
+        // Show feedback about review mode
+        if (this.syncService) {
+            this.syncService.showSyncStatus(`📚 Reviewing ${learnedWords.length} words from ${level.name}`);
+        }
+    }
+    
     renderLevelProgressStats() {
         const container = document.getElementById('levelProgressStats');
         if (!container)

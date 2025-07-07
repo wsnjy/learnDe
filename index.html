@@ -246,6 +246,17 @@
                     </div>
                 </div>
 
+                <!-- Learned Words by Level Section -->
+                <div class="stats-section">
+                    <div class="section-header">
+                        <h3>📚 Learned Words by Level</h3>
+                        <p>Click on any level to review those words</p>
+                    </div>
+                    <div class="learned-words-chart" id="learnedWordsChart">
+                        <!-- Will be populated by JavaScript -->
+                    </div>
+                </div>
+
                 <!-- Study Patterns Section -->
                 <div class="stats-section">
                     <div class="section-header">
@@ -342,6 +353,53 @@
         <div class="loading" id="loading" style="display: none;">
             <div class="spinner"></div>
             <p>Loading vocabulary...</p>
+        </div>
+
+        <!-- Session Completion Modal -->
+        <div id="sessionCompleteModal" class="session-complete-modal" style="display: none;">
+            <div class="session-complete-container">
+                <div class="completion-animation">
+                    <div class="completion-circle">
+                        <div class="checkmark">✓</div>
+                    </div>
+                    <div class="celebration-particles">
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                    </div>
+                </div>
+                
+                <div class="completion-content">
+                    <h2>🎉 Session Complete!</h2>
+                    <p>Great job! You've completed your learning session.</p>
+                    
+                    <div class="session-stats">
+                        <div class="stat-item">
+                            <div class="stat-value" id="sessionWordsLearned">0</div>
+                            <div class="stat-label">Words Learned</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value" id="sessionAccuracy">0%</div>
+                            <div class="stat-label">Accuracy</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value" id="sessionTimeSpent">0m</div>
+                            <div class="stat-label">Time Spent</div>
+                        </div>
+                    </div>
+                    
+                    <div class="completion-actions">
+                        <button id="continueSessionBtn" class="primary-btn">
+                            🚀 Continue Learning
+                        </button>
+                        <button id="finishSessionBtn" class="secondary-btn">
+                            ✅ Finish Session
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
