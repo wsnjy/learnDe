@@ -1094,7 +1094,7 @@ class GermanLearningApp {
             correctAnswers: 0,
             totalAnswers: 0,
             startTime: Date.now(),
-            targetWords: Math.min(this.settings.cardsPerSession, this.sessionWords.length),
+            targetWords: Math.max(5, Math.min(this.settings.cardsPerSession, this.sessionWords.length)), // Force minimum 5 cards for testing
             difficultyBreakdown: {
                 veryHard: 0,  // difficulty 1
                 hard: 0,      // difficulty 2
@@ -1103,6 +1103,7 @@ class GermanLearningApp {
                 veryEasy: 0   // difficulty 5
             }
         };
+        console.log('🚀 Session initialized with targetWords:', this.currentSession.targetWords);
         
         this.currentSessionIndex = 0;
         if (this.sessionWords.length === 0) {
