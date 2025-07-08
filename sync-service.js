@@ -492,13 +492,42 @@ class SyncService {
                 syncedAt: new Date().toISOString()
             };
 
-            // Debug: Log data structure before upload
-            console.log('Uploading to Firebase:', {
+            // Debug: Check data size before upload
+            const dataString = JSON.stringify(dataToSync);
+            const dataSizeBytes = new Blob([dataString]).size;
+            const dataSizeMB = (dataSizeBytes / 1024 / 1024).toFixed(2);
+            
+            console.log('Firebase upload size check:', {
                 userProgressKeys: Object.keys(dataToSync.userProgress),
                 vocabularyCount: dataToSync.vocabulary.length,
                 levelsCount: dataToSync.levels.length,
-                hasUndefined: JSON.stringify(dataToSync).includes('undefined')
+                totalSizeBytes: dataSizeBytes,
+                totalSizeMB: dataSizeMB,
+                isOverLimit: dataSizeBytes > 1048576, // 1MB limit
+                hasUndefined: dataString.includes('undefined')
             });
+            
+            // CRITICAL: Check Firebase document size limit (1MB)
+            if (dataSizeBytes > 1048576) {
+                console.error(`🚨 DOCUMENT TOO LARGE: ${dataSizeMB}MB > 1MB Firebase limit`);
+                console.error('Optimizing data before upload...');
+                
+                // Optimize data to reduce size
+                dataToSync.vocabulary = this.optimizeVocabularyData(dataToSync.vocabulary);
+                
+                // Re-check size after optimization
+                const optimizedString = JSON.stringify(dataToSync);
+                const optimizedSize = new Blob([optimizedString]).size;
+                const optimizedSizeMB = (optimizedSize / 1024 / 1024).toFixed(2);
+                
+                console.log(`Data optimized: ${dataSizeMB}MB → ${optimizedSizeMB}MB`);
+                
+                if (optimizedSize > 1048576) {
+                    console.error('❌ Data still too large after optimization. Skipping sync to prevent error.');
+                    this.showSyncStatus('❌ Data too large for Firebase');
+                    return;
+                }
+            }
             
             await setDoc(userDocRef, dataToSync, { merge: true });
             
@@ -714,6 +743,49 @@ class SyncService {
         
         // Sort by timestamp
         return unique.sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
+    }
+
+    // Optimize vocabulary data to reduce size for Firebase upload
+    optimizeVocabularyData(vocabulary) {
+        return vocabulary.map(card => {
+            // Keep only essential data for sync, remove large/redundant fields
+            const optimized = {
+                id: card.id,
+                german: card.german,
+                indonesian: card.indonesian,
+                // Keep learning progress data
+                learned: card.learned,
+                reviewCount: card.reviewCount || 0,
+                correctCount: card.correctCount || 0,
+                incorrectCount: card.incorrectCount || 0,
+                lastReviewed: card.lastReviewed,
+                nextReview: card.nextReview,
+                lastDifficulty: card.lastDifficulty,
+                lastModified: card.lastModified || Date.now()
+            };
+            
+            // Only keep recent difficulty history (last 10 entries to save space)
+            if (card.difficultyHistory && card.difficultyHistory.length > 0) {
+                optimized.difficultyHistory = card.difficultyHistory
+                    .slice(-10) // Keep only last 10 entries
+                    .map(entry => ({
+                        difficulty: entry.difficulty,
+                        timestamp: entry.timestamp
+                        // Remove cardId to save space (redundant)
+                    }));
+            }
+            
+            // Only keep essential FSRS data
+            if (card.fsrsState) {
+                optimized.fsrsState = {
+                    difficulty: card.fsrsState.difficulty,
+                    stability: card.fsrsState.stability
+                    // Remove retrievability to save space (can be recalculated)
+                };
+            }
+            
+            return optimized;
+        });
     }
 
     // Clean data to remove undefined values for Firebase compatibility
