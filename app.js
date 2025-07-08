@@ -743,11 +743,11 @@ class GermanLearningApp {
                         const totalReviews = card.correctCount + card.incorrectCount;
                         if (totalReviews > 0) {
                             const accuracy = card.correctCount / totalReviews;
-                            if (accuracy >= 0.9) lastDifficulty = 5; // Very Easy
-                            else if (accuracy >= 0.7) lastDifficulty = 4; // Easy
+                            if (accuracy >= 0.9) lastDifficulty = 1; // Very Easy (high accuracy = easy)
+                            else if (accuracy >= 0.7) lastDifficulty = 2; // Easy
                             else if (accuracy >= 0.5) lastDifficulty = 3; // Medium
-                            else if (accuracy >= 0.3) lastDifficulty = 2; // Hard
-                            else lastDifficulty = 1; // Very Hard
+                            else if (accuracy >= 0.3) lastDifficulty = 4; // Hard
+                            else lastDifficulty = 5; // Very Hard (low accuracy = hard)
                         }
                         // If no reviews and no difficulty data, skip this card (don't default to medium)
                     }
@@ -758,22 +758,22 @@ class GermanLearningApp {
                     totalDifficulty += lastDifficulty;
                     difficultyCount++;
                     
-                    // Add to appropriate difficulty bucket
+                    // Add to appropriate difficulty bucket (reversed mapping: 1=Very Easy, 5=Very Hard)
                     switch (lastDifficulty) {
                         case 1:
-                            stats.difficultyBreakdown.veryHard.push(card);
+                            stats.difficultyBreakdown.veryEasy.push(card);
                             break;
                         case 2:
-                            stats.difficultyBreakdown.hard.push(card);
+                            stats.difficultyBreakdown.easy.push(card);
                             break;
                         case 3:
                             stats.difficultyBreakdown.medium.push(card);
                             break;
                         case 4:
-                            stats.difficultyBreakdown.easy.push(card);
+                            stats.difficultyBreakdown.hard.push(card);
                             break;
                         case 5:
-                            stats.difficultyBreakdown.veryEasy.push(card);
+                            stats.difficultyBreakdown.veryHard.push(card);
                             break;
                     }
                     } // Close the if (lastDifficulty !== null) block
@@ -1205,32 +1205,32 @@ class GermanLearningApp {
         
         // Track session progress
         this.currentSession.totalAnswers++;
-        if (difficulty >= 4) {
+        if (difficulty <= 2) {  // Now 1=Very Easy, 2=Easy are "correct"
             this.currentSession.correctAnswers++;
         }
         
-        // Track difficulty breakdown
+        // Track difficulty breakdown (reversed mapping: 1=Very Easy, 5=Very Hard)
         console.log(`Recording difficulty: ${difficulty} for card: ${this.currentCard.id}`);
         switch (difficulty) {
             case 1:
-                this.currentSession.difficultyBreakdown.veryHard++;
-                console.log('Recorded as Very Hard');
+                this.currentSession.difficultyBreakdown.veryEasy++;
+                console.log('Recorded as Very Easy');
                 break;
             case 2:
-                this.currentSession.difficultyBreakdown.hard++;
-                console.log('Recorded as Hard');
+                this.currentSession.difficultyBreakdown.easy++;
+                console.log('Recorded as Easy');
                 break;
             case 3:
                 this.currentSession.difficultyBreakdown.medium++;
                 console.log('Recorded as Medium');
                 break;
             case 4:
-                this.currentSession.difficultyBreakdown.easy++;
-                console.log('Recorded as Easy');
+                this.currentSession.difficultyBreakdown.hard++;
+                console.log('Recorded as Hard');
                 break;
             case 5:
-                this.currentSession.difficultyBreakdown.veryEasy++;
-                console.log('Recorded as Very Easy');
+                this.currentSession.difficultyBreakdown.veryHard++;
+                console.log('Recorded as Very Hard');
                 break;
         }
         console.log('Current breakdown:', this.currentSession.difficultyBreakdown);
@@ -1250,7 +1250,7 @@ class GermanLearningApp {
         });
         this.currentCard.lastDifficulty = difficulty;
         
-        if (difficulty >= 4) {
+        if (difficulty <= 2) {  // Now 1=Very Easy, 2=Easy mark as learned
             this.currentCard.correctCount++;
             this.userProgress.correctAnswers++;
             
