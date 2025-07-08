@@ -1084,6 +1084,23 @@ class GermanLearningApp {
         else {
             this.sessionWords = this.getWordsForSession();
         }
+        
+        // Initialize session tracking
+        this.currentSession = {
+            wordsLearned: 0,
+            correctAnswers: 0,
+            totalAnswers: 0,
+            startTime: Date.now(),
+            targetWords: Math.min(this.settings.cardsPerSession, this.sessionWords.length),
+            difficultyBreakdown: {
+                veryHard: 0,  // difficulty 1
+                hard: 0,      // difficulty 2
+                medium: 0,    // difficulty 3
+                easy: 0,      // difficulty 4
+                veryEasy: 0   // difficulty 5
+            }
+        };
+        
         this.currentSessionIndex = 0;
         if (this.sessionWords.length === 0) {
             this.showError('No words available. Please select a part from the dashboard.');
