@@ -463,25 +463,41 @@ class SyncService {
 
             // Prepare data for sync with current timestamp
             const currentTimestamp = Date.now();
-            const dataToSync = {
-                userProgress: {
-                    ...this.app.userProgress,
-                    learnedWords: Array.from(this.app.userProgress.learnedWords),
-                    completedParts: Array.from(this.app.userProgress.completedParts),
-                    unlockedLevels: Array.from(this.app.userProgress.unlockedLevels),
-                    dailyActivity: Object.fromEntries(this.app.userProgress.dailyActivity),
-                    lastModified: currentTimestamp
-                },
-                settings: this.app.settings,
-                vocabulary: this.app.vocabulary.map(card => ({
+            
+            // Clean data to remove undefined values before Firebase upload
+            const cleanedUserProgress = this.cleanFirebaseData({
+                ...this.app.userProgress,
+                learnedWords: Array.from(this.app.userProgress.learnedWords),
+                completedParts: Array.from(this.app.userProgress.completedParts),
+                unlockedLevels: Array.from(this.app.userProgress.unlockedLevels),
+                dailyActivity: Object.fromEntries(this.app.userProgress.dailyActivity),
+                lastModified: currentTimestamp
+            });
+            
+            const cleanedVocabulary = this.app.vocabulary.map(card => 
+                this.cleanFirebaseData({
                     ...card,
                     lastModified: card.lastModified || currentTimestamp
-                })),
-                levels: this.app.levels,
+                })
+            );
+            
+            const dataToSync = {
+                userProgress: cleanedUserProgress,
+                settings: this.cleanFirebaseData(this.app.settings),
+                vocabulary: cleanedVocabulary,
+                levels: this.cleanFirebaseData(this.app.levels),
                 lastModified: currentTimestamp,
                 syncedAt: new Date().toISOString()
             };
 
+            // Debug: Log data structure before upload
+            console.log('Uploading to Firebase:', {
+                userProgressKeys: Object.keys(dataToSync.userProgress),
+                vocabularyCount: dataToSync.vocabulary.length,
+                levelsCount: dataToSync.levels.length,
+                hasUndefined: JSON.stringify(dataToSync).includes('undefined')
+            });
+            
             await setDoc(userDocRef, dataToSync, { merge: true });
             
             this.lastSyncTime = Date.now();
@@ -692,6 +708,36 @@ class SyncService {
         
         // Sort by timestamp
         return unique.sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
+    }
+
+    // Clean data to remove undefined values for Firebase compatibility
+    cleanFirebaseData(obj) {
+        if (obj === null || obj === undefined) {
+            return null;
+        }
+        
+        if (Array.isArray(obj)) {
+            return obj.map(item => this.cleanFirebaseData(item)).filter(item => item !== undefined);
+        }
+        
+        if (obj instanceof Date) {
+            return obj;
+        }
+        
+        if (typeof obj === 'object') {
+            const cleaned = {};
+            for (const [key, value] of Object.entries(obj)) {
+                if (value !== undefined) {
+                    const cleanedValue = this.cleanFirebaseData(value);
+                    if (cleanedValue !== undefined) {
+                        cleaned[key] = cleanedValue;
+                    }
+                }
+            }
+            return cleaned;
+        }
+        
+        return obj;
     }
 
     // Smart card merging with timestamp-based conflict resolution
