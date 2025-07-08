@@ -730,11 +730,14 @@ class GermanLearningApp {
                     stats.learnedWords++;
                     
                     // Get the last difficulty rating from user's actual rating
-                    let lastDifficulty = 3; // default medium
+                    let lastDifficulty = null;
                     
-                    // Use stored user rating if available, otherwise calculate from accuracy
+                    // Use stored user rating if available
                     if (card.lastDifficulty) {
                         lastDifficulty = card.lastDifficulty;
+                    } else if (card.difficultyHistory && card.difficultyHistory.length > 0) {
+                        // Use most recent difficulty from history
+                        lastDifficulty = card.difficultyHistory[card.difficultyHistory.length - 1].difficulty;
                     } else {
                         // Fallback: Calculate difficulty based on correctCount vs incorrectCount ratio
                         const totalReviews = card.correctCount + card.incorrectCount;
@@ -746,7 +749,11 @@ class GermanLearningApp {
                             else if (accuracy >= 0.3) lastDifficulty = 2; // Hard
                             else lastDifficulty = 1; // Very Hard
                         }
+                        // If no reviews and no difficulty data, skip this card (don't default to medium)
                     }
+                    
+                    // Only include cards with actual difficulty data
+                    if (lastDifficulty !== null) {
                     
                     totalDifficulty += lastDifficulty;
                     difficultyCount++;
@@ -769,6 +776,7 @@ class GermanLearningApp {
                             stats.difficultyBreakdown.veryEasy.push(card);
                             break;
                     }
+                    } // Close the if (lastDifficulty !== null) block
                 }
             });
         });
@@ -1245,9 +1253,15 @@ class GermanLearningApp {
         if (difficulty >= 4) {
             this.currentCard.correctCount++;
             this.userProgress.correctAnswers++;
+            
+            // Track words learned in session (only count if not already learned)
+            if (!this.currentCard.learned) {
+                this.currentSession.wordsLearned++;
+                console.log(`New word learned in session: ${this.currentCard.id}`);
+            }
+            
             this.userProgress.learnedWords.add(this.currentCard.id);
             this.currentCard.learned = true;
-            this.currentSession.wordsLearned++;
         }
         else {
             this.currentCard.incorrectCount++;
@@ -1507,6 +1521,13 @@ class GermanLearningApp {
             : 0;
         
         // Update modal content
+        console.log('Session complete stats:', {
+            wordsLearned: this.currentSession.wordsLearned,
+            accuracy: accuracy,
+            timeSpent: timeSpent,
+            breakdown: this.currentSession.difficultyBreakdown
+        });
+        
         document.getElementById('sessionWordsLearned').textContent = this.currentSession.wordsLearned;
         document.getElementById('sessionAccuracy').textContent = `${accuracy}%`;
         document.getElementById('sessionTimeSpent').textContent = `${timeSpent}m`;
