@@ -31,7 +31,7 @@ class SyncService {
 
     // Setup Firebase Auth state listener
     setupAuthStateListener() {
-        onAuthStateChanged(auth, (user) => {
+        onAuthStateChanged(auth, async (user) => {
             console.log('Auth state changed:', user ? `${user.email} (verified: ${user.emailVerified})` : 'not authenticated');
             
             if (user && user.emailVerified) {
