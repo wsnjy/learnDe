@@ -431,6 +431,8 @@ class SyncService {
                     dailyActivity: Object.fromEntries(this.app.userProgress.dailyActivity)
                 },
                 settings: this.app.settings,
+                vocabulary: this.app.vocabulary,
+                levels: this.app.levels,
                 lastModified: Date.now(),
                 syncedAt: new Date().toISOString()
             };
@@ -443,6 +445,14 @@ class SyncService {
             this.app.saveUserData(); // Update local storage with sync timestamp
             
             console.log('Data synced to cloud successfully');
+            console.log('Synced data includes:', {
+                userProgress: !!dataToSync.userProgress,
+                settings: !!dataToSync.settings,
+                vocabulary: !!dataToSync.vocabulary,
+                levels: !!dataToSync.levels,
+                vocabularySize: dataToSync.vocabulary?.length || 0,
+                levelsCount: dataToSync.levels?.length || 0
+            });
             this.showSyncStatus('✅ Synced to cloud');
             
         } catch (error) {
@@ -540,6 +550,17 @@ class SyncService {
 
             if (data.settings) {
                 this.app.settings = { ...this.app.settings, ...data.settings };
+            }
+
+            // Restore vocabulary and levels data with card progress
+            if (data.vocabulary) {
+                this.app.vocabulary = data.vocabulary;
+                console.log('Restored vocabulary data from cloud');
+            }
+            
+            if (data.levels) {
+                this.app.levels = data.levels;
+                console.log('Restored levels data from cloud');
             }
 
             // Save merged data locally
