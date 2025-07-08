@@ -32,20 +32,31 @@ class SyncService {
     // Setup Firebase Auth state listener
     setupAuthStateListener() {
         onAuthStateChanged(auth, (user) => {
+            console.log('Auth state changed:', user ? `${user.email} (verified: ${user.emailVerified})` : 'not authenticated');
+            
             if (user && user.emailVerified) {
                 // User is signed in and email is verified
                 this.currentUser = user;
                 this.userId = user.uid;
                 this.userEmail = user.email;
-                console.log('User authenticated:', this.userEmail);
+                console.log('User authenticated successfully:', this.userEmail);
                 
                 this.hideAuthModal();
                 this.updateUserDisplay();
                 this.setupRealtimeSync();
                 
-                // Initialize app if not already done
-                if (this.app.init && !this.app.initialized) {
+                // Initialize app for authenticated user (always reinitialize for new sessions)
+                if (this.app.init) {
+                    console.log('Initializing app for authenticated user...');
                     this.app.init();
+                    
+                    // Ensure navigation to dashboard after initialization
+                    setTimeout(() => {
+                        if (this.app.switchView) {
+                            console.log('Navigating to dashboard after authentication');
+                            this.app.switchView('dashboard');
+                        }
+                    }, 100);
                 }
                 
             } else if (user && !user.emailVerified) {

@@ -84,7 +84,10 @@ class GermanLearningApp {
 
     async init() {
         try {
-            this.initialized = true;
+            console.log('Starting app initialization...');
+            // Reset initialization flag to allow re-initialization
+            this.initialized = false;
+            
             await this.loadAllVocabularyParts();
             this.loadUserData();
             
@@ -103,9 +106,14 @@ class GermanLearningApp {
             if (this.syncService) {
                 await this.syncService.syncFromCloud();
             }
+            
+            // Mark as initialized only after everything is complete
+            this.initialized = true;
+            console.log('App initialization completed successfully');
         }
         catch (error) {
             console.error('Initialization error:', error);
+            this.initialized = false; // Mark as failed
             this.showError('Failed to initialize the application. Please refresh the page.');
         }
     }
