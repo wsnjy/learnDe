@@ -45,18 +45,20 @@ class SyncService {
                 this.updateUserDisplay();
                 this.setupRealtimeSync();
                 
-                // Initialize app for authenticated user (always reinitialize for new sessions)
-                if (this.app.init) {
-                    console.log('Initializing app for authenticated user...');
+                // Initialize app only if not already initialized (prevent multiple renders)
+                if (this.app.init && !this.app.initialized) {
+                    console.log('Initializing app for first-time authenticated user...');
                     this.app.init();
-                    
-                    // Ensure navigation to dashboard after initialization
-                    setTimeout(() => {
-                        if (this.app.switchView) {
-                            console.log('Navigating to dashboard after authentication');
-                            this.app.switchView('dashboard');
-                        }
-                    }, 100);
+                } else if (this.app.initialized) {
+                    console.log('App already initialized, ensuring dashboard view...');
+                    // Just ensure we're on dashboard view, don't re-initialize
+                    if (this.app.switchView && this.app.settings.currentView !== 'dashboard') {
+                        this.app.switchView('dashboard');
+                    }
+                    // Sync data without full re-initialization
+                    if (this.app.updateUI) {
+                        this.app.updateUI();
+                    }
                 }
                 
             } else if (user && !user.emailVerified) {
@@ -666,10 +668,14 @@ class SyncService {
             // Save merged data locally
             this.app.saveUserData();
             
-            // Update UI
+            // Update UI gently without full dashboard re-render during sync
             this.app.updateLevelLocks();
             this.app.updateUI();
-            this.app.renderDashboard();
+            // Only re-render dashboard if we're currently on dashboard view
+            if (this.app.settings.currentView === 'dashboard') {
+                console.log('Sync: Updating dashboard content...');
+                this.app.renderDashboard();
+            }
             this.app.generateHeatmap();
             
             console.log('Data synced from cloud successfully');
@@ -860,10 +866,11 @@ class SyncService {
             console.log('Manual sync: Downloading latest data from cloud...');
             await this.syncFromCloud();
             
-            // Force UI update after sync
+            // Gentle UI update after manual sync (avoid full re-render)
             if (this.app.updateUI) {
                 this.app.updateUI();
-                this.app.renderDashboard();
+                // Only update dashboard stats, don't re-render entire dashboard
+                this.app.updateDashboardStats();
                 this.app.generateHeatmap();
             }
             
