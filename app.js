@@ -1425,12 +1425,15 @@ class GermanLearningApp {
         };
     }
     nextCard() {
+        console.log('nextCard called - currentSessionIndex:', this.currentSessionIndex, 'sessionWords.length:', this.sessionWords.length);
         this.currentSessionIndex++;
         if (this.currentSessionIndex >= this.sessionWords.length) {
+            console.log('End of session reached');
             this.endSession();
             return;
         }
         this.currentCard = this.sessionWords[this.currentSessionIndex];
+        console.log('Next card set:', this.currentCard);
         this.displayCard();
     }
     endSession() {
@@ -1921,24 +1924,18 @@ class GermanLearningApp {
     showLearningControls() {
         const startBtn = document.getElementById('startBtn');
         const learningControls = document.getElementById('learningControls');
-        const keyboardHints = document.getElementById('keyboardHints');
         if (startBtn)
             startBtn.style.display = 'none';
         if (learningControls)
             learningControls.style.display = 'flex';
-        if (keyboardHints)
-            keyboardHints.style.display = 'block';
     }
     hideLearningControls() {
         const startBtn = document.getElementById('startBtn');
         const learningControls = document.getElementById('learningControls');
-        const keyboardHints = document.getElementById('keyboardHints');
         if (startBtn)
             startBtn.style.display = 'block';
         if (learningControls)
             learningControls.style.display = 'none';
-        if (keyboardHints)
-            keyboardHints.style.display = 'none';
     }
     showLoading(show) {
         const loading = document.getElementById('loading');
