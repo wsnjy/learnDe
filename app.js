@@ -478,50 +478,49 @@ class GermanLearningApp {
             });
         });
         document.addEventListener('keydown', (e) => {
-            // Only handle shortcuts when in practice view and learning session is active
+            // Only handle shortcuts when in practice view and have a current card
             const practiceView = document.getElementById('practiceView');
             const isInPracticeMode = practiceView && practiceView.style.display !== 'none';
-            const isLearningActive = this.currentCard && this.sessionWords.length > 0;
             
             if (e.code === 'Space' || e.code === 'ArrowLeft' || e.code === 'ArrowRight') {
-                e.preventDefault();
-                if (isInPracticeMode && isLearningActive) {
+                if (isInPracticeMode && this.currentCard) {
+                    e.preventDefault();
                     this.flipCard();
                 }
             }
             else if (e.code === 'Enter') {
-                e.preventDefault();
-                if (isInPracticeMode && isLearningActive) {
+                if (isInPracticeMode && this.currentCard) {
+                    e.preventDefault();
                     this.playPronunciation();
                 }
             }
             else if (e.code === 'Digit1') {
-                e.preventDefault();
-                if (isInPracticeMode && isLearningActive) {
+                if (isInPracticeMode && this.currentCard) {
+                    e.preventDefault();
                     this.handleDifficultyResponse(1);
                 }
             }
             else if (e.code === 'Digit2') {
-                e.preventDefault();
-                if (isInPracticeMode && isLearningActive) {
+                if (isInPracticeMode && this.currentCard) {
+                    e.preventDefault();
                     this.handleDifficultyResponse(2);
                 }
             }
             else if (e.code === 'Digit3') {
-                e.preventDefault();
-                if (isInPracticeMode && isLearningActive) {
+                if (isInPracticeMode && this.currentCard) {
+                    e.preventDefault();
                     this.handleDifficultyResponse(3);
                 }
             }
             else if (e.code === 'Digit4') {
-                e.preventDefault();
-                if (isInPracticeMode && isLearningActive) {
+                if (isInPracticeMode && this.currentCard) {
+                    e.preventDefault();
                     this.handleDifficultyResponse(4);
                 }
             }
             else if (e.code === 'Digit5') {
-                e.preventDefault();
-                if (isInPracticeMode && isLearningActive) {
+                if (isInPracticeMode && this.currentCard) {
+                    e.preventDefault();
                     this.handleDifficultyResponse(5);
                 }
             }
@@ -1425,15 +1424,12 @@ class GermanLearningApp {
         };
     }
     nextCard() {
-        console.log('nextCard called - currentSessionIndex:', this.currentSessionIndex, 'sessionWords.length:', this.sessionWords.length);
         this.currentSessionIndex++;
         if (this.currentSessionIndex >= this.sessionWords.length) {
-            console.log('End of session reached');
             this.endSession();
             return;
         }
         this.currentCard = this.sessionWords[this.currentSessionIndex];
-        console.log('Next card set:', this.currentCard);
         this.displayCard();
     }
     endSession() {
