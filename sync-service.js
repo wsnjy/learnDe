@@ -442,6 +442,17 @@ class SyncService {
                 const cloudTimestamp = cloudData.lastModified || 0;
                 const localTimestamp = this.app.userProgress.lastModified || 0;
                 
+                // CRITICAL: Check for destructive sync (local has significantly less progress)
+                const cloudLearnedCount = (cloudData.userProgress?.learnedWords || []).length;
+                const localLearnedCount = this.app.userProgress.learnedWords.size;
+                
+                if (cloudLearnedCount > localLearnedCount + 5) {
+                    console.error('DESTRUCTIVE SYNC PREVENTED: Cloud has significantly more learned words');
+                    console.error(`Cloud: ${cloudLearnedCount} learned, Local: ${localLearnedCount} learned`);
+                    this.showSyncStatus('🛡️ Destructive sync prevented');
+                    return; // Don't upload data that would reduce progress
+                }
+                
                 if (cloudTimestamp > localTimestamp) {
                     console.log('Cloud data is newer, skipping upload to prevent overwrite');
                     console.log(`Cloud: ${new Date(cloudTimestamp)}, Local: ${new Date(localTimestamp)}`);
@@ -533,10 +544,17 @@ class SyncService {
                 const cloudUnlockedLevels = new Set(cloudProgress.unlockedLevels || ['A1.1']);
                 const cloudDailyActivity = new Map(Object.entries(cloudProgress.dailyActivity || {}));
                 
-                // Merge Sets by UNION (combine all unique values)
+                // Merge Sets by UNION (combine all unique values) - NEVER LOSE PROGRESS
                 const mergedLearnedWords = new Set([...localLearnedWords, ...cloudLearnedWords]);
                 const mergedCompletedParts = new Set([...localCompletedParts, ...cloudCompletedParts]);
                 const mergedUnlockedLevels = new Set([...localUnlockedLevels, ...cloudUnlockedLevels]);
+                
+                console.log('Progress merge:', {
+                    local: localLearnedWords.size,
+                    cloud: cloudLearnedWords.size,
+                    merged: mergedLearnedWords.size,
+                    status: 'PROGRESS PRESERVED'
+                });
                 
                 // Merge daily activity Maps (combine entries, sum values for same dates)
                 const mergedDailyActivity = new Map(localDailyActivity);
@@ -790,13 +808,25 @@ class SyncService {
     async manualSync() {
         this.showSyncStatus('🔄 Syncing...');
         
-        // First merge cloud data with local data
-        await this.syncFromCloud();
-        
-        // Then upload the merged data back to cloud
-        await this.syncToCloud();
-        
-        this.showSyncStatus('✅ Sync complete');
+        try {
+            // CRITICAL: Only download from cloud for manual sync
+            // Never upload during manual sync to prevent data loss
+            console.log('Manual sync: Downloading latest data from cloud...');
+            await this.syncFromCloud();
+            
+            // Force UI update after sync
+            if (this.app.updateUI) {
+                this.app.updateUI();
+                this.app.renderDashboard();
+                this.app.generateHeatmap();
+            }
+            
+            console.log('Manual sync completed: Data downloaded from cloud');
+            this.showSyncStatus('✅ Synced from cloud');
+        } catch (error) {
+            console.error('Manual sync failed:', error);
+            this.showSyncStatus('❌ Sync failed');
+        }
     }
 
     // Get user ID for sharing
