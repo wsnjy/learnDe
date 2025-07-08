@@ -1239,7 +1239,7 @@ class GermanLearningApp {
         this.currentCard.reviewCount++;
         this.currentCard.lastReviewed = new Date();
         
-        // Store user's actual difficulty rating
+        // Store user's actual difficulty rating with timestamp
         if (!this.currentCard.difficultyHistory) {
             this.currentCard.difficultyHistory = [];
         }
@@ -1249,6 +1249,9 @@ class GermanLearningApp {
             cardId: this.currentCard.id
         });
         this.currentCard.lastDifficulty = difficulty;
+        
+        // Update card's last modified timestamp for sync conflict resolution
+        this.currentCard.lastModified = Date.now();
         
         if (difficulty <= 2) {  // Now 1=Very Easy, 2=Easy mark as learned
             this.currentCard.correctCount++;
@@ -1267,6 +1270,9 @@ class GermanLearningApp {
             this.currentCard.incorrectCount++;
         }
         this.userProgress.totalReviews++;
+        
+        // Update user progress timestamp for sync conflict resolution
+        this.userProgress.lastModified = Date.now();
         
         // Calculate next review date using FSRS algorithm
         const interval = this.calculateNextInterval(this.currentCard, difficulty);

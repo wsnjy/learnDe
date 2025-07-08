@@ -422,18 +422,41 @@ class SyncService {
         this.syncInProgress = true;
         
         try {
+            // Check if we should sync by comparing timestamps
+            const userDocRef = doc(db, 'users', this.userId);
+            const currentCloudDoc = await getDoc(userDocRef);
+            
+            if (currentCloudDoc.exists()) {
+                const cloudData = currentCloudDoc.data();
+                const cloudTimestamp = cloudData.lastModified || 0;
+                const localTimestamp = this.app.userProgress.lastModified || 0;
+                
+                if (cloudTimestamp > localTimestamp) {
+                    console.log('Cloud data is newer, skipping upload to prevent overwrite');
+                    console.log(`Cloud: ${new Date(cloudTimestamp)}, Local: ${new Date(localTimestamp)}`);
+                    this.showSyncStatus('⚠️ Cloud data is newer');
+                    return; // Don't upload older data
+                }
+            }
+
+            // Prepare data for sync with current timestamp
+            const currentTimestamp = Date.now();
             const dataToSync = {
                 userProgress: {
                     ...this.app.userProgress,
                     learnedWords: Array.from(this.app.userProgress.learnedWords),
                     completedParts: Array.from(this.app.userProgress.completedParts),
                     unlockedLevels: Array.from(this.app.userProgress.unlockedLevels),
-                    dailyActivity: Object.fromEntries(this.app.userProgress.dailyActivity)
+                    dailyActivity: Object.fromEntries(this.app.userProgress.dailyActivity),
+                    lastModified: currentTimestamp
                 },
                 settings: this.app.settings,
-                vocabulary: this.app.vocabulary,
+                vocabulary: this.app.vocabulary.map(card => ({
+                    ...card,
+                    lastModified: card.lastModified || currentTimestamp
+                })),
                 levels: this.app.levels,
-                lastModified: Date.now(),
+                lastModified: currentTimestamp,
                 syncedAt: new Date().toISOString()
             };
 
@@ -552,47 +575,32 @@ class SyncService {
                 this.app.settings = { ...this.app.settings, ...data.settings };
             }
 
-            // Restore vocabulary and levels data with smart merging
+            // Restore vocabulary and levels data with timestamp-based smart merging
             if (data.vocabulary && Array.isArray(data.vocabulary)) {
-                console.log('Merging vocabulary data from cloud...');
+                console.log('Merging vocabulary data from cloud with timestamp-based conflict resolution...');
                 
-                // Smart merge: preserve maximum progress from both local and cloud
+                // Smart merge: use timestamps to determine which data is newer
                 data.vocabulary.forEach(cloudCard => {
                     const localCardIndex = this.app.vocabulary.findIndex(c => c.id === cloudCard.id);
                     
                     if (localCardIndex >= 0) {
                         const localCard = this.app.vocabulary[localCardIndex];
                         
-                        // Merge card data, keeping maximum progress
-                        this.app.vocabulary[localCardIndex] = {
-                            ...cloudCard, // Start with cloud data
-                            // Preserve maximum review counts
-                            reviewCount: Math.max(localCard.reviewCount || 0, cloudCard.reviewCount || 0),
-                            correctCount: Math.max(localCard.correctCount || 0, cloudCard.correctCount || 0),
-                            incorrectCount: Math.max(localCard.incorrectCount || 0, cloudCard.incorrectCount || 0),
-                            // Keep most recent dates
-                            lastReviewed: this.getMostRecentDate(localCard.lastReviewed, cloudCard.lastReviewed),
-                            nextReview: this.getMostRecentDate(localCard.nextReview, cloudCard.nextReview),
-                            // Preserve learned status (OR operation)
-                            learned: localCard.learned || cloudCard.learned,
-                            // Use most recent difficulty data
-                            lastDifficulty: cloudCard.lastDifficulty || localCard.lastDifficulty,
-                            // Merge difficulty history
-                            difficultyHistory: this.mergeDifficultyHistory(
-                                localCard.difficultyHistory || [],
-                                cloudCard.difficultyHistory || []
-                            ),
-                            // Preserve FSRS data (use cloud if available, fallback to local)
-                            fsrsCard: cloudCard.fsrsCard || localCard.fsrsCard,
-                            fsrsState: cloudCard.fsrsState || localCard.fsrsState
-                        };
+                        // Use timestamp-based conflict resolution
+                        const mergedCard = this.mergeCardWithTimestamps(localCard, cloudCard);
+                        this.app.vocabulary[localCardIndex] = mergedCard;
+                        
+                        console.log(`Merged card ${cloudCard.id}: using ${mergedCard._syncSource} data`);
                     } else {
-                        // New card from cloud, add it
+                        // New card from cloud, add it with timestamp
+                        cloudCard.lastModified = cloudCard.lastModified || Date.now();
+                        cloudCard._syncSource = 'cloud';
                         this.app.vocabulary.push(cloudCard);
+                        console.log(`Added new card from cloud: ${cloudCard.id}`);
                     }
                 });
                 
-                console.log('Vocabulary data merged successfully');
+                console.log('Vocabulary data merged with timestamp-based conflict resolution');
             }
             
             if (data.levels && Array.isArray(data.levels)) {
@@ -656,6 +664,76 @@ class SyncService {
         
         // Sort by timestamp
         return unique.sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
+    }
+
+    // Smart card merging with timestamp-based conflict resolution
+    mergeCardWithTimestamps(localCard, cloudCard) {
+        // Ensure both cards have lastModified timestamps
+        const localTimestamp = localCard.lastModified || 0;
+        const cloudTimestamp = cloudCard.lastModified || 0;
+        
+        // Base merge: always preserve maximum counts and combine arrays
+        const baseMerge = {
+            ...cloudCard, // Start with cloud structure
+            id: localCard.id, // Preserve ID
+            // Always preserve maximum progress regardless of timestamp
+            reviewCount: Math.max(localCard.reviewCount || 0, cloudCard.reviewCount || 0),
+            correctCount: Math.max(localCard.correctCount || 0, cloudCard.correctCount || 0),
+            incorrectCount: Math.max(localCard.incorrectCount || 0, cloudCard.incorrectCount || 0),
+            // Always preserve learned status (OR operation)
+            learned: localCard.learned || cloudCard.learned,
+            // Always merge difficulty history (no data loss)
+            difficultyHistory: this.mergeDifficultyHistory(
+                localCard.difficultyHistory || [],
+                cloudCard.difficultyHistory || []
+            )
+        };
+
+        // Timestamp-based conflict resolution for specific fields
+        if (localTimestamp > cloudTimestamp) {
+            // Local is newer - prefer local data for timestamp-sensitive fields
+            console.log(`Local card data is newer (${new Date(localTimestamp)} > ${new Date(cloudTimestamp)})`);
+            return {
+                ...baseMerge,
+                // Use local data for these timestamp-sensitive fields
+                lastReviewed: localCard.lastReviewed || cloudCard.lastReviewed,
+                nextReview: localCard.nextReview || cloudCard.nextReview,
+                lastDifficulty: localCard.lastDifficulty || cloudCard.lastDifficulty,
+                fsrsCard: localCard.fsrsCard || cloudCard.fsrsCard,
+                fsrsState: localCard.fsrsState || cloudCard.fsrsState,
+                lastModified: localTimestamp,
+                _syncSource: 'local'
+            };
+        } else if (cloudTimestamp > localTimestamp) {
+            // Cloud is newer - prefer cloud data for timestamp-sensitive fields
+            console.log(`Cloud card data is newer (${new Date(cloudTimestamp)} > ${new Date(localTimestamp)})`);
+            return {
+                ...baseMerge,
+                // Use cloud data for these timestamp-sensitive fields
+                lastReviewed: cloudCard.lastReviewed || localCard.lastReviewed,
+                nextReview: cloudCard.nextReview || localCard.nextReview,
+                lastDifficulty: cloudCard.lastDifficulty || localCard.lastDifficulty,
+                fsrsCard: cloudCard.fsrsCard || localCard.fsrsCard,
+                fsrsState: cloudCard.fsrsState || localCard.fsrsState,
+                lastModified: cloudTimestamp,
+                _syncSource: 'cloud'
+            };
+        } else {
+            // Same timestamp or no timestamps - use hybrid approach
+            console.log(`Timestamps equal, using hybrid merge approach`);
+            return {
+                ...baseMerge,
+                // Use most recent dates
+                lastReviewed: this.getMostRecentDate(localCard.lastReviewed, cloudCard.lastReviewed),
+                nextReview: this.getMostRecentDate(localCard.nextReview, cloudCard.nextReview),
+                // Prefer non-null values
+                lastDifficulty: cloudCard.lastDifficulty || localCard.lastDifficulty,
+                fsrsCard: cloudCard.fsrsCard || localCard.fsrsCard,
+                fsrsState: cloudCard.fsrsState || localCard.fsrsState,
+                lastModified: Math.max(localTimestamp, cloudTimestamp) || Date.now(),
+                _syncSource: 'hybrid'
+            };
+        }
     }
 
     // Show sync status to user
