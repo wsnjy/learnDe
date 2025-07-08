@@ -48,7 +48,10 @@ class SyncService {
                 // Initialize app only if not already initialized (prevent multiple renders)
                 if (this.app.init && !this.app.initialized) {
                     console.log('Initializing app for first-time authenticated user...');
-                    this.app.init();
+                    await this.app.init();
+                    
+                    // Card progress will be loaded selectively when cards are accessed
+                    console.log('Using selective card progress loading - progress loaded on first card access');
                 } else if (this.app.initialized) {
                     console.log('App already initialized, ensuring dashboard view...');
                     // Just ensure we're on dashboard view, don't re-initialize
@@ -59,6 +62,9 @@ class SyncService {
                     if (this.app.updateUI) {
                         this.app.updateUI();
                     }
+                    
+                    // Card progress loaded selectively when needed
+                    console.log('Card progress loading: selective mode enabled');
                 }
                 
             } else if (user && !user.emailVerified) {
@@ -428,130 +434,89 @@ class SyncService {
         }
     }
 
-    // Sync local data to cloud
-    async syncToCloud() {
+    // Load individual card progress from cloud (new per-card strategy)
+    async loadCardProgress(cardId) {
+        if (!this.isOnline || !this.userId) return null;
+        
+        try {
+            const cardDocRef = doc(db, `users/${this.userId}/cardProgress/${cardId}`);
+            const docSnapshot = await getDoc(cardDocRef);
+            
+            if (docSnapshot.exists()) {
+                const progressData = docSnapshot.data();
+                console.log(`Card ${cardId} progress loaded from cloud`);
+                return progressData;
+            } else {
+                console.log(`No cloud progress found for card ${cardId}`);
+                return null;
+            }
+        } catch (error) {
+            console.error(`Failed to load card ${cardId} progress:`, error);
+            return null;
+        }
+    }
+
+    // Sync individual card progress to cloud (new per-card strategy)
+    async syncCardProgress(cardId, progressData) {
+        if (!this.isOnline || !this.userId) return;
+        
+        try {
+            const cardDocRef = doc(db, `users/${this.userId}/cardProgress/${cardId}`);
+            await setDoc(cardDocRef, {
+                ...progressData,
+                lastModified: Date.now()
+            }, { merge: true });
+            
+            console.log(`Card ${cardId} synced to cloud`);
+        } catch (error) {
+            console.error(`Failed to sync card ${cardId}:`, error);
+        }
+    }
+
+    // Sync user progress summary to cloud (lightweight)
+    async syncUserProgress() {
         if (!this.isOnline || this.syncInProgress || !this.userId) return;
         
         this.syncInProgress = true;
         
         try {
-            // Check if we should sync by comparing timestamps
             const userDocRef = doc(db, 'users', this.userId);
-            const currentCloudDoc = await getDoc(userDocRef);
             
-            if (currentCloudDoc.exists()) {
-                const cloudData = currentCloudDoc.data();
-                const cloudTimestamp = cloudData.lastModified || 0;
-                const localTimestamp = this.app.userProgress.lastModified || 0;
-                
-                // CRITICAL: Check for destructive sync (local has significantly less progress)
-                const cloudLearnedCount = (cloudData.userProgress?.learnedWords || []).length;
-                const localLearnedCount = this.app.userProgress.learnedWords.size;
-                
-                if (cloudLearnedCount > localLearnedCount + 5) {
-                    console.error('DESTRUCTIVE SYNC PREVENTED: Cloud has significantly more learned words');
-                    console.error(`Cloud: ${cloudLearnedCount} learned, Local: ${localLearnedCount} learned`);
-                    this.showSyncStatus('🛡️ Destructive sync prevented');
-                    return; // Don't upload data that would reduce progress
-                }
-                
-                if (cloudTimestamp > localTimestamp) {
-                    console.log('Cloud data is newer, skipping upload to prevent overwrite');
-                    console.log(`Cloud: ${new Date(cloudTimestamp)}, Local: ${new Date(localTimestamp)}`);
-                    this.showSyncStatus('⚠️ Cloud data is newer');
-                    return; // Don't upload older data
-                }
-            }
-
-            // Prepare data for sync with current timestamp
-            const currentTimestamp = Date.now();
-            
-            // Clean data to remove undefined values before Firebase upload
-            const cleanedUserProgress = this.cleanFirebaseData({
-                ...this.app.userProgress,
-                learnedWords: Array.from(this.app.userProgress.learnedWords),
-                completedParts: Array.from(this.app.userProgress.completedParts),
-                unlockedLevels: Array.from(this.app.userProgress.unlockedLevels),
-                dailyActivity: Object.fromEntries(this.app.userProgress.dailyActivity),
-                lastModified: currentTimestamp
-            });
-            
-            const cleanedVocabulary = this.app.vocabulary.map(card => 
-                this.cleanFirebaseData({
-                    ...card,
-                    lastModified: card.lastModified || currentTimestamp
-                })
-            );
-            
-            const dataToSync = {
-                userProgress: cleanedUserProgress,
-                settings: this.cleanFirebaseData(this.app.settings),
-                vocabulary: cleanedVocabulary,
-                levels: this.cleanFirebaseData(this.app.levels),
-                lastModified: currentTimestamp,
+            // Only sync lightweight user progress summary
+            const progressSummary = {
+                userProgress: {
+                    currentLevel: this.app.userProgress.currentLevel,
+                    learnedWords: Array.from(this.app.userProgress.learnedWords),
+                    completedParts: Array.from(this.app.userProgress.completedParts),
+                    unlockedLevels: Array.from(this.app.userProgress.unlockedLevels),
+                    dailyActivity: Object.fromEntries(this.app.userProgress.dailyActivity),
+                    totalReviews: this.app.userProgress.totalReviews,
+                    correctAnswers: this.app.userProgress.correctAnswers,
+                    learningStreak: this.app.userProgress.learningStreak,
+                    lastStudyDate: this.app.userProgress.lastStudyDate,
+                    lastModified: Date.now()
+                },
+                settings: this.app.settings,
+                lastModified: Date.now(),
                 syncedAt: new Date().toISOString()
             };
-
-            // Debug: Check data size before upload
-            const dataString = JSON.stringify(dataToSync);
-            const dataSizeBytes = new Blob([dataString]).size;
-            const dataSizeMB = (dataSizeBytes / 1024 / 1024).toFixed(2);
             
-            console.log('Firebase upload size check:', {
-                userProgressKeys: Object.keys(dataToSync.userProgress),
-                vocabularyCount: dataToSync.vocabulary.length,
-                levelsCount: dataToSync.levels.length,
-                totalSizeBytes: dataSizeBytes,
-                totalSizeMB: dataSizeMB,
-                isOverLimit: dataSizeBytes > 1048576, // 1MB limit
-                hasUndefined: dataString.includes('undefined')
-            });
-            
-            // CRITICAL: Check Firebase document size limit (1MB)
-            if (dataSizeBytes > 1048576) {
-                console.error(`🚨 DOCUMENT TOO LARGE: ${dataSizeMB}MB > 1MB Firebase limit`);
-                console.error('Optimizing data before upload...');
-                
-                // Optimize data to reduce size
-                dataToSync.vocabulary = this.optimizeVocabularyData(dataToSync.vocabulary);
-                
-                // Re-check size after optimization
-                const optimizedString = JSON.stringify(dataToSync);
-                const optimizedSize = new Blob([optimizedString]).size;
-                const optimizedSizeMB = (optimizedSize / 1024 / 1024).toFixed(2);
-                
-                console.log(`Data optimized: ${dataSizeMB}MB → ${optimizedSizeMB}MB`);
-                
-                if (optimizedSize > 1048576) {
-                    console.error('❌ Data still too large after optimization. Skipping sync to prevent error.');
-                    this.showSyncStatus('❌ Data too large for Firebase');
-                    return;
-                }
-            }
-            
-            await setDoc(userDocRef, dataToSync, { merge: true });
-            
-            this.lastSyncTime = Date.now();
-            this.app.userProgress.lastModified = this.lastSyncTime;
-            this.app.saveUserData(); // Update local storage with sync timestamp
-            
-            console.log('Data synced to cloud successfully');
-            console.log('Synced data includes:', {
-                userProgress: !!dataToSync.userProgress,
-                settings: !!dataToSync.settings,
-                vocabulary: !!dataToSync.vocabulary,
-                levels: !!dataToSync.levels,
-                vocabularySize: dataToSync.vocabulary?.length || 0,
-                levelsCount: dataToSync.levels?.length || 0
-            });
-            this.showSyncStatus('✅ Synced to cloud');
+            await setDoc(userDocRef, progressSummary, { merge: true });
+            console.log('User progress summary synced successfully');
+            this.showSyncStatus('✅ Progress synced');
             
         } catch (error) {
-            console.error('Failed to sync to cloud:', error);
+            console.error('Failed to sync user progress:', error);
             this.showSyncStatus('❌ Sync failed');
         } finally {
             this.syncInProgress = false;
         }
+    }
+
+    // Legacy sync method (keeping for compatibility)
+    async syncToCloud() {
+        console.log('Using new per-card sync strategy instead of monolithic sync');
+        await this.syncUserProgress();
     }
 
     // Sync data from cloud to local
@@ -650,33 +615,8 @@ class SyncService {
                 this.app.settings = { ...this.app.settings, ...data.settings };
             }
 
-            // Restore vocabulary and levels data with timestamp-based smart merging
-            if (data.vocabulary && Array.isArray(data.vocabulary)) {
-                console.log('Merging vocabulary data from cloud with timestamp-based conflict resolution...');
-                
-                // Smart merge: use timestamps to determine which data is newer
-                data.vocabulary.forEach(cloudCard => {
-                    const localCardIndex = this.app.vocabulary.findIndex(c => c.id === cloudCard.id);
-                    
-                    if (localCardIndex >= 0) {
-                        const localCard = this.app.vocabulary[localCardIndex];
-                        
-                        // Use timestamp-based conflict resolution
-                        const mergedCard = this.mergeCardWithTimestamps(localCard, cloudCard);
-                        this.app.vocabulary[localCardIndex] = mergedCard;
-                        
-                        console.log(`Merged card ${cloudCard.id}: using ${mergedCard._syncSource} data`);
-                    } else {
-                        // New card from cloud, add it with timestamp
-                        cloudCard.lastModified = cloudCard.lastModified || Date.now();
-                        cloudCard._syncSource = 'cloud';
-                        this.app.vocabulary.push(cloudCard);
-                        console.log(`Added new card from cloud: ${cloudCard.id}`);
-                    }
-                });
-                
-                console.log('Vocabulary data merged with timestamp-based conflict resolution');
-            }
+            // Skip vocabulary syncing - now handled by per-card sync strategy
+            console.log('Skipping vocabulary sync - using per-card sync strategy instead');
             
             if (data.levels && Array.isArray(data.levels)) {
                 // Smart merge levels data

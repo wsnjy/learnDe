@@ -282,6 +282,66 @@ class GermanLearningApp {
             this.syncService.syncToCloud();
         }
     }
+
+    // Load individual card progress from Firebase and merge with base vocabulary
+    async loadCardProgressFromCloud(cardId) {
+        if (!this.syncService || !this.syncService.userId) return;
+        
+        try {
+            const cloudProgress = await this.syncService.loadCardProgress(cardId);
+            if (cloudProgress) {
+                // Find the card in vocabulary
+                const card = this.vocabulary.find(c => c.id === cardId);
+                if (card) {
+                    // Merge cloud progress with local card data
+                    console.log(`Merging cloud progress for card ${cardId}`);
+                    card.learned = cloudProgress.learned || card.learned;
+                    card.reviewCount = cloudProgress.reviewCount || card.reviewCount;
+                    card.correctCount = cloudProgress.correctCount || card.correctCount;
+                    card.incorrectCount = cloudProgress.incorrectCount || card.incorrectCount;
+                    card.lastReviewed = cloudProgress.lastReviewed ? new Date(cloudProgress.lastReviewed) : card.lastReviewed;
+                    card.nextReview = cloudProgress.nextReview ? new Date(cloudProgress.nextReview) : card.nextReview;
+                    card.lastDifficulty = cloudProgress.lastDifficulty || card.lastDifficulty;
+                    card.difficultyHistory = cloudProgress.difficultyHistory || card.difficultyHistory;
+                    card.fsrsState = cloudProgress.fsrsState || card.fsrsState;
+                    card.lastModified = cloudProgress.lastModified || card.lastModified;
+                    
+                    // Update learned words set if card is learned
+                    if (card.learned) {
+                        this.userProgress.learnedWords.add(cardId);
+                    }
+                    
+                    console.log(`Card ${cardId} progress merged from cloud`);
+                }
+            }
+        } catch (error) {
+            console.error(`Failed to load card progress for ${cardId}:`, error);
+        }
+    }
+
+    // Load all card progress from Firebase (useful for initial sync)
+    async loadAllCardProgressFromCloud() {
+        if (!this.syncService || !this.syncService.userId) return;
+        
+        console.log('Loading all card progress from cloud...');
+        const cardLoadPromises = this.vocabulary.map(card => 
+            this.loadCardProgressFromCloud(card.id)
+        );
+        
+        // Load cards in batches to avoid overwhelming Firebase
+        const batchSize = 10;
+        for (let i = 0; i < cardLoadPromises.length; i += batchSize) {
+            const batch = cardLoadPromises.slice(i, i + batchSize);
+            await Promise.all(batch);
+            console.log(`Loaded card progress batch ${Math.floor(i/batchSize) + 1}/${Math.ceil(cardLoadPromises.length/batchSize)}`);
+        }
+        
+        // Update UI after all cards are loaded
+        this.updateLevelLocks();
+        this.updateUI();
+        console.log('All card progress loaded from cloud');
+    }
+
     initializeTheme() {
         const theme = this.settings.theme;
         this.applyTheme(theme);
@@ -880,7 +940,7 @@ class GermanLearningApp {
     }
     
     // Review words by specific difficulty level
-    reviewWordsByDifficulty(difficultyKey, words) {
+    async reviewWordsByDifficulty(difficultyKey, words) {
         if (!words || words.length === 0) {
             this.showError(`No words found for this difficulty level.`);
             return;
@@ -915,7 +975,7 @@ class GermanLearningApp {
         this.currentCard = this.sessionWords[0];
         this.isFlipped = false;
         this.switchView('practice');
-        this.displayCard();
+        await this.displayCard();
         this.showLearningControls();
         
         // Show notification about the review session
@@ -1085,7 +1145,7 @@ class GermanLearningApp {
             unlockedLevels.textContent = unlockedCount.toString();
         }
     }
-    startLearning() {
+    async startLearning() {
         // Use current part if available, otherwise get words for session
         if (this.currentPartId) {
             const currentPart = this.levels
@@ -1125,7 +1185,7 @@ class GermanLearningApp {
         }
         this.currentCard = this.sessionWords[0];
         this.isFlipped = false;
-        this.displayCard();
+        await this.displayCard();
         this.showLearningControls();
     }
     getWordsForSession() {
@@ -1159,9 +1219,18 @@ class GermanLearningApp {
         const shuffled = availableWords.sort(() => Math.random() - 0.5);
         return shuffled.slice(0, Math.min(this.settings.cardsPerSession, availableWords.length));
     }
-    displayCard() {
+    async displayCard() {
         if (!this.currentCard)
             return;
+        
+        // Load card progress from cloud if not already loaded (selective sync)
+        if (this.syncService && this.syncService.userId && 
+            !this.currentCard._progressLoaded && 
+            this.currentCard.reviewCount === 0) {
+            console.log(`Loading progress for card ${this.currentCard.id} on first access`);
+            await this.loadCardProgressFromCloud(this.currentCard.id);
+            this.currentCard._progressLoaded = true;
+        }
         const wordDisplay = document.getElementById('wordDisplay');
         const translation = document.getElementById('translation');
         const wordInfo = document.getElementById('wordInfo');
@@ -1208,7 +1277,7 @@ class GermanLearningApp {
             this.isFlipped = !this.isFlipped;
         }
     }
-    handleDifficultyResponse(difficulty) {
+    async handleDifficultyResponse(difficulty) {
         if (!this.currentCard) return;
         
         // Track session progress
@@ -1282,9 +1351,35 @@ class GermanLearningApp {
         // Update user progress timestamp for sync conflict resolution
         this.userProgress.lastModified = Date.now();
         
+        // Sync individual card progress to Firebase (new per-card strategy)
+        if (this.syncService) {
+            const cardProgressData = {
+                learned: this.currentCard.learned,
+                reviewCount: this.currentCard.reviewCount,
+                correctCount: this.currentCard.correctCount,
+                incorrectCount: this.currentCard.incorrectCount,
+                lastReviewed: this.currentCard.lastReviewed,
+                nextReview: null, // Will be set after interval calculation
+                lastDifficulty: this.currentCard.lastDifficulty,
+                difficultyHistory: this.currentCard.difficultyHistory?.slice(-5) || [], // Keep last 5 entries
+                fsrsState: this.currentCard.fsrsState
+            };
+            
+            // Sync card immediately after difficulty response
+            this.syncService.syncCardProgress(this.currentCard.id, cardProgressData);
+        }
+        
         // Calculate next review date using FSRS algorithm
         const interval = this.calculateNextInterval(this.currentCard, difficulty);
         this.currentCard.nextReview = new Date(Date.now() + interval * 24 * 60 * 60 * 1000);
+        
+        // Update nextReview in synced data
+        if (this.syncService) {
+            this.syncService.syncCardProgress(this.currentCard.id, {
+                nextReview: this.currentCard.nextReview,
+                lastModified: Date.now()
+            });
+        }
         
         // Update daily activity and streak
         const today = new Date().toISOString().split('T')[0];
@@ -1335,7 +1430,7 @@ class GermanLearningApp {
             return;
         }
         
-        this.nextCard();
+        await this.nextCard();
     }
     // FSRS-based interval calculation
     calculateNextInterval(card, userRating) {
@@ -1499,14 +1594,14 @@ class GermanLearningApp {
             algorithm: 'FSRS (Free Spaced Repetition Scheduler)'
         };
     }
-    nextCard() {
+    async nextCard() {
         this.currentSessionIndex++;
         if (this.currentSessionIndex >= this.sessionWords.length) {
             this.endSession();
             return;
         }
         this.currentCard = this.sessionWords[this.currentSessionIndex];
-        this.displayCard();
+        await this.displayCard();
     }
     endSession() {
         this.showCompletionMessage();
@@ -1591,13 +1686,13 @@ class GermanLearningApp {
         }
     }
     
-    extendSession() {
+    async extendSession() {
         // Extend session by another round
         this.currentSession.targetWords += this.settings.cardsPerSession;
         console.log(`Session extended. New target: ${this.currentSession.targetWords} words`);
         
         // Continue with next card if available
-        this.nextCard();
+        await this.nextCard();
     }
     playPronunciation() {
         if (!this.currentCard || !this.settings.voiceEnabled || !this.speechSynthesis)
