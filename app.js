@@ -1449,7 +1449,18 @@ class GermanLearningApp {
         let averageStability = 0;
         let cardsNeedingReview = 0;
         
-        this.vocabulary.forEach(level => {
+        // Add safety check
+        if (!this.levels) {
+            console.warn('No levels data available for FSRS stats');
+            return {
+                averageDifficulty: 0,
+                averageStability: 0,
+                cardsNeedingReview: 0,
+                algorithm: 'FSRS (Free Spaced Repetition Scheduler)'
+            };
+        }
+        
+        this.levels.forEach(level => {
             level.parts.forEach(part => {
                 part.cards.forEach(card => {
                     totalCards++;
