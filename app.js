@@ -423,60 +423,7 @@ class GermanLearningApp {
             }
         });
         
-        // Escape key to close modal
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape') {
-                // Session complete modal
-                if (sessionCompleteModal?.style.display === 'flex') {
-                    this.hideSessionCompleteModal();
-                    this.endSession(); // End session when pressing Escape
-                }
-                // Level statistics modal
-                const levelStatsModal = document.getElementById('levelStatsModal');
-                if (levelStatsModal?.style.display === 'flex') {
-                    this.hideLevelStatisticsModal();
-                }
-            }
-        });
-        
-        // Level statistics modal handlers
-        const levelStatsCloseBtn = document.getElementById('levelStatsCloseBtn');
-        const levelStatsModal = document.getElementById('levelStatsModal');
-        const reviewAllLevelBtn = document.getElementById('reviewAllLevelBtn');
-        const reviewHardWordsBtn = document.getElementById('reviewHardWordsBtn');
-        
-        // Close button functionality
-        levelStatsCloseBtn?.addEventListener('click', () => {
-            this.hideLevelStatisticsModal();
-        });
-        
-        // Click outside modal to close
-        levelStatsModal?.addEventListener('click', (e) => {
-            if (e.target === levelStatsModal) {
-                this.hideLevelStatisticsModal();
-            }
-        });
-        
-        // Review all words button
-        reviewAllLevelBtn?.addEventListener('click', () => {
-            this.reviewAllLevelWords();
-        });
-        
-        // Review hard words button
-        reviewHardWordsBtn?.addEventListener('click', () => {
-            this.reviewHardWords();
-        });
-        
-        // Keyboard shortcuts
-        // Navigation tabs
-        const navTabs = document.querySelectorAll('.nav-tab');
-        navTabs.forEach(tab => {
-            tab.addEventListener('click', (e) => {
-                const target = e.target;
-                const view = target.dataset.view;
-                this.switchView(view);
-            });
-        });
+        // Global keyboard event handler
         document.addEventListener('keydown', (e) => {
             // Only handle shortcuts when in practice view and have a current card
             const practiceView = document.getElementById('practiceView');
@@ -524,10 +471,59 @@ class GermanLearningApp {
                     this.handleDifficultyResponse(5);
                 }
             }
-            else if (e.code === 'Escape') {
-                e.preventDefault();
+            else if (e.key === 'Escape') {
+                // Session complete modal
+                if (sessionCompleteModal?.style.display === 'flex') {
+                    this.hideSessionCompleteModal();
+                    this.endSession(); // End session when pressing Escape
+                }
+                // Level statistics modal
+                const levelStatsModal = document.getElementById('levelStatsModal');
+                if (levelStatsModal?.style.display === 'flex') {
+                    this.hideLevelStatisticsModal();
+                }
+                // Hide all panels
                 this.hideAllPanels();
             }
+        });
+        
+        // Level statistics modal handlers
+        const levelStatsCloseBtn = document.getElementById('levelStatsCloseBtn');
+        const levelStatsModal = document.getElementById('levelStatsModal');
+        const reviewAllLevelBtn = document.getElementById('reviewAllLevelBtn');
+        const reviewHardWordsBtn = document.getElementById('reviewHardWordsBtn');
+        
+        // Close button functionality
+        levelStatsCloseBtn?.addEventListener('click', () => {
+            this.hideLevelStatisticsModal();
+        });
+        
+        // Click outside modal to close
+        levelStatsModal?.addEventListener('click', (e) => {
+            if (e.target === levelStatsModal) {
+                this.hideLevelStatisticsModal();
+            }
+        });
+        
+        // Review all words button
+        reviewAllLevelBtn?.addEventListener('click', () => {
+            this.reviewAllLevelWords();
+        });
+        
+        // Review hard words button
+        reviewHardWordsBtn?.addEventListener('click', () => {
+            this.reviewHardWords();
+        });
+        
+        // Keyboard shortcuts
+        // Navigation tabs
+        const navTabs = document.querySelectorAll('.nav-tab');
+        navTabs.forEach(tab => {
+            tab.addEventListener('click', (e) => {
+                const target = e.target;
+                const view = target.dataset.view;
+                this.switchView(view);
+            });
         });
     }
     switchView(view) {
@@ -1192,6 +1188,7 @@ class GermanLearningApp {
         }
     }
     handleDifficultyResponse(difficulty) {
+        console.log('handleDifficultyResponse called once with difficulty:', difficulty);
         if (!this.currentCard) return;
         
         // Track session progress
