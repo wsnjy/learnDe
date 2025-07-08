@@ -1188,7 +1188,6 @@ class GermanLearningApp {
         }
     }
     handleDifficultyResponse(difficulty) {
-        console.log('handleDifficultyResponse called once with difficulty:', difficulty);
         if (!this.currentCard) return;
         
         // Track session progress
