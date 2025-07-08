@@ -1146,8 +1146,13 @@ class GermanLearningApp {
         return shuffled.slice(0, Math.min(this.settings.cardsPerSession, availableWords.length));
     }
     displayCard() {
-        if (!this.currentCard)
+        console.log('🎨 === DISPLAY CARD START ===');
+        console.log('Current card to display:', this.currentCard);
+        
+        if (!this.currentCard) {
+            console.log('❌ No current card to display');
             return;
+        }
         const wordDisplay = document.getElementById('wordDisplay');
         const translation = document.getElementById('translation');
         const wordInfo = document.getElementById('wordInfo');
@@ -1185,7 +1190,9 @@ class GermanLearningApp {
             wordInfo.textContent = `${this.currentCard.type.toUpperCase()} • ${this.currentCard.level}`;
         }
         this.isFlipped = false;
+        console.log('📊 Updating progress...');
         this.updateProgress();
+        console.log('🎨 === DISPLAY CARD END ===');
     }
     flipCard() {
         const flashcard = document.getElementById('flashcard');
@@ -1301,6 +1308,8 @@ class GermanLearningApp {
         
         // Check if session target reached
         console.log('🎯 Session check: totalAnswers =', this.currentSession.totalAnswers, 'targetWords =', this.currentSession.targetWords);
+        console.log('🎯 Cards per session setting:', this.settings.cardsPerSession);
+        console.log('🎯 Session words length:', this.sessionWords.length);
         if (this.currentSession.totalAnswers >= this.currentSession.targetWords) {
             console.log('🏁 Session target reached - showing completion modal');
             this.showSessionCompleteModal();
