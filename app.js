@@ -317,10 +317,8 @@ class GermanLearningApp {
         const difficultyBtns = document.querySelectorAll('.diff-btn');
         difficultyBtns.forEach(btn => {
             btn.addEventListener('click', (e) => {
-                console.log('🖱️ BUTTON CLICKED');
                 const target = e.target;
                 const difficulty = parseInt(target.dataset.difficulty || '3');
-                console.log('Button difficulty:', difficulty);
                 this.handleDifficultyResponse(difficulty);
             });
         });
@@ -445,35 +443,30 @@ class GermanLearningApp {
             }
             else if (e.code === 'Digit1') {
                 if (isInPracticeMode && this.currentCard) {
-                    console.log('⌨️ KEYBOARD 1 PRESSED');
                     e.preventDefault();
                     this.handleDifficultyResponse(1);
                 }
             }
             else if (e.code === 'Digit2') {
                 if (isInPracticeMode && this.currentCard) {
-                    console.log('⌨️ KEYBOARD 2 PRESSED');
                     e.preventDefault();
                     this.handleDifficultyResponse(2);
                 }
             }
             else if (e.code === 'Digit3') {
                 if (isInPracticeMode && this.currentCard) {
-                    console.log('⌨️ KEYBOARD 3 PRESSED');
                     e.preventDefault();
                     this.handleDifficultyResponse(3);
                 }
             }
             else if (e.code === 'Digit4') {
                 if (isInPracticeMode && this.currentCard) {
-                    console.log('⌨️ KEYBOARD 4 PRESSED');
                     e.preventDefault();
                     this.handleDifficultyResponse(4);
                 }
             }
             else if (e.code === 'Digit5') {
                 if (isInPracticeMode && this.currentCard) {
-                    console.log('⌨️ KEYBOARD 5 PRESSED');
                     e.preventDefault();
                     this.handleDifficultyResponse(5);
                 }
@@ -1094,7 +1087,7 @@ class GermanLearningApp {
             correctAnswers: 0,
             totalAnswers: 0,
             startTime: Date.now(),
-            targetWords: Math.max(5, Math.min(this.settings.cardsPerSession, this.sessionWords.length)), // Force minimum 5 cards for testing
+            targetWords: Math.min(this.settings.cardsPerSession, this.sessionWords.length),
             difficultyBreakdown: {
                 veryHard: 0,  // difficulty 1
                 hard: 0,      // difficulty 2
@@ -1103,7 +1096,6 @@ class GermanLearningApp {
                 veryEasy: 0   // difficulty 5
             }
         };
-        console.log('🚀 Session initialized with targetWords:', this.currentSession.targetWords);
         
         this.currentSessionIndex = 0;
         if (this.sessionWords.length === 0) {
@@ -1147,13 +1139,8 @@ class GermanLearningApp {
         return shuffled.slice(0, Math.min(this.settings.cardsPerSession, availableWords.length));
     }
     displayCard() {
-        console.log('🎨 === DISPLAY CARD START ===');
-        console.log('Current card to display:', this.currentCard);
-        
-        if (!this.currentCard) {
-            console.log('❌ No current card to display');
+        if (!this.currentCard)
             return;
-        }
         const wordDisplay = document.getElementById('wordDisplay');
         const translation = document.getElementById('translation');
         const wordInfo = document.getElementById('wordInfo');
@@ -1191,9 +1178,7 @@ class GermanLearningApp {
             wordInfo.textContent = `${this.currentCard.type.toUpperCase()} • ${this.currentCard.level}`;
         }
         this.isFlipped = false;
-        console.log('📊 Updating progress...');
         this.updateProgress();
-        console.log('🎨 === DISPLAY CARD END ===');
     }
     flipCard() {
         const flashcard = document.getElementById('flashcard');
@@ -1203,27 +1188,12 @@ class GermanLearningApp {
         }
     }
     handleDifficultyResponse(difficulty) {
-        console.log('🎯 === RATING FLOW START ===');
-        console.log('Input difficulty:', difficulty);
-        console.log('currentCard exists:', !!this.currentCard);
-        console.log('currentSessionIndex:', this.currentSessionIndex);
-        console.log('sessionWords.length:', this.sessionWords.length);
-        
-        if (!this.currentCard) {
-            console.log('❌ No current card - returning early');
-            return;
-        }
-        
-        console.log('✅ Current card valid, proceeding...');
+        if (!this.currentCard) return;
         
         // Track session progress
-        console.log('📊 Before: totalAnswers =', this.currentSession.totalAnswers);
         this.currentSession.totalAnswers++;
-        console.log('📊 After: totalAnswers =', this.currentSession.totalAnswers);
-        
         if (difficulty >= 4) {
             this.currentSession.correctAnswers++;
-            console.log('✅ Marked as correct answer');
         }
         
         // Track difficulty breakdown
@@ -1308,18 +1278,12 @@ class GermanLearningApp {
         this.generateHeatmap();
         
         // Check if session target reached
-        console.log('🎯 Session check: totalAnswers =', this.currentSession.totalAnswers, 'targetWords =', this.currentSession.targetWords);
-        console.log('🎯 Cards per session setting:', this.settings.cardsPerSession);
-        console.log('🎯 Session words length:', this.sessionWords.length);
         if (this.currentSession.totalAnswers >= this.currentSession.targetWords) {
-            console.log('🏁 Session target reached - showing completion modal');
             this.showSessionCompleteModal();
             return;
         }
         
-        console.log('➡️ Calling nextCard()...');
         this.nextCard();
-        console.log('🎯 === RATING FLOW END ===');
     }
     // FSRS-based interval calculation
     calculateNextInterval(card, userRating) {
@@ -1484,26 +1448,13 @@ class GermanLearningApp {
         };
     }
     nextCard() {
-        console.log('🔄 === NEXT CARD START ===');
-        console.log('Current index before increment:', this.currentSessionIndex);
-        
         this.currentSessionIndex++;
-        console.log('Current index after increment:', this.currentSessionIndex);
-        console.log('Total session words:', this.sessionWords.length);
-        
         if (this.currentSessionIndex >= this.sessionWords.length) {
-            console.log('🏁 End of session reached - calling endSession()');
             this.endSession();
             return;
         }
-        
-        console.log('📄 Setting new current card...');
         this.currentCard = this.sessionWords[this.currentSessionIndex];
-        console.log('New current card:', this.currentCard?.german || this.currentCard?.indonesian);
-        
-        console.log('🎨 Calling displayCard()...');
         this.displayCard();
-        console.log('🔄 === NEXT CARD END ===');
     }
     endSession() {
         this.showCompletionMessage();
