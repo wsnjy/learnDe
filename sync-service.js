@@ -471,7 +471,6 @@ class SyncService {
                 syncedAt: new Date().toISOString()
             };
 
-            const userDocRef = doc(db, 'users', this.userId);
             await setDoc(userDocRef, dataToSync, { merge: true });
             
             this.lastSyncTime = Date.now();
