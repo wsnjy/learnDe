@@ -319,6 +319,7 @@ class GermanLearningApp {
             btn.addEventListener('click', (e) => {
                 const target = e.target;
                 const difficulty = parseInt(target.dataset.difficulty || '3');
+                console.log(`Difficulty button clicked: ${target.textContent} (value: ${difficulty})`);
                 this.handleDifficultyResponse(difficulty);
             });
         });
@@ -728,19 +729,23 @@ class GermanLearningApp {
                 if (card.learned) {
                     stats.learnedWords++;
                     
-                    // Get the last difficulty rating from user (we'll use reviewCount as proxy)
-                    // In a real implementation, you'd store the last user rating
+                    // Get the last difficulty rating from user's actual rating
                     let lastDifficulty = 3; // default medium
                     
-                    // Calculate difficulty based on correctCount vs incorrectCount ratio
-                    const totalReviews = card.correctCount + card.incorrectCount;
-                    if (totalReviews > 0) {
-                        const accuracy = card.correctCount / totalReviews;
-                        if (accuracy >= 0.9) lastDifficulty = 5; // Very Easy
-                        else if (accuracy >= 0.7) lastDifficulty = 4; // Easy
-                        else if (accuracy >= 0.5) lastDifficulty = 3; // Medium
-                        else if (accuracy >= 0.3) lastDifficulty = 2; // Hard
-                        else lastDifficulty = 1; // Very Hard
+                    // Use stored user rating if available, otherwise calculate from accuracy
+                    if (card.lastDifficulty) {
+                        lastDifficulty = card.lastDifficulty;
+                    } else {
+                        // Fallback: Calculate difficulty based on correctCount vs incorrectCount ratio
+                        const totalReviews = card.correctCount + card.incorrectCount;
+                        if (totalReviews > 0) {
+                            const accuracy = card.correctCount / totalReviews;
+                            if (accuracy >= 0.9) lastDifficulty = 5; // Very Easy
+                            else if (accuracy >= 0.7) lastDifficulty = 4; // Easy
+                            else if (accuracy >= 0.5) lastDifficulty = 3; // Medium
+                            else if (accuracy >= 0.3) lastDifficulty = 2; // Hard
+                            else lastDifficulty = 1; // Very Hard
+                        }
                     }
                     
                     totalDifficulty += lastDifficulty;
@@ -1197,27 +1202,46 @@ class GermanLearningApp {
         }
         
         // Track difficulty breakdown
+        console.log(`Recording difficulty: ${difficulty} for card: ${this.currentCard.id}`);
         switch (difficulty) {
             case 1:
                 this.currentSession.difficultyBreakdown.veryHard++;
+                console.log('Recorded as Very Hard');
                 break;
             case 2:
                 this.currentSession.difficultyBreakdown.hard++;
+                console.log('Recorded as Hard');
                 break;
             case 3:
                 this.currentSession.difficultyBreakdown.medium++;
+                console.log('Recorded as Medium');
                 break;
             case 4:
                 this.currentSession.difficultyBreakdown.easy++;
+                console.log('Recorded as Easy');
                 break;
             case 5:
                 this.currentSession.difficultyBreakdown.veryEasy++;
+                console.log('Recorded as Very Easy');
                 break;
         }
+        console.log('Current breakdown:', this.currentSession.difficultyBreakdown);
         
         // Update card statistics
         this.currentCard.reviewCount++;
         this.currentCard.lastReviewed = new Date();
+        
+        // Store user's actual difficulty rating
+        if (!this.currentCard.difficultyHistory) {
+            this.currentCard.difficultyHistory = [];
+        }
+        this.currentCard.difficultyHistory.push({
+            difficulty: difficulty,
+            timestamp: new Date(),
+            cardId: this.currentCard.id
+        });
+        this.currentCard.lastDifficulty = difficulty;
+        
         if (difficulty >= 4) {
             this.currentCard.correctCount++;
             this.userProgress.correctAnswers++;
