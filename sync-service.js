@@ -552,15 +552,63 @@ class SyncService {
                 this.app.settings = { ...this.app.settings, ...data.settings };
             }
 
-            // Restore vocabulary and levels data with card progress
-            if (data.vocabulary) {
-                this.app.vocabulary = data.vocabulary;
-                console.log('Restored vocabulary data from cloud');
+            // Restore vocabulary and levels data with smart merging
+            if (data.vocabulary && Array.isArray(data.vocabulary)) {
+                console.log('Merging vocabulary data from cloud...');
+                
+                // Smart merge: preserve maximum progress from both local and cloud
+                data.vocabulary.forEach(cloudCard => {
+                    const localCardIndex = this.app.vocabulary.findIndex(c => c.id === cloudCard.id);
+                    
+                    if (localCardIndex >= 0) {
+                        const localCard = this.app.vocabulary[localCardIndex];
+                        
+                        // Merge card data, keeping maximum progress
+                        this.app.vocabulary[localCardIndex] = {
+                            ...cloudCard, // Start with cloud data
+                            // Preserve maximum review counts
+                            reviewCount: Math.max(localCard.reviewCount || 0, cloudCard.reviewCount || 0),
+                            correctCount: Math.max(localCard.correctCount || 0, cloudCard.correctCount || 0),
+                            incorrectCount: Math.max(localCard.incorrectCount || 0, cloudCard.incorrectCount || 0),
+                            // Keep most recent dates
+                            lastReviewed: this.getMostRecentDate(localCard.lastReviewed, cloudCard.lastReviewed),
+                            nextReview: this.getMostRecentDate(localCard.nextReview, cloudCard.nextReview),
+                            // Preserve learned status (OR operation)
+                            learned: localCard.learned || cloudCard.learned,
+                            // Use most recent difficulty data
+                            lastDifficulty: cloudCard.lastDifficulty || localCard.lastDifficulty,
+                            // Merge difficulty history
+                            difficultyHistory: this.mergeDifficultyHistory(
+                                localCard.difficultyHistory || [],
+                                cloudCard.difficultyHistory || []
+                            ),
+                            // Preserve FSRS data (use cloud if available, fallback to local)
+                            fsrsCard: cloudCard.fsrsCard || localCard.fsrsCard,
+                            fsrsState: cloudCard.fsrsState || localCard.fsrsState
+                        };
+                    } else {
+                        // New card from cloud, add it
+                        this.app.vocabulary.push(cloudCard);
+                    }
+                });
+                
+                console.log('Vocabulary data merged successfully');
             }
             
-            if (data.levels) {
-                this.app.levels = data.levels;
-                console.log('Restored levels data from cloud');
+            if (data.levels && Array.isArray(data.levels)) {
+                // Smart merge levels data
+                this.app.levels = data.levels.map(cloudLevel => {
+                    const localLevel = this.app.levels.find(l => l.id === cloudLevel.id);
+                    if (localLevel) {
+                        return {
+                            ...cloudLevel,
+                            // Preserve any local-only modifications if needed
+                            isUnlocked: localLevel.isUnlocked || cloudLevel.isUnlocked
+                        };
+                    }
+                    return cloudLevel;
+                });
+                console.log('Levels data merged successfully');
             }
 
             // Save merged data locally
@@ -581,6 +629,33 @@ class SyncService {
         } finally {
             this.syncInProgress = false;
         }
+    }
+
+    // Helper function to get most recent date
+    getMostRecentDate(date1, date2) {
+        if (!date1 && !date2) return null;
+        if (!date1) return date2;
+        if (!date2) return date1;
+        
+        const d1 = new Date(date1);
+        const d2 = new Date(date2);
+        return d1 > d2 ? date1 : date2;
+    }
+
+    // Helper function to merge difficulty history arrays
+    mergeDifficultyHistory(localHistory, cloudHistory) {
+        // Combine arrays and remove duplicates based on timestamp and cardId
+        const combined = [...localHistory, ...cloudHistory];
+        const unique = combined.filter((item, index, arr) => {
+            return index === arr.findIndex(other => 
+                other.timestamp === item.timestamp && 
+                other.cardId === item.cardId &&
+                other.difficulty === item.difficulty
+            );
+        });
+        
+        // Sort by timestamp
+        return unique.sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
     }
 
     // Show sync status to user

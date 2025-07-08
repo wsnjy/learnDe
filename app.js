@@ -1499,6 +1499,14 @@ class GermanLearningApp {
         this.hideLearningControls();
         this.updateUI();
         this.generateHeatmap();
+        
+        // Trigger sync after session completion to preserve card progress
+        this.saveUserData();
+        if (this.syncService) {
+            console.log('Syncing data after session completion...');
+            this.syncService.syncToCloud();
+        }
+        
         this.switchView('dashboard');
     }
     
