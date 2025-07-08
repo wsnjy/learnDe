@@ -1854,12 +1854,12 @@ class GermanLearningApp {
     }
     updateStudyPatterns() {
         // Current streak
-        const currentStreakEl = document.getElementById('currentStreak');
+        const currentStreakEl = document.getElementById('studyPatternsStreak');
         if (currentStreakEl) {
             console.log('Updating current streak display:', this.userProgress.learningStreak);
             currentStreakEl.textContent = this.userProgress.learningStreak.toString();
         } else {
-            console.warn('currentStreak element not found');
+            console.warn('studyPatternsStreak element not found');
         }
         // Total sessions (approximate based on reviews)
         const totalSessionsEl = document.getElementById('totalSessions');
