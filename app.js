@@ -713,10 +713,17 @@ class GermanLearningApp {
     }
     startPart(part) {
         this.currentPartId = part.id;
+        
+        // First try to get unlearned cards
         this.sessionWords = part.cards.filter(card => !card.learned);
+        
+        // If all cards are learned, allow review of all cards for practice
         if (this.sessionWords.length === 0) {
-            this.showError('All cards in this part have been learned!');
-            return;
+            console.log('All cards in this part are learned, starting review session...');
+            this.sessionWords = [...part.cards]; // Include all cards for review
+            
+            // Show a helpful message instead of blocking
+            this.showInfo(`🎯 Review Mode: All ${part.cards.length} words in this part for practice!`);
         }
         
         // Initialize session tracking
@@ -1199,10 +1206,20 @@ class GermanLearningApp {
                 .flatMap(level => level.parts)
                 .filter(part => part.isUnlocked);
             console.log('Unlocked parts:', unlockedParts.length);
-            const availableWords = unlockedParts
+            let availableWords = unlockedParts
                 .flatMap(part => part.cards)
                 .filter(card => !card.learned);
-            console.log('Available words from parts:', availableWords.length);
+            console.log('Available unlearned words from parts:', availableWords.length);
+            
+            // If no unlearned words, allow review of learned words
+            if (availableWords.length === 0) {
+                console.log('No unlearned words found, including learned words for review...');
+                availableWords = unlockedParts
+                    .flatMap(part => part.cards)
+                    .filter(card => card.learned); // Get learned words for review
+                console.log('Available learned words for review:', availableWords.length);
+            }
+            
             if (availableWords.length > 0) {
                 const shuffled = availableWords.sort(() => Math.random() - 0.5);
                 return shuffled.slice(0, Math.min(this.settings.cardsPerSession, availableWords.length));
@@ -1210,8 +1227,16 @@ class GermanLearningApp {
         }
         // Fallback: use all vocabulary (sample data or loaded directly)
         console.log('Using fallback vocabulary');
-        const availableWords = this.vocabulary.filter(card => !card.learned);
-        console.log('Available words from vocabulary:', availableWords.length);
+        let availableWords = this.vocabulary.filter(card => !card.learned);
+        console.log('Available unlearned words from vocabulary:', availableWords.length);
+        
+        // If no unlearned words in vocabulary, allow review of learned words
+        if (availableWords.length === 0) {
+            console.log('No unlearned words in vocabulary, including learned words for review...');
+            availableWords = this.vocabulary.filter(card => card.learned);
+            console.log('Available learned words for review:', availableWords.length);
+        }
+        
         if (availableWords.length === 0) {
             return [];
         }
@@ -2125,6 +2150,10 @@ class GermanLearningApp {
             loading.style.display = show ? 'flex' : 'none';
         }
     }
+    showInfo(message) {
+        alert(message); // In production, use a proper toast/notification system
+    }
+    
     showError(message) {
         alert(message); // In production, use a proper toast/notification system
     }
