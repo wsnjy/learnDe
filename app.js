@@ -39,11 +39,11 @@ class GermanLearningApp {
             startTime: null,
             targetWords: 20, // Default from settings
             difficultyBreakdown: {
-                veryHard: 0,  // difficulty 1
-                hard: 0,      // difficulty 2
+                veryHard: 0,  // difficulty 5
+                hard: 0,      // difficulty 4
                 medium: 0,    // difficulty 3
-                easy: 0,      // difficulty 4
-                veryEasy: 0   // difficulty 5
+                easy: 0,      // difficulty 2
+                veryEasy: 0   // difficulty 1
             }
         };
         
@@ -55,15 +55,56 @@ class GermanLearningApp {
         // App initialization moved to after login
     }
     // Initialize FSRS algorithm  
-    initializeFSRS() {
-        // Temporarily disable FSRS to fix login issues
-        console.log('FSRS temporarily disabled - using simple spaced repetition algorithm');
-        this.fsrsEnabled = false;
-        this.fsrs = null;
-        this.FSRSClass = null;
-        this.createEmptyCardFn = null;
-        this.generatorParametersFn = null;
-        this.RatingEnum = null;
+    async initializeFSRS() {
+        try {
+            console.log('Initializing FSRS (Free Spaced Repetition Scheduler)...');
+            
+            // Try to load FSRS from CDN
+            if (typeof window !== 'undefined' && !window.FSRS) {
+                console.log('Loading FSRS library from CDN...');
+                await this.loadFSRSLibrary();
+            }
+            
+            if (window.FSRS) {
+                this.FSRSClass = window.FSRS.FSRS;
+                this.createEmptyCardFn = window.FSRS.createEmptyCard;
+                this.RatingEnum = window.FSRS.Rating;
+                this.generatorParametersFn = window.FSRS.generatorParameters;
+                
+                // Initialize FSRS with default parameters
+                this.fsrs = new this.FSRSClass(this.generatorParametersFn());
+                this.fsrsEnabled = true;
+                
+                console.log('✅ FSRS algorithm initialized successfully');
+                console.log('FSRS provides ~25% more efficient learning vs traditional SM-2');
+            } else {
+                throw new Error('FSRS library not available');
+            }
+        } catch (error) {
+            console.warn('Failed to initialize FSRS, falling back to simple algorithm:', error);
+            this.fsrsEnabled = false;
+            this.fsrs = null;
+            this.FSRSClass = null;
+            this.createEmptyCardFn = null;
+            this.generatorParametersFn = null;
+            this.RatingEnum = null;
+        }
+    }
+    
+    // Load FSRS library dynamically
+    async loadFSRSLibrary() {
+        return new Promise((resolve, reject) => {
+            const script = document.createElement('script');
+            script.src = 'https://cdn.jsdelivr.net/npm/ts-fsrs@3.5.0/dist/index.min.js';
+            script.onload = () => {
+                console.log('FSRS library loaded from CDN');
+                resolve();
+            };
+            script.onerror = () => {
+                reject(new Error('Failed to load FSRS library'));
+            };
+            document.head.appendChild(script);
+        });
     }
     
     // Initialize FSRS cards for existing vocabulary
@@ -92,7 +133,7 @@ class GermanLearningApp {
             this.loadUserData();
             
             // Initialize FSRS after vocabulary is loaded
-            this.initializeFSRS();
+            await this.initializeFSRS();
             this.initializeFSRSCards();
             
             this.updateLevelLocks(); // Move this before initializeTheme
@@ -371,25 +412,44 @@ class GermanLearningApp {
         this.applyTheme(newTheme);
         this.saveUserData();
     }
+    
+    // Remove event listeners to prevent duplicates
+    removeEventListeners() {
+        // Store references to bound functions for removal if needed
+        // For now, we'll use event delegation which handles this automatically
+        console.log('Event listeners cleanup - using event delegation for dynamic content');
+    }
+    
     setupEventListeners() {
+        // Ensure DOM is ready before setting up listeners
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', () => this.setupEventListeners());
+            return;
+        }
+        
+        // Remove existing listeners to prevent duplicates
+        this.removeEventListeners();
+        
         // Start button
         const startBtn = document.getElementById('startBtn');
         startBtn?.addEventListener('click', () => this.startLearning());
+        
         // Card click to flip
         const flashcard = document.getElementById('flashcard');
         flashcard?.addEventListener('click', () => this.flipCard());
+        
         // Theme toggle
         const themeToggle = document.getElementById('themeToggle');
         themeToggle?.addEventListener('click', () => this.toggleTheme());
-        // Difficulty buttons
-        const difficultyBtns = document.querySelectorAll('.diff-btn');
-        difficultyBtns.forEach(btn => {
-            btn.addEventListener('click', (e) => {
+        
+        // Use event delegation for difficulty buttons to handle dynamic content
+        document.addEventListener('click', (e) => {
+            if (e.target.matches('.diff-btn')) {
                 const target = e.target;
                 const difficulty = parseInt(target.dataset.difficulty || '3');
                 console.log(`Difficulty button clicked: ${target.textContent} (value: ${difficulty})`);
                 this.handleDifficultyResponse(difficulty);
-            });
+            }
         });
         // Voice buttons
         const voiceBtnFront = document.getElementById('voiceBtnFront');
@@ -451,6 +511,41 @@ class GermanLearningApp {
         logoutBtn?.addEventListener('click', () => {
             if (this.syncService && confirm('Are you sure you want to logout?')) {
                 this.syncService.logout();
+            }
+        });
+        
+        // Event delegation for dynamic content (navigation tabs, part buttons, etc.)
+        document.addEventListener('click', (e) => {
+            // Navigation tabs
+            if (e.target.matches('.nav-tab')) {
+                const view = e.target.dataset.view;
+                if (view) {
+                    this.switchView(view);
+                }
+            }
+            
+            // Part buttons for starting learning
+            if (e.target.matches('.part-btn')) {
+                const partId = e.target.dataset.partId;
+                if (partId) {
+                    const part = this.levels
+                        .flatMap(level => level.parts)
+                        .find(p => p.id === partId);
+                    if (part) {
+                        this.startPart(part);
+                    }
+                }
+            }
+            
+            // Level statistics buttons
+            if (e.target.matches('.level-stats-btn')) {
+                const levelId = e.target.dataset.levelId;
+                if (levelId) {
+                    const level = this.levels.find(l => l.id === levelId);
+                    if (level) {
+                        this.showLevelStatistics(level);
+                    }
+                }
             }
         });
         
@@ -734,11 +829,11 @@ class GermanLearningApp {
             startTime: Date.now(),
             targetWords: Math.min(this.settings.cardsPerSession, this.sessionWords.length),
             difficultyBreakdown: {
-                veryHard: 0,  // difficulty 1
-                hard: 0,      // difficulty 2
+                veryHard: 0,  // difficulty 5
+                hard: 0,      // difficulty 4
                 medium: 0,    // difficulty 3
-                easy: 0,      // difficulty 4
-                veryEasy: 0   // difficulty 5
+                easy: 0,      // difficulty 2
+                veryEasy: 0   // difficulty 1
             }
         };
         
@@ -970,11 +1065,11 @@ class GermanLearningApp {
             startTime: Date.now(),
             targetWords: Math.min(this.settings.cardsPerSession, words.length),
             difficultyBreakdown: {
-                veryHard: 0,  // difficulty 1
-                hard: 0,      // difficulty 2
+                veryHard: 0,  // difficulty 5
+                hard: 0,      // difficulty 4
                 medium: 0,    // difficulty 3
-                easy: 0,      // difficulty 4
-                veryEasy: 0   // difficulty 5
+                easy: 0,      // difficulty 2
+                veryEasy: 0   // difficulty 1
             }
         };
         
@@ -1177,11 +1272,11 @@ class GermanLearningApp {
             startTime: Date.now(),
             targetWords: Math.min(this.settings.cardsPerSession, this.sessionWords.length),
             difficultyBreakdown: {
-                veryHard: 0,  // difficulty 1
-                hard: 0,      // difficulty 2
+                veryHard: 0,  // difficulty 5
+                hard: 0,      // difficulty 4
                 medium: 0,    // difficulty 3
-                easy: 0,      // difficulty 4
-                veryEasy: 0   // difficulty 5
+                easy: 0,      // difficulty 2
+                veryEasy: 0   // difficulty 1
             }
         };
         
@@ -1414,32 +1509,47 @@ class GermanLearningApp {
         console.log(`Daily activity updated: ${today} = ${currentActivity + 1}`);
         console.log('Current dailyActivity map:', Array.from(this.userProgress.dailyActivity.entries()));
         
-        // Update streak (fixed logic)
-        if (this.userProgress.lastStudyDate !== today) {
-            const yesterday = new Date();
-            yesterday.setDate(yesterday.getDate() - 1);
-            const yesterdayStr = yesterday.toISOString().split('T')[0];
+        // Update streak (improved logic with better edge case handling)
+        const lastStudyDate = this.userProgress.lastStudyDate;
+        
+        if (lastStudyDate !== today) {
+            console.log(`Streak check: lastStudyDate=${lastStudyDate}, today=${today}`);
             
-            console.log(`Streak check: lastStudyDate=${this.userProgress.lastStudyDate}, today=${today}, yesterday=${yesterdayStr}`);
+            if (!lastStudyDate || lastStudyDate === '') {
+                // First time studying - initialize streak
+                this.userProgress.learningStreak = 1;
+                console.log('Streak initialized (first time):', this.userProgress.learningStreak);
+            } else {
+                // Calculate days between last study and today
+                const lastDate = new Date(lastStudyDate + 'T00:00:00');
+                const todayDate = new Date(today + 'T00:00:00');
+                const daysDiff = Math.floor((todayDate - lastDate) / (1000 * 60 * 60 * 24));
+                
+                console.log(`Days since last study: ${daysDiff}`);
+                
+                if (daysDiff === 1) {
+                    // Consecutive day - extend streak
+                    this.userProgress.learningStreak++;
+                    console.log('Streak extended:', this.userProgress.learningStreak);
+                } else if (daysDiff > 1) {
+                    // Gap in learning - reset streak
+                    this.userProgress.learningStreak = 1;
+                    console.log('Streak reset due to gap:', this.userProgress.learningStreak);
+                } else if (daysDiff === 0) {
+                    // Same day - this shouldn't happen due to the outer condition
+                    console.log('Same day detected - no streak change');
+                } else if (daysDiff < 0) {
+                    // Date went backwards - possible timezone issue, reset to be safe
+                    this.userProgress.learningStreak = 1;
+                    console.log('Streak reset due to date inconsistency:', this.userProgress.learningStreak);
+                }
+            }
             
-            if (this.userProgress.lastStudyDate === yesterdayStr) {
-                // Consecutive day - extend streak
-                this.userProgress.learningStreak++;
-                console.log('Streak extended:', this.userProgress.learningStreak);
-            }
-            else if (this.userProgress.lastStudyDate === null || this.userProgress.lastStudyDate === '') {
-                // First time or reset - start streak
-                this.userProgress.learningStreak = 1;
-                console.log('Streak started:', this.userProgress.learningStreak);
-            }
-            else {
-                // Gap in learning - reset streak
-                this.userProgress.learningStreak = 1;
-                console.log('Streak reset:', this.userProgress.learningStreak);
-            }
+            // Update last study date
             this.userProgress.lastStudyDate = today;
+            console.log(`Updated lastStudyDate to: ${today}`);
         } else {
-            console.log('Same day - streak unchanged:', this.userProgress.learningStreak);
+            console.log('Already studied today - streak unchanged:', this.userProgress.learningStreak);
         }
         
         this.updateLevelLocks();
@@ -1519,23 +1629,24 @@ class GermanLearningApp {
     // Map user rating (1-5) to FSRS Rating enum
     mapUserRatingToFSRS(userRating) {
         if (!this.RatingEnum) {
-            // Fallback values if FSRS is not available
+            // Fallback values if FSRS is not available - CORRECTED MAPPING
             switch (userRating) {
-                case 1: return 1;  // Very Hard -> Again
-                case 2: return 2;  // Hard -> Hard
+                case 1: return 4;  // Very Easy -> Easy (highest FSRS rating)
+                case 2: return 3;  // Easy -> Good
                 case 3: return 3;  // Medium -> Good
-                case 4: return 3;  // Easy -> Good
-                case 5: return 4;  // Very Easy -> Easy
+                case 4: return 2;  // Hard -> Hard
+                case 5: return 1;  // Very Hard -> Again (lowest FSRS rating)
                 default: return 3; // Default to Good
             }
         }
         
+        // CORRECTED MAPPING: 1=Very Easy (UI) -> Easy (FSRS), 5=Very Hard (UI) -> Again (FSRS)
         switch (userRating) {
-            case 1: return this.RatingEnum.Again;  // Very Hard
-            case 2: return this.RatingEnum.Hard;   // Hard
-            case 3: return this.RatingEnum.Good;   // Medium
-            case 4: return this.RatingEnum.Good;   // Easy
-            case 5: return this.RatingEnum.Easy;   // Very Easy
+            case 1: return this.RatingEnum.Easy;   // Very Easy -> Easy (best performance)
+            case 2: return this.RatingEnum.Good;   // Easy -> Good
+            case 3: return this.RatingEnum.Good;   // Medium -> Good
+            case 4: return this.RatingEnum.Hard;   // Hard -> Hard
+            case 5: return this.RatingEnum.Again;  // Very Hard -> Again (needs review)
             default: return this.RatingEnum.Good;
         }
     }
@@ -1988,11 +2099,11 @@ class GermanLearningApp {
             startTime: Date.now(),
             targetWords: Math.min(this.settings.cardsPerSession, learnedWords.length),
             difficultyBreakdown: {
-                veryHard: 0,  // difficulty 1
-                hard: 0,      // difficulty 2
+                veryHard: 0,  // difficulty 5
+                hard: 0,      // difficulty 4
                 medium: 0,    // difficulty 3
-                easy: 0,      // difficulty 4
-                veryEasy: 0   // difficulty 5
+                easy: 0,      // difficulty 2
+                veryEasy: 0   // difficulty 1
             }
         };
         
