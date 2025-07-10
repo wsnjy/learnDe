@@ -413,6 +413,62 @@ class GermanLearningApp {
         this.saveUserData();
     }
     
+    // Initialize session with consistent structure (DRY principle)
+    initializeSession(words, sessionType = 'normal') {
+        console.log(`Initializing ${sessionType} session with ${words.length} words`);
+        
+        this.currentSession = {
+            wordsLearned: 0,
+            correctAnswers: 0,
+            totalAnswers: 0,
+            startTime: Date.now(),
+            targetWords: Math.min(this.settings.cardsPerSession, words.length),
+            sessionType: sessionType, // Track session type for analytics
+            difficultyBreakdown: {
+                veryHard: 0,  // difficulty 5
+                hard: 0,      // difficulty 4
+                medium: 0,    // difficulty 3
+                easy: 0,      // difficulty 2
+                veryEasy: 0   // difficulty 1
+            }
+        };
+        
+        this.currentSessionIndex = 0;
+        this.sessionWords = words;
+        this.isFlipped = false;
+        
+        if (this.sessionWords.length === 0) {
+            this.showError('No words available for this session.');
+            return false;
+        }
+        
+        this.currentCard = this.sessionWords[0];
+        return true;
+    }
+    
+    // Safe DOM element access with better error handling
+    safeGetElement(id, required = false) {
+        if (document.readyState === 'loading') {
+            console.warn(`Attempting to access DOM element '${id}' before DOM ready`);
+            return null;
+        }
+        
+        const element = document.getElementById(id);
+        if (!element && required) {
+            console.error(`Required DOM element '${id}' not found`);
+        }
+        return element;
+    }
+    
+    // Safe DOM query with fallback
+    safeQuerySelector(selector, parent = document) {
+        if (document.readyState === 'loading') {
+            console.warn(`Attempting to query '${selector}' before DOM ready`);
+            return null;
+        }
+        return parent.querySelector(selector);
+    }
+    
     // Remove event listeners to prevent duplicates
     removeEventListeners() {
         // Store references to bound functions for removal if needed
@@ -810,36 +866,24 @@ class GermanLearningApp {
         this.currentPartId = part.id;
         
         // First try to get unlearned cards
-        this.sessionWords = part.cards.filter(card => !card.learned);
+        let words = part.cards.filter(card => !card.learned);
+        let sessionType = 'learning';
         
         // If all cards are learned, allow review of all cards for practice
-        if (this.sessionWords.length === 0) {
+        if (words.length === 0) {
             console.log('All cards in this part are learned, starting review session...');
-            this.sessionWords = [...part.cards]; // Include all cards for review
+            words = [...part.cards]; // Include all cards for review
+            sessionType = 'review';
             
             // Show a helpful message instead of blocking
             this.showInfo(`🎯 Review Mode: All ${part.cards.length} words in this part for practice!`);
         }
         
-        // Initialize session tracking
-        this.currentSession = {
-            wordsLearned: 0,
-            correctAnswers: 0,
-            totalAnswers: 0,
-            startTime: Date.now(),
-            targetWords: Math.min(this.settings.cardsPerSession, this.sessionWords.length),
-            difficultyBreakdown: {
-                veryHard: 0,  // difficulty 5
-                hard: 0,      // difficulty 4
-                medium: 0,    // difficulty 3
-                easy: 0,      // difficulty 2
-                veryEasy: 0   // difficulty 1
-            }
-        };
+        // Initialize session using helper method
+        if (!this.initializeSession(words, sessionType)) {
+            return; // Failed to initialize
+        }
         
-        this.currentSessionIndex = 0;
-        this.currentCard = this.sessionWords[0];
-        this.isFlipped = false;
         this.switchView('practice');
         this.displayCard();
         this.showLearningControls();
@@ -1054,28 +1098,13 @@ class GermanLearningApp {
         this.hideLevelStatisticsModal();
         
         // Set up review session with filtered words
-        this.sessionWords = [...words]; // Create a copy
         this.currentPartId = `difficulty_${difficultyKey}`;
         
-        // Initialize session tracking
-        this.currentSession = {
-            wordsLearned: 0,
-            correctAnswers: 0,
-            totalAnswers: 0,
-            startTime: Date.now(),
-            targetWords: Math.min(this.settings.cardsPerSession, words.length),
-            difficultyBreakdown: {
-                veryHard: 0,  // difficulty 5
-                hard: 0,      // difficulty 4
-                medium: 0,    // difficulty 3
-                easy: 0,      // difficulty 2
-                veryEasy: 0   // difficulty 1
-            }
-        };
+        // Initialize session using helper method
+        if (!this.initializeSession([...words], `${difficultyKey}_review`)) {
+            return; // Failed to initialize
+        }
         
-        this.currentSessionIndex = 0;
-        this.currentCard = this.sessionWords[0];
-        this.isFlipped = false;
         this.switchView('practice');
         await this.displayCard();
         this.showLearningControls();
@@ -1248,45 +1277,27 @@ class GermanLearningApp {
         }
     }
     async startLearning() {
-        // Use current part if available, otherwise get words for session
+        // Get words for session
+        let words;
         if (this.currentPartId) {
             const currentPart = this.levels
                 .flatMap(level => level.parts)
                 .find(part => part.id === this.currentPartId);
             if (currentPart) {
-                this.sessionWords = currentPart.cards.filter(card => !card.learned);
+                words = currentPart.cards.filter(card => !card.learned);
+            } else {
+                words = this.getWordsForSession();
             }
-            else {
-                this.sessionWords = this.getWordsForSession();
-            }
-        }
-        else {
-            this.sessionWords = this.getWordsForSession();
+        } else {
+            words = this.getWordsForSession();
         }
         
-        // Initialize session tracking
-        this.currentSession = {
-            wordsLearned: 0,
-            correctAnswers: 0,
-            totalAnswers: 0,
-            startTime: Date.now(),
-            targetWords: Math.min(this.settings.cardsPerSession, this.sessionWords.length),
-            difficultyBreakdown: {
-                veryHard: 0,  // difficulty 5
-                hard: 0,      // difficulty 4
-                medium: 0,    // difficulty 3
-                easy: 0,      // difficulty 2
-                veryEasy: 0   // difficulty 1
-            }
-        };
-        
-        this.currentSessionIndex = 0;
-        if (this.sessionWords.length === 0) {
+        // Initialize session using helper method
+        if (!this.initializeSession(words, 'random_practice')) {
             this.showError('No words available. Please select a part from the dashboard.');
             return;
         }
-        this.currentCard = this.sessionWords[0];
-        this.isFlipped = false;
+        
         await this.displayCard();
         this.showLearningControls();
     }
@@ -2088,28 +2099,13 @@ class GermanLearningApp {
         }
         
         // Set up review session with learned words
-        this.sessionWords = learnedWords;
         this.currentPartId = `review_${level.name}`;
         
-        // Initialize session tracking for review
-        this.currentSession = {
-            wordsLearned: 0,
-            correctAnswers: 0,
-            totalAnswers: 0,
-            startTime: Date.now(),
-            targetWords: Math.min(this.settings.cardsPerSession, learnedWords.length),
-            difficultyBreakdown: {
-                veryHard: 0,  // difficulty 5
-                hard: 0,      // difficulty 4
-                medium: 0,    // difficulty 3
-                easy: 0,      // difficulty 2
-                veryEasy: 0   // difficulty 1
-            }
-        };
+        // Initialize session using helper method
+        if (!this.initializeSession(learnedWords, `level_review_${level.name}`)) {
+            return; // Failed to initialize
+        }
         
-        this.currentSessionIndex = 0;
-        this.currentCard = this.sessionWords[0];
-        this.isFlipped = false;
         this.switchView('practice');
         this.displayCard();
         this.showLearningControls();
@@ -2270,7 +2266,14 @@ class GermanLearningApp {
     }
 }
 // Initialize the app when DOM is loaded
-document.addEventListener('DOMContentLoaded', () => {
+function initializeApp() {
+    // Double-check DOM is ready
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initializeApp);
+        return;
+    }
+    
+    console.log('DOM ready, initializing German Learning App...');
     const app = new GermanLearningApp();
     
     // Expose app to global scope for debugging
@@ -2279,9 +2282,16 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addTestActivity = (date, count) => app.addTestActivity(date, count);
     window.resetProgress = () => app.resetProgress();
     
-    console.log('German Learning App initialized.');
+    console.log('German Learning App initialized successfully.');
     console.log('Debug commands available:');
     console.log('- debugProgress() - Show current progress data');
     console.log('- addTestActivity(date, count) - Add test activity (default: today, 5 reviews)');
     console.log('- resetProgress() - Reset all progress data');
-});
+}
+
+// Start initialization
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initializeApp);
+} else {
+    initializeApp();
+}
